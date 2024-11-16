@@ -3,7 +3,7 @@ name: パスの置き換え
 on:
   push:
     branches:
-      - main  # または任意のブランチ
+      - 1.21  # または任意のブランチ
 
 jobs:
   replace-path:
@@ -32,4 +32,4 @@ jobs:
           git commit -m "Replace path"
           git push https://github.com/${{ github.repository }}.git HEAD:${{ github.ref }} --force
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
