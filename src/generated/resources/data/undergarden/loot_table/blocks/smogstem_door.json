@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "undergarden:smogstem_door",
+              "block": "undergardens:smogstem_door",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "undergarden:smogstem_door"
+          "name": "undergardens:smogstem_door"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/smogstem_door"
+  "random_sequence": "undergardens:blocks/smogstem_door"
 }

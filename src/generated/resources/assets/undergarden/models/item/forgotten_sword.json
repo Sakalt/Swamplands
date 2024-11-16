@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "undergarden:item/forgotten_sword"
+    "layer0": "undergardens:item/forgotten_sword"
   }
 }

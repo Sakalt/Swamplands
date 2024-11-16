@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/smogstem_sign"
+      "model": "undergardens:block/smogstem_sign"
     }
   }
 }

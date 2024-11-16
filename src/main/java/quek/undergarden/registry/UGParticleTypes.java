@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.particles.ParticleGroup;
 import net.minecraft.core.particles.ParticleType;
@@ -6,16 +6,16 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.registries.Registries;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 public class UGParticleTypes {
 
-	public static final DeferredRegister<ParticleType<?>> PARTICLES = DeferredRegister.create(Registries.PARTICLE_TYPE, Undergarden.MODID);
+	public static final DeferredRegister<ParticleType<?>> PARTICLES = DeferredRegister.create(Registries.PARTICLE_TYPE, Undergardens.MODID);
 
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> SHARD = PARTICLES.register("shard", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> SHARD_BEAM = PARTICLES.register("shard_beam", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> GRONGLE_SPORE = PARTICLES.register("grongle_spore", () -> new SimpleParticleType(false));
-	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> UNDERGARDEN_PORTAL = PARTICLES.register("undergarden_portal", () -> new SimpleParticleType(false));
+	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> UNDERGARDEN_PORTAL = PARTICLES.register("undergardens_portal", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> GLOOMPER_FART = PARTICLES.register("gloomper_fart", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> SHIMMER = PARTICLES.register("shimmer", () -> new SimpleParticleType(false));
 	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> SMOG = PARTICLES.register("smog", () -> new SimpleParticleType(true));

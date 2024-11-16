@@ -5,7 +5,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergarden:deepsoil"
+        "Name": "undergardens:deepsoil"
       }
     },
     "foliage_placer": {
@@ -16,7 +16,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergarden:grongle_leaves",
+        "Name": "undergardens:grongle_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
@@ -41,7 +41,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergarden:grongle_log",
+        "Name": "undergardens:grongle_log",
         "Properties": {
           "axis": "y"
         }

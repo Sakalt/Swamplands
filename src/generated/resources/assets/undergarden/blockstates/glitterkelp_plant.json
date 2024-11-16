@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/glitterkelp_plant"
+      "model": "undergardens:block/glitterkelp_plant"
     }
   }
 }

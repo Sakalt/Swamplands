@@ -1,8 +1,8 @@
 {
   "values": [
-    "undergarden:cloggrum_shovel",
-    "undergarden:froststeel_shovel",
-    "undergarden:utherium_shovel",
-    "undergarden:forgotten_shovel"
+    "undergardens:cloggrum_shovel",
+    "undergardens:froststeel_shovel",
+    "undergardens:utherium_shovel",
+    "undergardens:forgotten_shovel"
   ]
 }

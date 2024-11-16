@@ -92,11 +92,11 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "undergarden:raw_gloomper_leg"
+          "name": "undergardens:raw_gloomper_leg"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:entities/gloomper"
+  "random_sequence": "undergardens:entities/gloomper"
 }

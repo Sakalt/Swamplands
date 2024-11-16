@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "undergarden:blisterberry_bush",
+              "Name": "undergardens:blisterberry_bush",
               "Properties": {
                 "age": "3"
               }
@@ -28,7 +28,7 @@
               },
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "undergarden:ashen_deepturf_block",
+                "blocks": "undergardens:ashen_deepturf_block",
                 "offset": [
                   0,
                   -1,

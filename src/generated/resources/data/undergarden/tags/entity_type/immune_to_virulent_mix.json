@@ -1,12 +1,12 @@
 {
   "values": [
-    "#undergarden:rotspawn",
-    "#undergarden:cavern_creature",
+    "#undergardens:rotspawn",
+    "#undergardens:cavern_creature",
     "#c:bosses",
-    "undergarden:stoneborn",
-    "undergarden:mog",
-    "undergarden:smog_mog",
-    "undergarden:gloomper",
+    "undergardens:stoneborn",
+    "undergardens:mog",
+    "undergardens:smog_mog",
+    "undergardens:gloomper",
     "minecraft:warden"
   ]
 }

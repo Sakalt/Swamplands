@@ -1,4 +1,4 @@
-package quek.undergarden.world.gen.treedecorator;
+package quek.undergardens.world.gen.treedecorator;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -6,9 +6,9 @@ import net.minecraft.core.Direction;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
-import quek.undergarden.block.GrongletBlock;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGTreeDecoratorTypes;
+import quek.undergardens.block.GrongletBlock;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGTreeDecoratorTypes;
 
 public class GrongletTrunkDecorator extends TreeDecorator {
 

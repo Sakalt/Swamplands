@@ -1,4 +1,4 @@
-package quek.undergarden.entity.projectile;
+package quek.undergardens.entity.projectile;
 
 import net.minecraft.core.particles.ItemParticleOption;
 import net.minecraft.core.particles.ParticleTypes;
@@ -10,9 +10,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
-import quek.undergarden.entity.Minion;
-import quek.undergarden.registry.UGEntityTypes;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.entity.Minion;
+import quek.undergardens.registry.UGEntityTypes;
+import quek.undergardens.registry.UGItems;
 
 public class MinionProjectile extends ThrowableItemProjectile {
 

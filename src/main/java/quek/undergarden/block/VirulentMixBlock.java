@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -9,9 +9,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FlowingFluid;
-import quek.undergarden.registry.UGEffects;
-import quek.undergarden.registry.UGSoundEvents;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.registry.UGEffects;
+import quek.undergardens.registry.UGSoundEvents;
+import quek.undergardens.registry.UGTags;
 
 import java.util.Optional;
 

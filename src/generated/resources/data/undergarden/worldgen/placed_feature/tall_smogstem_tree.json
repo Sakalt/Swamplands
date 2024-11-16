@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:tall_smogstem_tree",
+  "feature": "undergardens:tall_smogstem_tree",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",

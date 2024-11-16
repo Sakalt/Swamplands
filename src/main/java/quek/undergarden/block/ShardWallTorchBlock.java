@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -10,9 +10,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.WallTorchBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
-import quek.undergarden.registry.UGDamageSources;
-import quek.undergarden.registry.UGParticleTypes;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.registry.UGDamageSources;
+import quek.undergardens.registry.UGParticleTypes;
+import quek.undergardens.registry.UGTags;
 
 public class ShardWallTorchBlock extends WallTorchBlock {
 

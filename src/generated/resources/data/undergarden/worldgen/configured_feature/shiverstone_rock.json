@@ -2,7 +2,7 @@
   "type": "minecraft:forest_rock",
   "config": {
     "state": {
-      "Name": "undergarden:shiverstone"
+      "Name": "undergardens:shiverstone"
     }
   }
 }

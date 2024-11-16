@@ -1,4 +1,4 @@
-package quek.undergarden.entity.projectile.slingshot;
+package quek.undergardens.entity.projectile.slingshot;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
@@ -6,8 +6,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
-import quek.undergarden.registry.UGEntityTypes;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.registry.UGEntityTypes;
+import quek.undergardens.registry.UGItems;
 
 public class RottenBlisterberry extends SlingshotProjectile {
 

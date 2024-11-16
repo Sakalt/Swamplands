@@ -1,4 +1,4 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -8,12 +8,12 @@ import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergarden.Undergarden;
-import quek.undergarden.block.BlisterberryBushBlock;
-import quek.undergarden.block.DeepturfBlock;
-import quek.undergarden.block.HangingGrongleLeavesBlock;
-import quek.undergarden.data.provider.UGBlockstateProvider;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.Undergardens;
+import quek.undergardens.block.BlisterberryBushBlock;
+import quek.undergardens.block.DeepturfBlock;
+import quek.undergardens.block.HangingGrongleLeavesBlock;
+import quek.undergardens.data.provider.UGBlockstateProvider;
+import quek.undergardens.registry.UGBlocks;
 
 public class UGBlockStates extends UGBlockstateProvider {
 
@@ -111,8 +111,8 @@ public class UGBlockStates extends UGBlockstateProvider {
 		getVariantBuilder(UGBlocks.ENGORGED_BLOOD_MUSHROOM_CAP.get()).forAllStates(state ->
 				ConfiguredModel.builder()
 						.modelFile(cubeAll(UGBlocks.ENGORGED_BLOOD_MUSHROOM_CAP.get())).nextModel()
-						.modelFile(models().cubeAll(name(UGBlocks.ENGORGED_BLOOD_MUSHROOM_CAP) + "_2", ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "block/engorged_blood_mushroom_cap_2"))).nextModel()
-						.modelFile(models().cubeAll(name(UGBlocks.ENGORGED_BLOOD_MUSHROOM_CAP) + "_3", ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "block/engorged_blood_mushroom_cap_3")))
+						.modelFile(models().cubeAll(name(UGBlocks.ENGORGED_BLOOD_MUSHROOM_CAP) + "_2", ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "block/engorged_blood_mushroom_cap_2"))).nextModel()
+						.modelFile(models().cubeAll(name(UGBlocks.ENGORGED_BLOOD_MUSHROOM_CAP) + "_3", ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "block/engorged_blood_mushroom_cap_3")))
 						.build()
 		);
 
@@ -204,7 +204,7 @@ public class UGBlockStates extends UGBlockstateProvider {
 		horizontalBlock(UGBlocks.CARVED_GLOOMGOURD.get(), models().orientable(name(UGBlocks.CARVED_GLOOMGOURD), texture("gloomgourd_side"), texture("carved_gloomgourd"), texture("gloomgourd_top")));
 
 		tintedCrossBlock(UGBlocks.DEEPTURF);
-		ModelFile deepturf = models().getExistingFile(ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "block/deepturf_block"));
+		ModelFile deepturf = models().getExistingFile(ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "block/deepturf_block"));
 		ModelFile deepturf_snow = models().cubeBottomTop(name(UGBlocks.DEEPTURF_BLOCK) + "_snowy", texture("frozen_deepturf_block_side"), texture("deepsoil"), mcLoc("block/snow"));
 		getVariantBuilder(UGBlocks.DEEPTURF_BLOCK.get()).forAllStates(state -> {
 			if (state.getValue(DeepturfBlock.SNOWY)) {

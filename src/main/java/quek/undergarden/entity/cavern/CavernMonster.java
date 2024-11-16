@@ -1,4 +1,4 @@
-package quek.undergarden.entity.cavern;
+package quek.undergardens.entity.cavern;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;

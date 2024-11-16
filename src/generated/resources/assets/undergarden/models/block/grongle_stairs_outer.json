@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "bottom": "undergarden:block/grongle_planks",
-    "side": "undergarden:block/grongle_planks",
-    "top": "undergarden:block/grongle_planks"
+    "bottom": "undergardens:block/grongle_planks",
+    "side": "undergardens:block/grongle_planks",
+    "top": "undergardens:block/grongle_planks"
   }
 }

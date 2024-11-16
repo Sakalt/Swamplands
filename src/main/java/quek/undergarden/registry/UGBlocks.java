@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.Direction;
 import net.minecraft.core.registries.Registries;
@@ -15,12 +15,12 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergarden.Undergarden;
-import quek.undergarden.block.*;
-import quek.undergarden.block.portal.UndergardenPortalBlock;
-import quek.undergarden.item.CarvedGloomgourdItem;
-import quek.undergarden.item.tool.slingshot.GrongletItem;
-import quek.undergarden.world.gen.tree.UGTreeGrowers;
+import quek.undergardens.Undergardens;
+import quek.undergardens.block.*;
+import quek.undergardens.block.portal.UndergardensPortalBlock;
+import quek.undergardens.item.CarvedGloomgourdItem;
+import quek.undergardens.item.tool.slingshot.GrongletItem;
+import quek.undergardens.world.gen.tree.UGTreeGrowers;
 
 import java.util.Objects;
 import java.util.function.Function;
@@ -28,9 +28,9 @@ import java.util.function.Supplier;
 
 public class UGBlocks {
 
-	public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Undergarden.MODID);
+	public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Undergardens.MODID);
 
-	public static final DeferredBlock<Block> UNDERGARDEN_PORTAL = BLOCKS.register("undergarden_portal", UndergardenPortalBlock::new);
+	public static final DeferredBlock<Block> UNDERGARDEN_PORTAL = BLOCKS.register("undergardens_portal", UndergardensPortalBlock::new);
 
 	public static final DeferredBlock<Block> SHARD_TORCH = register("shard_torch", () -> new ShardTorchBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).lightLevel((state) -> 6)));
 	public static final DeferredBlock<Block> SHARD_WALL_TORCH = BLOCKS.register("shard_wall_torch", () -> new ShardWallTorchBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).lightLevel((state) -> 6)));
@@ -151,8 +151,8 @@ public class UGBlocks {
 	public static final DeferredBlock<Block> GLOOM_O_LANTERN = register("gloom_o_lantern", () -> new CarvedGloomgourdBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).pushReaction(PushReaction.DESTROY).strength(1.0F).sound(SoundType.WOOD).lightLevel((state) -> 15)));
 	public static final DeferredBlock<Block> SHARD_O_LANTERN = register("shard_o_lantern", () -> new CarvedGloomgourdShardBlock(BlockBehaviour.Properties.ofFullCopy(GLOOM_O_LANTERN.get()).lightLevel((state) -> 6)));
 	public static final DeferredBlock<Block> BOOMGOURD = register("boomgourd", () -> new BoomgourdBlock(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.COLOR_PURPLE).strength(1.0F).sound(SoundType.WOOD)));
-	public static final ResourceKey<Block> GLOOMGOURD_STEM_KEY = ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "gloomgourd_stem"));
-	public static final ResourceKey<Block> ATTACHED_GLOOMGOURD_STEM_KEY = ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "gloomgourd_stem_attached"));
+	public static final ResourceKey<Block> GLOOMGOURD_STEM_KEY = ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "gloomgourd_stem"));
+	public static final ResourceKey<Block> ATTACHED_GLOOMGOURD_STEM_KEY = ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "gloomgourd_stem_attached"));
 	public static final DeferredBlock<AttachedStemBlock> GLOOMGOURD_STEM_ATTACHED = BLOCKS.register("gloomgourd_stem_attached", () -> new AttachedStemBlock(GLOOMGOURD_STEM_KEY, UGBlocks.GLOOMGOURD.getKey(), UGItems.GLOOMGOURD_SEEDS.getKey(), BlockBehaviour.Properties.ofFullCopy(Blocks.ATTACHED_MELON_STEM)));
 	public static final DeferredBlock<StemBlock> GLOOMGOURD_STEM = BLOCKS.register("gloomgourd_stem", () -> new StemBlock(GLOOMGOURD.getKey(), ATTACHED_GLOOMGOURD_STEM_KEY, UGItems.GLOOMGOURD_SEEDS.getKey(), BlockBehaviour.Properties.ofFullCopy(Blocks.MELON_STEM)));
 

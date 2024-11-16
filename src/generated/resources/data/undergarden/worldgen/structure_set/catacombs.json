@@ -7,7 +7,7 @@
   },
   "structures": [
     {
-      "structure": "undergarden:catacombs",
+      "structure": "undergardens:catacombs",
       "weight": 1
     }
   ]

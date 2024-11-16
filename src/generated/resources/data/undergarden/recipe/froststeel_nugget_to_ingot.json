@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "N": {
-      "item": "undergarden:froststeel_nugget"
+      "item": "undergardens:froststeel_nugget"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:froststeel_ingot"
+    "id": "undergardens:froststeel_ingot"
   }
 }

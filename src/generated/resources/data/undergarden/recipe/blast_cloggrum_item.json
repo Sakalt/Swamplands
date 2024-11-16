@@ -4,10 +4,10 @@
   "cookingtime": 100,
   "experience": 0.1,
   "ingredient": {
-    "tag": "undergarden:cloggrum_items"
+    "tag": "undergardens:cloggrum_items"
   },
   "result": {
     "count": 1,
-    "id": "undergarden:cloggrum_nugget"
+    "id": "undergardens:cloggrum_nugget"
   }
 }

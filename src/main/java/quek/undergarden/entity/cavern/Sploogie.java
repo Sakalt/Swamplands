@@ -1,4 +1,4 @@
-package quek.undergarden.entity.cavern;
+package quek.undergardens.entity.cavern;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.util.Mth;
@@ -17,8 +17,8 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import quek.undergarden.entity.projectile.slingshot.DepthrockPebble;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.entity.projectile.slingshot.DepthrockPebble;
+import quek.undergardens.registry.UGSoundEvents;
 
 public class Sploogie extends CavernMonster implements RangedAttackMob {
 

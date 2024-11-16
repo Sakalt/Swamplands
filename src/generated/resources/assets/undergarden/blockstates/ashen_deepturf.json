@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/ashen_deepturf"
+      "model": "undergardens:block/ashen_deepturf"
     }
   }
 }

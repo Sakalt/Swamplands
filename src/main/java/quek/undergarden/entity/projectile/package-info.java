@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergarden.entity.projectile;
+package quek.undergardens.entity.projectile;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

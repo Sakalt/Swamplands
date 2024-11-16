@@ -1,4 +1,4 @@
 {
   "type": "minecraft:entity",
-  "random_sequence": "undergarden:entities/nargoyle"
+  "random_sequence": "undergardens:entities/nargoyle"
 }

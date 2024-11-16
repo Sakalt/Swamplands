@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:ditchbulb_patch",
+  "feature": "undergardens:ditchbulb_patch",
   "placement": [
     {
       "type": "minecraft:count",
@@ -24,7 +24,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "blocks": "undergarden:depthrock",
+        "blocks": "undergardens:depthrock",
         "offset": [
           0,
           -1,

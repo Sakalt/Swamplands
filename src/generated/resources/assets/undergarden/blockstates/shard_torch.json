@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/shard_torch"
+      "model": "undergardens:block/shard_torch"
     }
   }
 }

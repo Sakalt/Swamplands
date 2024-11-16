@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergarden:item/smogstem_sign"
+    "layer0": "undergardens:item/smogstem_sign"
   }
 }

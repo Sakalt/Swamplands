@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:gloomgourd_stem",
+                  "block": "undergardens:gloomgourd_stem",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "0"
@@ -29,7 +29,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:gloomgourd_stem",
+                  "block": "undergardens:gloomgourd_stem",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "1"
@@ -47,7 +47,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:gloomgourd_stem",
+                  "block": "undergardens:gloomgourd_stem",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "2"
@@ -65,7 +65,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:gloomgourd_stem",
+                  "block": "undergardens:gloomgourd_stem",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "3"
@@ -83,7 +83,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:gloomgourd_stem",
+                  "block": "undergardens:gloomgourd_stem",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "4"
@@ -101,7 +101,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:gloomgourd_stem",
+                  "block": "undergardens:gloomgourd_stem",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "5"
@@ -119,7 +119,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:gloomgourd_stem",
+                  "block": "undergardens:gloomgourd_stem",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "6"
@@ -137,7 +137,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:gloomgourd_stem",
+                  "block": "undergardens:gloomgourd_stem",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "7"
@@ -152,7 +152,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergarden:gloomgourd_seeds"
+          "name": "undergardens:gloomgourd_seeds"
         }
       ],
       "functions": [
@@ -163,5 +163,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/gloomgourd_stem"
+  "random_sequence": "undergardens:blocks/gloomgourd_stem"
 }

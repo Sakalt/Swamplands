@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/shiverstone_bricks"
+      "model": "undergardens:block/shiverstone_bricks"
     }
   }
 }

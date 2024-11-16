@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergarden:depthrock"
+      "item": "undergardens:depthrock"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "undergarden:depthrock_stairs"
+    "id": "undergardens:depthrock_stairs"
   }
 }

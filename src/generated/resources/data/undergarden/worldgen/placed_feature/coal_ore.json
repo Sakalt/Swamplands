@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:coal_ore",
+  "feature": "undergardens:coal_ore",
   "placement": [
     {
       "type": "minecraft:count",

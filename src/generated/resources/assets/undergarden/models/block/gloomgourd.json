@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "undergarden:block/gloomgourd_top",
-    "side": "undergarden:block/gloomgourd_side"
+    "end": "undergardens:block/gloomgourd_top",
+    "side": "undergardens:block/gloomgourd_side"
   }
 }

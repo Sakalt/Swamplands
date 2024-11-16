@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergarden:blood_mushroom_cap"
+              "name": "undergardens:blood_mushroom_cap"
             },
             {
               "type": "minecraft:item",
@@ -50,7 +50,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "undergarden:blood_mushroom"
+              "name": "undergardens:blood_mushroom"
             }
           ]
         }
@@ -58,5 +58,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/blood_mushroom_cap"
+  "random_sequence": "undergardens:blocks/blood_mushroom_cap"
 }

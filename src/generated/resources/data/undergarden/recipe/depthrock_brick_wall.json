@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "M": {
-      "item": "undergarden:depthrock_bricks"
+      "item": "undergardens:depthrock_bricks"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergarden:depthrock_brick_wall"
+    "id": "undergardens:depthrock_brick_wall"
   }
 }

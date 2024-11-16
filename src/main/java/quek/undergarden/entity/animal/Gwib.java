@@ -1,4 +1,4 @@
-package quek.undergarden.entity.animal;
+package quek.undergardens.entity.animal;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -27,7 +27,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.Nullable;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.registry.UGSoundEvents;
 
 public class Gwib extends WaterAnimal implements Enemy {
 

@@ -1,4 +1,4 @@
-package quek.undergarden.entity.animal.dweller;
+package quek.undergardens.entity.animal.dweller;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.EntityDataAccessor;

@@ -1,19 +1,19 @@
-package quek.undergarden.client.render.entity;
+package quek.undergardens.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergarden.Undergarden;
-import quek.undergarden.client.model.RotbeastModel;
-import quek.undergarden.client.model.UGModelLayers;
-import quek.undergarden.client.render.layer.RotbeastEyesLayer;
-import quek.undergarden.entity.rotspawn.Rotbeast;
+import quek.undergardens.Undergardens;
+import quek.undergardens.client.model.RotbeastModel;
+import quek.undergardens.client.model.UGModelLayers;
+import quek.undergardens.client.render.layer.RotbeastEyesLayer;
+import quek.undergardens.entity.rotspawn.Rotbeast;
 
 public class RotbeastRender extends MobRenderer<Rotbeast, RotbeastModel<Rotbeast>> {
 
-	private static final ResourceLocation ROTBEAST = ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "textures/entity/rotbeast.png");
+	private static final ResourceLocation ROTBEAST = ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "textures/entity/rotbeast.png");
 
 	public RotbeastRender(EntityRendererProvider.Context context) {
 		super(context, new RotbeastModel<>(context.bakeLayer(UGModelLayers.ROTBEAST)), 0.6F);

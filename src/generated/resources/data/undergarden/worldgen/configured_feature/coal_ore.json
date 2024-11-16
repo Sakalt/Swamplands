@@ -6,20 +6,20 @@
     "targets": [
       {
         "state": {
-          "Name": "undergarden:depthrock_coal_ore"
+          "Name": "undergardens:depthrock_coal_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
-          "tag": "undergarden:depthrock_ore_replaceables"
+          "tag": "undergardens:depthrock_ore_replaceables"
         }
       },
       {
         "state": {
-          "Name": "undergarden:shiverstone_coal_ore"
+          "Name": "undergardens:shiverstone_coal_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
-          "tag": "undergarden:shiverstone_ore_replaceables"
+          "tag": "undergardens:shiverstone_ore_replaceables"
         }
       }
     ]

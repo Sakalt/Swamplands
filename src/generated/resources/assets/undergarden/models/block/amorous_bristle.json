@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "undergarden:block/amorous_bristle"
+    "cross": "undergardens:block/amorous_bristle"
   }
 }

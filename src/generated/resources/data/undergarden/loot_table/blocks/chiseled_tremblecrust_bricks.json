@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:chiseled_tremblecrust_bricks"
+          "name": "undergardens:chiseled_tremblecrust_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/chiseled_tremblecrust_bricks"
+  "random_sequence": "undergardens:blocks/chiseled_tremblecrust_bricks"
 }

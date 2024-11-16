@@ -4,7 +4,7 @@
   "group": "chest_boat",
   "ingredients": [
     {
-      "item": "undergarden:smogstem_boat"
+      "item": "undergardens:smogstem_boat"
     },
     {
       "tag": "c:chests/wooden"
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:smogstem_chest_boat"
+    "id": "undergardens:smogstem_chest_boat"
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergarden.client.model;
+package quek.undergardens.client.model;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.client.model.AgeableListModel;
@@ -6,7 +6,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
-import quek.undergarden.entity.animal.dweller.Dweller;
+import quek.undergardens.entity.animal.dweller.Dweller;
 
 public class DwellerModel<T extends Dweller> extends AgeableListModel<T> {
 

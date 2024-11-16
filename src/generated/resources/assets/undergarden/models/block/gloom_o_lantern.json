@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "undergarden:block/gloom_o_lantern",
-    "side": "undergarden:block/gloomgourd_side",
-    "top": "undergarden:block/gloomgourd_top"
+    "front": "undergardens:block/gloom_o_lantern",
+    "side": "undergardens:block/gloomgourd_side",
+    "top": "undergardens:block/gloomgourd_top"
   }
 }

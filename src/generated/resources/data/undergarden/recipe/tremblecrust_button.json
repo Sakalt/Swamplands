@@ -3,11 +3,11 @@
   "category": "redstone",
   "ingredients": [
     {
-      "item": "undergarden:tremblecrust"
+      "item": "undergardens:tremblecrust"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:tremblecrust_button"
+    "id": "undergardens:tremblecrust_button"
   }
 }

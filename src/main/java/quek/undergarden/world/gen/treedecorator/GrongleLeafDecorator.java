@@ -1,4 +1,4 @@
-package quek.undergarden.world.gen.treedecorator;
+package quek.undergardens.world.gen.treedecorator;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -7,8 +7,8 @@ import net.minecraft.world.level.block.DoublePlantBlock;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGTreeDecoratorTypes;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGTreeDecoratorTypes;
 
 public class GrongleLeafDecorator extends TreeDecorator {
 

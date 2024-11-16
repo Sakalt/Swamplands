@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:tremblecrust_brick_wall"
+          "name": "undergardens:tremblecrust_brick_wall"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/tremblecrust_brick_wall"
+  "random_sequence": "undergardens:blocks/tremblecrust_brick_wall"
 }

@@ -1,4 +1,4 @@
-package quek.undergarden.data.provider;
+package quek.undergardens.data.provider;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -17,9 +17,9 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CeilingHangingSignBlock;
 import net.minecraft.world.level.block.SignBlock;
 import net.neoforged.neoforge.common.Tags;
-import quek.undergarden.Undergarden;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.Undergardens;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGItems;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -303,7 +303,7 @@ public abstract class UGRecipeProvider extends RecipeProvider {
 
 	private void oreSmeltingRecipe(ItemLike result, List<ItemLike> ingredients, float xp, String group, RecipeOutput consumer) {
 		for (ItemLike ingredient : ingredients) {
-			smeltingRecipe(result, ingredient, xp, 1).group(group).save(consumer, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "smelt_" + BuiltInRegistries.ITEM.getKey(ingredient.asItem()).getPath()));
+			smeltingRecipe(result, ingredient, xp, 1).group(group).save(consumer, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "smelt_" + BuiltInRegistries.ITEM.getKey(ingredient.asItem()).getPath()));
 		}
 	}
 
@@ -327,7 +327,7 @@ public abstract class UGRecipeProvider extends RecipeProvider {
 
 	private void oreBlastingRecipe(ItemLike result, List<ItemLike> ingredients, float xp, String group, RecipeOutput consumer) {
 		for (ItemLike ingredient : ingredients) {
-			blastingRecipe(result, ingredient, xp, 1).group(group).save(consumer, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "blast_" + BuiltInRegistries.ITEM.getKey(ingredient.asItem()).getPath()));
+			blastingRecipe(result, ingredient, xp, 1).group(group).save(consumer, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "blast_" + BuiltInRegistries.ITEM.getKey(ingredient.asItem()).getPath()));
 		}
 	}
 

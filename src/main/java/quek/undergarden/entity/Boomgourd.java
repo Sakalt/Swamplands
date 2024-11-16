@@ -1,12 +1,12 @@
-package quek.undergarden.entity;
+package quek.undergardens.entity;
 
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.item.PrimedTnt;
 import net.minecraft.world.level.Level;
-import quek.undergarden.entity.projectile.Blisterbomb;
-import quek.undergarden.registry.UGEntityTypes;
+import quek.undergardens.entity.projectile.Blisterbomb;
+import quek.undergardens.registry.UGEntityTypes;
 
 import javax.annotation.Nullable;
 

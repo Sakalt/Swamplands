@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:huge_indigo_mushroom",
+  "feature": "undergardens:huge_indigo_mushroom",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",

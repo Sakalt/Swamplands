@@ -1,5 +1,5 @@
 {
-  "type": "undergarden:undergarden_cave",
+  "type": "undergardens:undergardens_cave",
   "config": {
     "floor_level": -0.7,
     "horizontal_radius_multiplier": 1.0,
@@ -7,7 +7,7 @@
       "above_bottom": 10
     },
     "probability": 0.5,
-    "replaceable": "#undergarden:undergarden_carver_replaceables",
+    "replaceable": "#undergardens:undergardens_carver_replaceables",
     "vertical_radius_multiplier": 1.0,
     "y": {
       "type": "minecraft:uniform",

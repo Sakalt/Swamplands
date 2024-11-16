@@ -1,12 +1,12 @@
 {
-  "parent": "undergarden:undergarden/shoot_slingshot",
+  "parent": "undergardens:undergardens/shoot_slingshot",
   "criteria": {
     "20_damage": {
       "conditions": {
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "undergarden:depthrock_pebble"
+              "type": "undergardens:depthrock_pebble"
             }
           },
           "dealt": {
@@ -19,15 +19,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.slingshot_20_damage.desc"
+      "translate": "advancement.undergardens.slingshot_20_damage.desc"
     },
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "undergarden:depthrock_pebble"
+      "id": "undergardens:depthrock_pebble"
     },
     "title": {
-      "translate": "advancement.undergarden.slingshot_20_damage.title"
+      "translate": "advancement.undergardens.slingshot_20_damage.title"
     }
   },
   "requirements": [

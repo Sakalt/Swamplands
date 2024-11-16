@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergarden:item/music_disc_gloomper_anthem"
+    "layer0": "undergardens:item/music_disc_gloomper_anthem"
   }
 }

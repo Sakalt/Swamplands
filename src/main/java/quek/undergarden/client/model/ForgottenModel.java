@@ -1,4 +1,4 @@
-package quek.undergarden.client.model;
+package quek.undergardens.client.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.model.HumanoidModel;
@@ -6,7 +6,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.world.entity.HumanoidArm;
-import quek.undergarden.entity.Forgotten;
+import quek.undergardens.entity.Forgotten;
 
 public class ForgottenModel<T extends Forgotten> extends HumanoidModel<T> {
 

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "":	{ "model": "undergarden:block/smog_vent" }
+        "":	{ "model": "undergardens:block/smog_vent" }
     }
 }

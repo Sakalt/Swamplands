@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 1.0,
-  "group": "undergarden:utherium",
+  "group": "undergardens:utherium",
   "ingredient": {
-    "item": "undergarden:depthrock_utherium_ore"
+    "item": "undergardens:depthrock_utherium_ore"
   },
   "result": {
     "count": 1,
-    "id": "undergarden:utherium_crystal"
+    "id": "undergardens:utherium_crystal"
   }
 }

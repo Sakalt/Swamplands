@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:utherium_ore",
+  "feature": "undergardens:utherium_ore",
   "placement": [
     {
       "type": "minecraft:count",

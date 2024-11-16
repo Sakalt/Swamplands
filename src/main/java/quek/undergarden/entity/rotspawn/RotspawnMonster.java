@@ -1,4 +1,4 @@
-package quek.undergarden.entity.rotspawn;
+package quek.undergardens.entity.rotspawn;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;
@@ -18,9 +18,9 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.phys.Vec3;
-import quek.undergarden.entity.animal.Mog;
-import quek.undergarden.entity.stoneborn.Stoneborn;
-import quek.undergarden.registry.UGDamageSources;
+import quek.undergardens.entity.animal.Mog;
+import quek.undergardens.entity.stoneborn.Stoneborn;
+import quek.undergardens.registry.UGDamageSources;
 
 import java.util.Optional;
 import java.util.function.Predicate;

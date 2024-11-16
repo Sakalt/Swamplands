@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergarden:tremblecrust_utherium_ore"
+              "name": "undergardens:tremblecrust_utherium_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,7 +40,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "undergarden:utherium_crystal"
+              "name": "undergardens:utherium_crystal"
             }
           ]
         }
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/tremblecrust_utherium_ore"
+  "random_sequence": "undergardens:blocks/tremblecrust_utherium_ore"
 }

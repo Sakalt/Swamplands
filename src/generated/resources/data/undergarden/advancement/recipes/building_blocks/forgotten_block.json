@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:forgotten_ingot"
+            "items": "undergardens:forgotten_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:forgotten_block"
+        "recipe": "undergardens:forgotten_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:forgotten_block"
+      "undergardens:forgotten_block"
     ]
   }
 }

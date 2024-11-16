@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:tremblecrust_pressure_plate"
+          "name": "undergardens:tremblecrust_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/tremblecrust_pressure_plate"
+  "random_sequence": "undergardens:blocks/tremblecrust_pressure_plate"
 }

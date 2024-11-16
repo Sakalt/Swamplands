@@ -1,20 +1,20 @@
 {
-  "parent": "undergarden:undergarden/enter_undergarden",
+  "parent": "undergardens:undergardens/enter_undergardens",
   "criteria": {
     "trade_with_stoneborn": {
-      "trigger": "undergarden:stoneborn_trade"
+      "trigger": "undergardens:stoneborn_trade"
     }
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.stoneborn_trade.desc"
+      "translate": "advancement.undergardens.stoneborn_trade.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergarden:regalium_crystal"
+      "id": "undergardens:regalium_crystal"
     },
     "title": {
-      "translate": "advancement.undergarden.stoneborn_trade.title"
+      "translate": "advancement.undergardens.stoneborn_trade.title"
     }
   },
   "requirements": [

@@ -1,12 +1,12 @@
-package quek.undergarden.entity.stoneborn.trading;
+package quek.undergardens.entity.stoneborn.trading;
 
 import com.google.common.collect.ImmutableMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.Items;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGItems;
 
 public class StonebornTrades {
 

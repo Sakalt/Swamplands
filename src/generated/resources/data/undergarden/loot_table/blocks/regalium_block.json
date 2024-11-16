@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:regalium_block"
+          "name": "undergardens:regalium_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/regalium_block"
+  "random_sequence": "undergardens:blocks/regalium_block"
 }

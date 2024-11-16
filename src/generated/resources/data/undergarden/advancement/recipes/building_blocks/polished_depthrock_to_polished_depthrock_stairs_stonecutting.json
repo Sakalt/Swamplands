@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:polished_depthrock_to_polished_depthrock_stairs_stonecutting"
+        "recipe": "undergardens:polished_depthrock_to_polished_depthrock_stairs_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:polished_depthrock": {
+    "has_undergardens:polished_depthrock": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:polished_depthrock"
+            "items": "undergardens:polished_depthrock"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:polished_depthrock"
+      "has_undergardens:polished_depthrock"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:polished_depthrock_to_polished_depthrock_stairs_stonecutting"
+      "undergardens:polished_depthrock_to_polished_depthrock_stairs_stonecutting"
     ]
   }
 }

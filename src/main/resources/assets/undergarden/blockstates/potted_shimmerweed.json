@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/potted_shimmerweed"
+      "model": "undergardens:block/potted_shimmerweed"
     }
   }
 }

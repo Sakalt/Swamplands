@@ -1,20 +1,20 @@
 {
   "values": [
-    "undergarden:ancient_sea",
-    "undergarden:barren_abyss",
-    "undergarden:blood_mushroom_bog",
-    "undergarden:dead_sea",
-    "undergarden:dense_forest",
-    "undergarden:forgotten_field",
-    "undergarden:frostfields",
-    "undergarden:frosty_smogstem_forest",
-    "undergarden:gronglegrowth",
-    "undergarden:icy_sea",
-    "undergarden:indigo_mushroom_bog",
-    "undergarden:ink_mushroom_bog",
-    "undergarden:smogstem_forest",
-    "undergarden:smog_spires",
-    "undergarden:veil_mushroom_bog",
-    "undergarden:wigglewood_forest"
+    "undergardens:ancient_sea",
+    "undergardens:barren_abyss",
+    "undergardens:blood_mushroom_bog",
+    "undergardens:dead_sea",
+    "undergardens:dense_forest",
+    "undergardens:forgotten_field",
+    "undergardens:frostfields",
+    "undergardens:frosty_smogstem_forest",
+    "undergardens:gronglegrowth",
+    "undergardens:icy_sea",
+    "undergardens:indigo_mushroom_bog",
+    "undergardens:ink_mushroom_bog",
+    "undergardens:smogstem_forest",
+    "undergardens:smog_spires",
+    "undergardens:veil_mushroom_bog",
+    "undergardens:wigglewood_forest"
   ]
 }

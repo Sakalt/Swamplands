@@ -1,4 +1,4 @@
-package quek.undergarden.client.render.blockentity;
+package quek.undergardens.client.render.blockentity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -23,10 +23,10 @@ import net.minecraft.world.level.block.ChestBlock;
 import net.minecraft.world.level.block.DoubleBlockCombiner;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BedPart;
-import quek.undergarden.Undergarden;
-import quek.undergarden.block.entity.DepthrockBedBlockEntity;
-import quek.undergarden.client.model.UGModelLayers;
-import quek.undergarden.registry.UGBlockEntities;
+import quek.undergardens.Undergardens;
+import quek.undergardens.block.entity.DepthrockBedBlockEntity;
+import quek.undergardens.client.model.UGModelLayers;
+import quek.undergardens.registry.UGBlockEntities;
 
 public class DepthrockBedRender implements BlockEntityRenderer<DepthrockBedBlockEntity> {
 
@@ -73,7 +73,7 @@ public class DepthrockBedRender implements BlockEntityRenderer<DepthrockBedBlock
 		stack.translate(0.5D, 0.5D, 0.5D);
 		stack.mulPose(Axis.ZP.rotationDegrees(180.0F + direction.toYRot()));
 		stack.translate(-0.5D, -0.5D, -0.5D);
-		VertexConsumer vertexConsumer = multiBufferSource.getBuffer(RenderType.entitySolid(ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "textures/block/depthrock_bed.png")));
+		VertexConsumer vertexConsumer = multiBufferSource.getBuffer(RenderType.entitySolid(ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "textures/block/depthrock_bed.png")));
 		bedPart.render(stack, vertexConsumer, light, overlay);
 		stack.popPose();
 	}

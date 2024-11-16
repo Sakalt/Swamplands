@@ -1,4 +1,4 @@
-package quek.undergarden.entity.stoneborn;
+package quek.undergardens.entity.stoneborn;
 
 import com.google.common.collect.Sets;
 import net.minecraft.core.BlockPos;
@@ -35,13 +35,13 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.fluids.FluidType;
-import quek.undergarden.entity.stoneborn.goals.StonebornLookAtCustomerGoal;
-import quek.undergarden.entity.stoneborn.goals.StonebornTradeWithPlayerGoal;
-import quek.undergarden.entity.stoneborn.trading.StonebornTrades;
-import quek.undergarden.registry.UGCriteria;
-import quek.undergarden.registry.UGDimensions;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.entity.stoneborn.goals.StonebornLookAtCustomerGoal;
+import quek.undergardens.entity.stoneborn.goals.StonebornTradeWithPlayerGoal;
+import quek.undergardens.entity.stoneborn.trading.StonebornTrades;
+import quek.undergardens.registry.UGCriteria;
+import quek.undergardens.registry.UGDimensions;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGSoundEvents;
 
 import javax.annotation.Nullable;
 import java.util.Set;
@@ -101,7 +101,7 @@ public class Stoneborn extends Monster implements NeutralMob, Npc, Merchant {
 		if (this.hasCustomer()) {
 			return UGSoundEvents.STONEBORN_SPEAKING.get();
 		}
-		if (!this.inUndergarden()) {
+		if (!this.inUndergardens()) {
 			return UGSoundEvents.STONEBORN_CONFUSED.get();
 		}
 		return null;
@@ -129,7 +129,7 @@ public class Stoneborn extends Monster implements NeutralMob, Npc, Merchant {
 	@Override
 	public InteractionResult mobInteract(Player player, InteractionHand hand) {
 		ItemStack itemstack = player.getItemInHand(hand);
-		if (itemstack.getItem() != UGItems.STONEBORN_SPAWN_EGG.get() && this.isAlive() && !this.hasCustomer() && this.inUndergarden()) {
+		if (itemstack.getItem() != UGItems.STONEBORN_SPAWN_EGG.get() && this.isAlive() && !this.hasCustomer() && this.inUndergardens()) {
 			if (!this.getOffers().isEmpty()) {
 				if (!this.level().isClientSide()) {
 					this.setTradingPlayer(player);
@@ -145,7 +145,7 @@ public class Stoneborn extends Monster implements NeutralMob, Npc, Merchant {
 	@Override
 	public void tick() {
 		super.tick();
-		if (!this.inUndergarden() && !this.isNoAi()) {
+		if (!this.inUndergardens() && !this.isNoAi()) {
 			++this.timeOutOfUG;
 			this.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 300, 0));
 		} else {
@@ -161,20 +161,20 @@ public class Stoneborn extends Monster implements NeutralMob, Npc, Merchant {
 		}
 	}
 
-	public boolean inUndergarden() {
+	public boolean inUndergardens() {
 		return this.level().dimension() == UGDimensions.UNDERGARDEN_LEVEL;
 	}
 
 	@Override
 	public void addAdditionalSaveData(CompoundTag tag) {
 		super.addAdditionalSaveData(tag);
-		this.timeOutOfUG = tag.getInt("TimeOutOfUndergarden");
+		this.timeOutOfUG = tag.getInt("TimeOutOfUndergardens");
 	}
 
 	@Override
 	public void readAdditionalSaveData(CompoundTag tag) {
 		super.readAdditionalSaveData(tag);
-		tag.putInt("TimeOutOfUndergarden", this.timeOutOfUG);
+		tag.putInt("TimeOutOfUndergardens", this.timeOutOfUG);
 	}
 
 	@Override

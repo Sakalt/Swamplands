@@ -4,12 +4,12 @@
     "#c:ores/froststeel",
     "#c:ores/utherium",
     "#c:ores/regalium",
-    "undergarden:depthrock_coal_ore",
-    "undergarden:shiverstone_coal_ore",
-    "undergarden:depthrock_iron_ore",
-    "undergarden:shiverstone_iron_ore",
-    "undergarden:depthrock_gold_ore",
-    "undergarden:depthrock_diamond_ore",
-    "undergarden:shiverstone_diamond_ore"
+    "undergardens:depthrock_coal_ore",
+    "undergardens:shiverstone_coal_ore",
+    "undergardens:depthrock_iron_ore",
+    "undergardens:shiverstone_iron_ore",
+    "undergardens:depthrock_gold_ore",
+    "undergardens:depthrock_diamond_ore",
+    "undergardens:shiverstone_diamond_ore"
   ]
 }

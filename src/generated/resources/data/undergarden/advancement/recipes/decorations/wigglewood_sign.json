@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:wigglewood_sign"
+        "recipe": "undergardens:wigglewood_sign"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:wigglewood_planks"
+            "items": "undergardens:wigglewood_planks"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:wigglewood_sign"
+      "undergardens:wigglewood_sign"
     ]
   }
 }

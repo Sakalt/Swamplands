@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:shiverstone_slab",
+                  "block": "undergardens:shiverstone_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "undergarden:shiverstone_slab"
+          "name": "undergardens:shiverstone_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/shiverstone_slab"
+  "random_sequence": "undergardens:blocks/shiverstone_slab"
 }

@@ -1,28 +1,28 @@
 {
-  "parent": "undergarden:undergarden/catalyst",
+  "parent": "undergardens:undergardens/catalyst",
   "criteria": {
-    "enter_undergarden": {
+    "enter_undergardens": {
       "conditions": {
-        "to": "undergarden:undergarden"
+        "to": "undergardens:undergardens"
       },
       "trigger": "minecraft:changed_dimension"
     }
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.enter_undergarden.desc"
+      "translate": "advancement.undergardens.enter_undergardens.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergarden:deepturf_block"
+      "id": "undergardens:deepturf_block"
     },
     "title": {
-      "translate": "advancement.undergarden.enter_undergarden.title"
+      "translate": "advancement.undergardens.enter_undergardens.title"
     }
   },
   "requirements": [
     [
-      "enter_undergarden"
+      "enter_undergardens"
     ]
   ],
   "sends_telemetry_event": true

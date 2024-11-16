@@ -1,4 +1,4 @@
-package quek.undergarden.entity.animal.dweller;
+package quek.undergardens.entity.animal.dweller;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
@@ -29,10 +29,10 @@ import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.neoforged.neoforge.common.CommonHooks;
-import quek.undergarden.entity.rotspawn.RotspawnMonster;
-import quek.undergarden.registry.UGEntityTypes;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.entity.rotspawn.RotspawnMonster;
+import quek.undergardens.registry.UGEntityTypes;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGSoundEvents;
 
 import javax.annotation.Nullable;
 import java.util.List;

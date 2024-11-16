@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "M": {
-      "item": "undergarden:blue_mogmoss"
+      "item": "undergardens:blue_mogmoss"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergarden:blue_mogmoss_rug"
+    "id": "undergardens:blue_mogmoss_rug"
   }
 }

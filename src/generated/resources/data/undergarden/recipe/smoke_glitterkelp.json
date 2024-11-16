@@ -4,7 +4,7 @@
   "cookingtime": 100,
   "experience": 0.1,
   "ingredient": {
-    "item": "undergarden:glitterkelp"
+    "item": "undergardens:glitterkelp"
   },
   "result": {
     "count": 1,

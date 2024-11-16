@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_pressed",
   "textures": {
-    "texture": "undergarden:block/shiverstone"
+    "texture": "undergardens:block/shiverstone"
   }
 }

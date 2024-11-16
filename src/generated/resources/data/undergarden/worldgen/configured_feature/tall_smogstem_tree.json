@@ -5,7 +5,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergarden:deepsoil"
+        "Name": "undergardens:deepsoil"
       }
     },
     "foliage_placer": {
@@ -17,7 +17,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergarden:smogstem_leaves",
+        "Name": "undergardens:smogstem_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
@@ -34,7 +34,7 @@
       "upper_size": 2
     },
     "trunk_placer": {
-      "type": "undergarden:smogstem_trunk_placer",
+      "type": "undergardens:smogstem_trunk_placer",
       "base_height": 15,
       "height_rand_a": 4,
       "height_rand_b": 4,
@@ -43,7 +43,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergarden:smogstem_log",
+        "Name": "undergardens:smogstem_log",
         "Properties": {
           "axis": "y"
         }

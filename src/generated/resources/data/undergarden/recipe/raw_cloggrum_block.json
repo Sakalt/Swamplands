@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "undergarden:raw_cloggrum"
+      "item": "undergardens:raw_cloggrum"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:raw_cloggrum_block"
+    "id": "undergardens:raw_cloggrum_block"
   }
 }

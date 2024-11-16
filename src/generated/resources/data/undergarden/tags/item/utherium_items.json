@@ -1,13 +1,13 @@
 {
   "values": [
-    "undergarden:utherium_sword",
-    "undergarden:utherium_pickaxe",
-    "undergarden:utherium_axe",
-    "undergarden:utherium_shovel",
-    "undergarden:utherium_hoe",
-    "undergarden:utherium_helmet",
-    "undergarden:utherium_chestplate",
-    "undergarden:utherium_leggings",
-    "undergarden:utherium_boots"
+    "undergardens:utherium_sword",
+    "undergardens:utherium_pickaxe",
+    "undergardens:utherium_axe",
+    "undergardens:utherium_shovel",
+    "undergardens:utherium_hoe",
+    "undergardens:utherium_helmet",
+    "undergardens:utherium_chestplate",
+    "undergardens:utherium_leggings",
+    "undergardens:utherium_boots"
   ]
 }

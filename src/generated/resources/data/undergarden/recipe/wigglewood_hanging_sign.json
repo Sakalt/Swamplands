@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "undergarden:stripped_wigglewood_log"
+      "item": "undergardens:stripped_wigglewood_log"
     },
     "|": {
       "item": "minecraft:chain"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergarden:wigglewood_hanging_sign"
+    "id": "undergardens:wigglewood_hanging_sign"
   }
 }

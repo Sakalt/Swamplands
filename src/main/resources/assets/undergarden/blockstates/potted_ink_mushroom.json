@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/potted_ink_mushroom"
+      "model": "undergardens:block/potted_ink_mushroom"
     }
   }
 }

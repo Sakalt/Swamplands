@@ -23,11 +23,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:sediment_glass_pane"
+          "name": "undergardens:sediment_glass_pane"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/sediment_glass_pane"
+  "random_sequence": "undergardens:blocks/sediment_glass_pane"
 }

@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergarden:raw_cloggrum_block"
+      "item": "undergardens:raw_cloggrum_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "undergarden:raw_cloggrum"
+    "id": "undergardens:raw_cloggrum"
   }
 }

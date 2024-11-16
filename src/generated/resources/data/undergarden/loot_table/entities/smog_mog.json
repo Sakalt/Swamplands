@@ -26,7 +26,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "undergarden:depthrock_pebble"
+          "name": "undergardens:depthrock_pebble"
         }
       ],
       "rolls": 1.0
@@ -47,11 +47,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergarden:blue_mogmoss"
+          "name": "undergardens:blue_mogmoss"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:entities/smog_mog"
+  "random_sequence": "undergardens:entities/smog_mog"
 }

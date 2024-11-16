@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "B": {
-      "item": "undergarden:smogstem_planks"
+      "item": "undergardens:smogstem_planks"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:smogstem_pressure_plate"
+    "id": "undergardens:smogstem_pressure_plate"
   }
 }

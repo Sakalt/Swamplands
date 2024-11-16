@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:utheric_shard"
+            "items": "undergardens:utheric_shard"
           }
         ]
       },
@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:shard_torch"
+        "recipe": "undergardens:shard_torch"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:shard_torch"
+      "undergardens:shard_torch"
     ]
   }
 }

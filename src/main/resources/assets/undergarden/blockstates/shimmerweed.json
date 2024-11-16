@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "undergarden:block/shimmerweed" }
+        "": { "model": "undergardens:block/shimmerweed" }
     }
 }

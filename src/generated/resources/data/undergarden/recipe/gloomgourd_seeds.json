@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergarden:gloomgourd"
+      "item": "undergardens:gloomgourd"
     }
   ],
   "result": {
     "count": 4,
-    "id": "undergarden:gloomgourd_seeds"
+    "id": "undergardens:gloomgourd_seeds"
   }
 }

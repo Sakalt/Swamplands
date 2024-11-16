@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:forgotten_hoe_smithing"
+        "recipe": "undergardens:forgotten_hoe_smithing"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:forgotten_ingot": {
+    "has_undergardens:forgotten_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:forgotten_ingot"
+            "items": "undergardens:forgotten_ingot"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:forgotten_ingot"
+      "has_undergardens:forgotten_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:forgotten_hoe_smithing"
+      "undergardens:forgotten_hoe_smithing"
     ]
   }
 }

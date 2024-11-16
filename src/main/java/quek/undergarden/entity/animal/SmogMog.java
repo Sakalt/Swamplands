@@ -1,4 +1,4 @@
-package quek.undergarden.entity.animal;
+package quek.undergardens.entity.animal;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -14,7 +14,7 @@ import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
-import quek.undergarden.registry.*;
+import quek.undergardens.registry.*;
 
 import javax.annotation.Nullable;
 

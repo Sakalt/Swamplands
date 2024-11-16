@@ -26,11 +26,11 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "undergarden:brute_tusk"
+          "name": "undergardens:brute_tusk"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:entities/brute"
+  "random_sequence": "undergardens:entities/brute"
 }

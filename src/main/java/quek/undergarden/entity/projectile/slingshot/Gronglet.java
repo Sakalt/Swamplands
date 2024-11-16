@@ -1,4 +1,4 @@
-package quek.undergarden.entity.projectile.slingshot;
+package quek.undergardens.entity.projectile.slingshot;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -13,10 +13,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
-import quek.undergarden.block.GrongletBlock;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGEntityTypes;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.block.GrongletBlock;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGEntityTypes;
+import quek.undergardens.registry.UGSoundEvents;
 
 public class Gronglet extends SlingshotProjectile {
 

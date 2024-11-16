@@ -1,8 +1,8 @@
 {
   "values": [
-    "undergarden:smogstem_log",
-    "undergarden:stripped_smogstem_log",
-    "undergarden:smogstem_wood",
-    "undergarden:stripped_smogstem_wood"
+    "undergardens:smogstem_log",
+    "undergardens:stripped_smogstem_log",
+    "undergardens:smogstem_wood",
+    "undergardens:stripped_smogstem_wood"
   ]
 }

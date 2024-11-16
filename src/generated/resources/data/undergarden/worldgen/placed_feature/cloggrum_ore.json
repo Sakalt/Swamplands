@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:cloggrum_ore",
+  "feature": "undergardens:cloggrum_ore",
   "placement": [
     {
       "type": "minecraft:count",

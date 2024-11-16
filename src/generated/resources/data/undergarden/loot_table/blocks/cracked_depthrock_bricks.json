@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:cracked_depthrock_bricks"
+          "name": "undergardens:cracked_depthrock_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/cracked_depthrock_bricks"
+  "random_sequence": "undergardens:blocks/cracked_depthrock_bricks"
 }

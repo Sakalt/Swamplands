@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/utherium_block"
+      "model": "undergardens:block/utherium_block"
     }
   }
 }

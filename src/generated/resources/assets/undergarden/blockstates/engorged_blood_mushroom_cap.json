@@ -2,13 +2,13 @@
   "variants": {
     "": [
       {
-        "model": "undergarden:block/engorged_blood_mushroom_cap"
+        "model": "undergardens:block/engorged_blood_mushroom_cap"
       },
       {
-        "model": "undergarden:block/engorged_blood_mushroom_cap_2"
+        "model": "undergardens:block/engorged_blood_mushroom_cap_2"
       },
       {
-        "model": "undergarden:block/engorged_blood_mushroom_cap_3"
+        "model": "undergardens:block/engorged_blood_mushroom_cap_3"
       }
     ]
   }

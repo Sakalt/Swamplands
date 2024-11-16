@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "undergarden:block/cloggrum_tile_slab"
+      "model": "undergardens:block/cloggrum_tile_slab"
     },
     "type=double": {
-      "model": "undergarden:block/cloggrum_tiles"
+      "model": "undergardens:block/cloggrum_tiles"
     },
     "type=top": {
-      "model": "undergarden:block/cloggrum_tile_slab_top"
+      "model": "undergardens:block/cloggrum_tile_slab_top"
     }
   }
 }

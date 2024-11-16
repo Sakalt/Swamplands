@@ -1,17 +1,17 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 public class UGSoundEvents {
 
-	public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Registries.SOUND_EVENT, Undergarden.MODID);
+	public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Registries.SOUND_EVENT, Undergardens.MODID);
 
-	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_AMBIENCE = register("ambient.undergarden");
+	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_AMBIENCE = register("ambient.undergardens");
 	public static final DeferredHolder<SoundEvent, SoundEvent> ABYSS_AMBIENCE = register("ambient.abyss");
 	public static final DeferredHolder<SoundEvent, SoundEvent> SPIRES_AMBIENCE = register("ambient.spires");
 	public static final DeferredHolder<SoundEvent, SoundEvent> FROST_AMBIENCE = register("ambient.frost");
@@ -31,7 +31,7 @@ public class UGSoundEvents {
 	public static final DeferredHolder<SoundEvent, SoundEvent> MOOD = register("ambient.mood");
 	public static final DeferredHolder<SoundEvent, SoundEvent> FROST_MOOD = register("ambient.frost_mood");
 
-	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_MUSIC = register("music.undergarden");
+	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_MUSIC = register("music.undergardens");
 
 	public static final DeferredHolder<SoundEvent, SoundEvent> MAMMOTH_DISC = register("music.disc.mammoth");
 	public static final DeferredHolder<SoundEvent, SoundEvent> LIMAX_MAXIMUS_DISC = register("music.disc.limax_maximus");
@@ -39,9 +39,9 @@ public class UGSoundEvents {
 	public static final DeferredHolder<SoundEvent, SoundEvent> GLOOMPER_ANTHEM_DISC = register("music.disc.gloomper_anthem");
 	public static final DeferredHolder<SoundEvent, SoundEvent> GLOOMPER_SECRET_DISC = register("music.disc.gloomper_secret");
 
-	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_PORTAL_AMBIENT = register("block.undergarden_portal.ambient");
-	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_PORTAL_ACTIVATE = register("block.undergarden_portal.activate");
-	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_PORTAL_TRAVEL = register("block.undergarden_portal.travel");
+	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_PORTAL_AMBIENT = register("block.undergardens_portal.ambient");
+	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_PORTAL_ACTIVATE = register("block.undergardens_portal.activate");
+	public static final DeferredHolder<SoundEvent, SoundEvent> UNDERGARDEN_PORTAL_TRAVEL = register("block.undergardens_portal.travel");
 
 	public static final DeferredHolder<SoundEvent, SoundEvent> VIRULENT_FLOW = register("block.virulent.flow");
 	public static final DeferredHolder<SoundEvent, SoundEvent> VIRULENT_BUBBLE = register("block.virulent.bubble");
@@ -159,6 +159,6 @@ public class UGSoundEvents {
 	public static final DeferredHolder<SoundEvent, SoundEvent> FORGOTTEN_STEP = register("entity.forgotten.step");
 
 	private static DeferredHolder<SoundEvent, SoundEvent> register(String name) {
-		return SOUNDS.register(name, () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name)));
+		return SOUNDS.register(name, () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name)));
 	}
 }

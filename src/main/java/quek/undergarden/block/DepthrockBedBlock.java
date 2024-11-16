@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -19,8 +19,8 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import quek.undergarden.registry.UGBlockEntities;
-import quek.undergarden.registry.UGDimensions;
+import quek.undergardens.registry.UGBlockEntities;
+import quek.undergardens.registry.UGDimensions;
 
 import java.util.List;
 

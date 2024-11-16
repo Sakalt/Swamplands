@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smelt_catalyst"
+        "recipe": "undergardens:smelt_catalyst"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:catalyst": {
+    "has_undergardens:catalyst": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:catalyst"
+            "items": "undergardens:catalyst"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:catalyst"
+      "has_undergardens:catalyst"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smelt_catalyst"
+      "undergardens:smelt_catalyst"
     ]
   }
 }

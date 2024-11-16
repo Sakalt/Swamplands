@@ -1,4 +1,4 @@
-package quek.undergarden.client.render.entity;
+package quek.undergardens.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
@@ -10,8 +10,8 @@ import net.minecraft.client.renderer.entity.TntMinecartRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.world.inventory.InventoryMenu;
-import quek.undergarden.entity.Boomgourd;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.entity.Boomgourd;
+import quek.undergardens.registry.UGBlocks;
 
 public class BoomgourdRender extends EntityRenderer<Boomgourd> {
 

@@ -1,9 +1,9 @@
 {
   "values": [
-    "undergarden:cloggrum_ingot",
-    "undergarden:froststeel_ingot",
-    "undergarden:utherium_crystal",
-    "undergarden:regalium_crystal",
-    "undergarden:forgotten_ingot"
+    "undergardens:cloggrum_ingot",
+    "undergardens:froststeel_ingot",
+    "undergardens:utherium_crystal",
+    "undergardens:regalium_crystal",
+    "undergardens:forgotten_ingot"
   ]
 }

@@ -1,4 +1,4 @@
-package quek.undergarden.client.model;
+package quek.undergardens.client.model;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.client.model.AgeableListModel;

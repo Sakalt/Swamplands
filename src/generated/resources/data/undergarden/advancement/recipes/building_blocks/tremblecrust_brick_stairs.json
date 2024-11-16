@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:tremblecrust_brick_stairs"
+        "recipe": "undergardens:tremblecrust_brick_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:tremblecrust_bricks"
+            "items": "undergardens:tremblecrust_bricks"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:tremblecrust_brick_stairs"
+      "undergardens:tremblecrust_brick_stairs"
     ]
   }
 }

@@ -4,7 +4,7 @@
   "group": "boat",
   "key": {
     "P": {
-      "item": "undergarden:smogstem_planks"
+      "item": "undergardens:smogstem_planks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:smogstem_boat"
+    "id": "undergardens:smogstem_boat"
   }
 }

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "N": {
-      "item": "undergarden:cloggrum_nugget"
+      "item": "undergardens:cloggrum_nugget"
     },
     "T": {
       "item": "minecraft:torch"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:cloggrum_lantern"
+    "id": "undergardens:cloggrum_lantern"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "end": "undergarden:block/stripped_smogstem_log_end",
-    "side": "undergarden:block/stripped_smogstem_log_side"
+    "end": "undergardens:block/stripped_smogstem_log_end",
+    "side": "undergardens:block/stripped_smogstem_log_side"
   }
 }

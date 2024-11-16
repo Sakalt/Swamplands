@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:depthrock_pressure_plate"
+          "name": "undergardens:depthrock_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/depthrock_pressure_plate"
+  "random_sequence": "undergardens:blocks/depthrock_pressure_plate"
 }

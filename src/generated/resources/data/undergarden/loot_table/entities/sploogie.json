@@ -26,11 +26,11 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "undergarden:depthrock_pebble"
+          "name": "undergardens:depthrock_pebble"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:entities/sploogie"
+  "random_sequence": "undergardens:entities/sploogie"
 }

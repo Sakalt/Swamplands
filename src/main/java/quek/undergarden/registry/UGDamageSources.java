@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -11,7 +11,7 @@ import net.minecraft.world.damagesource.DamageType;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 public class UGDamageSources {
 
@@ -21,7 +21,7 @@ public class UGDamageSources {
 	public static final ResourceKey<DamageType> SHARD_TORCH = create("shard_torch");
 
 	public static ResourceKey<DamageType> create(String name) {
-		return ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+		return ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 	}
 
 	public static DamageSource getShardTorchDamage(Level level, @NotNull Vec3 position) {

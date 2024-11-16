@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "undergarden:coarse_deepsoil"
+      "item": "undergardens:coarse_deepsoil"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:deepsoil"
+    "id": "undergardens:deepsoil"
   }
 }

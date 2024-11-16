@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:deepsoil_ore",
+  "feature": "undergardens:deepsoil_ore",
   "placement": [
     {
       "type": "minecraft:count",

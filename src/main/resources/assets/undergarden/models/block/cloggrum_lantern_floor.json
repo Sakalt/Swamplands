@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "undergarden:block/cloggrum_lantern",
-		"particle": "undergarden:block/cloggrum_block"
+		"0": "undergardens:block/cloggrum_lantern",
+		"particle": "undergardens:block/cloggrum_block"
 	},
 	"elements": [
 		{

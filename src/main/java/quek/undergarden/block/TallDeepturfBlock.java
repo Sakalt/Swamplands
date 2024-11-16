@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -14,7 +14,7 @@ import net.minecraft.world.level.block.DoublePlantBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.registry.UGBlocks;
 
 public class TallDeepturfBlock extends BushBlock implements BonemealableBlock {
 

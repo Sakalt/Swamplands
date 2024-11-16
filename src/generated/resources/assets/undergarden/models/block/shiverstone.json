@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergarden:block/shiverstone"
+    "all": "undergardens:block/shiverstone"
   }
 }

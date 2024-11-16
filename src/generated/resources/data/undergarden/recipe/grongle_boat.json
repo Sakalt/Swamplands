@@ -4,7 +4,7 @@
   "group": "boat",
   "key": {
     "P": {
-      "item": "undergarden:grongle_planks"
+      "item": "undergardens:grongle_planks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:grongle_boat"
+    "id": "undergardens:grongle_boat"
   }
 }

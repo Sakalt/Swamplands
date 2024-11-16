@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -16,9 +16,9 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import quek.undergarden.registry.UGEffects;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.registry.UGEffects;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGTags;
 
 public class GooLayerBlock extends Block {
 

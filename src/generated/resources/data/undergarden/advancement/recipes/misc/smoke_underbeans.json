@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smoke_underbeans"
+        "recipe": "undergardens:smoke_underbeans"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:underbeans": {
+    "has_undergardens:underbeans": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:underbeans"
+            "items": "undergardens:underbeans"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:underbeans"
+      "has_undergardens:underbeans"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smoke_underbeans"
+      "undergardens:smoke_underbeans"
     ]
   }
 }

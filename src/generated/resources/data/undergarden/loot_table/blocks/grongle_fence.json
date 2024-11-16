@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:grongle_fence"
+          "name": "undergardens:grongle_fence"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/grongle_fence"
+  "random_sequence": "undergardens:blocks/grongle_fence"
 }

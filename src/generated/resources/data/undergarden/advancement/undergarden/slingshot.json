@@ -1,11 +1,11 @@
 {
-  "parent": "undergarden:undergarden/enter_undergarden",
+  "parent": "undergardens:undergardens/enter_undergardens",
   "criteria": {
     "has_slingshot": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:slingshot"
+            "items": "undergardens:slingshot"
           }
         ]
       },
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.slingshot.desc"
+      "translate": "advancement.undergardens.slingshot.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergarden:slingshot"
+      "id": "undergardens:slingshot"
     },
     "title": {
-      "translate": "advancement.undergarden.slingshot.title"
+      "translate": "advancement.undergardens.slingshot.title"
     }
   },
   "requirements": [

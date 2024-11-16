@@ -3,11 +3,11 @@
   "category": "redstone",
   "ingredients": [
     {
-      "item": "undergarden:wigglewood_planks"
+      "item": "undergardens:wigglewood_planks"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:wigglewood_button"
+    "id": "undergardens:wigglewood_button"
   }
 }

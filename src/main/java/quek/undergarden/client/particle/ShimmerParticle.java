@@ -1,10 +1,10 @@
-package quek.undergarden.client.particle;
+package quek.undergardens.client.particle;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.*;
 import net.minecraft.core.particles.ParticleGroup;
 import net.minecraft.core.particles.SimpleParticleType;
-import quek.undergarden.registry.UGParticleTypes;
+import quek.undergardens.registry.UGParticleTypes;
 
 import java.util.Optional;
 

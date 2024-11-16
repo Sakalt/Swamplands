@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergarden.entity.animal.dweller;
+package quek.undergardens.entity.animal.dweller;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

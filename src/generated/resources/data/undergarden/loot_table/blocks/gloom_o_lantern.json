@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:gloom_o_lantern"
+          "name": "undergardens:gloom_o_lantern"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/gloom_o_lantern"
+  "random_sequence": "undergardens:blocks/gloom_o_lantern"
 }

@@ -1,11 +1,11 @@
-package quek.undergarden.block.entity;
+package quek.undergardens.block.entity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import quek.undergarden.registry.UGBlockEntities;
-import quek.undergarden.registry.UGParticleTypes;
+import quek.undergardens.registry.UGBlockEntities;
+import quek.undergardens.registry.UGParticleTypes;
 
 public class SmogVentBlockEntity extends BlockEntity {
 

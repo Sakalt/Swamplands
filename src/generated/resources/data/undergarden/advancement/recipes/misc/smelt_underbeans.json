@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smelt_underbeans"
+        "recipe": "undergardens:smelt_underbeans"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:underbeans": {
+    "has_undergardens:underbeans": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:underbeans"
+            "items": "undergardens:underbeans"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:underbeans"
+      "has_undergardens:underbeans"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smelt_underbeans"
+      "undergardens:smelt_underbeans"
     ]
   }
 }

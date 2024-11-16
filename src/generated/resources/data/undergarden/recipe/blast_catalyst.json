@@ -4,7 +4,7 @@
   "cookingtime": 100,
   "experience": 0.0,
   "ingredient": {
-    "item": "undergarden:catalyst"
+    "item": "undergardens:catalyst"
   },
   "result": {
     "count": 1,

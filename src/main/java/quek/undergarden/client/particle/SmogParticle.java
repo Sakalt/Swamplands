@@ -1,4 +1,4 @@
-package quek.undergarden.client.particle;
+package quek.undergardens.client.particle;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.*;

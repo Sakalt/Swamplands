@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "undergarden:carved_gloomgourd"
+      "item": "undergardens:carved_gloomgourd"
     },
     "T": {
-      "item": "undergarden:shard_torch"
+      "item": "undergardens:shard_torch"
     }
   },
   "pattern": [
@@ -15,6 +15,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:shard_o_lantern"
+    "id": "undergardens:shard_o_lantern"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/polished_depthrock"
+      "model": "undergardens:block/polished_depthrock"
     }
   }
 }

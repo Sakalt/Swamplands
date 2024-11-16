@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "undergarden:froststeel_ingot"
+      "item": "undergardens:froststeel_ingot"
     },
     "/": {
       "tag": "c:rods/wooden"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:froststeel_axe"
+    "id": "undergardens:froststeel_axe"
   }
 }

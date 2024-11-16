@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "undergarden:wigglewood_door",
+              "block": "undergardens:wigglewood_door",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "undergarden:wigglewood_door"
+          "name": "undergardens:wigglewood_door"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/wigglewood_door"
+  "random_sequence": "undergardens:blocks/wigglewood_door"
 }

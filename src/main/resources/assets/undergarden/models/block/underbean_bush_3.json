@@ -2,6 +2,6 @@
     "parent": "block/cross",
     "render_type": "minecraft:cutout",
     "textures": {
-        "cross": "undergarden:block/underbean_bush_3"
+        "cross": "undergardens:block/underbean_bush_3"
     }
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:sediment"
+          "name": "undergardens:sediment"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/sediment"
+  "random_sequence": "undergardens:blocks/sediment"
 }

@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "undergarden:block/carved_gloomgourd",
+      "model": "undergardens:block/carved_gloomgourd",
       "y": 90
     },
     "facing=north": {
-      "model": "undergarden:block/carved_gloomgourd"
+      "model": "undergardens:block/carved_gloomgourd"
     },
     "facing=south": {
-      "model": "undergarden:block/carved_gloomgourd",
+      "model": "undergardens:block/carved_gloomgourd",
       "y": 180
     },
     "facing=west": {
-      "model": "undergarden:block/carved_gloomgourd",
+      "model": "undergardens:block/carved_gloomgourd",
       "y": 270
     }
   }

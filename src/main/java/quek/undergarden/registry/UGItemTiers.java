@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.tags.BlockTags;

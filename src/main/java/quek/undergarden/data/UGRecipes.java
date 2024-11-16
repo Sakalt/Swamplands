@@ -1,4 +1,4 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.core.HolderLookup;
@@ -12,11 +12,11 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.Tags;
-import quek.undergarden.Undergarden;
-import quek.undergarden.data.provider.UGRecipeProvider;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.Undergardens;
+import quek.undergardens.data.provider.UGRecipeProvider;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -138,7 +138,7 @@ public class UGRecipes extends UGRecipeProvider {
 				.define('T', UGItems.TWISTYTWIG.get())
 				.unlockedBy("has_stick", has(Tags.Items.RODS_WOODEN))
 				.unlockedBy("has_twistytwig", has(UGItems.TWISTYTWIG.get()))
-				.save(consumer, name("undergarden_scaffolding"));
+				.save(consumer, name("undergardens_scaffolding"));
 
 		ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, UGBlocks.GLOOM_O_LANTERN.get())
 				.pattern("G")
@@ -306,7 +306,7 @@ public class UGRecipes extends UGRecipeProvider {
 				.define('G', UGItems.GOO_BALL.get())
 				.unlockedBy("has_twistytwig", has(UGItems.TWISTYTWIG.get()))
 				.unlockedBy("has_goo_ball", has(UGItems.GOO_BALL.get()))
-				.save(consumer, name("undergarden_lead"));
+				.save(consumer, name("undergardens_lead"));
 
 		ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, UGBlocks.SEDIMENT_GLASS_PANE.get(), 16)
 				.pattern("GGG")
@@ -525,10 +525,10 @@ public class UGRecipes extends UGRecipeProvider {
 		ore(Items.IRON_INGOT, ImmutableList.of(UGBlocks.DEPTHROCK_IRON_ORE.get(), UGBlocks.SHIVERSTONE_IRON_ORE.get()), 0.7F, "iron_ingot", consumer);
 		ore(Items.GOLD_INGOT, ImmutableList.of(UGBlocks.DEPTHROCK_GOLD_ORE.get()), 1.0F, "gold_ingot", consumer);
 		ore(Items.DIAMOND, ImmutableList.of(UGBlocks.DEPTHROCK_DIAMOND_ORE.get(), UGBlocks.SHIVERSTONE_DIAMOND_ORE.get()), 1.0F, "diamond", consumer);
-		ore(UGItems.CLOGGRUM_INGOT.get(), ImmutableList.of(UGItems.RAW_CLOGGRUM.get(), UGBlocks.DEPTHROCK_CLOGGRUM_ORE.get(), UGBlocks.SHIVERSTONE_CLOGGRUM_ORE.get()), 0.7F, "undergarden:cloggrum_ingot", consumer);
-		ore(UGItems.FROSTSTEEL_INGOT.get(), ImmutableList.of(UGItems.RAW_FROSTSTEEL.get(), UGBlocks.SHIVERSTONE_FROSTSTEEL_ORE.get()), 0.7F, "undergarden:froststeel_ingot", consumer);
-		ore(UGItems.UTHERIUM_CRYSTAL.get(), ImmutableList.of(UGBlocks.DEPTHROCK_UTHERIUM_ORE.get(), UGBlocks.SHIVERSTONE_UTHERIUM_ORE.get()), 1.0F, "undergarden:utherium", consumer);
-		ore(UGItems.REGALIUM_CRYSTAL.get(), ImmutableList.of(UGBlocks.DEPTHROCK_REGALIUM_ORE.get(), UGBlocks.SHIVERSTONE_REGALIUM_ORE.get()), 1.0F, "undergarden:regalium_crystal", consumer);
+		ore(UGItems.CLOGGRUM_INGOT.get(), ImmutableList.of(UGItems.RAW_CLOGGRUM.get(), UGBlocks.DEPTHROCK_CLOGGRUM_ORE.get(), UGBlocks.SHIVERSTONE_CLOGGRUM_ORE.get()), 0.7F, "undergardens:cloggrum_ingot", consumer);
+		ore(UGItems.FROSTSTEEL_INGOT.get(), ImmutableList.of(UGItems.RAW_FROSTSTEEL.get(), UGBlocks.SHIVERSTONE_FROSTSTEEL_ORE.get()), 0.7F, "undergardens:froststeel_ingot", consumer);
+		ore(UGItems.UTHERIUM_CRYSTAL.get(), ImmutableList.of(UGBlocks.DEPTHROCK_UTHERIUM_ORE.get(), UGBlocks.SHIVERSTONE_UTHERIUM_ORE.get()), 1.0F, "undergardens:utherium", consumer);
+		ore(UGItems.REGALIUM_CRYSTAL.get(), ImmutableList.of(UGBlocks.DEPTHROCK_REGALIUM_ORE.get(), UGBlocks.SHIVERSTONE_REGALIUM_ORE.get()), 1.0F, "undergardens:regalium_crystal", consumer);
 
 		smeltingRecipeTag(UGItems.CLOGGRUM_NUGGET.get(), UGTags.Items.CLOGGRUM_ITEMS, 0.1F).save(consumer, name("smelt_cloggrum_item"));
 		blastingRecipeTag(UGItems.CLOGGRUM_NUGGET.get(), UGTags.Items.CLOGGRUM_ITEMS, 0.1F).save(consumer, name("blast_cloggrum_item"));
@@ -608,6 +608,6 @@ public class UGRecipes extends UGRecipeProvider {
 	}
 
 	private ResourceLocation name(String name) {
-		return ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name);
+		return ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name);
 	}
 }

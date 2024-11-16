@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/sediment"
+      "model": "undergardens:block/sediment"
     }
   }
 }

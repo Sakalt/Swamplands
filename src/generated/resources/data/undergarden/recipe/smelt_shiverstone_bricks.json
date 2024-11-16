@@ -4,10 +4,10 @@
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {
-    "item": "undergarden:shiverstone_bricks"
+    "item": "undergardens:shiverstone_bricks"
   },
   "result": {
     "count": 1,
-    "id": "undergarden:cracked_shiverstone_bricks"
+    "id": "undergardens:cracked_shiverstone_bricks"
   }
 }

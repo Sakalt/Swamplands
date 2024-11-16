@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergarden:goo"
+              "name": "undergardens:goo"
             },
             {
               "type": "minecraft:item",
@@ -44,7 +44,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "undergarden:goo_ball"
+              "name": "undergardens:goo_ball"
             }
           ]
         }
@@ -52,5 +52,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/goo"
+  "random_sequence": "undergardens:blocks/goo"
 }

@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:sediment_ore",
+  "feature": "undergardens:sediment_ore",
   "placement": [
     {
       "type": "minecraft:count",

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:forgotten_block"
+          "name": "undergardens:forgotten_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/forgotten_block"
+  "random_sequence": "undergardens:blocks/forgotten_block"
 }

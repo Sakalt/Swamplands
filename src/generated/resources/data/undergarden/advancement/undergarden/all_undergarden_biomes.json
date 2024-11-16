@@ -1,7 +1,7 @@
 {
-  "parent": "undergarden:undergarden/enter_undergarden",
+  "parent": "undergardens:undergardens/enter_undergardens",
   "criteria": {
-    "undergarden:ancient_sea": {
+    "undergardens:ancient_sea": {
       "conditions": {
         "player": [
           {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:ancient_sea"
+                "biomes": "undergardens:ancient_sea"
               }
             }
           }
@@ -17,7 +17,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:barren_abyss": {
+    "undergardens:barren_abyss": {
       "conditions": {
         "player": [
           {
@@ -25,7 +25,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:barren_abyss"
+                "biomes": "undergardens:barren_abyss"
               }
             }
           }
@@ -33,7 +33,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:blood_mushroom_bog": {
+    "undergardens:blood_mushroom_bog": {
       "conditions": {
         "player": [
           {
@@ -41,7 +41,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:blood_mushroom_bog"
+                "biomes": "undergardens:blood_mushroom_bog"
               }
             }
           }
@@ -49,7 +49,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:dead_sea": {
+    "undergardens:dead_sea": {
       "conditions": {
         "player": [
           {
@@ -57,7 +57,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:dead_sea"
+                "biomes": "undergardens:dead_sea"
               }
             }
           }
@@ -65,7 +65,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:dense_forest": {
+    "undergardens:dense_forest": {
       "conditions": {
         "player": [
           {
@@ -73,7 +73,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:dense_forest"
+                "biomes": "undergardens:dense_forest"
               }
             }
           }
@@ -81,7 +81,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:forgotten_field": {
+    "undergardens:forgotten_field": {
       "conditions": {
         "player": [
           {
@@ -89,7 +89,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:forgotten_field"
+                "biomes": "undergardens:forgotten_field"
               }
             }
           }
@@ -97,7 +97,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:frostfields": {
+    "undergardens:frostfields": {
       "conditions": {
         "player": [
           {
@@ -105,7 +105,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:frostfields"
+                "biomes": "undergardens:frostfields"
               }
             }
           }
@@ -113,7 +113,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:frosty_smogstem_forest": {
+    "undergardens:frosty_smogstem_forest": {
       "conditions": {
         "player": [
           {
@@ -121,7 +121,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:frosty_smogstem_forest"
+                "biomes": "undergardens:frosty_smogstem_forest"
               }
             }
           }
@@ -129,7 +129,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:gronglegrowth": {
+    "undergardens:gronglegrowth": {
       "conditions": {
         "player": [
           {
@@ -137,7 +137,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:gronglegrowth"
+                "biomes": "undergardens:gronglegrowth"
               }
             }
           }
@@ -145,7 +145,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:icy_sea": {
+    "undergardens:icy_sea": {
       "conditions": {
         "player": [
           {
@@ -153,7 +153,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:icy_sea"
+                "biomes": "undergardens:icy_sea"
               }
             }
           }
@@ -161,7 +161,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:indigo_mushroom_bog": {
+    "undergardens:indigo_mushroom_bog": {
       "conditions": {
         "player": [
           {
@@ -169,7 +169,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:indigo_mushroom_bog"
+                "biomes": "undergardens:indigo_mushroom_bog"
               }
             }
           }
@@ -177,7 +177,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:ink_mushroom_bog": {
+    "undergardens:ink_mushroom_bog": {
       "conditions": {
         "player": [
           {
@@ -185,7 +185,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:ink_mushroom_bog"
+                "biomes": "undergardens:ink_mushroom_bog"
               }
             }
           }
@@ -193,7 +193,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:smog_spires": {
+    "undergardens:smog_spires": {
       "conditions": {
         "player": [
           {
@@ -201,7 +201,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:smog_spires"
+                "biomes": "undergardens:smog_spires"
               }
             }
           }
@@ -209,7 +209,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:smogstem_forest": {
+    "undergardens:smogstem_forest": {
       "conditions": {
         "player": [
           {
@@ -217,7 +217,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:smogstem_forest"
+                "biomes": "undergardens:smogstem_forest"
               }
             }
           }
@@ -225,7 +225,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:veil_mushroom_bog": {
+    "undergardens:veil_mushroom_bog": {
       "conditions": {
         "player": [
           {
@@ -233,7 +233,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:veil_mushroom_bog"
+                "biomes": "undergardens:veil_mushroom_bog"
               }
             }
           }
@@ -241,7 +241,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "undergarden:wigglewood_forest": {
+    "undergardens:wigglewood_forest": {
       "conditions": {
         "player": [
           {
@@ -249,7 +249,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "undergarden:wigglewood_forest"
+                "biomes": "undergardens:wigglewood_forest"
               }
             }
           }
@@ -260,65 +260,65 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.all_undergarden_biomes.desc"
+      "translate": "advancement.undergardens.all_undergardens_biomes.desc"
     },
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "undergarden:cloggrum_boots"
+      "id": "undergardens:cloggrum_boots"
     },
     "title": {
-      "translate": "advancement.undergarden.all_undergarden_biomes.title"
+      "translate": "advancement.undergardens.all_undergardens_biomes.title"
     }
   },
   "requirements": [
     [
-      "undergarden:ancient_sea"
+      "undergardens:ancient_sea"
     ],
     [
-      "undergarden:barren_abyss"
+      "undergardens:barren_abyss"
     ],
     [
-      "undergarden:dead_sea"
+      "undergardens:dead_sea"
     ],
     [
-      "undergarden:dense_forest"
+      "undergardens:dense_forest"
     ],
     [
-      "undergarden:forgotten_field"
+      "undergardens:forgotten_field"
     ],
     [
-      "undergarden:frostfields"
+      "undergardens:frostfields"
     ],
     [
-      "undergarden:frosty_smogstem_forest"
+      "undergardens:frosty_smogstem_forest"
     ],
     [
-      "undergarden:gronglegrowth"
+      "undergardens:gronglegrowth"
     ],
     [
-      "undergarden:icy_sea"
+      "undergardens:icy_sea"
     ],
     [
-      "undergarden:blood_mushroom_bog"
+      "undergardens:blood_mushroom_bog"
     ],
     [
-      "undergarden:smog_spires"
+      "undergardens:smog_spires"
     ],
     [
-      "undergarden:smogstem_forest"
+      "undergardens:smogstem_forest"
     ],
     [
-      "undergarden:wigglewood_forest"
+      "undergardens:wigglewood_forest"
     ],
     [
-      "undergarden:indigo_mushroom_bog"
+      "undergardens:indigo_mushroom_bog"
     ],
     [
-      "undergarden:ink_mushroom_bog"
+      "undergardens:ink_mushroom_bog"
     ],
     [
-      "undergarden:veil_mushroom_bog"
+      "undergardens:veil_mushroom_bog"
     ]
   ],
   "sends_telemetry_event": true

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "undergarden:carved_gloomgourd"
+      "item": "undergardens:carved_gloomgourd"
     },
     "T": {
       "item": "minecraft:torch"
@@ -15,6 +15,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:gloom_o_lantern"
+    "id": "undergardens:gloom_o_lantern"
   }
 }

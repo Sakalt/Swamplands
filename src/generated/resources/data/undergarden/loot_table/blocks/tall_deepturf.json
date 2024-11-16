@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergarden:tall_deepturf",
+          "block": "undergardens:tall_deepturf",
           "condition": "minecraft:block_state_property",
           "properties": {
             "half": "lower"
@@ -16,7 +16,7 @@
           "offsetY": 1,
           "predicate": {
             "block": {
-              "blocks": "undergarden:tall_deepturf",
+              "blocks": "undergardens:tall_deepturf",
               "state": {
                 "half": "upper"
               }
@@ -42,7 +42,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergarden:deepturf"
+          "name": "undergardens:deepturf"
         }
       ],
       "rolls": 1.0
@@ -51,7 +51,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergarden:tall_deepturf",
+          "block": "undergardens:tall_deepturf",
           "condition": "minecraft:block_state_property",
           "properties": {
             "half": "upper"
@@ -62,7 +62,7 @@
           "offsetY": -1,
           "predicate": {
             "block": {
-              "blocks": "undergarden:tall_deepturf",
+              "blocks": "undergardens:tall_deepturf",
               "state": {
                 "half": "lower"
               }
@@ -88,11 +88,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergarden:deepturf"
+          "name": "undergardens:deepturf"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/tall_deepturf"
+  "random_sequence": "undergardens:blocks/tall_deepturf"
 }

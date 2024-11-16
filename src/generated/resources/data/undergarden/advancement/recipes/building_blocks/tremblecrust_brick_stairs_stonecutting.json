@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:tremblecrust_brick_stairs_stonecutting"
+        "recipe": "undergardens:tremblecrust_brick_stairs_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:tremblecrust": {
+    "has_undergardens:tremblecrust": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:tremblecrust"
+            "items": "undergardens:tremblecrust"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:tremblecrust"
+      "has_undergardens:tremblecrust"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:tremblecrust_brick_stairs_stonecutting"
+      "undergardens:tremblecrust_brick_stairs_stonecutting"
     ]
   }
 }

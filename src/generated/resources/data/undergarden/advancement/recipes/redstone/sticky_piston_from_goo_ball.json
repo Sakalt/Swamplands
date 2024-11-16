@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:goo_ball"
+            "items": "undergardens:goo_ball"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:sticky_piston_from_goo_ball"
+        "recipe": "undergardens:sticky_piston_from_goo_ball"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:sticky_piston_from_goo_ball"
+      "undergardens:sticky_piston_from_goo_ball"
     ]
   }
 }

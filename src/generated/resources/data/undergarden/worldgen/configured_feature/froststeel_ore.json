@@ -6,11 +6,11 @@
     "targets": [
       {
         "state": {
-          "Name": "undergarden:shiverstone_froststeel_ore"
+          "Name": "undergardens:shiverstone_froststeel_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
-          "tag": "undergarden:shiverstone_ore_replaceables"
+          "tag": "undergardens:shiverstone_ore_replaceables"
         }
       }
     ]

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "undergarden:item/froststeel_shovel"
+    "layer0": "undergardens:item/froststeel_shovel"
   }
 }

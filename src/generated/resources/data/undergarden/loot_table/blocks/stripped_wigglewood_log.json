@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:stripped_wigglewood_log"
+          "name": "undergardens:stripped_wigglewood_log"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/stripped_wigglewood_log"
+  "random_sequence": "undergardens:blocks/stripped_wigglewood_log"
 }

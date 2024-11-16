@@ -1,4 +1,4 @@
-package quek.undergarden.entity;
+package quek.undergardens.entity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -24,9 +24,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
-import quek.undergarden.entity.rotspawn.RotspawnMonster;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.entity.rotspawn.RotspawnMonster;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGSoundEvents;
 
 import java.util.Arrays;
 

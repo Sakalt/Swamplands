@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "undergarden:item/froststeel_pickaxe"
+    "layer0": "undergardens:item/froststeel_pickaxe"
   }
 }

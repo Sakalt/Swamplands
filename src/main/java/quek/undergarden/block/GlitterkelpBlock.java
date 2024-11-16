@@ -1,8 +1,8 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.KelpBlock;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.registry.UGBlocks;
 
 public class GlitterkelpBlock extends KelpBlock {
 

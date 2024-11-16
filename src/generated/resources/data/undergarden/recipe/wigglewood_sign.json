@@ -6,7 +6,7 @@
       "tag": "c:rods/wooden"
     },
     "P": {
-      "item": "undergarden:wigglewood_planks"
+      "item": "undergardens:wigglewood_planks"
     }
   },
   "pattern": [
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergarden:wigglewood_sign"
+    "id": "undergardens:wigglewood_sign"
   }
 }

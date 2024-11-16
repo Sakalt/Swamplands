@@ -1,4 +1,4 @@
-package quek.undergarden.block.portal;
+package quek.undergardens.block.portal;
 
 import net.minecraft.BlockUtil;
 import net.minecraft.core.BlockPos;
@@ -24,18 +24,18 @@ import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
-import quek.undergarden.Undergarden;
-import quek.undergarden.registry.*;
+import quek.undergardens.Undergardens;
+import quek.undergardens.registry.*;
 
 import java.util.Optional;
 
-public class UndergardenPortalBlock extends Block implements Portal {
+public class UndergardensPortalBlock extends Block implements Portal {
 
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.HORIZONTAL_AXIS;
 	protected static final VoxelShape X_AABB = Block.box(0.0D, 0.0D, 6.0D, 16.0D, 16.0D, 10.0D);
 	protected static final VoxelShape Z_AABB = Block.box(6.0D, 0.0D, 0.0D, 10.0D, 16.0D, 16.0D);
 
-	public UndergardenPortalBlock() {
+	public UndergardensPortalBlock() {
 		super(Properties.of()
 			.pushReaction(PushReaction.BLOCK)
 			.strength(-1.0F)
@@ -57,7 +57,7 @@ public class UndergardenPortalBlock extends Block implements Portal {
 		Direction.Axis direction$axis = facing.getAxis();
 		Direction.Axis direction$axis1 = state.getValue(AXIS);
 		boolean flag = direction$axis1 != direction$axis && direction$axis.isHorizontal();
-		return !flag && facingState.getBlock() != this && !new UndergardenPortalShape(level, currentPos, direction$axis1).isComplete() ? Blocks.AIR.defaultBlockState() : super.updateShape(state, facing, facingState, level, currentPos, facingPos);
+		return !flag && facingState.getBlock() != this && !new UndergardensPortalShape(level, currentPos, direction$axis1).isComplete() ? Blocks.AIR.defaultBlockState() : super.updateShape(state, facing, facingState, level, currentPos, facingPos);
 	}
 
 	@Override
@@ -151,8 +151,8 @@ public class UndergardenPortalBlock extends Block implements Portal {
 	}
 
 	@Nullable
-	private DimensionTransition getExitPortal(ServerLevel level, Entity entity, BlockPos pos, BlockPos exitPos, boolean isUndergarden, WorldBorder worldBorder) {
-		Optional<BlockPos> potentialPortalSpot = UndergardenPortalForcer.findClosestPortalPosition(level, exitPos, isUndergarden, worldBorder);
+	private DimensionTransition getExitPortal(ServerLevel level, Entity entity, BlockPos pos, BlockPos exitPos, boolean isUndergardens, WorldBorder worldBorder) {
+		Optional<BlockPos> potentialPortalSpot = UndergardensPortalForcer.findClosestPortalPosition(level, exitPos, isUndergardens, worldBorder);
 		BlockUtil.FoundRectangle rect;
 		DimensionTransition.PostDimensionTransition post;
 		if (potentialPortalSpot.isPresent()) {
@@ -166,17 +166,17 @@ public class UndergardenPortalBlock extends Block implements Portal {
 				21,
 				p_351970_ -> level.getBlockState(p_351970_) == blockstate
 			);
-			post = UndergardenPortalForcer.PLAY_PORTAL_SOUND.then(traveler -> traveler.placePortalTicket(blockpos));
+			post = UndergardensPortalForcer.PLAY_PORTAL_SOUND.then(traveler -> traveler.placePortalTicket(blockpos));
 		} else {
 			Direction.Axis axis = entity.level().getBlockState(pos).getOptionalValue(AXIS).orElse(Direction.Axis.X);
-			Optional<BlockUtil.FoundRectangle> createdPortal = UndergardenPortalForcer.createPortal(level, exitPos, axis);
+			Optional<BlockUtil.FoundRectangle> createdPortal = UndergardensPortalForcer.createPortal(level, exitPos, axis);
 			if (createdPortal.isEmpty()) {
-				Undergarden.LOGGER.error("Unable to create a portal, likely target out of worldborder");
+				Undergardens.LOGGER.error("Unable to create a portal, likely target out of worldborder");
 				return null;
 			}
 
 			rect = createdPortal.get();
-			post = UndergardenPortalForcer.PLAY_PORTAL_SOUND.then(DimensionTransition.PLACE_PORTAL_TICKET);
+			post = UndergardensPortalForcer.PLAY_PORTAL_SOUND.then(DimensionTransition.PLACE_PORTAL_TICKET);
 		}
 
 		return NetherPortalBlock.getDimensionTransitionFromExit(entity, pos, rect, level, post);

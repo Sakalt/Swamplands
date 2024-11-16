@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:butterbunch"
+            "items": "undergardens:butterbunch"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:butterbunch_to_dye"
+        "recipe": "undergardens:butterbunch_to_dye"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:butterbunch_to_dye"
+      "undergardens:butterbunch_to_dye"
     ]
   }
 }

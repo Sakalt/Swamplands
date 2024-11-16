@@ -17,7 +17,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergarden:gloomgourd_seeds"
+          "name": "undergardens:gloomgourd_seeds"
         }
       ],
       "functions": [
@@ -28,5 +28,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/gloomgourd_stem_attached"
+  "random_sequence": "undergardens:blocks/gloomgourd_stem_attached"
 }

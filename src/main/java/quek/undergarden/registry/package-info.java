@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

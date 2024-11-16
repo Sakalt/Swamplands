@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:catalyst"
+        "recipe": "undergardens:catalyst"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -48,7 +48,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:catalyst"
+      "undergardens:catalyst"
     ]
   }
 }

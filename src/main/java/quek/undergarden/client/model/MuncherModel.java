@@ -1,4 +1,4 @@
-package quek.undergarden.client.model;
+package quek.undergardens.client.model;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.client.model.ListModel;
@@ -6,7 +6,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
-import quek.undergarden.entity.cavern.Muncher;
+import quek.undergardens.entity.cavern.Muncher;
 
 public class MuncherModel<T extends Muncher> extends ListModel<T> {
 

@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:grongle_slab",
+                  "block": "undergardens:grongle_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "undergarden:grongle_slab"
+          "name": "undergardens:grongle_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/grongle_slab"
+  "random_sequence": "undergardens:blocks/grongle_slab"
 }

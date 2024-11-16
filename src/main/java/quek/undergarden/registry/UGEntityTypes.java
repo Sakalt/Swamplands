@@ -1,32 +1,32 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergarden.Undergarden;
-import quek.undergarden.entity.*;
-import quek.undergarden.entity.animal.*;
-import quek.undergarden.entity.animal.dweller.Dweller;
-import quek.undergarden.entity.boss.ForgottenGuardian;
-import quek.undergarden.entity.cavern.Muncher;
-import quek.undergarden.entity.cavern.Nargoyle;
-import quek.undergarden.entity.cavern.Sploogie;
-import quek.undergarden.entity.projectile.Blisterbomb;
-import quek.undergarden.entity.projectile.MinionProjectile;
-import quek.undergarden.entity.projectile.slingshot.DepthrockPebble;
-import quek.undergarden.entity.projectile.slingshot.GooBall;
-import quek.undergarden.entity.projectile.slingshot.Gronglet;
-import quek.undergarden.entity.projectile.slingshot.RottenBlisterberry;
-import quek.undergarden.entity.rotspawn.Rotbeast;
-import quek.undergarden.entity.rotspawn.Rotling;
-import quek.undergarden.entity.rotspawn.Rotwalker;
-import quek.undergarden.entity.stoneborn.Stoneborn;
+import quek.undergardens.Undergardens;
+import quek.undergardens.entity.*;
+import quek.undergardens.entity.animal.*;
+import quek.undergardens.entity.animal.dweller.Dweller;
+import quek.undergardens.entity.boss.ForgottenGuardian;
+import quek.undergardens.entity.cavern.Muncher;
+import quek.undergardens.entity.cavern.Nargoyle;
+import quek.undergardens.entity.cavern.Sploogie;
+import quek.undergardens.entity.projectile.Blisterbomb;
+import quek.undergardens.entity.projectile.MinionProjectile;
+import quek.undergardens.entity.projectile.slingshot.DepthrockPebble;
+import quek.undergardens.entity.projectile.slingshot.GooBall;
+import quek.undergardens.entity.projectile.slingshot.Gronglet;
+import quek.undergardens.entity.projectile.slingshot.RottenBlisterberry;
+import quek.undergardens.entity.rotspawn.Rotbeast;
+import quek.undergardens.entity.rotspawn.Rotling;
+import quek.undergardens.entity.rotspawn.Rotwalker;
+import quek.undergardens.entity.stoneborn.Stoneborn;
 
 public class UGEntityTypes {
 
-	public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(Registries.ENTITY_TYPE, Undergarden.MODID);
+	public static final DeferredRegister<EntityType<?>> ENTITIES = DeferredRegister.create(Registries.ENTITY_TYPE, Undergardens.MODID);
 
 	//misc
 	public static final DeferredHolder<EntityType<?>, EntityType<Boomgourd>> BOOMGOURD = ENTITIES.register("boomgourd", () -> EntityType.Builder.<Boomgourd>of(Boomgourd::new, MobCategory.MISC).fireImmune().sized(1.0F, 1.0F).clientTrackingRange(10).updateInterval(10).build("boomgourd"));

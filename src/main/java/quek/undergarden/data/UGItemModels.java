@@ -1,11 +1,11 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergarden.data.provider.UGItemModelProvider;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.data.provider.UGItemModelProvider;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGItems;
 
 public class UGItemModels extends UGItemModelProvider {
 

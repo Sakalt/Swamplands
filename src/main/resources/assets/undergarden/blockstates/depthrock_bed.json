@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/depthrock_bed"
+      "model": "undergardens:block/depthrock_bed"
     }
   }
 }

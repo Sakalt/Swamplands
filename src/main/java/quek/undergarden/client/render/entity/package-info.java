@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergarden.client.render.entity;
+package quek.undergardens.client.render.entity;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:cloggrum_tiles"
+          "name": "undergardens:cloggrum_tiles"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/cloggrum_tiles"
+  "random_sequence": "undergardens:blocks/cloggrum_tiles"
 }

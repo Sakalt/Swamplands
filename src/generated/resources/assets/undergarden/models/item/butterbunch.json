@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergarden:block/butterbunch"
+    "layer0": "undergardens:block/butterbunch"
   }
 }

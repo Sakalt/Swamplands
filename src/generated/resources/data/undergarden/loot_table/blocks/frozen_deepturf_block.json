@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergarden:frozen_deepturf_block"
+              "name": "undergardens:frozen_deepturf_block"
             },
             {
               "type": "minecraft:item",
@@ -35,7 +35,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "undergarden:deepsoil"
+              "name": "undergardens:deepsoil"
             }
           ]
         }
@@ -43,5 +43,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/frozen_deepturf_block"
+  "random_sequence": "undergardens:blocks/frozen_deepturf_block"
 }

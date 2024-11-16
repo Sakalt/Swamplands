@@ -1,7 +1,7 @@
 {
     "parent": "block/cube_column",
     "textures": {
-        "end": "undergarden:block/regalium_block_top",
-        "side": "undergarden:block/regalium_block_side"
+        "end": "undergardens:block/regalium_block_top",
+        "side": "undergardens:block/regalium_block_side"
     }
 }

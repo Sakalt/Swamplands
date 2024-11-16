@@ -1,4 +1,4 @@
-package quek.undergarden.client.model;
+package quek.undergardens.client.model;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.client.model.ListModel;
@@ -6,7 +6,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
-import quek.undergarden.entity.boss.ForgottenGuardian;
+import quek.undergardens.entity.boss.ForgottenGuardian;
 
 public class ForgottenGuardianModel<T extends ForgottenGuardian> extends ListModel<T> {
 

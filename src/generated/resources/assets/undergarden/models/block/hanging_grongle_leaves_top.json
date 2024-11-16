@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "undergarden:block/hanging_grongle_leaves_top"
+    "cross": "undergardens:block/hanging_grongle_leaves_top"
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergarden.item.tool;
+package quek.undergardens.item.tool;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -6,7 +6,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.registry.UGItems;
 
 import java.util.List;
 
@@ -19,13 +19,13 @@ public class UGSwordItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
 		if (stack.getItem() == UGItems.FROSTSTEEL_SWORD.get()) {
-			tooltip.add(Component.translatable("tooltip.undergarden.froststeel_weapon").withStyle(ChatFormatting.AQUA));
+			tooltip.add(Component.translatable("tooltip.undergardens.froststeel_weapon").withStyle(ChatFormatting.AQUA));
 		}
 		if (stack.getItem() == UGItems.UTHERIUM_SWORD.get()) {
-			tooltip.add(Component.translatable("tooltip.undergarden.utherium_weapon").withStyle(ChatFormatting.RED));
+			tooltip.add(Component.translatable("tooltip.undergardens.utherium_weapon").withStyle(ChatFormatting.RED));
 		}
 		if (stack.getItem() == UGItems.FORGOTTEN_SWORD.get()) {
-			tooltip.add(Component.translatable("tooltip.undergarden.forgotten_weapon").withStyle(ChatFormatting.GREEN));
+			tooltip.add(Component.translatable("tooltip.undergardens.forgotten_weapon").withStyle(ChatFormatting.GREEN));
 		}
 	}
 }

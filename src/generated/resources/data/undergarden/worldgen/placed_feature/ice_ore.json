@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:ice_ore",
+  "feature": "undergardens:ice_ore",
   "placement": [
     {
       "type": "minecraft:count",

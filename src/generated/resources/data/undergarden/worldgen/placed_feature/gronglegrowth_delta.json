@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:gronglegrowth_delta",
+  "feature": "undergardens:gronglegrowth_delta",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",

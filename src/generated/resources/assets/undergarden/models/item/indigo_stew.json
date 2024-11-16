@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergarden:item/indigo_stew"
+    "layer0": "undergardens:item/indigo_stew"
   }
 }

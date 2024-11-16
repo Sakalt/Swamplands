@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smelt_shiverstone_diamond_ore"
+        "recipe": "undergardens:smelt_shiverstone_diamond_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:shiverstone_diamond_ore": {
+    "has_undergardens:shiverstone_diamond_ore": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:shiverstone_diamond_ore"
+            "items": "undergardens:shiverstone_diamond_ore"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:shiverstone_diamond_ore"
+      "has_undergardens:shiverstone_diamond_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smelt_shiverstone_diamond_ore"
+      "undergardens:smelt_shiverstone_diamond_ore"
     ]
   }
 }

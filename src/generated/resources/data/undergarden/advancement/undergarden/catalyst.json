@@ -1,11 +1,11 @@
 {
-  "parent": "undergarden:undergarden/root",
+  "parent": "undergardens:undergardens/root",
   "criteria": {
     "has_catalyst": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:catalyst"
+            "items": "undergardens:catalyst"
           }
         ]
       },
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.catalyst.desc"
+      "translate": "advancement.undergardens.catalyst.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergarden:catalyst"
+      "id": "undergardens:catalyst"
     },
     "title": {
-      "translate": "advancement.undergarden.catalyst.title"
+      "translate": "advancement.undergardens.catalyst.title"
     }
   },
   "requirements": [

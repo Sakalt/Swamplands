@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:grongle_planks"
+          "name": "undergardens:grongle_planks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/grongle_planks"
+  "random_sequence": "undergardens:blocks/grongle_planks"
 }

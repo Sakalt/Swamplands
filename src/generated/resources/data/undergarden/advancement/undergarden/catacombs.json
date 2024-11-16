@@ -1,5 +1,5 @@
 {
-  "parent": "undergarden:undergarden/enter_undergarden",
+  "parent": "undergardens:undergardens/enter_undergardens",
   "criteria": {
     "enter_catacombs": {
       "conditions": {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "undergarden:catacombs"
+                "structures": "undergardens:catacombs"
               }
             }
           }
@@ -20,14 +20,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.catacombs.desc"
+      "translate": "advancement.undergardens.catacombs.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergarden:depthrock_brick_stairs"
+      "id": "undergardens:depthrock_brick_stairs"
     },
     "title": {
-      "translate": "advancement.undergarden.catacombs.title"
+      "translate": "advancement.undergardens.catacombs.title"
     }
   },
   "requirements": [

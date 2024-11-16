@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergarden:ditchbulb"
+      "item": "undergardens:ditchbulb"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:ditchbulb_paste"
+    "id": "undergardens:ditchbulb_paste"
   }
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "undergarden:block/virulent_mix" }
+        "": { "model": "undergardens:block/virulent_mix" }
     }
 }

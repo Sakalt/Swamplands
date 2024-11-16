@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:tall_shimmerweed_patch",
+  "feature": "undergardens:tall_shimmerweed_patch",
   "placement": [
     {
       "type": "minecraft:noise_based_count",
@@ -27,9 +27,9 @@
       "predicate": {
         "type": "minecraft:matching_blocks",
         "blocks": [
-          "undergarden:deepturf_block",
-          "undergarden:deepsoil",
-          "undergarden:frozen_deepturf_block"
+          "undergardens:deepturf_block",
+          "undergardens:deepsoil",
+          "undergardens:frozen_deepturf_block"
         ],
         "offset": [
           0,

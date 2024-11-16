@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:stripped_smogstem_wood"
+          "name": "undergardens:stripped_smogstem_wood"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/stripped_smogstem_wood"
+  "random_sequence": "undergardens:blocks/stripped_smogstem_wood"
 }

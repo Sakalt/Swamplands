@@ -2,8 +2,8 @@
   "asset_name": "froststeel",
   "description": {
     "color": "#90B9E0",
-    "translate": "trim_material.undergarden.froststeel"
+    "translate": "trim_material.undergardens.froststeel"
   },
-  "ingredient": "undergarden:froststeel_ingot",
+  "ingredient": "undergardens:froststeel_ingot",
   "item_model_index": 0.9
 }

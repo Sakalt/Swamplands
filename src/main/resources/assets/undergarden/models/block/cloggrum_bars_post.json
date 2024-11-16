@@ -2,8 +2,8 @@
     "ambientocclusion": false,
     "render_type": "minecraft:cutout",
     "textures": {
-        "particle": "undergarden:block/cloggrum_bars",
-        "bars": "undergarden:block/cloggrum_bars"
+        "particle": "undergardens:block/cloggrum_bars",
+        "bars": "undergardens:block/cloggrum_bars"
     },
     "elements": [
         {   "from": [ 8, 0, 7 ],

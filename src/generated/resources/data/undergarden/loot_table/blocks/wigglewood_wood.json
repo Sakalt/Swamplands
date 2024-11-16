@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:wigglewood_wood"
+          "name": "undergardens:wigglewood_wood"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/wigglewood_wood"
+  "random_sequence": "undergardens:blocks/wigglewood_wood"
 }

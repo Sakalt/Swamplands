@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:glitterkelp"
+          "name": "undergardens:glitterkelp"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/glitterkelp"
+  "random_sequence": "undergardens:blocks/glitterkelp"
 }

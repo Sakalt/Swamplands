@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "undergarden:tall_deepturf",
+              "Name": "undergardens:tall_deepturf",
               "Properties": {
                 "half": "lower"
               }

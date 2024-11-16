@@ -1,11 +1,11 @@
 {
-  "parent": "undergarden:undergarden/enter_undergarden",
+  "parent": "undergardens:undergardens/enter_undergardens",
   "criteria": {
     "has_gwibling_bucket": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:gwibling_bucket"
+            "items": "undergardens:gwibling_bucket"
           }
         ]
       },
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.catch_gwibling.desc"
+      "translate": "advancement.undergardens.catch_gwibling.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergarden:gwibling_bucket"
+      "id": "undergardens:gwibling_bucket"
     },
     "title": {
-      "translate": "advancement.undergarden.catch_gwibling.title"
+      "translate": "advancement.undergardens.catch_gwibling.title"
     }
   },
   "requirements": [

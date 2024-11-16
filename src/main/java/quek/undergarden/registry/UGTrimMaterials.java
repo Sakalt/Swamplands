@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.armortrim.TrimMaterial;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 import java.util.Map;
 
@@ -22,7 +22,7 @@ public class UGTrimMaterials {
 	public static final ResourceKey<TrimMaterial> FORGOTTEN = create("forgotten");
 
 	private static ResourceKey<TrimMaterial> create(String name) {
-		return ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+		return ResourceKey.create(Registries.TRIM_MATERIAL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 	}
 
 	public static void bootstrap(BootstrapContext<TrimMaterial> context) {

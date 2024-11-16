@@ -1,4 +1,4 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -7,10 +7,10 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergarden.Undergarden;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.Undergardens;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGTags;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;
@@ -18,12 +18,12 @@ import java.util.concurrent.CompletableFuture;
 public class UGItemTags extends ItemTagsProvider {
 
 	public UGItemTags(PackOutput output, CompletableFuture<HolderLookup.Provider> future, CompletableFuture<TagLookup<Block>> provider, @Nullable ExistingFileHelper existingFileHelper) {
-		super(output, future, provider, Undergarden.MODID, existingFileHelper);
+		super(output, future, provider, Undergardens.MODID, existingFileHelper);
 	}
 
 	@Override
 	protected void addTags(HolderLookup.Provider provider) {
-		//undergarden
+		//undergardens
 		tag(UGTags.Items.SLINGSHOT_ENCHANTABLE).add(UGItems.SLINGSHOT.get());
 		copy(UGTags.Blocks.MUSHROOMS, UGTags.Items.MUSHROOMS);
 		tag(UGTags.Items.CLOGGRUM_ITEMS).add(UGItems.CLOGGRUM_SWORD.get(), UGItems.CLOGGRUM_PICKAXE.get(), UGItems.CLOGGRUM_AXE.get(), UGItems.CLOGGRUM_SHOVEL.get(), UGItems.CLOGGRUM_HOE.get(), UGItems.CLOGGRUM_HELMET.get(), UGItems.CLOGGRUM_CHESTPLATE.get(), UGItems.CLOGGRUM_LEGGINGS.get(), UGItems.CLOGGRUM_BOOTS.get());
@@ -33,7 +33,7 @@ public class UGItemTags extends ItemTagsProvider {
 		copy(UGTags.Blocks.WIGGLEWOOD_LOGS, UGTags.Items.WIGGLEWOOD_LOGS);
 		copy(UGTags.Blocks.GRONGLE_LOGS, UGTags.Items.GRONGLE_LOGS);
 
-		//undergarden forge
+		//undergardens forge
 		tag(UGTags.Items.RAW_MATERIALS_CLOGGRUM).add(UGItems.RAW_CLOGGRUM.get());
 		tag(UGTags.Items.RAW_MATERIALS_FROSTSTEEL).add(UGItems.RAW_FROSTSTEEL.get());
 

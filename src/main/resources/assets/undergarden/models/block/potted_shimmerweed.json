@@ -5,8 +5,8 @@
     "particle": "block/flower_pot",
     "flowerpot": "block/flower_pot",
     "dirt": "block/dirt",
-    "plant": "undergarden:block/shimmerweed",
-    "bulb": "undergarden:block/shimmerweed_bulb"
+    "plant": "undergardens:block/shimmerweed",
+    "bulb": "undergardens:block/shimmerweed_bulb"
   },
   "elements": [
     {   "from": [ 5, 0, 5 ],

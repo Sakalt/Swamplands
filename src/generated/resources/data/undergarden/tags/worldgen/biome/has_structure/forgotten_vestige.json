@@ -1,12 +1,12 @@
 {
   "values": [
-    "undergarden:forgotten_field",
-    "undergarden:frostfields",
-    "undergarden:frosty_smogstem_forest",
-    "undergarden:dense_forest",
-    "undergarden:smogstem_forest",
-    "undergarden:wigglewood_forest",
-    "undergarden:gronglegrowth",
-    "undergarden:barren_abyss"
+    "undergardens:forgotten_field",
+    "undergardens:frostfields",
+    "undergardens:frosty_smogstem_forest",
+    "undergardens:dense_forest",
+    "undergardens:smogstem_forest",
+    "undergardens:wigglewood_forest",
+    "undergardens:gronglegrowth",
+    "undergardens:barren_abyss"
   ]
 }

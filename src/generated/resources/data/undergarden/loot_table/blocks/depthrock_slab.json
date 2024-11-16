@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:depthrock_slab",
+                  "block": "undergardens:depthrock_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "undergarden:depthrock_slab"
+          "name": "undergardens:depthrock_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/depthrock_slab"
+  "random_sequence": "undergardens:blocks/depthrock_slab"
 }

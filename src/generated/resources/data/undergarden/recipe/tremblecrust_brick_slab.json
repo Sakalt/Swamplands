@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergarden:tremblecrust_bricks"
+      "item": "undergardens:tremblecrust_bricks"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergarden:tremblecrust_brick_slab"
+    "id": "undergardens:tremblecrust_brick_slab"
   }
 }

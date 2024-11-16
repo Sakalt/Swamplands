@@ -2,18 +2,18 @@
   "variants": {
     "": [
       {
-        "model": "undergarden:block/ashen_deepturf_block"
+        "model": "undergardens:block/ashen_deepturf_block"
       },
       {
-        "model": "undergarden:block/ashen_deepturf_block",
+        "model": "undergardens:block/ashen_deepturf_block",
         "y": 270
       },
       {
-        "model": "undergarden:block/ashen_deepturf_block",
+        "model": "undergardens:block/ashen_deepturf_block",
         "y": 180
       },
       {
-        "model": "undergarden:block/ashen_deepturf_block",
+        "model": "undergardens:block/ashen_deepturf_block",
         "y": 90
       }
     ]

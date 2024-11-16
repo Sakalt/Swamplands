@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:smogstem_hanging_sign"
+          "name": "undergardens:smogstem_hanging_sign"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/smogstem_hanging_sign"
+  "random_sequence": "undergardens:blocks/smogstem_hanging_sign"
 }

@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergarden.world.gen.carver;
+package quek.undergardens.world.gen.carver;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

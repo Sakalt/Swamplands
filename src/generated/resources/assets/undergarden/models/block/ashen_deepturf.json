@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "undergarden:block/ashen_deepturf"
+    "cross": "undergardens:block/ashen_deepturf"
   }
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:smogstem_sapling"
+          "name": "undergardens:smogstem_sapling"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/smogstem_sapling"
+  "random_sequence": "undergardens:blocks/smogstem_sapling"
 }

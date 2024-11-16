@@ -1,28 +1,28 @@
 {
   "carvers": {
-    "air": "undergarden:undergarden_cave"
+    "air": "undergardens:undergardens_cave"
   },
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
-      "sound": "undergarden:ambient.sea_addition",
+      "sound": "undergardens:ambient.sea_addition",
       "tick_chance": 0.00555
     },
-    "ambient_sound": "undergarden:ambient.sea",
+    "ambient_sound": "undergardens:ambient.sea",
     "fog_color": 1186057,
     "foliage_color": 4477507,
     "grass_color": 4477507,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "undergarden:ambient.mood",
+      "sound": "undergardens:ambient.mood",
       "tick_delay": 6000
     },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": true,
-      "sound": "undergarden:music.undergarden"
+      "sound": "undergardens:music.undergardens"
     },
     "sky_color": 1186057,
     "water_color": 342306,
@@ -36,30 +36,30 @@
     [],
     [],
     [
-      "undergarden:deepsoil_ore",
-      "undergarden:sediment_ore",
-      "undergarden:shiverstone_ore",
-      "undergarden:coal_ore",
-      "undergarden:iron_ore",
-      "undergarden:gold_ore",
-      "undergarden:diamond_ore",
-      "undergarden:cloggrum_ore",
-      "undergarden:utherium_ore",
-      "undergarden:regalium_ore"
+      "undergardens:deepsoil_ore",
+      "undergardens:sediment_ore",
+      "undergardens:shiverstone_ore",
+      "undergardens:coal_ore",
+      "undergardens:iron_ore",
+      "undergardens:gold_ore",
+      "undergardens:diamond_ore",
+      "undergardens:cloggrum_ore",
+      "undergardens:utherium_ore",
+      "undergardens:regalium_ore"
     ],
     [],
     [],
     [
-      "undergarden:blood_mushroom_patch",
-      "undergarden:indigo_mushroom_patch",
-      "undergarden:ink_mushroom_patch",
-      "undergarden:veil_mushroom_patch",
-      "undergarden:deepturf_patch",
-      "undergarden:shimmerweed_patch",
-      "undergarden:depthrock_pebble_patch",
-      "undergarden:ditchbulb_patch",
-      "undergarden:droopvine_patch",
-      "undergarden:glitterkelp_patch"
+      "undergardens:blood_mushroom_patch",
+      "undergardens:indigo_mushroom_patch",
+      "undergardens:ink_mushroom_patch",
+      "undergardens:veil_mushroom_patch",
+      "undergardens:deepturf_patch",
+      "undergardens:shimmerweed_patch",
+      "undergardens:depthrock_pebble_patch",
+      "undergardens:ditchbulb_patch",
+      "undergardens:droopvine_patch",
+      "undergardens:glitterkelp_patch"
     ]
   ],
   "has_precipitation": false,
@@ -67,7 +67,7 @@
   "spawners": {
     "ambient": [
       {
-        "type": "undergarden:scintling",
+        "type": "undergardens:scintling",
         "maxCount": 8,
         "minCount": 4,
         "weight": 5
@@ -78,37 +78,37 @@
     "misc": [],
     "monster": [
       {
-        "type": "undergarden:nargoyle",
+        "type": "undergardens:nargoyle",
         "maxCount": 1,
         "minCount": 1,
         "weight": 50
       },
       {
-        "type": "undergarden:muncher",
+        "type": "undergardens:muncher",
         "maxCount": 1,
         "minCount": 1,
         "weight": 50
       },
       {
-        "type": "undergarden:sploogie",
+        "type": "undergardens:sploogie",
         "maxCount": 1,
         "minCount": 1,
         "weight": 50
       },
       {
-        "type": "undergarden:rotling",
+        "type": "undergardens:rotling",
         "maxCount": 4,
         "minCount": 2,
         "weight": 100
       },
       {
-        "type": "undergarden:rotwalker",
+        "type": "undergardens:rotwalker",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
       },
       {
-        "type": "undergarden:rotbeast",
+        "type": "undergardens:rotbeast",
         "maxCount": 2,
         "minCount": 1,
         "weight": 100
@@ -117,7 +117,7 @@
     "underground_water_creature": [],
     "water_ambient": [
       {
-        "type": "undergarden:gwibling",
+        "type": "undergardens:gwibling",
         "maxCount": 6,
         "minCount": 3,
         "weight": 5
@@ -125,7 +125,7 @@
     ],
     "water_creature": [
       {
-        "type": "undergarden:gwib",
+        "type": "undergardens:gwib",
         "maxCount": 1,
         "minCount": 1,
         "weight": 10

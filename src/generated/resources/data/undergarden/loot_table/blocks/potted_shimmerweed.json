@@ -26,11 +26,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:shimmerweed"
+          "name": "undergardens:shimmerweed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/potted_shimmerweed"
+  "random_sequence": "undergardens:blocks/potted_shimmerweed"
 }

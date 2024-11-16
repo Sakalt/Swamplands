@@ -1,4 +1,4 @@
-package quek.undergarden.item.tool.slingshot;
+package quek.undergardens.item.tool.slingshot;
 
 import it.unimi.dsi.fastutil.objects.AbstractObject2ObjectFunction;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
@@ -22,12 +22,12 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.entity.player.ArrowLooseEvent;
 import net.neoforged.neoforge.event.entity.player.ArrowNockEvent;
 import org.jetbrains.annotations.Nullable;
-import quek.undergarden.Undergarden;
-import quek.undergarden.entity.projectile.slingshot.SlingshotProjectile;
-import quek.undergarden.registry.UGCriteria;
-import quek.undergarden.registry.UGEnchantments;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.Undergardens;
+import quek.undergardens.entity.projectile.slingshot.SlingshotProjectile;
+import quek.undergardens.registry.UGCriteria;
+import quek.undergardens.registry.UGEnchantments;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGSoundEvents;
 
 import java.util.Map;
 import java.util.function.Predicate;
@@ -51,7 +51,7 @@ public class SlingshotItem extends ProjectileWeaponItem {
 
 	@Override
 	public int getMaxDamage(ItemStack stack) {
-		int longevity = stack.getEnchantmentLevel(Undergarden.registryAccessStatic().registryOrThrow(Registries.ENCHANTMENT).getHolderOrThrow(UGEnchantments.LONGEVITY));
+		int longevity = stack.getEnchantmentLevel(Undergardens.registryAccessStatic().registryOrThrow(Registries.ENCHANTMENT).getHolderOrThrow(UGEnchantments.LONGEVITY));
 		int durability = super.getMaxDamage(stack);
 		if (longevity > 0) {
 			return durability * (longevity + 1);

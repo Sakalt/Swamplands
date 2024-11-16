@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergarden:shiverstone_brick_slab"
+      "item": "undergardens:shiverstone_brick_slab"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:chiseled_shiverstone_bricks"
+    "id": "undergardens:chiseled_shiverstone_bricks"
   }
 }

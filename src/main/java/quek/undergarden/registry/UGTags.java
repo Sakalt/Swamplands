@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
@@ -11,7 +11,7 @@ import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.Fluid;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 public class UGTags {
 
@@ -55,7 +55,7 @@ public class UGTags {
 		public static final TagKey<Item> STORAGE_BLOCKS_RAW_FROSTSTEEL = commonTag("storage_blocks/raw_froststeel");
 
 		private static TagKey<Item> tag(String name) {
-			return ItemTags.create(ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+			return ItemTags.create(ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 		}
 
 		private static TagKey<Item> commonTag(String name) {
@@ -65,11 +65,11 @@ public class UGTags {
 
 	public static class Blocks {
 
-		public static final TagKey<Block> BASE_STONE_UNDERGARDEN = tag("base_stone_undergarden");
+		public static final TagKey<Block> BASE_STONE_UNDERGARDEN = tag("base_stone_undergardens");
 		public static final TagKey<Block> DEPTHROCK_ORE_REPLACEABLES = tag("depthrock_ore_replaceables");
 		public static final TagKey<Block> SHIVERSTONE_ORE_REPLACEABLES = tag("shiverstone_ore_replaceables");
 		public static final TagKey<Block> TREMBLECRUST_ORE_REPLACEABLES = tag("tremblecrust_ore_replaceables");
-		public static final TagKey<Block> UNDERGARDEN_CARVER_REPLACEABLES = tag("undergarden_carver_replaceables");
+		public static final TagKey<Block> UNDERGARDEN_CARVER_REPLACEABLES = tag("undergardens_carver_replaceables");
 		public static final TagKey<Block> MUSHROOMS = tag("mushrooms");
 		public static final TagKey<Block> PORTAL_FRAME_BLOCKS = tag("portal_frame_blocks");
 		public static final TagKey<Block> SMOGSTEM_LOGS = tag("smogstem_logs");
@@ -103,7 +103,7 @@ public class UGTags {
 		public static final TagKey<Block> TREMBLECRUST_ORES = commonTag("ores_in_ground/tremblecrust");
 
 		private static TagKey<Block> tag(String name) {
-			return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+			return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 		}
 
 		private static TagKey<Block> commonTag(String name) {
@@ -121,7 +121,7 @@ public class UGTags {
 		public static final TagKey<EntityType<?>> IMMUNE_TO_GOOEY_EFFECT = tag("immune_to_gooey_effect");
 
 		private static TagKey<EntityType<?>> tag(String name) {
-			return TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+			return TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 		}
 	}
 
@@ -130,19 +130,19 @@ public class UGTags {
 		public static final TagKey<Fluid> VIRULENT = tag("virulent");
 
 		private static TagKey<Fluid> tag(String name) {
-			return TagKey.create(Registries.FLUID, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+			return TagKey.create(Registries.FLUID, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 		}
 	}
 
 	public static class Biomes {
 
-		public static final TagKey<Biome> IS_UNDERGARDEN = tag("is_undergarden");
+		public static final TagKey<Biome> IS_UNDERGARDEN = tag("is_undergardens");
 
 		public static final TagKey<Biome> HAS_CATACOMBS = tag("has_structure/catacombs");
 		public static final TagKey<Biome> HAS_FORGOTTEN_VESTIGE = tag("has_structure/forgotten_vestige");
 
 		private static TagKey<Biome> tag(String name) {
-			return TagKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+			return TagKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 		}
 	}
 
@@ -151,7 +151,7 @@ public class UGTags {
 		public static final TagKey<Enchantment> SLINGSHOT_EXCLUSIVE = tag("exclusive_set/slingshot");
 
 		private static TagKey<Enchantment> tag(String name) {
-			return TagKey.create(Registries.ENCHANTMENT, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+			return TagKey.create(Registries.ENCHANTMENT, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 		}
 	}
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:wigglewood_trapdoor"
+          "name": "undergardens:wigglewood_trapdoor"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/wigglewood_trapdoor"
+  "random_sequence": "undergardens:blocks/wigglewood_trapdoor"
 }

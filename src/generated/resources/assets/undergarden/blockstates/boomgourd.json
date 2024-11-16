@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/boomgourd"
+      "model": "undergardens:block/boomgourd"
     }
   }
 }

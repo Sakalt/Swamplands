@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
@@ -17,7 +17,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 public class UGBiomes {
 
@@ -39,7 +39,7 @@ public class UGBiomes {
 	public static final ResourceKey<Biome> WIGGLEWOOD_FOREST = create("wigglewood_forest");
 
 	private static ResourceKey<Biome> create(String name) {
-		return ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+		return ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 	}
 
 	public static void bootstrap(BootstrapContext<Biome> context) {

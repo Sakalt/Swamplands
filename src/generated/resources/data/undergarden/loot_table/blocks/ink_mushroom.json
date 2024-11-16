@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:ink_mushroom"
+          "name": "undergardens:ink_mushroom"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/ink_mushroom"
+  "random_sequence": "undergardens:blocks/ink_mushroom"
 }

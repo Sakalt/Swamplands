@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:smog_vent",
+  "feature": "undergardens:smog_vent",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",

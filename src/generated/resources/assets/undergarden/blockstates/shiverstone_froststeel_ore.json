@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/shiverstone_froststeel_ore"
+      "model": "undergardens:block/shiverstone_froststeel_ore"
     }
   }
 }

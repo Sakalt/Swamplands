@@ -1,4 +1,4 @@
-package quek.undergarden.block.portal;
+package quek.undergardens.block.portal;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -7,10 +7,10 @@ import net.minecraft.world.level.block.NetherPortalBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGTags;
 
-public class UndergardenPortalShape {
+public class UndergardensPortalShape {
 	private static final int MIN_WIDTH = 1;
 	public static final int MAX_WIDTH = 21;
 	private static final int MIN_HEIGHT = 2;
@@ -24,7 +24,7 @@ public class UndergardenPortalShape {
 	private int height;
 	private final int width;
 
-	public UndergardenPortalShape(LevelAccessor level, BlockPos bottomLeftPos, Direction.Axis axis) {
+	public UndergardensPortalShape(LevelAccessor level, BlockPos bottomLeftPos, Direction.Axis axis) {
 		this.level = level;
 		this.axis = axis;
 		this.rightDir = axis == Direction.Axis.X ? Direction.WEST : Direction.SOUTH;
@@ -139,7 +139,7 @@ public class UndergardenPortalShape {
 	}
 
 	public void createPortalBlocks() {
-		BlockState blockstate = UGBlocks.UNDERGARDEN_PORTAL.get().defaultBlockState().setValue(UndergardenPortalBlock.AXIS, this.axis);
+		BlockState blockstate = UGBlocks.UNDERGARDEN_PORTAL.get().defaultBlockState().setValue(UndergardensPortalBlock.AXIS, this.axis);
 		BlockPos.betweenClosed(this.bottomLeft, this.bottomLeft.relative(Direction.UP, this.height - 1).relative(this.rightDir, this.width - 1)).forEach(pos -> this.level.setBlock(pos, blockstate, 18));
 	}
 

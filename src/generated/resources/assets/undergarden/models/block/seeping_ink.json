@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "undergarden:block/seeping_ink"
+    "cross": "undergardens:block/seeping_ink"
   }
 }

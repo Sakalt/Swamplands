@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/forgotten_block"
+      "model": "undergardens:block/forgotten_block"
     }
   }
 }

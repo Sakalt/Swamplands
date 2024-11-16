@@ -1,19 +1,19 @@
-package quek.undergarden.client.render.entity;
+package quek.undergardens.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergarden.Undergarden;
-import quek.undergarden.client.model.ForgottenModel;
-import quek.undergarden.client.model.UGModelLayers;
-import quek.undergarden.client.render.layer.ForgottenEyesLayer;
-import quek.undergarden.entity.Forgotten;
+import quek.undergardens.Undergardens;
+import quek.undergardens.client.model.ForgottenModel;
+import quek.undergardens.client.model.UGModelLayers;
+import quek.undergardens.client.render.layer.ForgottenEyesLayer;
+import quek.undergardens.entity.Forgotten;
 
 public class ForgottenRender extends HumanoidMobRenderer<Forgotten, ForgottenModel<Forgotten>> {
 
-	private static final ResourceLocation FORGOTTEN = ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "textures/entity/forgotten.png");
+	private static final ResourceLocation FORGOTTEN = ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "textures/entity/forgotten.png");
 
 	public ForgottenRender(EntityRendererProvider.Context context) {
 		super(context, new ForgottenModel<>(context.bakeLayer(UGModelLayers.FORGOTTEN)), 0.5F);

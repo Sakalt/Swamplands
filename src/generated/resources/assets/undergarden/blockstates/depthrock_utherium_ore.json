@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/depthrock_utherium_ore"
+      "model": "undergardens:block/depthrock_utherium_ore"
     }
   }
 }

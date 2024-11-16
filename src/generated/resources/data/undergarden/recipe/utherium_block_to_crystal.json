@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergarden:utherium_block"
+      "item": "undergardens:utherium_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "undergarden:utherium_crystal"
+    "id": "undergardens:utherium_crystal"
   }
 }

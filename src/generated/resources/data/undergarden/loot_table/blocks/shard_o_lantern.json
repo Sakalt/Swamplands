@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:shard_o_lantern"
+          "name": "undergardens:shard_o_lantern"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/shard_o_lantern"
+  "random_sequence": "undergardens:blocks/shard_o_lantern"
 }

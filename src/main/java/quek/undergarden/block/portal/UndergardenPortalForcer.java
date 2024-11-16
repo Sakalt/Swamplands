@@ -1,4 +1,4 @@
-package quek.undergarden.block.portal;
+package quek.undergardens.block.portal;
 
 import net.minecraft.BlockUtil;
 import net.minecraft.core.BlockPos;
@@ -20,30 +20,30 @@ import net.minecraft.world.level.border.WorldBorder;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.portal.DimensionTransition;
 import net.neoforged.neoforge.network.PacketDistributor;
-import quek.undergarden.UndergardenConfig;
-import quek.undergarden.network.UndergardenPortalSoundPacket;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGPointOfInterests;
+import quek.undergardens.UndergardensConfig;
+import quek.undergardens.network.UndergardensPortalSoundPacket;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGPointOfInterests;
 
 import java.util.Comparator;
 import java.util.Objects;
 import java.util.Optional;
 
-public class UndergardenPortalForcer {
+public class UndergardensPortalForcer {
 
-	private static final BlockState FRAME = !BuiltInRegistries.BLOCK.containsKey(Objects.requireNonNull(ResourceLocation.tryParse(UndergardenConfig.Common.return_portal_frame_block_id.get()))) ? Blocks.STONE_BRICKS.defaultBlockState() : BuiltInRegistries.BLOCK.get(ResourceLocation.tryParse(UndergardenConfig.Common.return_portal_frame_block_id.get())).defaultBlockState();
+	private static final BlockState FRAME = !BuiltInRegistries.BLOCK.containsKey(Objects.requireNonNull(ResourceLocation.tryParse(UndergardensConfig.Common.return_portal_frame_block_id.get()))) ? Blocks.STONE_BRICKS.defaultBlockState() : BuiltInRegistries.BLOCK.get(ResourceLocation.tryParse(UndergardensConfig.Common.return_portal_frame_block_id.get())).defaultBlockState();
 
-	public static final DimensionTransition.PostDimensionTransition PLAY_PORTAL_SOUND = UndergardenPortalForcer::playPortalSound;
+	public static final DimensionTransition.PostDimensionTransition PLAY_PORTAL_SOUND = UndergardensPortalForcer::playPortalSound;
 
 	private static void playPortalSound(Entity entity) {
 		if (entity instanceof ServerPlayer player) {
-			PacketDistributor.sendToPlayer(player, UndergardenPortalSoundPacket.INSTANCE);
+			PacketDistributor.sendToPlayer(player, UndergardensPortalSoundPacket.INSTANCE);
 		}
 	}
 
-	public static Optional<BlockPos> findClosestPortalPosition(ServerLevel level, BlockPos exitPos, boolean isUndergarden, WorldBorder worldBorder) {
+	public static Optional<BlockPos> findClosestPortalPosition(ServerLevel level, BlockPos exitPos, boolean isUndergardens, WorldBorder worldBorder) {
 		PoiManager poimanager = level.getPoiManager();
-		int i = isUndergarden ? 16 : 128;
+		int i = isUndergardens ? 16 : 128;
 		poimanager.ensureLoadedAndValid(level, exitPos, i);
 		return poimanager.getInSquare(holder -> holder.is(UGPointOfInterests.UNDERGARDEN_PORTAL), exitPos, i, PoiManager.Occupancy.ANY)
 			.map(PoiRecord::getPos)

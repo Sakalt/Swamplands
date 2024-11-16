@@ -1,4 +1,4 @@
-package quek.undergarden.world.gen.feature;
+package quek.undergardens.world.gen.feature;
 
 import com.mojang.serialization.Codec;
 import net.minecraft.core.BlockPos;
@@ -9,8 +9,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
-import quek.undergarden.block.GlitterkelpBlock;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.block.GlitterkelpBlock;
+import quek.undergardens.registry.UGBlocks;
 
 public class GlitterkelpFeature extends Feature<NoneFeatureConfiguration> {
 

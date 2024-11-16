@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "undergarden:smogstem_leaves"
+              "name": "undergardens:smogstem_leaves"
             },
             {
               "type": "minecraft:item",
@@ -56,7 +56,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "undergarden:smogstem_sapling"
+              "name": "undergardens:smogstem_sapling"
             }
           ]
         }
@@ -132,5 +132,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/smogstem_leaves"
+  "random_sequence": "undergardens:blocks/smogstem_leaves"
 }

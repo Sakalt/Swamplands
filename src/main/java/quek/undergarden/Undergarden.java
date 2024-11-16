@@ -1,4 +1,4 @@
-package quek.undergarden;
+package quek.undergardens;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.HolderLookup;
@@ -19,28 +19,28 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.server.ServerLifecycleHooks;
 import org.slf4j.Logger;
-import quek.undergarden.client.UndergardenClient;
-import quek.undergarden.data.*;
-import quek.undergarden.event.UndergardenClientEvents;
-import quek.undergarden.event.UndergardenCommonEvents;
-import quek.undergarden.registry.*;
+import quek.undergardens.client.UndergardensClient;
+import quek.undergardens.data.*;
+import quek.undergardens.event.UndergardensClientEvents;
+import quek.undergardens.event.UndergardensCommonEvents;
+import quek.undergardens.registry.*;
 
 import java.util.concurrent.CompletableFuture;
 
-@Mod(Undergarden.MODID)
-public class Undergarden {
+@Mod(Undergardens.MODID)
+public class Undergardens {
 
-	public static final String MODID = "undergarden";
+	public static final String MODID = "undergardens";
 	public static final Logger LOGGER = LogUtils.getLogger();
 
-	public Undergarden(IEventBus bus, Dist dist, ModContainer container) {
+	public Undergardens(IEventBus bus, Dist dist, ModContainer container) {
 
 		if (dist.isClient()) {
-			UndergardenClientEvents.initClientEvents(bus);
+			UndergardensClientEvents.initClientEvents(bus);
 			container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
 		}
 
-		UndergardenCommonEvents.initCommonEvents(bus);
+		UndergardensCommonEvents.initCommonEvents(bus);
 		bus.addListener(this::gatherData);
 
 		DeferredRegister<?>[] registers = {
@@ -70,8 +70,8 @@ public class Undergarden {
 			register.register(bus);
 		}
 
-		container.registerConfig(ModConfig.Type.COMMON, UndergardenConfig.COMMON_SPEC);
-		container.registerConfig(ModConfig.Type.CLIENT, UndergardenConfig.CLIENT_SPEC);
+		container.registerConfig(ModConfig.Type.COMMON, UndergardensConfig.COMMON_SPEC);
+		container.registerConfig(ModConfig.Type.CLIENT, UndergardensConfig.CLIENT_SPEC);
 	}
 
 	public void gatherData(GatherDataEvent event) {
@@ -107,6 +107,6 @@ public class Undergarden {
 		if(currentServer != null)
 			return currentServer.registryAccess();
 		else
-			return UndergardenClient.registryAccess();
+			return UndergardensClient.registryAccess();
 	}
 }

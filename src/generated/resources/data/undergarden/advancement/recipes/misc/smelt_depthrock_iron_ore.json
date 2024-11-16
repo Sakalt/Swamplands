@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smelt_depthrock_iron_ore"
+        "recipe": "undergardens:smelt_depthrock_iron_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:depthrock_iron_ore": {
+    "has_undergardens:depthrock_iron_ore": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:depthrock_iron_ore"
+            "items": "undergardens:depthrock_iron_ore"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:depthrock_iron_ore"
+      "has_undergardens:depthrock_iron_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smelt_depthrock_iron_ore"
+      "undergardens:smelt_depthrock_iron_ore"
     ]
   }
 }

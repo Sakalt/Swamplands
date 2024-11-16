@@ -1,4 +1,4 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -8,8 +8,8 @@ import net.neoforged.neoforge.common.data.DataMapProvider;
 import net.neoforged.neoforge.registries.datamaps.builtin.Compostable;
 import net.neoforged.neoforge.registries.datamaps.builtin.FurnaceFuel;
 import net.neoforged.neoforge.registries.datamaps.builtin.NeoForgeDataMaps;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGItems;
 
 import java.util.concurrent.CompletableFuture;
 

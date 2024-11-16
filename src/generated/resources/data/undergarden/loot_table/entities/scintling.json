@@ -26,11 +26,11 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "undergarden:goo_ball"
+          "name": "undergardens:goo_ball"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:entities/scintling"
+  "random_sequence": "undergardens:entities/scintling"
 }

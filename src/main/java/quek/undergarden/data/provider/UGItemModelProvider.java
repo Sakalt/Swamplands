@@ -1,4 +1,4 @@
-package quek.undergarden.data.provider;
+package quek.undergardens.data.provider;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
@@ -8,14 +8,14 @@ import net.minecraft.world.level.block.*;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 import java.util.function.Supplier;
 
 public abstract class UGItemModelProvider extends ItemModelProvider {
 
 	public UGItemModelProvider(PackOutput output, ExistingFileHelper fileHelper) {
-		super(output, Undergarden.MODID, fileHelper);
+		super(output, Undergardens.MODID, fileHelper);
 	}
 
 	private String blockName(Supplier<? extends Block> block) {
@@ -98,6 +98,6 @@ public abstract class UGItemModelProvider extends ItemModelProvider {
 	}
 
 	public void trapdoor(Supplier<? extends TrapDoorBlock> trapdoor) {
-		withExistingParent(BuiltInRegistries.BLOCK.getKey(trapdoor.get()).getPath(), ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "block/" + blockName(trapdoor) + "_bottom"));
+		withExistingParent(BuiltInRegistries.BLOCK.getKey(trapdoor.get()).getPath(), ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "block/" + blockName(trapdoor) + "_bottom"));
 	}
 }

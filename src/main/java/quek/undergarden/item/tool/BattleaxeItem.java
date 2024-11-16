@@ -1,4 +1,4 @@
-package quek.undergarden.item.tool;
+package quek.undergardens.item.tool;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
@@ -14,14 +14,14 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
-import quek.undergarden.Undergarden;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.Undergardens;
+import quek.undergardens.registry.UGItems;
 
 import java.util.List;
 
 public class BattleaxeItem extends SwordItem {
 
-	private static final ResourceLocation ATTACK_KNOCKBACK_ID = ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "attack_knockback");
+	private static final ResourceLocation ATTACK_KNOCKBACK_ID = ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "attack_knockback");
 
 	public BattleaxeItem(Tier tier, Properties properties) {
 		super(tier, properties);
@@ -50,7 +50,7 @@ public class BattleaxeItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
 		if (stack.is(UGItems.FORGOTTEN_BATTLEAXE.get())) {
-			tooltip.add(Component.translatable("tooltip.undergarden.forgotten_weapon").withStyle(ChatFormatting.GREEN));
+			tooltip.add(Component.translatable("tooltip.undergardens.forgotten_weapon").withStyle(ChatFormatting.GREEN));
 		}
 	}
 

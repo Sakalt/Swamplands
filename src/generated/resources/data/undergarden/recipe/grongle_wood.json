@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergarden:grongle_log"
+      "item": "undergardens:grongle_log"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergarden:grongle_wood"
+    "id": "undergardens:grongle_wood"
   }
 }

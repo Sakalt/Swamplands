@@ -4,10 +4,10 @@
   "cookingtime": 200,
   "experience": 0.35,
   "ingredient": {
-    "item": "undergarden:raw_gloomper_leg"
+    "item": "undergardens:raw_gloomper_leg"
   },
   "result": {
     "count": 1,
-    "id": "undergarden:gloomper_leg"
+    "id": "undergardens:gloomper_leg"
   }
 }

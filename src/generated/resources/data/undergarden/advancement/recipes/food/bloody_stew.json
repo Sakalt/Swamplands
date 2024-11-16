@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:blood_mushroom"
+            "items": "undergardens:blood_mushroom"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:bloody_stew"
+        "recipe": "undergardens:bloody_stew"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:bloody_stew"
+      "undergardens:bloody_stew"
     ]
   }
 }

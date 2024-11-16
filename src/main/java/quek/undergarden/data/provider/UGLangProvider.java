@@ -1,4 +1,4 @@
-package quek.undergarden.data.provider;
+package quek.undergardens.data.provider;
 
 import com.google.common.collect.ImmutableList;
 import com.google.gson.JsonObject;
@@ -12,7 +12,7 @@ import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.biome.Biome;
 import net.neoforged.neoforge.common.data.LanguageProvider;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 import java.util.HashMap;
 import java.util.List;
@@ -26,7 +26,7 @@ public abstract class UGLangProvider extends LanguageProvider {
 	public final Map<String, String> upsideDownEntries = new HashMap<>();
 
 	public UGLangProvider(PackOutput output) {
-		super(output, Undergarden.MODID, "en_us");
+		super(output, Undergardens.MODID, "en_us");
 		this.output = output;
 	}
 
@@ -38,11 +38,11 @@ public abstract class UGLangProvider extends LanguageProvider {
 	}
 
 	protected void addAdvTitle(String advancementTitle, String name) {
-		add("advancement.undergarden." + advancementTitle + ".title", name);
+		add("advancement.undergardens." + advancementTitle + ".title", name);
 	}
 
 	protected void addAdvDesc(String advancementTitle, String name) {
-		add("advancement.undergarden." + advancementTitle + ".desc", name);
+		add("advancement.undergardens." + advancementTitle + ".desc", name);
 	}
 
 	protected void addSubtitle(String category, String subtitleName, String name) {
@@ -50,7 +50,7 @@ public abstract class UGLangProvider extends LanguageProvider {
 	}
 
 	protected void addBiome(ResourceKey<Biome> biomeKey, String name) {
-		add("biome.undergarden." + biomeKey.location().getPath(), name);
+		add("biome.undergardens." + biomeKey.location().getPath(), name);
 	}
 
 	protected void addDeath(String deathName, String name) {
@@ -65,15 +65,15 @@ public abstract class UGLangProvider extends LanguageProvider {
 	}
 
 	protected void addConfig(String configName, String name) {
-		add("config.undergarden." + configName, name);
+		add("config.undergardens." + configName, name);
 	}
 
 	protected void addEnchantment(ResourceKey<Enchantment> enchantment, String name) {
-		add("enchantment.undergarden." + enchantment.location().getPath(), name);
+		add("enchantment.undergardens." + enchantment.location().getPath(), name);
 	}
 
 	protected void addJukeboxSong(ResourceKey<JukeboxSong> song, String name) {
-		add("jukebox_song.undergarden." + song.location().getPath(), name);
+		add("jukebox_song.undergardens." + song.location().getPath(), name);
 	}
 
 	@Override
@@ -86,7 +86,7 @@ public abstract class UGLangProvider extends LanguageProvider {
 		//generate en_ud file
 		JsonObject upsideDownFile = new JsonObject();
 		this.upsideDownEntries.forEach(upsideDownFile::addProperty);
-		futuresBuilder.add(DataProvider.saveStable(cache, upsideDownFile, this.output.getOutputFolder(PackOutput.Target.RESOURCE_PACK).resolve(Undergarden.MODID).resolve("lang").resolve("en_ud.json")));
+		futuresBuilder.add(DataProvider.saveStable(cache, upsideDownFile, this.output.getOutputFolder(PackOutput.Target.RESOURCE_PACK).resolve(Undergardens.MODID).resolve("lang").resolve("en_ud.json")));
 
 		return CompletableFuture.allOf(futuresBuilder.build().toArray(CompletableFuture[]::new));
 	}

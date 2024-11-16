@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:blast_raw_froststeel"
+        "recipe": "undergardens:blast_raw_froststeel"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:raw_froststeel": {
+    "has_undergardens:raw_froststeel": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:raw_froststeel"
+            "items": "undergardens:raw_froststeel"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:raw_froststeel"
+      "has_undergardens:raw_froststeel"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:blast_raw_froststeel"
+      "undergardens:blast_raw_froststeel"
     ]
   }
 }

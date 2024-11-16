@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:blast_depthrock_coal_ore"
+        "recipe": "undergardens:blast_depthrock_coal_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:depthrock_coal_ore": {
+    "has_undergardens:depthrock_coal_ore": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:depthrock_coal_ore"
+            "items": "undergardens:depthrock_coal_ore"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:depthrock_coal_ore"
+      "has_undergardens:depthrock_coal_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:blast_depthrock_coal_ore"
+      "undergardens:blast_depthrock_coal_ore"
     ]
   }
 }

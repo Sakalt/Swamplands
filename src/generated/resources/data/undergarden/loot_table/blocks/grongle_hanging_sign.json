@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:grongle_hanging_sign"
+          "name": "undergardens:grongle_hanging_sign"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/grongle_hanging_sign"
+  "random_sequence": "undergardens:blocks/grongle_hanging_sign"
 }

@@ -1,6 +1,6 @@
 {
-  "type": "undergarden:bigger_jigsaw",
-  "biomes": "#undergarden:has_structure/forgotten_vestige",
+  "type": "undergardens:bigger_jigsaw",
+  "biomes": "#undergardens:has_structure/forgotten_vestige",
   "max_distance_from_center": 10,
   "size": 5,
   "spawn_overrides": {},
@@ -13,7 +13,7 @@
       "absolute": 32
     }
   },
-  "start_pool": "undergarden:forgotten_vestige",
+  "start_pool": "undergardens:forgotten_vestige",
   "step": "underground_structures",
   "terrain_adaptation": "beard_thin"
 }

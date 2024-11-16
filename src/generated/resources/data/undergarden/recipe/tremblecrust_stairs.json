@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergarden:tremblecrust"
+      "item": "undergardens:tremblecrust"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "undergarden:tremblecrust_stairs"
+    "id": "undergardens:tremblecrust_stairs"
   }
 }

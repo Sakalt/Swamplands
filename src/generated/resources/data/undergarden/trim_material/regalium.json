@@ -2,8 +2,8 @@
   "asset_name": "regalium",
   "description": {
     "color": "#FCD87D",
-    "translate": "trim_material.undergarden.regalium"
+    "translate": "trim_material.undergardens.regalium"
   },
-  "ingredient": "undergarden:regalium_crystal",
+  "ingredient": "undergardens:regalium_crystal",
   "item_model_index": 0.6
 }

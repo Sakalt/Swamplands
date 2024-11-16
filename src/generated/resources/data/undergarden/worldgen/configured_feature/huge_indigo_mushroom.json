@@ -4,14 +4,14 @@
     "cap_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergarden:indigo_mushroom_cap"
+        "Name": "undergardens:indigo_mushroom_cap"
       }
     },
     "foliage_radius": 3,
     "stem_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergarden:indigo_mushroom_stem"
+        "Name": "undergardens:indigo_mushroom_stem"
       }
     }
   }

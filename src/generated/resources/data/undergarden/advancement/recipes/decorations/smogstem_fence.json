@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:smogstem_planks"
+            "items": "undergardens:smogstem_planks"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smogstem_fence"
+        "recipe": "undergardens:smogstem_fence"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smogstem_fence"
+      "undergardens:smogstem_fence"
     ]
   }
 }

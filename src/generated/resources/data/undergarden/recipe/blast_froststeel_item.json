@@ -4,10 +4,10 @@
   "cookingtime": 100,
   "experience": 0.1,
   "ingredient": {
-    "tag": "undergarden:froststeel_items"
+    "tag": "undergardens:froststeel_items"
   },
   "result": {
     "count": 1,
-    "id": "undergarden:froststeel_ingot"
+    "id": "undergardens:froststeel_ingot"
   }
 }

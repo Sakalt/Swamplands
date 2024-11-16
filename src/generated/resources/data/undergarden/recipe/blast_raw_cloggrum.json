@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.7,
-  "group": "undergarden:cloggrum_ingot",
+  "group": "undergardens:cloggrum_ingot",
   "ingredient": {
-    "item": "undergarden:raw_cloggrum"
+    "item": "undergardens:raw_cloggrum"
   },
   "result": {
     "count": 1,
-    "id": "undergarden:cloggrum_ingot"
+    "id": "undergardens:cloggrum_ingot"
   }
 }

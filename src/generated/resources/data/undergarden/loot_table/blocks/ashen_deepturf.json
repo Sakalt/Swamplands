@@ -14,11 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:ashen_deepturf"
+          "name": "undergardens:ashen_deepturf"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/ashen_deepturf"
+  "random_sequence": "undergardens:blocks/ashen_deepturf"
 }

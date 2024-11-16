@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergarden:cloggrum_ingot"
+      "item": "undergardens:cloggrum_ingot"
     }
   ],
   "result": {
     "count": 9,
-    "id": "undergarden:cloggrum_nugget"
+    "id": "undergardens:cloggrum_nugget"
   }
 }

@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergarden:tremblecrust_slab",
+                  "block": "undergardens:tremblecrust_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "undergarden:tremblecrust_slab"
+          "name": "undergardens:tremblecrust_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/tremblecrust_slab"
+  "random_sequence": "undergardens:blocks/tremblecrust_slab"
 }

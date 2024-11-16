@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
@@ -11,9 +11,9 @@ import net.minecraft.world.level.block.TorchBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
-import quek.undergarden.registry.UGDamageSources;
-import quek.undergarden.registry.UGParticleTypes;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.registry.UGDamageSources;
+import quek.undergardens.registry.UGParticleTypes;
+import quek.undergardens.registry.UGTags;
 
 public class ShardTorchBlock extends TorchBlock {
 

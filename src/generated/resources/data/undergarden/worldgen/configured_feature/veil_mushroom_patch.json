@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "undergarden:veil_mushroom"
+              "Name": "undergardens:veil_mushroom"
             }
           }
         }

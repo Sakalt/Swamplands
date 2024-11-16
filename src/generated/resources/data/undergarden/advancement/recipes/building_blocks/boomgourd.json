@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:blisterbomb"
+            "items": "undergardens:blisterbomb"
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:gloomgourd"
+            "items": "undergardens:gloomgourd"
           }
         ]
       },
@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:boomgourd"
+        "recipe": "undergardens:boomgourd"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:boomgourd"
+      "undergardens:boomgourd"
     ]
   }
 }

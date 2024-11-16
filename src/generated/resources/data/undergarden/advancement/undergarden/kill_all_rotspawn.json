@@ -1,5 +1,5 @@
 {
-  "parent": "undergarden:undergarden/kill_rotling",
+  "parent": "undergardens:undergardens/kill_rotling",
   "criteria": {
     "kill_rotbeast": {
       "conditions": {
@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergarden:rotbeast"
+              "type": "undergardens:rotbeast"
             }
           }
         ]
@@ -22,7 +22,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergarden:rotling"
+              "type": "undergardens:rotling"
             }
           }
         ]
@@ -36,7 +36,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergarden:rotwalker"
+              "type": "undergardens:rotwalker"
             }
           }
         ]
@@ -46,15 +46,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.kill_all_rotspawn.desc"
+      "translate": "advancement.undergardens.kill_all_rotspawn.desc"
     },
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "undergarden:utherium_sword"
+      "id": "undergardens:utherium_sword"
     },
     "title": {
-      "translate": "advancement.undergarden.kill_all_rotspawn.title"
+      "translate": "advancement.undergardens.kill_all_rotspawn.title"
     }
   },
   "requirements": [

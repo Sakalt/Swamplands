@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "undergarden:wigglewood_leaves"
+              "name": "undergardens:wigglewood_leaves"
             },
             {
               "type": "minecraft:item",
@@ -56,7 +56,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "undergarden:wigglewood_sapling"
+              "name": "undergardens:wigglewood_sapling"
             }
           ]
         }
@@ -126,11 +126,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "undergarden:twistytwig"
+          "name": "undergardens:twistytwig"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/wigglewood_leaves"
+  "random_sequence": "undergardens:blocks/wigglewood_leaves"
 }

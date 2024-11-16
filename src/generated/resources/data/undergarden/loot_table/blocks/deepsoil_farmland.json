@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergarden:deepsoil_farmland"
+              "name": "undergardens:deepsoil_farmland"
             },
             {
               "type": "minecraft:item",
@@ -35,7 +35,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "undergarden:deepsoil"
+              "name": "undergardens:deepsoil"
             }
           ]
         }
@@ -43,5 +43,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/deepsoil_farmland"
+  "random_sequence": "undergardens:blocks/deepsoil_farmland"
 }

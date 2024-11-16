@@ -1,4 +1,4 @@
-package quek.undergarden.world.gen.treedecorator;
+package quek.undergardens.world.gen.treedecorator;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
@@ -7,7 +7,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
-import quek.undergarden.registry.UGTreeDecoratorTypes;
+import quek.undergardens.registry.UGTreeDecoratorTypes;
 
 public class ReplaceLeafDecorator extends TreeDecorator {
 

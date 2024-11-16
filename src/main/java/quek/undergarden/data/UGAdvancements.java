@@ -1,4 +1,4 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -12,6 +12,6 @@ public class UGAdvancements extends AdvancementProvider {
 
 	public UGAdvancements(PackOutput output, CompletableFuture<HolderLookup.Provider> provider, ExistingFileHelper fileHelper) {
 		//TODO: new Otherside Advancements
-		super(output, provider, fileHelper, List.of(new UndergardenAdvancements()));
+		super(output, provider, fileHelper, List.of(new UndergardensAdvancements()));
 	}
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergarden:item/utheric_shard"
+    "layer0": "undergardens:item/utheric_shard"
   }
 }

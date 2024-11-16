@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:wigglewood_planks"
+          "name": "undergardens:wigglewood_planks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/wigglewood_planks"
+  "random_sequence": "undergardens:blocks/wigglewood_planks"
 }

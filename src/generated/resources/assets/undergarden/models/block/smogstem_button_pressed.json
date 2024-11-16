@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_pressed",
   "textures": {
-    "texture": "undergarden:block/smogstem_planks"
+    "texture": "undergardens:block/smogstem_planks"
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergarden.entity.animal;
+package quek.undergardens.entity.animal;
 
 import net.minecraft.core.Holder;
 import net.minecraft.server.level.ServerLevel;
@@ -24,8 +24,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.pathfinder.Path;
 import net.minecraft.world.phys.Vec3;
-import quek.undergarden.entity.rotspawn.RotspawnMonster;
-import quek.undergarden.registry.*;
+import quek.undergardens.entity.rotspawn.RotspawnMonster;
+import quek.undergardens.registry.*;
 
 import javax.annotation.Nullable;
 

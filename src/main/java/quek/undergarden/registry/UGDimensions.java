@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;
@@ -16,23 +16,23 @@ import net.minecraft.world.level.levelgen.*;
 import net.minecraft.world.level.levelgen.placement.CaveSurface;
 import net.minecraft.world.level.levelgen.synth.BlendedNoise;
 import net.minecraft.world.level.levelgen.synth.NormalNoise;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 import java.util.List;
 import java.util.OptionalLong;
 
 public class UGDimensions {
 
-	public static final ResourceKey<Level> UNDERGARDEN_LEVEL = ResourceKey.create(Registries.DIMENSION, name("undergarden"));
+	public static final ResourceKey<Level> UNDERGARDEN_LEVEL = ResourceKey.create(Registries.DIMENSION, name("undergardens"));
 
-	public static final ResourceKey<NoiseGeneratorSettings> UNDERGARDEN_NOISE_GEN = ResourceKey.create(Registries.NOISE_SETTINGS, name("undergarden"));
+	public static final ResourceKey<NoiseGeneratorSettings> UNDERGARDEN_NOISE_GEN = ResourceKey.create(Registries.NOISE_SETTINGS, name("undergardens"));
 
-	public static final ResourceKey<DimensionType> UNDERGARDEN_DIM_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE, name("undergarden"));
+	public static final ResourceKey<DimensionType> UNDERGARDEN_DIM_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE, name("undergardens"));
 
-	public static final ResourceKey<LevelStem> UNDERGARDEN_LEVEL_STEM = ResourceKey.create(Registries.LEVEL_STEM, name("undergarden"));
+	public static final ResourceKey<LevelStem> UNDERGARDEN_LEVEL_STEM = ResourceKey.create(Registries.LEVEL_STEM, name("undergardens"));
 
 	private static ResourceLocation name(String name) {
-		return ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name);
+		return ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name);
 	}
 
 	public static void bootstrapType(BootstrapContext<DimensionType> context) {
@@ -49,7 +49,7 @@ public class UGDimensions {
 				128, // Height + Min Y = Max Y
 				128, // Logical Height
 				BlockTags.INFINIBURN_OVERWORLD, //infiniburn
-				name("undergarden"), // DimensionRenderInfo
+				name("undergardens"), // DimensionRenderInfo
 				0.1F, // ambient light
 				new DimensionType.MonsterSettings(true, false, UniformInt.of(0, 7), 0)));
 	}

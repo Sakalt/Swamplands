@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:depthrock_tiles"
+            "items": "undergardens:depthrock_tiles"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:depthrock_tile_stairs"
+        "recipe": "undergardens:depthrock_tile_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:depthrock_tile_stairs"
+      "undergardens:depthrock_tile_stairs"
     ]
   }
 }

@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergarden:forgotten_block"
+      "item": "undergardens:forgotten_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "undergarden:forgotten_ingot"
+    "id": "undergardens:forgotten_ingot"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "parent": "undergarden:undergarden/enter_undergarden",
+  "parent": "undergardens:undergardens/enter_undergardens",
   "criteria": {
     "plant_gloomgourd": {
       "conditions": {
         "location": [
           {
-            "block": "undergarden:gloomgourd_stem",
+            "block": "undergardens:gloomgourd_stem",
             "condition": "minecraft:block_state_property"
           }
         ]
@@ -15,14 +15,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.plant_gloomgourd.desc"
+      "translate": "advancement.undergardens.plant_gloomgourd.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergarden:gloomgourd_seeds"
+      "id": "undergardens:gloomgourd_seeds"
     },
     "title": {
-      "translate": "advancement.undergarden.plant_gloomgourd.title"
+      "translate": "advancement.undergardens.plant_gloomgourd.title"
     }
   },
   "requirements": [

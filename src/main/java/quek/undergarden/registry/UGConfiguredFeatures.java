@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.core.Direction;
@@ -31,17 +31,17 @@ import net.minecraft.world.level.levelgen.feature.trunkplacers.MegaJungleTrunkPl
 import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
-import quek.undergarden.Undergarden;
-import quek.undergarden.block.BlisterberryBushBlock;
-import quek.undergarden.block.DepthrockPebblesBlock;
-import quek.undergarden.block.DitchbulbBlock;
-import quek.undergarden.block.UnderbeanBushBlock;
-import quek.undergarden.world.gen.foliageplacer.VeilFoliagePlacer;
-import quek.undergarden.world.gen.treedecorator.GrongleLeafDecorator;
-import quek.undergarden.world.gen.treedecorator.GrongletTrunkDecorator;
-import quek.undergarden.world.gen.treedecorator.ReplaceLeafDecorator;
-import quek.undergarden.world.gen.trunkplacer.SingleForkingTrunkPlacer;
-import quek.undergarden.world.gen.trunkplacer.SmogstemTrunkPlacer;
+import quek.undergardens.Undergardens;
+import quek.undergardens.block.BlisterberryBushBlock;
+import quek.undergardens.block.DepthrockPebblesBlock;
+import quek.undergardens.block.DitchbulbBlock;
+import quek.undergardens.block.UnderbeanBushBlock;
+import quek.undergardens.world.gen.foliageplacer.VeilFoliagePlacer;
+import quek.undergardens.world.gen.treedecorator.GrongleLeafDecorator;
+import quek.undergardens.world.gen.treedecorator.GrongletTrunkDecorator;
+import quek.undergardens.world.gen.treedecorator.ReplaceLeafDecorator;
+import quek.undergardens.world.gen.trunkplacer.SingleForkingTrunkPlacer;
+import quek.undergardens.world.gen.trunkplacer.SmogstemTrunkPlacer;
 
 import java.util.List;
 import java.util.OptionalInt;
@@ -120,7 +120,7 @@ public class UGConfiguredFeatures {
 	public static final ResourceKey<ConfiguredFeature<?, ?>> ICE_PILLAR = create("ice_pillar");
 
 	public static ResourceKey<ConfiguredFeature<?, ?>> create(String name) {
-		return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+		return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 	}
 
 	public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {

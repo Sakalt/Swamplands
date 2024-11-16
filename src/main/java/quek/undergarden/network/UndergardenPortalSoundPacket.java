@@ -1,4 +1,4 @@
-package quek.undergarden.network;
+package quek.undergardens.network;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.RegistryFriendlyByteBuf;
@@ -6,14 +6,14 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
-import quek.undergarden.Undergarden;
-import quek.undergarden.client.UndergardenClient;
+import quek.undergardens.Undergardens;
+import quek.undergardens.client.UndergardensClient;
 
-public class UndergardenPortalSoundPacket implements CustomPacketPayload {
+public class UndergardensPortalSoundPacket implements CustomPacketPayload {
 
-	public static final UndergardenPortalSoundPacket INSTANCE = new UndergardenPortalSoundPacket();
-	public static final Type<UndergardenPortalSoundPacket> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "portal_sound"));
-	public static final StreamCodec<RegistryFriendlyByteBuf, UndergardenPortalSoundPacket> STREAM_CODEC = StreamCodec.unit(INSTANCE);
+	public static final UndergardensPortalSoundPacket INSTANCE = new UndergardensPortalSoundPacket();
+	public static final Type<UndergardensPortalSoundPacket> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "portal_sound"));
+	public static final StreamCodec<RegistryFriendlyByteBuf, UndergardensPortalSoundPacket> STREAM_CODEC = StreamCodec.unit(INSTANCE);
 
 	@Override
 	public Type<? extends CustomPacketPayload> type() {
@@ -21,6 +21,6 @@ public class UndergardenPortalSoundPacket implements CustomPacketPayload {
 	}
 
 	public static void handle(IPayloadContext context) {
-		context.enqueueWork(UndergardenClient::playPortalSound);
+		context.enqueueWork(UndergardensClient::playPortalSound);
 	}
 }

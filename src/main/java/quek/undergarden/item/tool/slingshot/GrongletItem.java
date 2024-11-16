@@ -1,4 +1,4 @@
-package quek.undergarden.item.tool.slingshot;
+package quek.undergardens.item.tool.slingshot;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Direction;
@@ -12,7 +12,7 @@ import net.minecraft.world.item.ProjectileItem;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import quek.undergarden.entity.projectile.slingshot.Gronglet;
+import quek.undergardens.entity.projectile.slingshot.Gronglet;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ public class GrongletItem extends BlockItem implements ProjectileItem {
 
 	@Override
 	public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag isAdvanced) {
-		tooltipComponents.add(Component.translatable("tooltip.undergarden.slingshot_ammo").withStyle(ChatFormatting.GRAY));
+		tooltipComponents.add(Component.translatable("tooltip.undergardens.slingshot_ammo").withStyle(ChatFormatting.GRAY));
 	}
 
 	@Override

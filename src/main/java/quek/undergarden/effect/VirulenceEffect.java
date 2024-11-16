@@ -1,9 +1,9 @@
-package quek.undergarden.effect;
+package quek.undergardens.effect;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
-import quek.undergarden.registry.UGEffects;
+import quek.undergardens.registry.UGEffects;
 
 public class VirulenceEffect extends MobEffect {
 

@@ -4,7 +4,7 @@
   "group": "boat",
   "key": {
     "P": {
-      "item": "undergarden:wigglewood_planks"
+      "item": "undergardens:wigglewood_planks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:wigglewood_boat"
+    "id": "undergardens:wigglewood_boat"
   }
 }

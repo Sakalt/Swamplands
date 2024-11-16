@@ -1,4 +1,4 @@
-package quek.undergarden.world.gen.feature;
+package quek.undergardens.world.gen.feature;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.Codec;
@@ -13,7 +13,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.levelgen.feature.DeltaFeature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.registry.UGBlocks;
 
 public class UGDeltaFeature extends DeltaFeature {
 

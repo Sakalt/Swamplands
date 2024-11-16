@@ -1,4 +1,4 @@
-package quek.undergarden.data.provider;
+package quek.undergardens.data.provider;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;

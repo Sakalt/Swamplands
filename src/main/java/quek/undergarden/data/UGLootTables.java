@@ -1,4 +1,4 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.advancements.critereon.BlockPredicate;
@@ -41,12 +41,12 @@ import net.minecraft.world.level.storage.loot.predicates.*;
 import net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-import quek.undergarden.Undergarden;
-import quek.undergarden.block.*;
-import quek.undergarden.data.provider.UGBlockLootTableProvider;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGEntityTypes;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.Undergardens;
+import quek.undergardens.block.*;
+import quek.undergardens.data.provider.UGBlockLootTableProvider;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGEntityTypes;
+import quek.undergardens.registry.UGItems;
 
 import java.util.List;
 import java.util.Set;
@@ -506,7 +506,7 @@ public class UGLootTables extends LootTableProvider {
 
 		@Override
 		public void generate(BiConsumer<ResourceKey<LootTable>, LootTable.Builder> consumer) {
-			consumer.accept(ResourceKey.create(Registries.LOOT_TABLE, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "chests/catacombs")), LootTable.lootTable()
+			consumer.accept(ResourceKey.create(Registries.LOOT_TABLE, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "chests/catacombs")), LootTable.lootTable()
 					.withPool(LootPool.lootPool()
 							.setRolls(UniformGenerator.between(2.0F, 5.0F))
 							.add(LootItem.lootTableItem(UGItems.CLOGGRUM_NUGGET.get()).setWeight(40).apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 8.0F))))

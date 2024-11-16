@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.cauldron.CauldronInteraction;
 import net.minecraft.world.item.ItemStack;

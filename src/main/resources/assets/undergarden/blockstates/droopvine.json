@@ -1,7 +1,7 @@
 {
     "variants": {
-        "glowy=false":	{ "model": "undergarden:block/droopvine" },
+        "glowy=false":	{ "model": "undergardens:block/droopvine" },
        
-        "glowy=true":  { "model": "undergarden:block/droopvine_glowy" }
+        "glowy=true":  { "model": "undergardens:block/droopvine_glowy" }
     }
 }

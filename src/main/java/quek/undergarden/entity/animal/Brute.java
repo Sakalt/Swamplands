@@ -1,4 +1,4 @@
-package quek.undergarden.entity.animal;
+package quek.undergardens.entity.animal;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
@@ -19,9 +19,9 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
-import quek.undergarden.registry.UGEntityTypes;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.registry.UGEntityTypes;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGSoundEvents;
 
 import javax.annotation.Nullable;
 import java.util.UUID;

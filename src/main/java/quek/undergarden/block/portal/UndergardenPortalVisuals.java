@@ -1,13 +1,13 @@
-package quek.undergarden.block.portal;
+package quek.undergardens.block.portal;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.Portal;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.registry.UGBlocks;
 
-public class UndergardenPortalVisuals {
+public class UndergardensPortalVisuals {
 
 	private static float portalAnimTime = 0;
 	private static float prevPortalAnimTime = 0;

@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergarden:shiverstone_iron_ore"
+              "name": "undergardens:shiverstone_iron_ore"
             },
             {
               "type": "minecraft:item",
@@ -57,5 +57,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/shiverstone_iron_ore"
+  "random_sequence": "undergardens:blocks/shiverstone_iron_ore"
 }

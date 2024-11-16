@@ -1,11 +1,11 @@
 {
   "values": [
-    "undergarden:shiverstone_coal_ore",
-    "undergarden:shiverstone_iron_ore",
-    "undergarden:shiverstone_diamond_ore",
-    "undergarden:shiverstone_froststeel_ore",
-    "undergarden:shiverstone_cloggrum_ore",
-    "undergarden:shiverstone_utherium_ore",
-    "undergarden:shiverstone_regalium_ore"
+    "undergardens:shiverstone_coal_ore",
+    "undergardens:shiverstone_iron_ore",
+    "undergardens:shiverstone_diamond_ore",
+    "undergardens:shiverstone_froststeel_ore",
+    "undergardens:shiverstone_cloggrum_ore",
+    "undergardens:shiverstone_utherium_ore",
+    "undergardens:shiverstone_regalium_ore"
   ]
 }

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "undergarden:cloggrum_ingot"
+      "item": "undergardens:cloggrum_ingot"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 16,
-    "id": "undergarden:cloggrum_bars"
+    "id": "undergardens:cloggrum_bars"
   }
 }

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "M": {
-      "item": "undergarden:tremblecrust"
+      "item": "undergardens:tremblecrust"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergarden:tremblecrust_wall"
+    "id": "undergardens:tremblecrust_wall"
   }
 }

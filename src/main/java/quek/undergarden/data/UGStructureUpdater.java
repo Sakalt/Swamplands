@@ -1,4 +1,4 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import com.google.common.hash.Hashing;
 import com.mojang.datafixers.DataFixer;
@@ -17,7 +17,7 @@ import net.minecraft.util.datafix.DataFixTypes;
 import net.minecraft.util.datafix.DataFixers;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 import javax.annotation.Nonnull;
 import java.io.ByteArrayOutputStream;
@@ -51,7 +51,7 @@ public class UGStructureUpdater implements DataProvider {
 	public CompletableFuture<?> run(@Nonnull CachedOutput cache) {
 		try {
 			for (var entry : this.resources.listResources(this.basePath, $ -> true).entrySet())
-				if (entry.getKey().getNamespace().equals(Undergarden.MODID))
+				if (entry.getKey().getNamespace().equals(Undergardens.MODID))
 					process(entry.getKey(), entry.getValue(), cache);
 			return CompletableFuture.completedFuture(null);
 		} catch (IOException x) {

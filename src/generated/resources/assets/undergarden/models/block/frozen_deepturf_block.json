@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "bottom": "undergarden:block/deepsoil",
-    "side": "undergarden:block/frozen_deepturf_block_side",
-    "top": "undergarden:block/frozen_deepturf_block_top"
+    "bottom": "undergardens:block/deepsoil",
+    "side": "undergardens:block/frozen_deepturf_block_side",
+    "top": "undergardens:block/frozen_deepturf_block_top"
   }
 }

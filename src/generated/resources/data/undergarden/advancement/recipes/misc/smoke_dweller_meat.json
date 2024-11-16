@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smoke_dweller_meat"
+        "recipe": "undergardens:smoke_dweller_meat"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:raw_dweller_meat": {
+    "has_undergardens:raw_dweller_meat": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:raw_dweller_meat"
+            "items": "undergardens:raw_dweller_meat"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:raw_dweller_meat"
+      "has_undergardens:raw_dweller_meat"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smoke_dweller_meat"
+      "undergardens:smoke_dweller_meat"
     ]
   }
 }

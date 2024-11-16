@@ -1,5 +1,5 @@
 {
     "variants": {
-        "":  { "model": "undergarden:block/goo" }
+        "":  { "model": "undergardens:block/goo" }
     }
 }

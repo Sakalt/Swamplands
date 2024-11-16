@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / undergarden:utherium_items]": {
+    "has_TagKey[minecraft:item / undergardens:utherium_items]": {
       "conditions": {
         "items": [
           {
-            "items": "#undergarden:utherium_items"
+            "items": "#undergardens:utherium_items"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smelt_utherium_item"
+        "recipe": "undergardens:smelt_utherium_item"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / undergarden:utherium_items]"
+      "has_TagKey[minecraft:item / undergardens:utherium_items]"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smelt_utherium_item"
+      "undergardens:smelt_utherium_item"
     ]
   }
 }

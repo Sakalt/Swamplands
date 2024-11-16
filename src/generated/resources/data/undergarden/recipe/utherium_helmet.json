@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "M": {
-      "item": "undergarden:utherium_crystal"
+      "item": "undergardens:utherium_crystal"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:utherium_helmet"
+    "id": "undergardens:utherium_helmet"
   }
 }

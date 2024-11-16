@@ -4,10 +4,10 @@
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {
-    "item": "undergarden:sediment"
+    "item": "undergardens:sediment"
   },
   "result": {
     "count": 1,
-    "id": "undergarden:sediment_glass"
+    "id": "undergardens:sediment_glass"
   }
 }

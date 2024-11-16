@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:small_grongle_tree",
+  "feature": "undergardens:small_grongle_tree",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",

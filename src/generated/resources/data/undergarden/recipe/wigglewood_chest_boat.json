@@ -4,7 +4,7 @@
   "group": "chest_boat",
   "ingredients": [
     {
-      "item": "undergarden:wigglewood_boat"
+      "item": "undergardens:wigglewood_boat"
     },
     {
       "tag": "c:chests/wooden"
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:wigglewood_chest_boat"
+    "id": "undergardens:wigglewood_chest_boat"
   }
 }

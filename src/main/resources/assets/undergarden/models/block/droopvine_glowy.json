@@ -3,8 +3,8 @@
   "render_type": "minecraft:cutout",
   "ambientocclusion": false,
   "textures": {
-    "cross": "undergarden:block/droopvine",
-    "glowy": "undergarden:block/droopvine_glowy"
+    "cross": "undergardens:block/droopvine",
+    "glowy": "undergardens:block/droopvine_glowy"
   },
   "elements": [
     {   "from": [ 0.8, 0, 8 ],

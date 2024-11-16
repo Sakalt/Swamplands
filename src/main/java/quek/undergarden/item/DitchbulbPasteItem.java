@@ -1,4 +1,4 @@
-package quek.undergarden.item;
+package quek.undergardens.item;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundSource;
@@ -16,7 +16,7 @@ import net.minecraft.world.level.block.CandleCakeBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.gameevent.GameEvent;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.registry.UGSoundEvents;
 
 import javax.annotation.Nullable;
 

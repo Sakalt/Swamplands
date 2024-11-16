@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
@@ -28,8 +28,8 @@ import net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool;
 import net.minecraft.world.level.levelgen.structure.templatesystem.*;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergarden.Undergarden;
-import quek.undergarden.world.gen.structure.BiggerJigsawStructure;
+import quek.undergardens.Undergardens;
+import quek.undergardens.world.gen.structure.BiggerJigsawStructure;
 
 import java.util.List;
 import java.util.Map;
@@ -37,29 +37,29 @@ import java.util.Optional;
 
 public class UGStructures {
 
-	public static final DeferredRegister<StructureType<?>> STRUCTURES = DeferredRegister.create(Registries.STRUCTURE_TYPE, Undergarden.MODID);
+	public static final DeferredRegister<StructureType<?>> STRUCTURES = DeferredRegister.create(Registries.STRUCTURE_TYPE, Undergardens.MODID);
 
 	public static final DeferredHolder<StructureType<?>, StructureType<BiggerJigsawStructure>> BIGGER_JIGSAW = STRUCTURES.register("bigger_jigsaw", () -> () -> BiggerJigsawStructure.CODEC);
 
-	public static final ResourceKey<Structure> CATACOMBS = ResourceKey.create(Registries.STRUCTURE, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs"));
-	public static final ResourceKey<StructureSet> CATACOMBS_SET = ResourceKey.create(Registries.STRUCTURE_SET, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs"));
+	public static final ResourceKey<Structure> CATACOMBS = ResourceKey.create(Registries.STRUCTURE, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs"));
+	public static final ResourceKey<StructureSet> CATACOMBS_SET = ResourceKey.create(Registries.STRUCTURE_SET, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs"));
 
-	public static final ResourceKey<StructureTemplatePool> CATACOMBS_START = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs/catacombs_entrance"));
-	public static final ResourceKey<StructureTemplatePool> CATACOMBS_STAIR = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs/stair_pool"));
-	public static final ResourceKey<StructureTemplatePool> CATACOMBS_CHEST = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs/chest_pool"));
-	public static final ResourceKey<StructureTemplatePool> CATACOMBS_INTERIOR = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs/interior_pool"));
-	public static final ResourceKey<StructureTemplatePool> CATACOMBS_TUNNEL = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs/tunnel_pool"));
-	public static final ResourceKey<StructureTemplatePool> CATACOMBS_TUNNEL_FALLBACK = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs/tunnel_fallback_pool"));
-	public static final ResourceKey<StructureTemplatePool> CATACOMBS_WAY = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs/way_pool"));
+	public static final ResourceKey<StructureTemplatePool> CATACOMBS_START = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs/catacombs_entrance"));
+	public static final ResourceKey<StructureTemplatePool> CATACOMBS_STAIR = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs/stair_pool"));
+	public static final ResourceKey<StructureTemplatePool> CATACOMBS_CHEST = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs/chest_pool"));
+	public static final ResourceKey<StructureTemplatePool> CATACOMBS_INTERIOR = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs/interior_pool"));
+	public static final ResourceKey<StructureTemplatePool> CATACOMBS_TUNNEL = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs/tunnel_pool"));
+	public static final ResourceKey<StructureTemplatePool> CATACOMBS_TUNNEL_FALLBACK = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs/tunnel_fallback_pool"));
+	public static final ResourceKey<StructureTemplatePool> CATACOMBS_WAY = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs/way_pool"));
 
-	public static final ResourceKey<StructureProcessorList> CATACOMBS_DEGRADATION = ResourceKey.create(Registries.PROCESSOR_LIST, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "catacombs_degradation"));
+	public static final ResourceKey<StructureProcessorList> CATACOMBS_DEGRADATION = ResourceKey.create(Registries.PROCESSOR_LIST, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "catacombs_degradation"));
 
-	public static final ResourceKey<Structure> FORGOTTEN_VESTIGE = ResourceKey.create(Registries.STRUCTURE, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "forgotten_vestige"));
-	public static final ResourceKey<StructureSet> FORGOTTEN_VESTIGE_SET = ResourceKey.create(Registries.STRUCTURE_SET, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "forgotten_vestige"));
+	public static final ResourceKey<Structure> FORGOTTEN_VESTIGE = ResourceKey.create(Registries.STRUCTURE, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "forgotten_vestige"));
+	public static final ResourceKey<StructureSet> FORGOTTEN_VESTIGE_SET = ResourceKey.create(Registries.STRUCTURE_SET, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "forgotten_vestige"));
 
-	public static final ResourceKey<StructureTemplatePool> FORGOTTEN_VESTIGE_POOL = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "forgotten_vestige"));
+	public static final ResourceKey<StructureTemplatePool> FORGOTTEN_VESTIGE_POOL = ResourceKey.create(Registries.TEMPLATE_POOL, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "forgotten_vestige"));
 
-	public static final ResourceKey<StructureProcessorList> FORGOTTEN_VESTIGE_DEGRADATION = ResourceKey.create(Registries.PROCESSOR_LIST, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, "forgotten_vestige_degradation"));
+	public static final ResourceKey<StructureProcessorList> FORGOTTEN_VESTIGE_DEGRADATION = ResourceKey.create(Registries.PROCESSOR_LIST, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "forgotten_vestige_degradation"));
 
 
 	public static void bootstrapStructures(BootstrapContext<Structure> context) {
@@ -273,6 +273,6 @@ public class UGStructures {
 	}
 
 	private static String name(String name) {
-		return ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name).toString();
+		return ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name).toString();
 	}
 }

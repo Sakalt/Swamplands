@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/amorous_bristle"
+      "model": "undergardens:block/amorous_bristle"
     }
   }
 }

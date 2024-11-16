@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:regalium_ore",
+  "feature": "undergardens:regalium_ore",
   "placement": [
     {
       "type": "minecraft:count",

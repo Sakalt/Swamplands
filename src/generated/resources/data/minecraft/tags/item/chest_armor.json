@@ -1,8 +1,8 @@
 {
   "values": [
-    "undergarden:cloggrum_chestplate",
-    "undergarden:froststeel_chestplate",
-    "undergarden:utherium_chestplate",
-    "undergarden:ancient_chestplate"
+    "undergardens:cloggrum_chestplate",
+    "undergardens:froststeel_chestplate",
+    "undergardens:utherium_chestplate",
+    "undergardens:ancient_chestplate"
   ]
 }

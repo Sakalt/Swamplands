@@ -1,4 +1,4 @@
-package quek.undergarden.world.gen.feature;
+package quek.undergardens.world.gen.feature;
 
 import com.mojang.serialization.Codec;
 import net.minecraft.core.BlockPos;

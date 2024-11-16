@@ -1,28 +1,28 @@
 {
-  "parent": "undergarden:undergarden/slingshot",
+  "parent": "undergardens:undergardens/slingshot",
   "criteria": {
     "shoot_slingshot_gronglet": {
       "conditions": {
         "ammo": {
-          "items": "undergarden:gronglet"
+          "items": "undergardens:gronglet"
         },
         "slingshot": {
-          "items": "undergarden:slingshot"
+          "items": "undergardens:slingshot"
         }
       },
-      "trigger": "undergarden:slingshot_fire"
+      "trigger": "undergardens:slingshot_fire"
     }
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.shoot_slingshot_gronglet.desc"
+      "translate": "advancement.undergardens.shoot_slingshot_gronglet.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergarden:gronglet"
+      "id": "undergardens:gronglet"
     },
     "title": {
-      "translate": "advancement.undergarden.shoot_slingshot_gronglet.title"
+      "translate": "advancement.undergardens.shoot_slingshot_gronglet.title"
     }
   },
   "requirements": [

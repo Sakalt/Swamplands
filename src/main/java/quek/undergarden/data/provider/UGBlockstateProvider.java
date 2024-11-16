@@ -1,4 +1,4 @@
-package quek.undergarden.data.provider;
+package quek.undergardens.data.provider;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
@@ -9,14 +9,14 @@ import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 import java.util.function.Supplier;
 
 public abstract class UGBlockstateProvider extends BlockStateProvider {
 
 	public UGBlockstateProvider(PackOutput output, ExistingFileHelper helper) {
-		super(output, Undergarden.MODID, helper);
+		super(output, Undergardens.MODID, helper);
 	}
 
 	protected ResourceLocation texture(String name) {

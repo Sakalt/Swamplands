@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "M": {
-      "item": "undergarden:froststeel_ingot"
+      "item": "undergardens:froststeel_ingot"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:froststeel_helmet"
+    "id": "undergardens:froststeel_helmet"
   }
 }

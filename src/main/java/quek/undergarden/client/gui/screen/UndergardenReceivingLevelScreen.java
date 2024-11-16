@@ -1,14 +1,14 @@
-package quek.undergarden.client.gui.screen;
+package quek.undergardens.client.gui.screen;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.ReceivingLevelScreen;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.registry.UGBlocks;
 
 import java.util.function.BooleanSupplier;
 
-public class UndergardenReceivingLevelScreen extends ReceivingLevelScreen {
+public class UndergardensReceivingLevelScreen extends ReceivingLevelScreen {
 
-	public UndergardenReceivingLevelScreen(BooleanSupplier levelReceived, Reason reason) {
+	public UndergardensReceivingLevelScreen(BooleanSupplier levelReceived, Reason reason) {
 		super(levelReceived, reason);
 	}
 

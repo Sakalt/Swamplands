@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/wigglewood_sign"
+      "model": "undergardens:block/wigglewood_sign"
     }
   }
 }

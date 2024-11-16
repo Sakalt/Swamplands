@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergarden.world.gen.structure;
+package quek.undergardens.world.gen.structure;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

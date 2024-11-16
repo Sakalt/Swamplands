@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:boomgourd"
+          "name": "undergardens:boomgourd"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/boomgourd"
+  "random_sequence": "undergardens:blocks/boomgourd"
 }

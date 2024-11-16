@@ -2,12 +2,12 @@
   "multipart": [
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_post"
+        "model": "undergardens:block/smogstem_fence_post"
       }
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_side",
+        "model": "undergardens:block/smogstem_fence_side",
         "uvlock": true
       },
       "when": {
@@ -16,7 +16,7 @@
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_side",
+        "model": "undergardens:block/smogstem_fence_side",
         "uvlock": true,
         "y": 180
       },
@@ -26,7 +26,7 @@
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_side",
+        "model": "undergardens:block/smogstem_fence_side",
         "uvlock": true,
         "y": 270
       },
@@ -36,7 +36,7 @@
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_side",
+        "model": "undergardens:block/smogstem_fence_side",
         "uvlock": true,
         "y": 90
       },
@@ -46,12 +46,12 @@
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_post"
+        "model": "undergardens:block/smogstem_fence_post"
       }
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_side",
+        "model": "undergardens:block/smogstem_fence_side",
         "uvlock": true
       },
       "when": {
@@ -60,7 +60,7 @@
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_side",
+        "model": "undergardens:block/smogstem_fence_side",
         "uvlock": true,
         "y": 180
       },
@@ -70,7 +70,7 @@
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_side",
+        "model": "undergardens:block/smogstem_fence_side",
         "uvlock": true,
         "y": 270
       },
@@ -80,7 +80,7 @@
     },
     {
       "apply": {
-        "model": "undergarden:block/smogstem_fence_side",
+        "model": "undergardens:block/smogstem_fence_side",
         "uvlock": true,
         "y": 90
       },

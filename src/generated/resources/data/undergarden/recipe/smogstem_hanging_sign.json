@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "undergarden:stripped_smogstem_log"
+      "item": "undergardens:stripped_smogstem_log"
     },
     "|": {
       "item": "minecraft:chain"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergarden:smogstem_hanging_sign"
+    "id": "undergardens:smogstem_hanging_sign"
   }
 }

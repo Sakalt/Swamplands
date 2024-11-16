@@ -1,10 +1,10 @@
 {
   "values": [
-    "undergarden:ancient_sea",
-    "undergarden:dense_forest",
-    "undergarden:forgotten_field",
-    "undergarden:gronglegrowth",
-    "undergarden:smogstem_forest",
-    "undergarden:wigglewood_forest"
+    "undergardens:ancient_sea",
+    "undergardens:dense_forest",
+    "undergardens:forgotten_field",
+    "undergardens:gronglegrowth",
+    "undergardens:smogstem_forest",
+    "undergardens:wigglewood_forest"
   ]
 }

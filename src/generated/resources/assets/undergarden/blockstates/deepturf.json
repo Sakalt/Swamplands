@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/deepturf"
+      "model": "undergardens:block/deepturf"
     }
   }
 }

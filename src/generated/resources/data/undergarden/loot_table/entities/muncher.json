@@ -17,7 +17,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergarden:cloggrum_nugget"
+          "name": "undergardens:cloggrum_nugget"
         }
       ],
       "rolls": {
@@ -42,7 +42,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergarden:froststeel_nugget"
+          "name": "undergardens:froststeel_nugget"
         }
       ],
       "rolls": {
@@ -52,5 +52,5 @@
       }
     }
   ],
-  "random_sequence": "undergarden:entities/muncher"
+  "random_sequence": "undergardens:entities/muncher"
 }

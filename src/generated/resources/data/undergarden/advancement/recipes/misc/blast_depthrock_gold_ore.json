@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:blast_depthrock_gold_ore"
+        "recipe": "undergardens:blast_depthrock_gold_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:depthrock_gold_ore": {
+    "has_undergardens:depthrock_gold_ore": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:depthrock_gold_ore"
+            "items": "undergardens:depthrock_gold_ore"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:depthrock_gold_ore"
+      "has_undergardens:depthrock_gold_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:blast_depthrock_gold_ore"
+      "undergardens:blast_depthrock_gold_ore"
     ]
   }
 }

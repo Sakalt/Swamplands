@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergarden.block.fluid;
+package quek.undergardens.block.fluid;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

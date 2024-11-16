@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:frozen_deepturf_patch",
+  "feature": "undergardens:frozen_deepturf_patch",
   "placement": [
     {
       "type": "minecraft:count",
@@ -24,7 +24,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "blocks": "undergarden:frozen_deepturf_block",
+        "blocks": "undergardens:frozen_deepturf_block",
         "offset": [
           0,
           -1,

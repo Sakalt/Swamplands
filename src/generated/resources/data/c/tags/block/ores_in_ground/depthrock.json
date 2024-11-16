@@ -1,11 +1,11 @@
 {
   "values": [
-    "undergarden:depthrock_coal_ore",
-    "undergarden:depthrock_iron_ore",
-    "undergarden:depthrock_diamond_ore",
-    "undergarden:depthrock_gold_ore",
-    "undergarden:depthrock_cloggrum_ore",
-    "undergarden:depthrock_utherium_ore",
-    "undergarden:depthrock_regalium_ore"
+    "undergardens:depthrock_coal_ore",
+    "undergardens:depthrock_iron_ore",
+    "undergardens:depthrock_diamond_ore",
+    "undergardens:depthrock_gold_ore",
+    "undergardens:depthrock_cloggrum_ore",
+    "undergardens:depthrock_utherium_ore",
+    "undergardens:depthrock_regalium_ore"
   ]
 }

@@ -3,8 +3,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergarden:catacombs/stair",
-        "processors": "undergarden:catacombs_degradation",
+        "location": "undergardens:catacombs/stair",
+        "processors": "undergardens:catacombs_degradation",
         "projection": "rigid"
       },
       "weight": 1

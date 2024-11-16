@@ -1,12 +1,12 @@
-package quek.undergarden.item.tool.slingshot;
+package quek.undergardens.item.tool.slingshot;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import quek.undergarden.entity.projectile.slingshot.SlingshotProjectile;
-import quek.undergarden.registry.UGSoundEvents;
+import quek.undergardens.entity.projectile.slingshot.SlingshotProjectile;
+import quek.undergardens.registry.UGSoundEvents;
 
 public abstract class AbstractSlingshotAmmoBehavior {
 

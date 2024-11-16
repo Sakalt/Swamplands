@@ -1,12 +1,12 @@
 {
   "values": [
-    "#undergarden:base_stone_undergarden",
+    "#undergardens:base_stone_undergardens",
     "#minecraft:dirt",
     "#c:ores/cloggrum",
     "#c:ores/froststeel",
     "#c:ores/utherium",
     "#c:ores/regalium",
-    "undergarden:sediment",
+    "undergardens:sediment",
     "minecraft:powder_snow"
   ]
 }

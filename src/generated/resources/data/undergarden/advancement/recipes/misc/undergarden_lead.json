@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:goo_ball"
+            "items": "undergardens:goo_ball"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:undergarden_lead"
+        "recipe": "undergardens:undergardens_lead"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:twistytwig"
+            "items": "undergardens:twistytwig"
           }
         ]
       },
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:undergarden_lead"
+      "undergardens:undergardens_lead"
     ]
   }
 }

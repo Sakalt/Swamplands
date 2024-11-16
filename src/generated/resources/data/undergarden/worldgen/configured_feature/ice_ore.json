@@ -10,7 +10,7 @@
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
-          "tag": "undergarden:base_stone_undergarden"
+          "tag": "undergardens:base_stone_undergardens"
         }
       }
     ]

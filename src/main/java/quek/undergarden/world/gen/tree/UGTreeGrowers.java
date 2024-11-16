@@ -1,7 +1,7 @@
-package quek.undergarden.world.gen.tree;
+package quek.undergardens.world.gen.tree;
 
 import net.minecraft.world.level.block.grower.TreeGrower;
-import quek.undergarden.registry.UGConfiguredFeatures;
+import quek.undergardens.registry.UGConfiguredFeatures;
 
 import java.util.Optional;
 

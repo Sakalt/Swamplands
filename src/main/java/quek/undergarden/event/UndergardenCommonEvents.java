@@ -1,4 +1,4 @@
-package quek.undergarden.event;
+package quek.undergardens.event;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -47,53 +47,53 @@ import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.fluids.FluidInteractionRegistry;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
-import quek.undergarden.Undergarden;
-import quek.undergarden.block.portal.UndergardenPortalVisuals;
-import quek.undergarden.entity.Forgotten;
-import quek.undergarden.entity.Minion;
-import quek.undergarden.entity.animal.*;
-import quek.undergarden.entity.animal.dweller.Dweller;
-import quek.undergarden.entity.boss.ForgottenGuardian;
-import quek.undergarden.entity.cavern.CavernMonster;
-import quek.undergarden.entity.cavern.Muncher;
-import quek.undergarden.entity.cavern.Nargoyle;
-import quek.undergarden.entity.cavern.Sploogie;
-import quek.undergarden.entity.projectile.slingshot.*;
-import quek.undergarden.entity.rotspawn.Rotbeast;
-import quek.undergarden.entity.rotspawn.Rotling;
-import quek.undergarden.entity.rotspawn.RotspawnMonster;
-import quek.undergarden.entity.rotspawn.Rotwalker;
-import quek.undergarden.entity.stoneborn.Stoneborn;
-import quek.undergarden.item.tool.slingshot.AbstractSlingshotAmmoBehavior;
-import quek.undergarden.item.tool.slingshot.SlingshotItem;
-import quek.undergarden.network.CreateCritParticlePacket;
-import quek.undergarden.network.UndergardenPortalSoundPacket;
-import quek.undergarden.registry.*;
+import quek.undergardens.Undergardens;
+import quek.undergardens.block.portal.UndergardensPortalVisuals;
+import quek.undergardens.entity.Forgotten;
+import quek.undergardens.entity.Minion;
+import quek.undergardens.entity.animal.*;
+import quek.undergardens.entity.animal.dweller.Dweller;
+import quek.undergardens.entity.boss.ForgottenGuardian;
+import quek.undergardens.entity.cavern.CavernMonster;
+import quek.undergardens.entity.cavern.Muncher;
+import quek.undergardens.entity.cavern.Nargoyle;
+import quek.undergardens.entity.cavern.Sploogie;
+import quek.undergardens.entity.projectile.slingshot.*;
+import quek.undergardens.entity.rotspawn.Rotbeast;
+import quek.undergardens.entity.rotspawn.Rotling;
+import quek.undergardens.entity.rotspawn.RotspawnMonster;
+import quek.undergardens.entity.rotspawn.Rotwalker;
+import quek.undergardens.entity.stoneborn.Stoneborn;
+import quek.undergardens.item.tool.slingshot.AbstractSlingshotAmmoBehavior;
+import quek.undergardens.item.tool.slingshot.SlingshotItem;
+import quek.undergardens.network.CreateCritParticlePacket;
+import quek.undergardens.network.UndergardensPortalSoundPacket;
+import quek.undergardens.registry.*;
 
-public class UndergardenCommonEvents {
+public class UndergardensCommonEvents {
 
 	public static void initCommonEvents(IEventBus bus) {
-		UndergardenToolEvents.setupToolEvents();
-		bus.addListener(UndergardenCommonEvents::registerPackets);
-		bus.addListener(UndergardenCommonEvents::registerBETypes);
-		bus.addListener(UndergardenCommonEvents::setup);
-		bus.addListener(UndergardenCommonEvents::registerEntityAttributes);
-		bus.addListener(UndergardenCommonEvents::registerSpawnPlacements);
+		UndergardensToolEvents.setupToolEvents();
+		bus.addListener(UndergardensCommonEvents::registerPackets);
+		bus.addListener(UndergardensCommonEvents::registerBETypes);
+		bus.addListener(UndergardensCommonEvents::setup);
+		bus.addListener(UndergardensCommonEvents::registerEntityAttributes);
+		bus.addListener(UndergardensCommonEvents::registerSpawnPlacements);
 
-		NeoForge.EVENT_BUS.addListener(UndergardenCommonEvents::tickPortalLogic);
-		NeoForge.EVENT_BUS.addListener(UndergardenCommonEvents::blockToolInteractions);
-		NeoForge.EVENT_BUS.addListener(UndergardenCommonEvents::applyBrittleness);
-		NeoForge.EVENT_BUS.addListener(UndergardenCommonEvents::applyFeatherweight);
-		NeoForge.EVENT_BUS.addListener(UndergardenCommonEvents::cancelPlayerFallDamageOnDweller);
-		NeoForge.EVENT_BUS.addListener(UndergardenCommonEvents::lookedAtEndermanWithGloomgourd);
-		NeoForge.EVENT_BUS.addListener(UndergardenCommonEvents::registerPotionRecipes);
-		NeoForge.EVENT_BUS.addListener(UndergardenCommonEvents::ignoreEffects);
+		NeoForge.EVENT_BUS.addListener(UndergardensCommonEvents::tickPortalLogic);
+		NeoForge.EVENT_BUS.addListener(UndergardensCommonEvents::blockToolInteractions);
+		NeoForge.EVENT_BUS.addListener(UndergardensCommonEvents::applyBrittleness);
+		NeoForge.EVENT_BUS.addListener(UndergardensCommonEvents::applyFeatherweight);
+		NeoForge.EVENT_BUS.addListener(UndergardensCommonEvents::cancelPlayerFallDamageOnDweller);
+		NeoForge.EVENT_BUS.addListener(UndergardensCommonEvents::lookedAtEndermanWithGloomgourd);
+		NeoForge.EVENT_BUS.addListener(UndergardensCommonEvents::registerPotionRecipes);
+		NeoForge.EVENT_BUS.addListener(UndergardensCommonEvents::ignoreEffects);
 	}
 
 	private static void registerPackets(RegisterPayloadHandlersEvent event) {
-		PayloadRegistrar registrar = event.registrar(Undergarden.MODID).versioned("1.0.0").optional();
+		PayloadRegistrar registrar = event.registrar(Undergardens.MODID).versioned("1.0.0").optional();
 		registrar.playToClient(CreateCritParticlePacket.TYPE, CreateCritParticlePacket.STREAM_CODEC, CreateCritParticlePacket::handle);
-		registrar.playToClient(UndergardenPortalSoundPacket.TYPE, UndergardenPortalSoundPacket.STREAM_CODEC, (payload, context) -> UndergardenPortalSoundPacket.handle(context));
+		registrar.playToClient(UndergardensPortalSoundPacket.TYPE, UndergardensPortalSoundPacket.STREAM_CODEC, (payload, context) -> UndergardensPortalSoundPacket.handle(context));
 	}
 
 	private static void registerBETypes(BlockEntityTypeAddBlocksEvent event) {
@@ -299,7 +299,7 @@ public class UndergardenCommonEvents {
 
 	private static void tickPortalLogic(PlayerTickEvent.Pre event) {
 		if (event.getEntity().level().isClientSide()) {
-			UndergardenPortalVisuals.handlePortalVisuals(event.getEntity());
+			UndergardensPortalVisuals.handlePortalVisuals(event.getEntity());
 		}
 	}
 

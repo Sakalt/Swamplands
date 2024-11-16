@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:utherium_block"
+          "name": "undergardens:utherium_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/utherium_block"
+  "random_sequence": "undergardens:blocks/utherium_block"
 }

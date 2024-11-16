@@ -1,4 +1,4 @@
-package quek.undergarden.world.gen.feature;
+package quek.undergardens.world.gen.feature;
 
 import com.mojang.serialization.Codec;
 import net.minecraft.core.BlockPos;
@@ -12,9 +12,9 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
-import quek.undergarden.block.Droopvine;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.block.Droopvine;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGTags;
 
 public class DroopvineFeature extends Feature<NoneFeatureConfiguration> {
 

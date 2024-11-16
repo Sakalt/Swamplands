@@ -4,11 +4,11 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "undergarden:grongle_logs"
+      "tag": "undergardens:grongle_logs"
     }
   ],
   "result": {
     "count": 4,
-    "id": "undergarden:grongle_planks"
+    "id": "undergardens:grongle_planks"
   }
 }

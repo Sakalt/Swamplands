@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "undergarden:sediment_glass"
+      "item": "undergardens:sediment_glass"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 16,
-    "id": "undergarden:sediment_glass_pane"
+    "id": "undergardens:sediment_glass_pane"
   }
 }

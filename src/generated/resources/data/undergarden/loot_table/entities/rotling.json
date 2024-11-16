@@ -31,11 +31,11 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "undergarden:utheric_shard"
+          "name": "undergardens:utheric_shard"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:entities/rotling"
+  "random_sequence": "undergardens:entities/rotling"
 }

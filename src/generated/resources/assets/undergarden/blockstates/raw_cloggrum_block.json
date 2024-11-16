@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/raw_cloggrum_block"
+      "model": "undergardens:block/raw_cloggrum_block"
     }
   }
 }

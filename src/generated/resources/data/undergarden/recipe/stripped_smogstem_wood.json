@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergarden:stripped_smogstem_log"
+      "item": "undergardens:stripped_smogstem_log"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergarden:stripped_smogstem_wood"
+    "id": "undergardens:stripped_smogstem_wood"
   }
 }

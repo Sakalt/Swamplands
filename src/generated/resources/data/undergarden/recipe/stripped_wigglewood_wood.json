@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergarden:stripped_wigglewood_log"
+      "item": "undergardens:stripped_wigglewood_log"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergarden:stripped_wigglewood_wood"
+    "id": "undergardens:stripped_wigglewood_wood"
   }
 }

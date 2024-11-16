@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:froststeel_block"
+          "name": "undergardens:froststeel_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/froststeel_block"
+  "random_sequence": "undergardens:blocks/froststeel_block"
 }

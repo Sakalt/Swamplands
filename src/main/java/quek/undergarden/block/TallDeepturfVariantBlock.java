@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;

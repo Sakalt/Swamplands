@@ -1,9 +1,9 @@
 {
   "values": [
-    "undergarden:cloggrum_block",
-    "undergarden:froststeel_block",
-    "undergarden:utherium_block",
-    "undergarden:regalium_block",
-    "undergarden:forgotten_block"
+    "undergardens:cloggrum_block",
+    "undergardens:froststeel_block",
+    "undergardens:utherium_block",
+    "undergardens:regalium_block",
+    "undergardens:forgotten_block"
   ]
 }

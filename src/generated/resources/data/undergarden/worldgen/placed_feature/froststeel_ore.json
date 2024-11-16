@@ -1,5 +1,5 @@
 {
-  "feature": "undergarden:froststeel_ore",
+  "feature": "undergardens:froststeel_ore",
   "placement": [
     {
       "type": "minecraft:count",

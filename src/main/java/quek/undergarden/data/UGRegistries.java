@@ -1,12 +1,12 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.DatapackBuiltinEntriesProvider;
-import quek.undergarden.Undergarden;
-import quek.undergarden.registry.*;
+import quek.undergardens.Undergardens;
+import quek.undergardens.registry.*;
 
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
@@ -31,6 +31,6 @@ public class UGRegistries extends DatapackBuiltinEntriesProvider {
 		.add(Registries.JUKEBOX_SONG, UGJukeboxSongs::bootstrap);
 
 	public UGRegistries(PackOutput output, CompletableFuture<HolderLookup.Provider> future) {
-		super(output, future, BUILDER, Set.of("minecraft", Undergarden.MODID));
+		super(output, future, BUILDER, Set.of("minecraft", Undergardens.MODID));
 	}
 }

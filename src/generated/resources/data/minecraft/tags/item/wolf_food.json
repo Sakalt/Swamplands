@@ -1,8 +1,8 @@
 {
   "values": [
-    "undergarden:raw_dweller_meat",
-    "undergarden:dweller_steak",
-    "undergarden:raw_gloomper_leg",
-    "undergarden:gloomper_leg"
+    "undergardens:raw_dweller_meat",
+    "undergardens:dweller_steak",
+    "undergardens:raw_gloomper_leg",
+    "undergardens:gloomper_leg"
   ]
 }

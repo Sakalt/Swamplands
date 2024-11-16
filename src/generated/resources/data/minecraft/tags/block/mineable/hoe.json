@@ -1,10 +1,10 @@
 {
   "values": [
-    "undergarden:droopvine",
-    "undergarden:droopvine_plant",
-    "undergarden:smogstem_leaves",
-    "undergarden:wigglewood_leaves",
-    "undergarden:grongle_leaves",
-    "undergarden:hanging_grongle_leaves"
+    "undergardens:droopvine",
+    "undergardens:droopvine_plant",
+    "undergardens:smogstem_leaves",
+    "undergardens:wigglewood_leaves",
+    "undergardens:grongle_leaves",
+    "undergardens:hanging_grongle_leaves"
   ]
 }

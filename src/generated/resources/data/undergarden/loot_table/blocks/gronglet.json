@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:gronglet"
+          "name": "undergardens:gronglet"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/gronglet"
+  "random_sequence": "undergardens:blocks/gronglet"
 }

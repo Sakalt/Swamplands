@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergarden:block/shiverstone_cloggrum_ore"
+    "all": "undergardens:block/shiverstone_cloggrum_ore"
   }
 }

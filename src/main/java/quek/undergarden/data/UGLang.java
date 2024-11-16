@@ -1,8 +1,8 @@
-package quek.undergarden.data;
+package quek.undergardens.data;
 
 import net.minecraft.data.PackOutput;
-import quek.undergarden.data.provider.UGLangProvider;
-import quek.undergarden.registry.*;
+import quek.undergardens.data.provider.UGLangProvider;
+import quek.undergardens.registry.*;
 
 public class UGLang extends UGLangProvider {
 
@@ -12,7 +12,7 @@ public class UGLang extends UGLangProvider {
 
 	@Override
 	protected void addTranslations() {
-		addBlock(UGBlocks.UNDERGARDEN_PORTAL, "Undergarden Portal");
+		addBlock(UGBlocks.UNDERGARDEN_PORTAL, "Undergardens Portal");
 
 		addBlock(UGBlocks.SHARD_TORCH, "Shard Torch");
 
@@ -276,11 +276,11 @@ public class UGLang extends UGLangProvider {
 		addItem(UGItems.UTHERIUM_HOE, "Utherium Hoe");
 
 		addItem(UGItems.FORGOTTEN_UPGRADE_TEMPLATE, "Smithing Template");
-		add("upgrade.undergarden.forgotten_upgrade", "Forgotten Tool Upgrade");
-		add("item.undergarden.smithing_template.forgotten_upgrade.additions_slot_description", "Add Forgotten Ingot");
-		add("item.undergarden.smithing_template.forgotten_upgrade.applies_to", "Cloggrum Tools");
-		add("item.undergarden.smithing_template.forgotten_upgrade.base_slot_description", "Add cloggrum weapon or tool");
-		add("item.undergarden.smithing_template.forgotten_upgrade.ingredients", "Forgotten Ingot");
+		add("upgrade.undergardens.forgotten_upgrade", "Forgotten Tool Upgrade");
+		add("item.undergardens.smithing_template.forgotten_upgrade.additions_slot_description", "Add Forgotten Ingot");
+		add("item.undergardens.smithing_template.forgotten_upgrade.applies_to", "Cloggrum Tools");
+		add("item.undergardens.smithing_template.forgotten_upgrade.base_slot_description", "Add cloggrum weapon or tool");
+		add("item.undergardens.smithing_template.forgotten_upgrade.ingredients", "Forgotten Ingot");
 
 		addItem(UGItems.FORGOTTEN_BATTLEAXE, "Forgotten Battleaxe");
 		addItem(UGItems.FORGOTTEN_SWORD, "Forgotten Sword");
@@ -403,7 +403,7 @@ public class UGLang extends UGLangProvider {
 
 		addEntityType(UGEntityTypes.FORGOTTEN_GUARDIAN, "Forgotten Guardian");
 
-		add("itemGroup.undergarden_group", "The Undergarden");
+		add("itemGroup.undergardens_group", "The Undergardens");
 
 		addEffect(UGEffects.GOOEY, "Gooey");
 		addEffect(UGEffects.BRITTLENESS, "Brittleness");
@@ -413,12 +413,12 @@ public class UGLang extends UGLangProvider {
 		addEffect(UGEffects.CHILLY, "Chilly");
 
 		//JEED compat
-		add("effect.undergarden.gooey.description", "Scintling Goo will constantly be placed under victim's feet.");
-		add("effect.undergarden.brittleness.description", "The higher the victim's armor value is, the more damage they will take. Amount of damage received scales with potion level.");
-		add("effect.undergarden.featherweight.description", "When damaged, victim will receive increased knockback. Amount of knockback scales with potion level.");
-		add("effect.undergarden.virulent_resistance.description", "Grants immunity to Virulence.");
-		add("effect.undergarden.virulence.description", "Similar to poison, but does more damage at a slower rate. Damage is suppressed by Virulent Resistance.");
-		add("effect.undergarden.chilly.description", "Slows the victim down and causes them to visually shake.");
+		add("effect.undergardens.gooey.description", "Scintling Goo will constantly be placed under victim's feet.");
+		add("effect.undergardens.brittleness.description", "The higher the victim's armor value is, the more damage they will take. Amount of damage received scales with potion level.");
+		add("effect.undergardens.featherweight.description", "When damaged, victim will receive increased knockback. Amount of knockback scales with potion level.");
+		add("effect.undergardens.virulent_resistance.description", "Grants immunity to Virulence.");
+		add("effect.undergardens.virulence.description", "Similar to poison, but does more damage at a slower rate. Damage is suppressed by Virulent Resistance.");
+		add("effect.undergardens.chilly.description", "Slows the victim down and causes them to visually shake.");
 
 		addPotion(UGPotions.BRITTLENESS, "Brittleness");
 		addPotion(UGPotions.FEATHERWEIGHT, "Featherweight");
@@ -430,17 +430,17 @@ public class UGLang extends UGLangProvider {
 		addEnchantment(UGEnchantments.SELF_SLING, "Self Sling");
 
 		//Enchantment Descriptions compat
-		add("enchantment.undergarden.ricochet.desc", "Projectiles fired by the Slingshot will bounce off block surfaces.");
-		add("enchantment.undergarden.longevity.desc", "Increases max durability of the Slingshot.");
-		add("enchantment.undergarden.self_sling.desc", "Instead of firing ammo, the Slingshot fires you. Requires you to be on the ground.");
+		add("enchantment.undergardens.ricochet.desc", "Projectiles fired by the Slingshot will bounce off block surfaces.");
+		add("enchantment.undergardens.longevity.desc", "Increases max durability of the Slingshot.");
+		add("enchantment.undergardens.self_sling.desc", "Instead of firing ammo, the Slingshot fires you. Requires you to be on the ground.");
 
-		addAdvTitle("root", "The Undergarden");
+		addAdvTitle("root", "The Undergardens");
 
 		addAdvTitle("catalyst", "One Ticket Please");
 		addAdvDesc("catalyst", "Create the Catalyst.");
 
-		addAdvTitle("enter_undergarden", "Enter the Undergarden");
-		addAdvDesc("enter_undergarden", "The forgotten land awaits...");
+		addAdvTitle("enter_undergardens", "Enter the Undergardens");
+		addAdvDesc("enter_undergardens", "The forgotten land awaits...");
 
 		addAdvTitle("plant_gloomgourd", "Purple Pumpkins");
 		addAdvDesc("plant_gloomgourd", "Plant a Gloomgourd seed.");
@@ -475,11 +475,11 @@ public class UGLang extends UGLangProvider {
 		addAdvTitle("kill_all_rotspawn", "Rotbane");
 		addAdvDesc("kill_all_rotspawn", "Slay all kinds of Rotspawn.");
 
-		addAdvTitle("all_undergarden_biomes", "Subterranean Cartographer");
-		addAdvDesc("all_undergarden_biomes", "Discover every Undergarden biome.");
+		addAdvTitle("all_undergardens_biomes", "Subterranean Cartographer");
+		addAdvDesc("all_undergardens_biomes", "Discover every Undergardens biome.");
 
 		addAdvTitle("mine_ore", "Deep Extraction");
-		addAdvDesc("mine_ore", "Acquire any Undergarden ore.");
+		addAdvDesc("mine_ore", "Acquire any Undergardens ore.");
 
 		addAdvTitle("underbeans", "Glorious Beans!");
 		addAdvDesc("underbeans", "Find and pick an Underbean Bush.");
@@ -515,7 +515,7 @@ public class UGLang extends UGLangProvider {
 		addAdvDesc("cloggrum_armor", "Obtain a full suit of Cloggrum armor.");
 
 		addAdvTitle("all_ore_blocks", "Collector's Edition");
-		addAdvDesc("all_ore_blocks", "Collect one block of every Undergarden ore.");
+		addAdvDesc("all_ore_blocks", "Collect one block of every Undergardens ore.");
 
 		addAdvTitle("gloomper_secret_disc", "Death Gloomps");
 		addAdvDesc("gloomper_secret_disc", "Obtain the secret music disc.");
@@ -526,16 +526,16 @@ public class UGLang extends UGLangProvider {
 		//addAdvTitle("otherside_root", "The Otherside");
 		//addAdvDesc("otherside_root", "Enter the realm of madness.");
 
-		add("tooltip.undergarden.slingshot_ammo", "Can be used as Slingshot ammo.");
-		add("tooltip.undergarden.cloggrum_boots", "Scintling Goo doesn't slow you down when worn.");
-		add("tooltip.undergarden.froststeel_weapon", "Slows targets.");
-		add("tooltip.undergarden.utherium_weapon", "Deals 1.5x damage to Rotspawn.");
-		add("tooltip.undergarden.forgotten_weapon", "Deals 1.5x damage to non-boss Undergarden mobs.");
-		add("tooltip.undergarden.forgotten_tool", "Mines Undergarden blocks 1.5x as fast.");
+		add("tooltip.undergardens.slingshot_ammo", "Can be used as Slingshot ammo.");
+		add("tooltip.undergardens.cloggrum_boots", "Scintling Goo doesn't slow you down when worn.");
+		add("tooltip.undergardens.froststeel_weapon", "Slows targets.");
+		add("tooltip.undergardens.utherium_weapon", "Deals 1.5x damage to Rotspawn.");
+		add("tooltip.undergardens.forgotten_weapon", "Deals 1.5x damage to non-boss Undergardens mobs.");
+		add("tooltip.undergardens.forgotten_tool", "Mines Undergardens blocks 1.5x as fast.");
 
-		addSubtitle("block", "undergarden_portal.ambient", "Undergarden Portal beckons");
-		addSubtitle("block", "undergarden_portal.activate", "Undergarden Portal activates");
-		addSubtitle("block", "undergarden_portal.travel", "Travelling through Undergarden portal");
+		addSubtitle("block", "undergardens_portal.ambient", "Undergardens Portal beckons");
+		addSubtitle("block", "undergardens_portal.activate", "Undergardens Portal activates");
+		addSubtitle("block", "undergardens_portal.travel", "Travelling through Undergardens portal");
 
 		addSubtitle("block", "virulent.flow", "Virulent Mix flows");
 		addSubtitle("block", "virulent.bubble", "Virulent Mix bubbles");
@@ -645,12 +645,12 @@ public class UGLang extends UGLangProvider {
 		addDeath("shard_torch.player", "%1$s was killed by a Shard Torch's magic whilst trying to escape %2$s");
 
 		addConfig("return_portal_frame_block_id", "Return Portal Frame Block ID");
-		addConfig("toggle_undergarden_fog", "Toggle Undergarden Fog");
+		addConfig("toggle_undergardens_fog", "Toggle Undergardens Fog");
 
-		add("trim_material.undergarden.cloggrum", "Cloggrum material");
-		add("trim_material.undergarden.froststeel", "Froststeel material");
-		add("trim_material.undergarden.regalium", "Regalium material");
-		add("trim_material.undergarden.utherium", "Utherium material");
-		add("trim_material.undergarden.forgotten", "Forgotten material");
+		add("trim_material.undergardens.cloggrum", "Cloggrum material");
+		add("trim_material.undergardens.froststeel", "Froststeel material");
+		add("trim_material.undergardens.regalium", "Regalium material");
+		add("trim_material.undergardens.utherium", "Utherium material");
+		add("trim_material.undergardens.forgotten", "Forgotten material");
 	}
 }

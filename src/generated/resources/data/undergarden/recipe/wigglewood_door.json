@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "P": {
-      "item": "undergarden:wigglewood_planks"
+      "item": "undergardens:wigglewood_planks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergarden:wigglewood_door"
+    "id": "undergardens:wigglewood_door"
   }
 }

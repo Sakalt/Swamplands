@@ -1,9 +1,9 @@
 {   "parent": "block/block",
     "textures": {
-        "particle": "undergarden:block/depthrock",
-        "bottom": "undergarden:block/smog_vent_top",
-        "top": "undergarden:block/smog_vent_top",
-        "side": "undergarden:block/smog_vent_side"
+        "particle": "undergardens:block/depthrock",
+        "bottom": "undergardens:block/smog_vent_top",
+        "top": "undergardens:block/smog_vent_top",
+        "side": "undergardens:block/smog_vent_side"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

@@ -26,11 +26,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:smogstem_sapling"
+          "name": "undergardens:smogstem_sapling"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/potted_smogstem_sapling"
+  "random_sequence": "undergardens:blocks/potted_smogstem_sapling"
 }

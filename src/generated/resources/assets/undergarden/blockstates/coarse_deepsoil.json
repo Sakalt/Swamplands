@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/coarse_deepsoil"
+      "model": "undergardens:block/coarse_deepsoil"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergarden:item/gwibling_bucket"
+    "layer0": "undergardens:item/gwibling_bucket"
   }
 }

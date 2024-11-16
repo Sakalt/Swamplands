@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/wigglewood_planks"
+      "model": "undergardens:block/wigglewood_planks"
     }
   }
 }

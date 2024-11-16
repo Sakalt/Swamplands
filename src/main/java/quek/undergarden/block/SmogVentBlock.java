@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -18,9 +18,9 @@ import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.common.enums.BubbleColumnDirection;
-import quek.undergarden.block.entity.SmogVentBlockEntity;
-import quek.undergarden.registry.UGBlockEntities;
-import quek.undergarden.registry.UGEntityTypes;
+import quek.undergardens.block.entity.SmogVentBlockEntity;
+import quek.undergardens.registry.UGBlockEntities;
+import quek.undergardens.registry.UGEntityTypes;
 
 import javax.annotation.Nullable;
 

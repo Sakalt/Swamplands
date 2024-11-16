@@ -4,11 +4,11 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "undergarden:smogstem_logs"
+      "tag": "undergardens:smogstem_logs"
     }
   ],
   "result": {
     "count": 4,
-    "id": "undergarden:smogstem_planks"
+    "id": "undergardens:smogstem_planks"
   }
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:rotten_blisterberry"
+            "items": "undergardens:rotten_blisterberry"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:blisterbomb"
+        "recipe": "undergardens:blisterbomb"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:twistytwig"
+            "items": "undergardens:twistytwig"
           }
         ]
       },
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:blisterbomb"
+      "undergardens:blisterbomb"
     ]
   }
 }

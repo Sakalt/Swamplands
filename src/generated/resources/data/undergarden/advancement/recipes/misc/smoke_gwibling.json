@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smoke_gwibling"
+        "recipe": "undergardens:smoke_gwibling"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:raw_gwibling": {
+    "has_undergardens:raw_gwibling": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:raw_gwibling"
+            "items": "undergardens:raw_gwibling"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:raw_gwibling"
+      "has_undergardens:raw_gwibling"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smoke_gwibling"
+      "undergardens:smoke_gwibling"
     ]
   }
 }

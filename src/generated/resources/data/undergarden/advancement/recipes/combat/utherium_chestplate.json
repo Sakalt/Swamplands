@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:utherium_chestplate"
+        "recipe": "undergardens:utherium_chestplate"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergarden:utherium_crystal"
+            "items": "undergardens:utherium_crystal"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergarden:utherium_chestplate"
+      "undergardens:utherium_chestplate"
     ]
   }
 }

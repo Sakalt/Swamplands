@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/depthrock_regalium_ore"
+      "model": "undergardens:block/depthrock_regalium_ore"
     }
   }
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:chiseled_depthrock_bricks"
+          "name": "undergardens:chiseled_depthrock_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/chiseled_depthrock_bricks"
+  "random_sequence": "undergardens:blocks/chiseled_depthrock_bricks"
 }

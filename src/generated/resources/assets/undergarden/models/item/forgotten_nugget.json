@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergarden:item/forgotten_nugget"
+    "layer0": "undergardens:item/forgotten_nugget"
   }
 }

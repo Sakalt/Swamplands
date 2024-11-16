@@ -6,9 +6,9 @@
     "minecraft:deepslate_tiles",
     "minecraft:polished_deepslate",
     "minecraft:reinforced_deepslate",
-    "undergarden:depthrock_bricks",
-    "undergarden:depthrock_tiles",
-    "undergarden:polished_depthrock",
-    "undergarden:shiverstone_bricks"
+    "undergardens:depthrock_bricks",
+    "undergardens:depthrock_tiles",
+    "undergardens:polished_depthrock",
+    "undergardens:shiverstone_bricks"
   ]
 }

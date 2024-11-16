@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smelt_gloomper_leg"
+        "recipe": "undergardens:smelt_gloomper_leg"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:raw_gloomper_leg": {
+    "has_undergardens:raw_gloomper_leg": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:raw_gloomper_leg"
+            "items": "undergardens:raw_gloomper_leg"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:raw_gloomper_leg"
+      "has_undergardens:raw_gloomper_leg"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smelt_gloomper_leg"
+      "undergardens:smelt_gloomper_leg"
     ]
   }
 }

@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergarden:shiverstone_diamond_ore"
+              "name": "undergardens:shiverstone_diamond_ore"
             },
             {
               "type": "minecraft:item",
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/shiverstone_diamond_ore"
+  "random_sequence": "undergardens:blocks/shiverstone_diamond_ore"
 }

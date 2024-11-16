@@ -3,11 +3,11 @@
   "category": "redstone",
   "ingredients": [
     {
-      "item": "undergarden:depthrock"
+      "item": "undergardens:depthrock"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergarden:depthrock_button"
+    "id": "undergardens:depthrock_button"
   }
 }

@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smelt_gwibling"
+        "recipe": "undergardens:smelt_gwibling"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergarden:raw_gwibling": {
+    "has_undergardens:raw_gwibling": {
       "conditions": {
         "items": [
           {
-            "items": "undergarden:raw_gwibling"
+            "items": "undergardens:raw_gwibling"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergarden:raw_gwibling"
+      "has_undergardens:raw_gwibling"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smelt_gwibling"
+      "undergardens:smelt_gwibling"
     ]
   }
 }

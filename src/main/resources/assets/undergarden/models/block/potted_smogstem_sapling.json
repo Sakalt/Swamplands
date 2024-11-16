@@ -2,6 +2,6 @@
   "parent": "minecraft:block/flower_pot_cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "plant": "undergarden:block/smogstem_sapling"
+    "plant": "undergardens:block/smogstem_sapling"
   }
 }

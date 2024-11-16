@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/grongle_sign"
+      "model": "undergardens:block/grongle_sign"
     }
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergarden.event;
+package quek.undergardens.event;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -14,21 +14,21 @@ import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.event.tick.EntityTickEvent;
 import net.neoforged.neoforge.network.PacketDistributor;
-import quek.undergarden.Undergarden;
-import quek.undergarden.network.CreateCritParticlePacket;
-import quek.undergarden.registry.UGEffects;
-import quek.undergarden.registry.UGItems;
-import quek.undergarden.registry.UGParticleTypes;
-import quek.undergarden.registry.UGTags;
+import quek.undergardens.Undergardens;
+import quek.undergardens.network.CreateCritParticlePacket;
+import quek.undergardens.registry.UGEffects;
+import quek.undergardens.registry.UGItems;
+import quek.undergardens.registry.UGParticleTypes;
+import quek.undergardens.registry.UGTags;
 
-public class UndergardenToolEvents {
+public class UndergardensToolEvents {
 
 	protected static void setupToolEvents() {
-		NeoForge.EVENT_BUS.addListener(UndergardenToolEvents::forgottenAttackEvent);
-		NeoForge.EVENT_BUS.addListener(UndergardenToolEvents::forgottenDigEvent);
-		NeoForge.EVENT_BUS.addListener(UndergardenToolEvents::utheriumAttackEvent);
-		NeoForge.EVENT_BUS.addListener(UndergardenToolEvents::froststeelAttackEvent);
-		NeoForge.EVENT_BUS.addListener(UndergardenToolEvents::froststeelTickEvent);
+		NeoForge.EVENT_BUS.addListener(UndergardensToolEvents::forgottenAttackEvent);
+		NeoForge.EVENT_BUS.addListener(UndergardensToolEvents::forgottenDigEvent);
+		NeoForge.EVENT_BUS.addListener(UndergardensToolEvents::utheriumAttackEvent);
+		NeoForge.EVENT_BUS.addListener(UndergardensToolEvents::froststeelAttackEvent);
+		NeoForge.EVENT_BUS.addListener(UndergardensToolEvents::froststeelTickEvent);
 	}
 
 	private static void forgottenAttackEvent(LivingIncomingDamageEvent event) {
@@ -37,7 +37,7 @@ public class UndergardenToolEvents {
 
 		if (source instanceof Player player) {
 			if (player.getMainHandItem().getItem() == UGItems.FORGOTTEN_SWORD.get() || player.getMainHandItem().getItem() == UGItems.FORGOTTEN_AXE.get() || player.getMainHandItem().getItem() == UGItems.FORGOTTEN_BATTLEAXE.get()) {
-				if (BuiltInRegistries.ENTITY_TYPE.getKey(event.getEntity().getType()).getNamespace().equals(Undergarden.MODID) && !event.getEntity().getType().is(Tags.EntityTypes.BOSSES)) {
+				if (BuiltInRegistries.ENTITY_TYPE.getKey(event.getEntity().getType()).getNamespace().equals(Undergardens.MODID) && !event.getEntity().getType().is(Tags.EntityTypes.BOSSES)) {
 					event.setAmount(damage * 1.5F);
 				}
 			}
@@ -49,7 +49,7 @@ public class UndergardenToolEvents {
 		BlockState state = event.getState();
 
 		if (player.getMainHandItem().getItem() == UGItems.FORGOTTEN_PICKAXE.get() || player.getMainHandItem().getItem() == UGItems.FORGOTTEN_AXE.get() || player.getMainHandItem().getItem() == UGItems.FORGOTTEN_SHOVEL.get() || player.getMainHandItem().getItem() == UGItems.FORGOTTEN_HOE.get()) {
-			if (state != null && BuiltInRegistries.BLOCK.getKey(state.getBlock()).getNamespace().equals(Undergarden.MODID)) {
+			if (state != null && BuiltInRegistries.BLOCK.getKey(state.getBlock()).getNamespace().equals(Undergardens.MODID)) {
 				event.setNewSpeed(event.getOriginalSpeed() * 1.5F);
 			}
 		}

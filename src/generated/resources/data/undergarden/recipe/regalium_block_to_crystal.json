@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergarden:regalium_block"
+      "item": "undergardens:regalium_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "undergarden:regalium_crystal"
+    "id": "undergardens:regalium_crystal"
   }
 }

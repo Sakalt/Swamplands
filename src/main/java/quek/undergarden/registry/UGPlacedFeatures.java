@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -14,7 +14,7 @@ import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.*;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 import java.util.List;
 
@@ -88,7 +88,7 @@ public class UGPlacedFeatures {
 	public static final ResourceKey<PlacedFeature> ICE_PILLAR = create("ice_pillar");
 
 	public static ResourceKey<PlacedFeature> create(String name) {
-		return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(Undergarden.MODID, name));
+		return ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, name));
 	}
 
 	public static void bootstrap(BootstrapContext<PlacedFeature> context) {

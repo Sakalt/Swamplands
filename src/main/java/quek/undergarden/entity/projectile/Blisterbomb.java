@@ -1,4 +1,4 @@
-package quek.undergarden.entity.projectile;
+package quek.undergardens.entity.projectile;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
@@ -6,8 +6,8 @@ import net.minecraft.world.entity.projectile.ThrowableItemProjectile;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.HitResult;
-import quek.undergarden.registry.UGEntityTypes;
-import quek.undergarden.registry.UGItems;
+import quek.undergardens.registry.UGEntityTypes;
+import quek.undergardens.registry.UGItems;
 
 public class Blisterbomb extends ThrowableItemProjectile {
 

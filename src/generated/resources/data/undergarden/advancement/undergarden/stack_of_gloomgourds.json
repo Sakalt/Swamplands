@@ -1,12 +1,12 @@
 {
-  "parent": "undergarden:undergarden/plant_gloomgourd",
+  "parent": "undergardens:undergardens/plant_gloomgourd",
   "criteria": {
     "has_64_gloomgourds": {
       "conditions": {
         "items": [
           {
             "count": 64,
-            "items": "undergarden:gloomgourd"
+            "items": "undergardens:gloomgourd"
           }
         ]
       },
@@ -15,16 +15,16 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergarden.stack_of_gloomgourds.desc"
+      "translate": "advancement.undergardens.stack_of_gloomgourds.desc"
     },
     "frame": "goal",
     "hidden": true,
     "icon": {
       "count": 1,
-      "id": "undergarden:gloomgourd"
+      "id": "undergardens:gloomgourd"
     },
     "title": {
-      "translate": "advancement.undergarden.stack_of_gloomgourds.title"
+      "translate": "advancement.undergardens.stack_of_gloomgourds.title"
     }
   },
   "requirements": [

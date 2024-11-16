@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergarden:block/mogmoss_rug"
+      "model": "undergardens:block/mogmoss_rug"
     }
   }
 }

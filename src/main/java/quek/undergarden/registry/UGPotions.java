@@ -1,4 +1,4 @@
-package quek.undergarden.registry;
+package quek.undergardens.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -6,11 +6,11 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.alchemy.Potion;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergarden.Undergarden;
+import quek.undergardens.Undergardens;
 
 public class UGPotions {
 
-	public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(Registries.POTION, Undergarden.MODID);
+	public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(Registries.POTION, Undergardens.MODID);
 
 	public static final DeferredHolder<Potion, Potion> BRITTLENESS = POTIONS.register("brittleness", () -> new Potion("brittleness", new MobEffectInstance(UGEffects.BRITTLENESS, 900)));
 	public static final DeferredHolder<Potion, Potion> LONG_BRITTLENESS = POTIONS.register("long_brittleness", () -> new Potion("brittleness", new MobEffectInstance(UGEffects.BRITTLENESS, 1800)));

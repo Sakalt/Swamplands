@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergarden:block/deepturf"
+    "layer0": "undergardens:block/deepturf"
   }
 }

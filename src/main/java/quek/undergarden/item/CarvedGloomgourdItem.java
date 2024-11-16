@@ -1,4 +1,4 @@
-package quek.undergarden.item;
+package quek.undergardens.item;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.BlockItem;

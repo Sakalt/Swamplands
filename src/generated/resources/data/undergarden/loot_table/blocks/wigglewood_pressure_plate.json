@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:wigglewood_pressure_plate"
+          "name": "undergardens:wigglewood_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/wigglewood_pressure_plate"
+  "random_sequence": "undergardens:blocks/wigglewood_pressure_plate"
 }

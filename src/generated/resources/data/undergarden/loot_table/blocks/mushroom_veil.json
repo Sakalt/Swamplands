@@ -14,11 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergarden:mushroom_veil"
+          "name": "undergardens:mushroom_veil"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergarden:blocks/mushroom_veil"
+  "random_sequence": "undergardens:blocks/mushroom_veil"
 }

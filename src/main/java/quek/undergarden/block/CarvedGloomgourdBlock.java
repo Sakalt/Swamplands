@@ -1,4 +1,4 @@
-package quek.undergarden.block;
+package quek.undergardens.block;
 
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.core.BlockPos;
@@ -14,9 +14,9 @@ import net.minecraft.world.level.block.state.pattern.BlockInWorld;
 import net.minecraft.world.level.block.state.pattern.BlockPattern;
 import net.minecraft.world.level.block.state.pattern.BlockPatternBuilder;
 import net.minecraft.world.level.block.state.predicate.BlockStatePredicate;
-import quek.undergarden.entity.Minion;
-import quek.undergarden.registry.UGBlocks;
-import quek.undergarden.registry.UGEntityTypes;
+import quek.undergardens.entity.Minion;
+import quek.undergardens.registry.UGBlocks;
+import quek.undergardens.registry.UGEntityTypes;
 
 import javax.annotation.Nullable;
 

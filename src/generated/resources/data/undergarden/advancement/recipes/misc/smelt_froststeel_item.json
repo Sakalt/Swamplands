@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / undergarden:froststeel_items]": {
+    "has_TagKey[minecraft:item / undergardens:froststeel_items]": {
       "conditions": {
         "items": [
           {
-            "items": "#undergarden:froststeel_items"
+            "items": "#undergardens:froststeel_items"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergarden:smelt_froststeel_item"
+        "recipe": "undergardens:smelt_froststeel_item"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / undergarden:froststeel_items]"
+      "has_TagKey[minecraft:item / undergardens:froststeel_items]"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergarden:smelt_froststeel_item"
+      "undergardens:smelt_froststeel_item"
     ]
   }
 }

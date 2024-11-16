@@ -1,4 +1,4 @@
-package quek.undergarden.client.render.blockentity;
+package quek.undergardens.client.render.blockentity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.Minecraft;
@@ -10,14 +10,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
-import quek.undergarden.block.GrongletBlock;
-import quek.undergarden.block.entity.DepthrockBedBlockEntity;
-import quek.undergarden.block.entity.GrongletBlockEntity;
-import quek.undergarden.registry.UGBlocks;
+import quek.undergardens.block.GrongletBlock;
+import quek.undergardens.block.entity.DepthrockBedBlockEntity;
+import quek.undergardens.block.entity.GrongletBlockEntity;
+import quek.undergardens.registry.UGBlocks;
 
-public class UndergardenBEWLR extends BlockEntityWithoutLevelRenderer {
+public class UndergardensBEWLR extends BlockEntityWithoutLevelRenderer {
 
-	public UndergardenBEWLR() {
+	public UndergardensBEWLR() {
 		super(Minecraft.getInstance().getBlockEntityRenderDispatcher(), Minecraft.getInstance().getEntityModels());
 	}
 

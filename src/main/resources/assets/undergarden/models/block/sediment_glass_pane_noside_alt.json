@@ -2,6 +2,6 @@
   "parent": "minecraft:block/template_glass_pane_noside_alt",
   "render_type": "minecraft:translucent",
   "textures": {
-    "pane": "undergarden:block/sediment_glass"
+    "pane": "undergardens:block/sediment_glass"
   }
 }
