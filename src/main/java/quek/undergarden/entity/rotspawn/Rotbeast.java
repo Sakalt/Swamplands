@@ -22,11 +22,11 @@ public class Rotbeast extends RotspawnMonster {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return Monster.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 80.0D)
-				.add(Attributes.ARMOR, 3.0D)
-				.add(Attributes.ATTACK_DAMAGE, 10.0D)
-				.add(Attributes.MOVEMENT_SPEED, 0.22D)
-				.add(Attributes.KNOCKBACK_RESISTANCE, 0.5D);
+				.add(Attributes.MAX_HEALTH, 74.0D)
+				.add(Attributes.ARMOR, 7.0D)
+				.add(Attributes.ATTACK_DAMAGE, 9.5D)
+				.add(Attributes.MOVEMENT_SPEED, 0.23D)
+				.add(Attributes.KNOCKBACK_RESISTANCE, 0.6D);
 	}
 
 	@Override
