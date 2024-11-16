@@ -39,10 +39,10 @@ public class Nargoyle extends CavernMonster {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return Monster.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 15.0D)
-				.add(Attributes.ATTACK_DAMAGE, 5.0D)
-				.add(Attributes.MOVEMENT_SPEED, 0.3D)
-				.add(Attributes.FOLLOW_RANGE, 64.0D);
+				.add(Attributes.MAX_HEALTH, 12.0D)
+				.add(Attributes.ATTACK_DAMAGE, 5.5D)
+				.add(Attributes.MOVEMENT_SPEED, 0.36D)
+				.add(Attributes.FOLLOW_RANGE, 80.0D);
 	}
 
 	@Override
