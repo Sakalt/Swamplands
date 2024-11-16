@@ -2,7 +2,7 @@
   "parent": "minecraft:block/door_bottom_left",
   "render_type": "minecraft:cutout",
   "textures": {
-    "bottom": "undergardens:block/smogstem_door_bottom",
-    "top": "undergardens:block/smogstem_door_top"
+    "bottom": "swamplands:block/smogstem_door_bottom",
+    "top": "swamplands:block/smogstem_door_top"
   }
 }

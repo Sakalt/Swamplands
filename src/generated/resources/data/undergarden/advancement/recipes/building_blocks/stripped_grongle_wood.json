@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:stripped_grongle_log"
+            "items": "swamplands:stripped_grongle_log"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:stripped_grongle_wood"
+        "recipe": "swamplands:stripped_grongle_wood"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:stripped_grongle_wood"
+      "swamplands:stripped_grongle_wood"
     ]
   }
 }

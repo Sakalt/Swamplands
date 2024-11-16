@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/carpet",
   "textures": {
-    "wool": "undergardens:block/mogmoss_rug"
+    "wool": "swamplands:block/mogmoss_rug"
   }
 }

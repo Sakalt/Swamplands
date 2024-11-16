@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:tremblecrust_bricks_stonecutting"
+        "recipe": "swamplands:tremblecrust_bricks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:tremblecrust": {
+    "has_swamplands:tremblecrust": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:tremblecrust"
+            "items": "swamplands:tremblecrust"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:tremblecrust"
+      "has_swamplands:tremblecrust"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:tremblecrust_bricks_stonecutting"
+      "swamplands:tremblecrust_bricks_stonecutting"
     ]
   }
 }

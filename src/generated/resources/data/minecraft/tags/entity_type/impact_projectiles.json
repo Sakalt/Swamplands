@@ -1,9 +1,9 @@
 {
   "values": [
-    "undergardens:blisterbomb",
-    "undergardens:rotten_blisterberry",
-    "undergardens:goo_ball",
-    "undergardens:depthrock_pebble",
-    "undergardens:minion_projectile"
+    "swamplands:blisterbomb",
+    "swamplands:rotten_blisterberry",
+    "swamplands:goo_ball",
+    "swamplands:depthrock_pebble",
+    "swamplands:minion_projectile"
   ]
 }

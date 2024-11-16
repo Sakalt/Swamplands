@@ -6,20 +6,20 @@
       "item": "minecraft:bowl"
     },
     {
-      "item": "undergardens:underbeans"
+      "item": "swamplands:underbeans"
     },
     {
-      "item": "undergardens:underbeans"
+      "item": "swamplands:underbeans"
     },
     {
-      "item": "undergardens:blue_mogmoss"
+      "item": "swamplands:blue_mogmoss"
     },
     {
-      "item": "undergardens:blue_mogmoss"
+      "item": "swamplands:blue_mogmoss"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:slop_bowl"
+    "id": "swamplands:slop_bowl"
   }
 }

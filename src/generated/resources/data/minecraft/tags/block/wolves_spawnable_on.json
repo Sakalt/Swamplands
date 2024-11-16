@@ -1,7 +1,7 @@
 {
   "values": [
-    "undergardens:deepturf_block",
-    "undergardens:frozen_deepturf_block",
-    "undergardens:ashen_deepturf_block"
+    "swamplands:deepturf_block",
+    "swamplands:frozen_deepturf_block",
+    "swamplands:ashen_deepturf_block"
   ]
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:polished_depthrock"
+            "items": "swamplands:polished_depthrock"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:polished_depthrock_stairs"
+        "recipe": "swamplands:polished_depthrock_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:polished_depthrock_stairs"
+      "swamplands:polished_depthrock_stairs"
     ]
   }
 }

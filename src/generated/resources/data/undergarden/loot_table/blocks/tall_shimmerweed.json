@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:tall_shimmerweed",
+          "block": "swamplands:tall_shimmerweed",
           "condition": "minecraft:block_state_property",
           "properties": {
             "half": "lower"
@@ -16,7 +16,7 @@
           "offsetY": 1,
           "predicate": {
             "block": {
-              "blocks": "undergardens:tall_shimmerweed",
+              "blocks": "swamplands:tall_shimmerweed",
               "state": {
                 "half": "upper"
               }
@@ -42,7 +42,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergardens:shimmerweed"
+          "name": "swamplands:shimmerweed"
         }
       ],
       "rolls": 1.0
@@ -51,7 +51,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:tall_shimmerweed",
+          "block": "swamplands:tall_shimmerweed",
           "condition": "minecraft:block_state_property",
           "properties": {
             "half": "upper"
@@ -62,7 +62,7 @@
           "offsetY": -1,
           "predicate": {
             "block": {
-              "blocks": "undergardens:tall_shimmerweed",
+              "blocks": "swamplands:tall_shimmerweed",
               "state": {
                 "half": "lower"
               }
@@ -88,11 +88,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergardens:shimmerweed"
+          "name": "swamplands:shimmerweed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/tall_shimmerweed"
+  "random_sequence": "swamplands:blocks/tall_shimmerweed"
 }

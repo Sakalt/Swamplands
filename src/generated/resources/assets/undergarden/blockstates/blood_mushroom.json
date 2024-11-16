@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/blood_mushroom"
+      "model": "swamplands:block/blood_mushroom"
     }
   }
 }

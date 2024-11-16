@@ -1,14 +1,14 @@
 {
   "values": [
-    "undergardens:depthrock_iron_ore",
-    "undergardens:shiverstone_iron_ore",
-    "undergardens:depthrock_cloggrum_ore",
-    "undergardens:shiverstone_cloggrum_ore",
-    "undergardens:raw_cloggrum_block",
-    "undergardens:cloggrum_block",
-    "undergardens:cloggrum_bars",
-    "undergardens:cloggrum_tiles",
-    "undergardens:cloggrum_tile_stairs",
-    "undergardens:cloggrum_tile_slab"
+    "swamplands:depthrock_iron_ore",
+    "swamplands:shiverstone_iron_ore",
+    "swamplands:depthrock_cloggrum_ore",
+    "swamplands:shiverstone_cloggrum_ore",
+    "swamplands:raw_cloggrum_block",
+    "swamplands:cloggrum_block",
+    "swamplands:cloggrum_bars",
+    "swamplands:cloggrum_tiles",
+    "swamplands:cloggrum_tile_stairs",
+    "swamplands:cloggrum_tile_slab"
   ]
 }

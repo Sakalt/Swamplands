@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergardens:depthrock_brick_slab",
+                  "block": "swamplands:depthrock_brick_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "undergardens:depthrock_brick_slab"
+          "name": "swamplands:depthrock_brick_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/depthrock_brick_slab"
+  "random_sequence": "swamplands:blocks/depthrock_brick_slab"
 }

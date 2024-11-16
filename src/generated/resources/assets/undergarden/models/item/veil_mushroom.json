@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:block/veil_mushroom"
+    "layer0": "swamplands:block/veil_mushroom"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:block/hanging_grongle_leaves"
+    "layer0": "swamplands:block/hanging_grongle_leaves"
   }
 }

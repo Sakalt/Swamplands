@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "N": {
-      "item": "undergardens:cloggrum_nugget"
+      "item": "swamplands:cloggrum_nugget"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:cloggrum_ingot"
+    "id": "swamplands:cloggrum_ingot"
   }
 }

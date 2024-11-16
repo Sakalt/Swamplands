@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "undergardens:block/blisterberry_bush_0"
+    "cross": "swamplands:block/blisterberry_bush_0"
   }
 }

@@ -3,11 +3,11 @@
   "category": "redstone",
   "ingredients": [
     {
-      "item": "undergardens:smogstem_planks"
+      "item": "swamplands:smogstem_planks"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:smogstem_button"
+    "id": "swamplands:smogstem_button"
   }
 }

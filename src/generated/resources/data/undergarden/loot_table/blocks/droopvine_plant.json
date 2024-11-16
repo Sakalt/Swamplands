@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:droopvine_plant",
+          "block": "swamplands:droopvine_plant",
           "condition": "minecraft:block_state_property",
           "properties": {
             "glowy": "true"
@@ -15,11 +15,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:droopvine_item"
+          "name": "swamplands:droopvine_item"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/droopvine_plant"
+  "random_sequence": "swamplands:blocks/droopvine_plant"
 }

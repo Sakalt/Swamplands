@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:blood_mushroom"
+            "items": "swamplands:blood_mushroom"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:blood_mushroom_to_dye"
+        "recipe": "swamplands:blood_mushroom_to_dye"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:blood_mushroom_to_dye"
+      "swamplands:blood_mushroom_to_dye"
     ]
   }
 }

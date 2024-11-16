@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/cloggrum_leggings"
+    "layer0": "swamplands:item/cloggrum_leggings"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/smogstem_door"
+    "layer0": "swamplands:item/smogstem_door"
   }
 }

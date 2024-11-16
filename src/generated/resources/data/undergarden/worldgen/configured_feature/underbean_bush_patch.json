@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "undergardens:underbean_bush",
+              "Name": "swamplands:underbean_bush",
               "Properties": {
                 "age": "3"
               }
@@ -28,7 +28,7 @@
               },
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "undergardens:deepturf_block",
+                "blocks": "swamplands:deepturf_block",
                 "offset": [
                   0,
                   -1,

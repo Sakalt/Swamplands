@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/music_disc_relict"
+    "layer0": "swamplands:item/music_disc_relict"
   }
 }

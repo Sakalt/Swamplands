@@ -5,7 +5,7 @@
   "experience": 0.1,
   "group": "coal",
   "ingredient": {
-    "item": "undergardens:shiverstone_coal_ore"
+    "item": "swamplands:shiverstone_coal_ore"
   },
   "result": {
     "count": 1,

@@ -3,17 +3,17 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "undergardens:mushrooms"
+      "tag": "swamplands:mushrooms"
     },
     {
-      "item": "undergardens:gloomgourd"
+      "item": "swamplands:gloomgourd"
     },
     {
-      "item": "undergardens:glitterkelp"
+      "item": "swamplands:glitterkelp"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:gloomgourd_pie"
+    "id": "swamplands:gloomgourd_pie"
   }
 }

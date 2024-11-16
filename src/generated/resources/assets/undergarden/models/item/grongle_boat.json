@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/grongle_boat"
+    "layer0": "swamplands:item/grongle_boat"
   }
 }

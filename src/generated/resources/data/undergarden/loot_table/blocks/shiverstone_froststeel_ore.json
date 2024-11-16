@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergardens:shiverstone_froststeel_ore"
+              "name": "swamplands:shiverstone_froststeel_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,7 +40,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "undergardens:raw_froststeel"
+              "name": "swamplands:raw_froststeel"
             }
           ]
         }
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/shiverstone_froststeel_ore"
+  "random_sequence": "swamplands:blocks/shiverstone_froststeel_ore"
 }

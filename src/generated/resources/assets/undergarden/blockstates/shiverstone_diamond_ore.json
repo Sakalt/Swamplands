@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/shiverstone_diamond_ore"
+      "model": "swamplands:block/shiverstone_diamond_ore"
     }
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergardens.client.model;
+package quek.swamplands.client.model;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.client.model.AnimationUtils;
@@ -7,7 +7,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
-import quek.undergardens.entity.stoneborn.Stoneborn;
+import quek.swamplands.entity.stoneborn.Stoneborn;
 
 public class StonebornModel<T extends Stoneborn> extends ListModel<T> {
 

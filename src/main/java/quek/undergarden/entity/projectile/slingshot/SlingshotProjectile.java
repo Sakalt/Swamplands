@@ -1,4 +1,4 @@
-package quek.undergardens.entity.projectile.slingshot;
+package quek.swamplands.entity.projectile.slingshot;
 
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ItemParticleOption;

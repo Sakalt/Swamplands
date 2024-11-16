@@ -5,7 +5,7 @@
   "experience": 1.0,
   "group": "diamond",
   "ingredient": {
-    "item": "undergardens:shiverstone_diamond_ore"
+    "item": "swamplands:shiverstone_diamond_ore"
   },
   "result": {
     "count": 1,

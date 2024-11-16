@@ -1,13 +1,13 @@
-package quek.undergardens.client.render.entity;
+package quek.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.SmogMogModel;
-import quek.undergardens.client.model.UGModelLayers;
-import quek.undergardens.client.render.layer.SmogMogEyesLayer;
-import quek.undergardens.entity.animal.SmogMog;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.SmogMogModel;
+import quek.swamplands.client.model.UGModelLayers;
+import quek.swamplands.client.render.layer.SmogMogEyesLayer;
+import quek.swamplands.entity.animal.SmogMog;
 
 public class SmogMogRender extends MobRenderer<SmogMog, SmogMogModel<SmogMog>> {
 

@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "undergardens:block/butterbunch"
+    "cross": "swamplands:block/butterbunch"
   }
 }

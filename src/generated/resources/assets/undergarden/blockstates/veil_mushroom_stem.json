@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/veil_mushroom_stem"
+      "model": "swamplands:block/veil_mushroom_stem"
     }
   }
 }

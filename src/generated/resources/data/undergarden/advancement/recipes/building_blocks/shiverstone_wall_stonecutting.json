@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:shiverstone_wall_stonecutting"
+        "recipe": "swamplands:shiverstone_wall_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:shiverstone": {
+    "has_swamplands:shiverstone": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:shiverstone"
+            "items": "swamplands:shiverstone"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:shiverstone"
+      "has_swamplands:shiverstone"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:shiverstone_wall_stonecutting"
+      "swamplands:shiverstone_wall_stonecutting"
     ]
   }
 }

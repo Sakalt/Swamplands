@@ -1,8 +1,8 @@
 {
     "variants": {
-        "facing=north": { "model": "undergardens:block/shard_o_lantern" },
-        "facing=south": { "model": "undergardens:block/shard_o_lantern", "y": 180 },
-        "facing=west":  { "model": "undergardens:block/shard_o_lantern", "y": 270 },
-        "facing=east":  { "model": "undergardens:block/shard_o_lantern", "y": 90 }
+        "facing=north": { "model": "swamplands:block/shard_o_lantern" },
+        "facing=south": { "model": "swamplands:block/shard_o_lantern", "y": 180 },
+        "facing=west":  { "model": "swamplands:block/shard_o_lantern", "y": 270 },
+        "facing=east":  { "model": "swamplands:block/shard_o_lantern", "y": 90 }
     }
 }

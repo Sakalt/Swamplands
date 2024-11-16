@@ -17,7 +17,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergardens:cloggrum_nugget",
+          "name": "swamplands:cloggrum_nugget",
           "weight": 40
         },
         {
@@ -33,7 +33,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergardens:froststeel_nugget",
+          "name": "swamplands:froststeel_nugget",
           "weight": 40
         },
         {
@@ -49,7 +49,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergardens:utheric_shard",
+          "name": "swamplands:utheric_shard",
           "weight": 20
         },
         {
@@ -65,7 +65,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergardens:regalium_crystal",
+          "name": "swamplands:regalium_crystal",
           "weight": 20
         },
         {
@@ -81,7 +81,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergardens:slop_bowl",
+          "name": "swamplands:slop_bowl",
           "weight": 40
         }
       ],
@@ -120,7 +120,7 @@
               "function": "minecraft:set_damage"
             }
           ],
-          "name": "undergardens:cloggrum_sword",
+          "name": "swamplands:cloggrum_sword",
           "weight": 10
         },
         {
@@ -145,7 +145,7 @@
               "function": "minecraft:set_damage"
             }
           ],
-          "name": "undergardens:cloggrum_axe",
+          "name": "swamplands:cloggrum_axe",
           "weight": 10
         },
         {
@@ -170,7 +170,7 @@
               "function": "minecraft:set_damage"
             }
           ],
-          "name": "undergardens:cloggrum_sword",
+          "name": "swamplands:cloggrum_sword",
           "weight": 10
         },
         {
@@ -195,7 +195,7 @@
               "function": "minecraft:set_damage"
             }
           ],
-          "name": "undergardens:cloggrum_axe",
+          "name": "swamplands:cloggrum_axe",
           "weight": 10
         }
       ],
@@ -210,26 +210,26 @@
         },
         {
           "type": "minecraft:item",
-          "name": "undergardens:music_disc_mammoth",
+          "name": "swamplands:music_disc_mammoth",
           "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "undergardens:music_disc_relict",
+          "name": "swamplands:music_disc_relict",
           "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "undergardens:forgotten_upgrade_smithing_template",
+          "name": "swamplands:forgotten_upgrade_smithing_template",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "undergardens:forgotten_nugget"
+          "name": "swamplands:forgotten_nugget"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:chests/catacombs"
+  "random_sequence": "swamplands:chests/catacombs"
 }

@@ -1,7 +1,7 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.undergardens.longevity"
+    "translate": "enchantment.swamplands.longevity"
   },
   "max_cost": {
     "base": 20,
@@ -15,6 +15,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#undergardens:enchantable/slingshot",
+  "supported_items": "#swamplands:enchantable/slingshot",
   "weight": 10
 }

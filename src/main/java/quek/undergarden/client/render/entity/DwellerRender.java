@@ -1,14 +1,14 @@
-package quek.undergardens.client.render.entity;
+package quek.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.layers.SaddleLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.DwellerModel;
-import quek.undergardens.client.model.UGModelLayers;
-import quek.undergardens.client.render.layer.DwellerEyesLayer;
-import quek.undergardens.entity.animal.dweller.Dweller;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.DwellerModel;
+import quek.swamplands.client.model.UGModelLayers;
+import quek.swamplands.client.render.layer.DwellerEyesLayer;
+import quek.swamplands.entity.animal.dweller.Dweller;
 
 public class DwellerRender extends MobRenderer<Dweller, DwellerModel<Dweller>> {
 

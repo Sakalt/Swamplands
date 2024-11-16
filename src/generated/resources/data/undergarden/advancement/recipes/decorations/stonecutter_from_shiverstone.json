@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:shiverstone"
+            "items": "swamplands:shiverstone"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:stonecutter_from_shiverstone"
+        "recipe": "swamplands:stonecutter_from_shiverstone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:stonecutter_from_shiverstone"
+      "swamplands:stonecutter_from_shiverstone"
     ]
   }
 }

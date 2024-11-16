@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergardens:shiverstone"
+      "item": "swamplands:shiverstone"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergardens:shiverstone_slab"
+    "id": "swamplands:shiverstone_slab"
   }
 }

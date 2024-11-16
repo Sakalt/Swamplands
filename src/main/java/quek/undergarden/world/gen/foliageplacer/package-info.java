@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.world.gen.foliageplacer;
+package quek.swamplands.world.gen.foliageplacer;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

@@ -1,11 +1,11 @@
 {
-  "parent": "undergardens:undergardens/catacombs",
+  "parent": "swamplands:swamplands/catacombs",
   "criteria": {
     "has_cloggrum_battleaxe": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:cloggrum_battleaxe"
+            "items": "swamplands:cloggrum_battleaxe"
           }
         ]
       },
@@ -14,15 +14,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.cloggrum_battleaxe.desc"
+      "translate": "advancement.swamplands.cloggrum_battleaxe.desc"
     },
     "frame": "goal",
     "icon": {
       "count": 1,
-      "id": "undergardens:cloggrum_battleaxe"
+      "id": "swamplands:cloggrum_battleaxe"
     },
     "title": {
-      "translate": "advancement.undergardens.cloggrum_battleaxe.title"
+      "translate": "advancement.swamplands.cloggrum_battleaxe.title"
     }
   },
   "requirements": [

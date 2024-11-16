@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergardens:polished_depthrock"
+      "item": "swamplands:polished_depthrock"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "undergardens:polished_depthrock_stairs"
+    "id": "swamplands:polished_depthrock_stairs"
   }
 }

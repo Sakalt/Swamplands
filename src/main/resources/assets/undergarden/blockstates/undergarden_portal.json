@@ -1,6 +1,6 @@
 {
     "variants": {
-        "axis=z": { "model": "undergardens:block/undergardens_portal_ew" },
-        "axis=x": { "model": "undergardens:block/undergardens_portal_ns" }
+        "axis=z": { "model": "swamplands:block/swamplands_portal_ew" },
+        "axis=x": { "model": "swamplands:block/swamplands_portal_ns" }
     }
 }

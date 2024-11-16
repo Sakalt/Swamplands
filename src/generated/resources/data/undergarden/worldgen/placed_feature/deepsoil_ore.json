@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:deepsoil_ore",
+  "feature": "swamplands:deepsoil_ore",
   "placement": [
     {
       "type": "minecraft:count",

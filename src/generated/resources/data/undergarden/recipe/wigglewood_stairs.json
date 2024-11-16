@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergardens:wigglewood_planks"
+      "item": "swamplands:wigglewood_planks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "undergardens:wigglewood_stairs"
+    "id": "swamplands:wigglewood_stairs"
   }
 }

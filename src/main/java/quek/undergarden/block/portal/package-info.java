@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.block.portal;
+package quek.swamplands.block.portal;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

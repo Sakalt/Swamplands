@@ -1,26 +1,26 @@
 {
-  "parent": "undergardens:undergardens/forgotten_ingot",
+  "parent": "swamplands:swamplands/forgotten_ingot",
   "criteria": {
     "has_forgotten_tools": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:forgotten_battleaxe"
+            "items": "swamplands:forgotten_battleaxe"
           },
           {
-            "items": "undergardens:forgotten_sword"
+            "items": "swamplands:forgotten_sword"
           },
           {
-            "items": "undergardens:forgotten_pickaxe"
+            "items": "swamplands:forgotten_pickaxe"
           },
           {
-            "items": "undergardens:forgotten_axe"
+            "items": "swamplands:forgotten_axe"
           },
           {
-            "items": "undergardens:forgotten_shovel"
+            "items": "swamplands:forgotten_shovel"
           },
           {
-            "items": "undergardens:forgotten_hoe"
+            "items": "swamplands:forgotten_hoe"
           }
         ]
       },
@@ -29,15 +29,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.forgotten_tools.desc"
+      "translate": "advancement.swamplands.forgotten_tools.desc"
     },
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "undergardens:forgotten_pickaxe"
+      "id": "swamplands:forgotten_pickaxe"
     },
     "title": {
-      "translate": "advancement.undergardens.forgotten_tools.title"
+      "translate": "advancement.swamplands.forgotten_tools.title"
     }
   },
   "requirements": [

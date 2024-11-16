@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/butterbunch"
+      "model": "swamplands:block/butterbunch"
     }
   }
 }

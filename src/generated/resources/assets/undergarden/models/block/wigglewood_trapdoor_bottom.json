@@ -2,6 +2,6 @@
   "parent": "minecraft:block/template_orientable_trapdoor_bottom",
   "render_type": "minecraft:cutout",
   "textures": {
-    "texture": "undergardens:block/wigglewood_trapdoor"
+    "texture": "swamplands:block/wigglewood_trapdoor"
   }
 }

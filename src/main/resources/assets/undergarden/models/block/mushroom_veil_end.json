@@ -2,8 +2,8 @@
   "ambientocclusion": false,
   "render_type": "minecraft:cutout",
   "textures": {
-    "particle": "undergardens:block/mushroom_veil_end",
-    "veil": "undergardens:block/mushroom_veil_end"
+    "particle": "swamplands:block/mushroom_veil_end",
+    "veil": "swamplands:block/mushroom_veil_end"
   },
   "elements": [
     {

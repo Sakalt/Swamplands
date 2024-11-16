@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:block/wigglewood_sapling"
+    "layer0": "swamplands:block/wigglewood_sapling"
   }
 }

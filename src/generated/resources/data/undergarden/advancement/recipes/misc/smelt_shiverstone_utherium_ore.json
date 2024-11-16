@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smelt_shiverstone_utherium_ore"
+        "recipe": "swamplands:smelt_shiverstone_utherium_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:shiverstone_utherium_ore": {
+    "has_swamplands:shiverstone_utherium_ore": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:shiverstone_utherium_ore"
+            "items": "swamplands:shiverstone_utherium_ore"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:shiverstone_utherium_ore"
+      "has_swamplands:shiverstone_utherium_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smelt_shiverstone_utherium_ore"
+      "swamplands:smelt_shiverstone_utherium_ore"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/miserabell"
+      "model": "swamplands:block/miserabell"
     }
   }
 }

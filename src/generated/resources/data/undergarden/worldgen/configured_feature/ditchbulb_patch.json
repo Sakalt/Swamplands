@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "undergardens:ditchbulb_plant",
+              "Name": "swamplands:ditchbulb_plant",
               "Properties": {
                 "age": "1"
               }
@@ -28,7 +28,7 @@
               },
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "undergardens:depthrock",
+                "blocks": "swamplands:depthrock",
                 "offset": [
                   0,
                   -1,

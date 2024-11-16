@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:ditchbulb_patch",
+  "feature": "swamplands:ditchbulb_patch",
   "placement": [
     {
       "type": "minecraft:count",
@@ -24,7 +24,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "blocks": "undergardens:depthrock",
+        "blocks": "swamplands:depthrock",
         "offset": [
           0,
           -1,

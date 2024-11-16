@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
@@ -11,7 +11,7 @@ import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.Fluid;
-import quek.undergardens.Undergardens;
+import quek.swamplands.Undergardens;
 
 public class UGTags {
 
@@ -65,11 +65,11 @@ public class UGTags {
 
 	public static class Blocks {
 
-		public static final TagKey<Block> BASE_STONE_UNDERGARDEN = tag("base_stone_undergardens");
+		public static final TagKey<Block> BASE_STONE_UNDERGARDEN = tag("base_stone_swamplands");
 		public static final TagKey<Block> DEPTHROCK_ORE_REPLACEABLES = tag("depthrock_ore_replaceables");
 		public static final TagKey<Block> SHIVERSTONE_ORE_REPLACEABLES = tag("shiverstone_ore_replaceables");
 		public static final TagKey<Block> TREMBLECRUST_ORE_REPLACEABLES = tag("tremblecrust_ore_replaceables");
-		public static final TagKey<Block> UNDERGARDEN_CARVER_REPLACEABLES = tag("undergardens_carver_replaceables");
+		public static final TagKey<Block> UNDERGARDEN_CARVER_REPLACEABLES = tag("swamplands_carver_replaceables");
 		public static final TagKey<Block> MUSHROOMS = tag("mushrooms");
 		public static final TagKey<Block> PORTAL_FRAME_BLOCKS = tag("portal_frame_blocks");
 		public static final TagKey<Block> SMOGSTEM_LOGS = tag("smogstem_logs");
@@ -136,7 +136,7 @@ public class UGTags {
 
 	public static class Biomes {
 
-		public static final TagKey<Biome> IS_UNDERGARDEN = tag("is_undergardens");
+		public static final TagKey<Biome> IS_UNDERGARDEN = tag("is_swamplands");
 
 		public static final TagKey<Biome> HAS_CATACOMBS = tag("has_structure/catacombs");
 		public static final TagKey<Biome> HAS_FORGOTTEN_VESTIGE = tag("has_structure/forgotten_vestige");

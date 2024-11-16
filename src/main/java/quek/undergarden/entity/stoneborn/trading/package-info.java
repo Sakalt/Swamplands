@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.entity.stoneborn.trading;
+package quek.swamplands.entity.stoneborn.trading;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

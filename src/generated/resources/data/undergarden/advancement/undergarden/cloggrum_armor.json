@@ -1,20 +1,20 @@
 {
-  "parent": "undergardens:undergardens/mine_ore",
+  "parent": "swamplands:swamplands/mine_ore",
   "criteria": {
     "has_cloggrum_armor": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:cloggrum_helmet"
+            "items": "swamplands:cloggrum_helmet"
           },
           {
-            "items": "undergardens:cloggrum_chestplate"
+            "items": "swamplands:cloggrum_chestplate"
           },
           {
-            "items": "undergardens:cloggrum_leggings"
+            "items": "swamplands:cloggrum_leggings"
           },
           {
-            "items": "undergardens:cloggrum_boots"
+            "items": "swamplands:cloggrum_boots"
           }
         ]
       },
@@ -23,15 +23,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.cloggrum_armor.desc"
+      "translate": "advancement.swamplands.cloggrum_armor.desc"
     },
     "frame": "goal",
     "icon": {
       "count": 1,
-      "id": "undergardens:cloggrum_chestplate"
+      "id": "swamplands:cloggrum_chestplate"
     },
     "title": {
-      "translate": "advancement.undergardens.cloggrum_armor.title"
+      "translate": "advancement.swamplands.cloggrum_armor.title"
     }
   },
   "requirements": [

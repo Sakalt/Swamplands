@@ -1,5 +1,5 @@
 {
-  "type": "undergardens:delta",
+  "type": "swamplands:delta",
   "config": {
     "contents": {
       "Name": "minecraft:water",
@@ -8,7 +8,7 @@
       }
     },
     "rim": {
-      "Name": "undergardens:sediment"
+      "Name": "swamplands:sediment"
     },
     "rim_size": {
       "type": "minecraft:uniform",

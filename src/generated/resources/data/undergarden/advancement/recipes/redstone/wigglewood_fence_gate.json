@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:wigglewood_fence_gate"
+        "recipe": "swamplands:wigglewood_fence_gate"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:wigglewood_planks"
+            "items": "swamplands:wigglewood_planks"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:wigglewood_fence_gate"
+      "swamplands:wigglewood_fence_gate"
     ]
   }
 }

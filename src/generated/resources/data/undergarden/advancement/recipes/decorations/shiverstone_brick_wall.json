@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:shiverstone_bricks"
+            "items": "swamplands:shiverstone_bricks"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:shiverstone_brick_wall"
+        "recipe": "swamplands:shiverstone_brick_wall"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:shiverstone_brick_wall"
+      "swamplands:shiverstone_brick_wall"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/raw_gloomper_leg"
+    "layer0": "swamplands:item/raw_gloomper_leg"
   }
 }

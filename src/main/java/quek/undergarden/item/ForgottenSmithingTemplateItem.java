@@ -1,20 +1,20 @@
-package quek.undergardens.item;
+package quek.swamplands.item;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.SmithingTemplateItem;
-import quek.undergardens.Undergardens;
+import quek.swamplands.Undergardens;
 
 import java.util.List;
 
 public class ForgottenSmithingTemplateItem extends SmithingTemplateItem {
 
-	private static final Component FORGOTTEN_UPGRADE = Component.translatable("upgrade.undergardens.forgotten_upgrade").withStyle(ChatFormatting.GRAY);
-	private static final Component FORGOTTEN_UPGRADE_APPLIES_TO = Component.translatable("item.undergardens.smithing_template.forgotten_upgrade.applies_to").withStyle(ChatFormatting.BLUE);
-	private static final Component FORGOTTEN_UPGRADE_INGREDIENTS = Component.translatable("item.undergardens.smithing_template.forgotten_upgrade.ingredients").withStyle(ChatFormatting.BLUE);
-	private static final Component FORGOTTEN_UPGRADE_BASE_SLOT_DESCRIPTION = Component.translatable("item.undergardens.smithing_template.forgotten_upgrade.base_slot_description");
-	private static final Component FORGOTTEN_UPGRADE_ADDITIONS_SLOT_DESCRIPTION = Component.translatable("item.undergardens.smithing_template.forgotten_upgrade.additions_slot_description");
+	private static final Component FORGOTTEN_UPGRADE = Component.translatable("upgrade.swamplands.forgotten_upgrade").withStyle(ChatFormatting.GRAY);
+	private static final Component FORGOTTEN_UPGRADE_APPLIES_TO = Component.translatable("item.swamplands.smithing_template.forgotten_upgrade.applies_to").withStyle(ChatFormatting.BLUE);
+	private static final Component FORGOTTEN_UPGRADE_INGREDIENTS = Component.translatable("item.swamplands.smithing_template.forgotten_upgrade.ingredients").withStyle(ChatFormatting.BLUE);
+	private static final Component FORGOTTEN_UPGRADE_BASE_SLOT_DESCRIPTION = Component.translatable("item.swamplands.smithing_template.forgotten_upgrade.base_slot_description");
+	private static final Component FORGOTTEN_UPGRADE_ADDITIONS_SLOT_DESCRIPTION = Component.translatable("item.swamplands.smithing_template.forgotten_upgrade.additions_slot_description");
 
 	private static final ResourceLocation EMPTY_SLOT_HOE = ResourceLocation.withDefaultNamespace("item/empty_slot_hoe");
 	private static final ResourceLocation EMPTY_SLOT_AXE = ResourceLocation.withDefaultNamespace("item/empty_slot_axe");

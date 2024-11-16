@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_all",
   "render_type": "minecraft:translucent",
   "textures": {
-    "all": "undergardens:block/sediment_glass"
+    "all": "swamplands:block/sediment_glass"
   }
 }

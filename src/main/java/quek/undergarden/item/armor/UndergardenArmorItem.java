@@ -1,4 +1,4 @@
-package quek.undergardens.item.armor;
+package quek.swamplands.item.armor;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
@@ -13,7 +13,7 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
-import quek.undergardens.registry.UGItems;
+import quek.swamplands.registry.UGItems;
 
 import java.util.List;
 
@@ -31,7 +31,7 @@ public class UndergardensArmorItem extends ArmorItem {
 	@Override
 	public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
 		if (stack.is(UGItems.CLOGGRUM_BOOTS.get())) {
-			tooltip.add(Component.translatable("tooltip.undergardens.cloggrum_boots").withStyle(ChatFormatting.GRAY));
+			tooltip.add(Component.translatable("tooltip.swamplands.cloggrum_boots").withStyle(ChatFormatting.GRAY));
 		}
 	}
 

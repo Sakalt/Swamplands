@@ -1,11 +1,11 @@
 {
-  "parent": "undergardens:undergardens/kill_rotling",
+  "parent": "swamplands:swamplands/kill_rotling",
   "criteria": {
     "has_shard_torch": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:shard_torch"
+            "items": "swamplands:shard_torch"
           }
         ]
       },
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.shard_torch.desc"
+      "translate": "advancement.swamplands.shard_torch.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergardens:shard_torch"
+      "id": "swamplands:shard_torch"
     },
     "title": {
-      "translate": "advancement.undergardens.shard_torch.title"
+      "translate": "advancement.swamplands.shard_torch.title"
     }
   },
   "requirements": [

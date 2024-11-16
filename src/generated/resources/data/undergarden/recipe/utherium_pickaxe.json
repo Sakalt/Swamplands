@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "undergardens:utherium_crystal"
+      "item": "swamplands:utherium_crystal"
     },
     "/": {
       "tag": "c:rods/wooden"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:utherium_pickaxe"
+    "id": "swamplands:utherium_pickaxe"
   }
 }

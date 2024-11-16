@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.7,
-  "group": "undergardens:froststeel_ingot",
+  "group": "swamplands:froststeel_ingot",
   "ingredient": {
-    "item": "undergardens:raw_froststeel"
+    "item": "swamplands:raw_froststeel"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:froststeel_ingot"
+    "id": "swamplands:froststeel_ingot"
   }
 }

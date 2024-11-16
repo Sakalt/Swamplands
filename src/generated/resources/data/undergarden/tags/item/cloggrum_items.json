@@ -1,13 +1,13 @@
 {
   "values": [
-    "undergardens:cloggrum_sword",
-    "undergardens:cloggrum_pickaxe",
-    "undergardens:cloggrum_axe",
-    "undergardens:cloggrum_shovel",
-    "undergardens:cloggrum_hoe",
-    "undergardens:cloggrum_helmet",
-    "undergardens:cloggrum_chestplate",
-    "undergardens:cloggrum_leggings",
-    "undergardens:cloggrum_boots"
+    "swamplands:cloggrum_sword",
+    "swamplands:cloggrum_pickaxe",
+    "swamplands:cloggrum_axe",
+    "swamplands:cloggrum_shovel",
+    "swamplands:cloggrum_hoe",
+    "swamplands:cloggrum_helmet",
+    "swamplands:cloggrum_chestplate",
+    "swamplands:cloggrum_leggings",
+    "swamplands:cloggrum_boots"
   ]
 }

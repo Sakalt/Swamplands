@@ -14,11 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:deepturf"
+          "name": "swamplands:deepturf"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/deepturf"
+  "random_sequence": "swamplands:blocks/deepturf"
 }

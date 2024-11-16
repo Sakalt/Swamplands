@@ -6,11 +6,11 @@
     "targets": [
       {
         "state": {
-          "Name": "undergardens:sediment"
+          "Name": "swamplands:sediment"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
-          "tag": "undergardens:base_stone_undergardens"
+          "tag": "swamplands:base_stone_swamplands"
         }
       }
     ]

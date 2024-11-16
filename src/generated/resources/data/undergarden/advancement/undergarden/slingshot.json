@@ -1,11 +1,11 @@
 {
-  "parent": "undergardens:undergardens/enter_undergardens",
+  "parent": "swamplands:swamplands/enter_swamplands",
   "criteria": {
     "has_slingshot": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:slingshot"
+            "items": "swamplands:slingshot"
           }
         ]
       },
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.slingshot.desc"
+      "translate": "advancement.swamplands.slingshot.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergardens:slingshot"
+      "id": "swamplands:slingshot"
     },
     "title": {
-      "translate": "advancement.undergardens.slingshot.title"
+      "translate": "advancement.swamplands.slingshot.title"
     }
   },
   "requirements": [

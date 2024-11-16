@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:sediment_glass"
+        "recipe": "swamplands:sediment_glass"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:sediment": {
+    "has_swamplands:sediment": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:sediment"
+            "items": "swamplands:sediment"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:sediment"
+      "has_swamplands:sediment"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:sediment_glass"
+      "swamplands:sediment_glass"
     ]
   }
 }

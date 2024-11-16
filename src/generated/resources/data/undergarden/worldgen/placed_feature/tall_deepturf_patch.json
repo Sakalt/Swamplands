@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:tall_deepturf_patch",
+  "feature": "swamplands:tall_deepturf_patch",
   "placement": [
     {
       "type": "minecraft:count",
@@ -24,7 +24,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "blocks": "undergardens:deepturf_block",
+        "blocks": "swamplands:deepturf_block",
         "offset": [
           0,
           -1,

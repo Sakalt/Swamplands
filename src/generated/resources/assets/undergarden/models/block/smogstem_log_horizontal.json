@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "end": "undergardens:block/smogstem_log_end",
-    "side": "undergardens:block/smogstem_log_side"
+    "end": "swamplands:block/smogstem_log_end",
+    "side": "swamplands:block/smogstem_log_side"
   }
 }

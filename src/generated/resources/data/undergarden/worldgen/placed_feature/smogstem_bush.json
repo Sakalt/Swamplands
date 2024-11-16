@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:smogstem_bush",
+  "feature": "swamplands:smogstem_bush",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",

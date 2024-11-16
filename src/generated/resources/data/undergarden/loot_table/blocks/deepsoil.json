@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:deepsoil"
+          "name": "swamplands:deepsoil"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/deepsoil"
+  "random_sequence": "swamplands:blocks/deepsoil"
 }

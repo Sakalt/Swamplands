@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergardens:smogstem_log"
+      "item": "swamplands:smogstem_log"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergardens:smogstem_wood"
+    "id": "swamplands:smogstem_wood"
   }
 }

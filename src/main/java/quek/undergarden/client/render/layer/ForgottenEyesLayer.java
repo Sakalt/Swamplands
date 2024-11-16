@@ -1,12 +1,12 @@
-package quek.undergardens.client.render.layer;
+package quek.swamplands.client.render.layer;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.ForgottenModel;
-import quek.undergardens.entity.Forgotten;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.ForgottenModel;
+import quek.swamplands.entity.Forgotten;
 
 public class ForgottenEyesLayer<T extends Forgotten, M extends ForgottenModel<T>> extends EyesLayer<T, M> {
 

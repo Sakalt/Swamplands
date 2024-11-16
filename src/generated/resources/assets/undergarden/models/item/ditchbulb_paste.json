@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/ditchbulb_paste"
+    "layer0": "swamplands:item/ditchbulb_paste"
   }
 }

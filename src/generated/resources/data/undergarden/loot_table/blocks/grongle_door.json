@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "undergardens:grongle_door",
+              "block": "swamplands:grongle_door",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "undergardens:grongle_door"
+          "name": "swamplands:grongle_door"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/grongle_door"
+  "random_sequence": "swamplands:blocks/grongle_door"
 }

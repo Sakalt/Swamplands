@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "undergardens:amorous_bristle"
+              "Name": "swamplands:amorous_bristle"
             }
           }
         }

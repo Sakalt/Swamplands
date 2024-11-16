@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:boomgourd"
+          "name": "swamplands:boomgourd"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/boomgourd"
+  "random_sequence": "swamplands:blocks/boomgourd"
 }

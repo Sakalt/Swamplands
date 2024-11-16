@@ -1,6 +1,6 @@
 {
     "variants": {
-        "age=0": { "model": "undergardens:block/ditchbulb_plant_ungrown" },
-        "age=1": { "model": "undergardens:block/ditchbulb_plant_grown" }
+        "age=0": { "model": "swamplands:block/ditchbulb_plant_ungrown" },
+        "age=1": { "model": "swamplands:block/ditchbulb_plant_grown" }
     }
 }

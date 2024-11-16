@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "undergardens:block/smogstem_slab"
+      "model": "swamplands:block/smogstem_slab"
     },
     "type=double": {
-      "model": "undergardens:block/smogstem_planks"
+      "model": "swamplands:block/smogstem_planks"
     },
     "type=top": {
-      "model": "undergardens:block/smogstem_slab_top"
+      "model": "swamplands:block/smogstem_slab_top"
     }
   }
 }

@@ -29,7 +29,7 @@
                       }
                     }
                   ],
-                  "name": "undergardens:engorged_blood_mushroom_cap"
+                  "name": "swamplands:engorged_blood_mushroom_cap"
                 },
                 {
                   "type": "minecraft:item",
@@ -47,7 +47,7 @@
                       "function": "minecraft:explosion_decay"
                     }
                   ],
-                  "name": "undergardens:blood_globule"
+                  "name": "swamplands:blood_globule"
                 }
               ]
             },
@@ -73,7 +73,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "undergardens:blood_mushroom"
+              "name": "swamplands:blood_mushroom"
             }
           ]
         }
@@ -81,5 +81,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/engorged_blood_mushroom_cap"
+  "random_sequence": "swamplands:blocks/engorged_blood_mushroom_cap"
 }

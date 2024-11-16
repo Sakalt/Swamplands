@@ -2,9 +2,9 @@
     "ambientocclusion": false,
     "render_type": "minecraft:cutout",
     "textures": {
-        "particle": "undergardens:block/cloggrum_bars",
-        "bars": "undergardens:block/cloggrum_bars",
-        "edge": "undergardens:block/cloggrum_bars"
+        "particle": "swamplands:block/cloggrum_bars",
+        "bars": "swamplands:block/cloggrum_bars",
+        "edge": "swamplands:block/cloggrum_bars"
     },
     "elements": [
         {   "from": [ 8, 0, 7 ],

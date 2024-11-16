@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "S": {
-      "item": "undergardens:utheric_shard"
+      "item": "swamplands:utheric_shard"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:utherium_crystal"
+    "id": "swamplands:utherium_crystal"
   }
 }

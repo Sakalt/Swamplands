@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

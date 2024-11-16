@@ -4,7 +4,7 @@
   "cookingtime": 100,
   "experience": 0.0,
   "ingredient": {
-    "item": "undergardens:catalyst"
+    "item": "swamplands:catalyst"
   },
   "result": {
     "count": 1,

@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "G": {
-      "item": "undergardens:goo_ball"
+      "item": "swamplands:goo_ball"
     },
     "P": {
       "item": "minecraft:piston"

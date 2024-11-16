@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:smogstem_planks"
+          "name": "swamplands:smogstem_planks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/smogstem_planks"
+  "random_sequence": "swamplands:blocks/smogstem_planks"
 }

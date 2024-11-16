@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergardens:smogstem_planks"
+      "item": "swamplands:smogstem_planks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "undergardens:smogstem_stairs"
+    "id": "swamplands:smogstem_stairs"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/deepsoil"
+      "model": "swamplands:block/deepsoil"
     }
   }
 }

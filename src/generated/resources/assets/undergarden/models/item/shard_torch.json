@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:block/shard_torch"
+    "layer0": "swamplands:block/shard_torch"
   }
 }

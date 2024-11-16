@@ -1,10 +1,10 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "undergardens:depthrock_tiles"
+    "item": "swamplands:depthrock_tiles"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:depthrock_tile_stairs"
+    "id": "swamplands:depthrock_tile_stairs"
   }
 }

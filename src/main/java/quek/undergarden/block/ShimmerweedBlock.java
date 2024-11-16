@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -15,8 +15,8 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGParticleTypes;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGParticleTypes;
 
 public class ShimmerweedBlock extends BushBlock implements BonemealableBlock {
 

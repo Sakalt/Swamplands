@@ -1,12 +1,12 @@
 {
-  "type": "undergardens:undergardens",
+  "type": "swamplands:swamplands",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "undergardens:forgotten_field",
+          "biome": "swamplands:forgotten_field",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -18,7 +18,7 @@
           }
         },
         {
-          "biome": "undergardens:frostfields",
+          "biome": "swamplands:frostfields",
           "parameters": {
             "continentalness": -0.9,
             "depth": -2.0,
@@ -30,7 +30,7 @@
           }
         },
         {
-          "biome": "undergardens:smogstem_forest",
+          "biome": "swamplands:smogstem_forest",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -42,7 +42,7 @@
           }
         },
         {
-          "biome": "undergardens:wigglewood_forest",
+          "biome": "swamplands:wigglewood_forest",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -54,7 +54,7 @@
           }
         },
         {
-          "biome": "undergardens:dense_forest",
+          "biome": "swamplands:dense_forest",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -66,7 +66,7 @@
           }
         },
         {
-          "biome": "undergardens:gronglegrowth",
+          "biome": "swamplands:gronglegrowth",
           "parameters": {
             "continentalness": 0.9,
             "depth": -2.0,
@@ -78,7 +78,7 @@
           }
         },
         {
-          "biome": "undergardens:frosty_smogstem_forest",
+          "biome": "swamplands:frosty_smogstem_forest",
           "parameters": {
             "continentalness": -0.9,
             "depth": -2.0,
@@ -90,7 +90,7 @@
           }
         },
         {
-          "biome": "undergardens:barren_abyss",
+          "biome": "swamplands:barren_abyss",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -102,7 +102,7 @@
           }
         },
         {
-          "biome": "undergardens:smog_spires",
+          "biome": "swamplands:smog_spires",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -114,7 +114,7 @@
           }
         },
         {
-          "biome": "undergardens:ink_mushroom_bog",
+          "biome": "swamplands:ink_mushroom_bog",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -126,7 +126,7 @@
           }
         },
         {
-          "biome": "undergardens:indigo_mushroom_bog",
+          "biome": "swamplands:indigo_mushroom_bog",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -138,7 +138,7 @@
           }
         },
         {
-          "biome": "undergardens:veil_mushroom_bog",
+          "biome": "swamplands:veil_mushroom_bog",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -150,7 +150,7 @@
           }
         },
         {
-          "biome": "undergardens:blood_mushroom_bog",
+          "biome": "swamplands:blood_mushroom_bog",
           "parameters": {
             "continentalness": 0.0,
             "depth": -2.0,
@@ -162,7 +162,7 @@
           }
         },
         {
-          "biome": "undergardens:ancient_sea",
+          "biome": "swamplands:ancient_sea",
           "parameters": {
             "continentalness": [
               0.0,
@@ -186,7 +186,7 @@
           }
         },
         {
-          "biome": "undergardens:dead_sea",
+          "biome": "swamplands:dead_sea",
           "parameters": {
             "continentalness": 0.0,
             "depth": 2.0,
@@ -201,7 +201,7 @@
           }
         },
         {
-          "biome": "undergardens:icy_sea",
+          "biome": "swamplands:icy_sea",
           "parameters": {
             "continentalness": -0.9,
             "depth": 2.0,
@@ -217,6 +217,6 @@
         }
       ]
     },
-    "settings": "undergardens:undergardens"
+    "settings": "swamplands:swamplands"
   }
 }

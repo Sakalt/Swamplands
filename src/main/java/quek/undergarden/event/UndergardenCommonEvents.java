@@ -1,4 +1,4 @@
-package quek.undergardens.event;
+package quek.swamplands.event;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -47,28 +47,28 @@ import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.fluids.FluidInteractionRegistry;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
-import quek.undergardens.Undergardens;
-import quek.undergardens.block.portal.UndergardensPortalVisuals;
-import quek.undergardens.entity.Forgotten;
-import quek.undergardens.entity.Minion;
-import quek.undergardens.entity.animal.*;
-import quek.undergardens.entity.animal.dweller.Dweller;
-import quek.undergardens.entity.boss.ForgottenGuardian;
-import quek.undergardens.entity.cavern.CavernMonster;
-import quek.undergardens.entity.cavern.Muncher;
-import quek.undergardens.entity.cavern.Nargoyle;
-import quek.undergardens.entity.cavern.Sploogie;
-import quek.undergardens.entity.projectile.slingshot.*;
-import quek.undergardens.entity.rotspawn.Rotbeast;
-import quek.undergardens.entity.rotspawn.Rotling;
-import quek.undergardens.entity.rotspawn.RotspawnMonster;
-import quek.undergardens.entity.rotspawn.Rotwalker;
-import quek.undergardens.entity.stoneborn.Stoneborn;
-import quek.undergardens.item.tool.slingshot.AbstractSlingshotAmmoBehavior;
-import quek.undergardens.item.tool.slingshot.SlingshotItem;
-import quek.undergardens.network.CreateCritParticlePacket;
-import quek.undergardens.network.UndergardensPortalSoundPacket;
-import quek.undergardens.registry.*;
+import quek.swamplands.Undergardens;
+import quek.swamplands.block.portal.UndergardensPortalVisuals;
+import quek.swamplands.entity.Forgotten;
+import quek.swamplands.entity.Minion;
+import quek.swamplands.entity.animal.*;
+import quek.swamplands.entity.animal.dweller.Dweller;
+import quek.swamplands.entity.boss.ForgottenGuardian;
+import quek.swamplands.entity.cavern.CavernMonster;
+import quek.swamplands.entity.cavern.Muncher;
+import quek.swamplands.entity.cavern.Nargoyle;
+import quek.swamplands.entity.cavern.Sploogie;
+import quek.swamplands.entity.projectile.slingshot.*;
+import quek.swamplands.entity.rotspawn.Rotbeast;
+import quek.swamplands.entity.rotspawn.Rotling;
+import quek.swamplands.entity.rotspawn.RotspawnMonster;
+import quek.swamplands.entity.rotspawn.Rotwalker;
+import quek.swamplands.entity.stoneborn.Stoneborn;
+import quek.swamplands.item.tool.slingshot.AbstractSlingshotAmmoBehavior;
+import quek.swamplands.item.tool.slingshot.SlingshotItem;
+import quek.swamplands.network.CreateCritParticlePacket;
+import quek.swamplands.network.UndergardensPortalSoundPacket;
+import quek.swamplands.registry.*;
 
 public class UndergardensCommonEvents {
 

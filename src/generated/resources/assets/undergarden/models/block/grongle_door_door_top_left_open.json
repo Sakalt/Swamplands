@@ -2,7 +2,7 @@
   "parent": "minecraft:block/door_top_left_open",
   "render_type": "minecraft:cutout",
   "textures": {
-    "bottom": "undergardens:block/grongle_door_bottom",
-    "top": "undergardens:block/grongle_door_top"
+    "bottom": "swamplands:block/grongle_door_bottom",
+    "top": "swamplands:block/grongle_door_top"
   }
 }

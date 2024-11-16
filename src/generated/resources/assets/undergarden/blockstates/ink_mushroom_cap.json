@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/ink_mushroom_cap"
+      "model": "swamplands:block/ink_mushroom_cap"
     }
   }
 }

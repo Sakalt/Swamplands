@@ -1,5 +1,5 @@
 {
-  "type": "undergardens:undergardens_cave",
+  "type": "swamplands:swamplands_cave",
   "config": {
     "floor_level": -0.7,
     "horizontal_radius_multiplier": 1.0,
@@ -7,7 +7,7 @@
       "above_bottom": 10
     },
     "probability": 0.5,
-    "replaceable": "#undergardens:undergardens_carver_replaceables",
+    "replaceable": "#swamplands:swamplands_carver_replaceables",
     "vertical_radius_multiplier": 1.0,
     "y": {
       "type": "minecraft:uniform",

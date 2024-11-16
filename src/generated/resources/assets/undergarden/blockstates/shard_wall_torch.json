@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "undergardens:block/shard_wall_torch"
+      "model": "swamplands:block/shard_wall_torch"
     },
     "facing=north": {
-      "model": "undergardens:block/shard_wall_torch",
+      "model": "swamplands:block/shard_wall_torch",
       "y": 270
     },
     "facing=south": {
-      "model": "undergardens:block/shard_wall_torch",
+      "model": "swamplands:block/shard_wall_torch",
       "y": 90
     },
     "facing=west": {
-      "model": "undergardens:block/shard_wall_torch",
+      "model": "swamplands:block/shard_wall_torch",
       "y": 180
     }
   }

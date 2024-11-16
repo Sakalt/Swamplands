@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "undergardens:block/wigglewood_log_horizontal",
+      "model": "swamplands:block/wigglewood_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "undergardens:block/wigglewood_log"
+      "model": "swamplands:block/wigglewood_log"
     },
     "axis=z": {
-      "model": "undergardens:block/wigglewood_log_horizontal",
+      "model": "swamplands:block/wigglewood_log_horizontal",
       "x": 90
     }
   }

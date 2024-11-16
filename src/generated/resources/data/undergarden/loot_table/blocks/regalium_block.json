@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:regalium_block"
+          "name": "swamplands:regalium_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/regalium_block"
+  "random_sequence": "swamplands:blocks/regalium_block"
 }

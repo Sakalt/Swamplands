@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:smogstem_log"
+          "name": "swamplands:smogstem_log"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/smogstem_log"
+  "random_sequence": "swamplands:blocks/smogstem_log"
 }

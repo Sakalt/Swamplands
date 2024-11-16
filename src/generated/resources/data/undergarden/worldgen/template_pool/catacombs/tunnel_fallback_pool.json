@@ -3,8 +3,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:catacombs/tunnel_dead_end",
-        "processors": "undergardens:catacombs_degradation",
+        "location": "swamplands:catacombs/tunnel_dead_end",
+        "processors": "swamplands:catacombs_degradation",
         "projection": "rigid"
       },
       "weight": 1

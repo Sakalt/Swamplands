@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:raw_froststeel"
+            "items": "swamplands:raw_froststeel"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:raw_froststeel_block"
+        "recipe": "swamplands:raw_froststeel_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:raw_froststeel_block"
+      "swamplands:raw_froststeel_block"
     ]
   }
 }

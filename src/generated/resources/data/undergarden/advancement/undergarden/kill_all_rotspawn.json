@@ -1,5 +1,5 @@
 {
-  "parent": "undergardens:undergardens/kill_rotling",
+  "parent": "swamplands:swamplands/kill_rotling",
   "criteria": {
     "kill_rotbeast": {
       "conditions": {
@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergardens:rotbeast"
+              "type": "swamplands:rotbeast"
             }
           }
         ]
@@ -22,7 +22,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergardens:rotling"
+              "type": "swamplands:rotling"
             }
           }
         ]
@@ -36,7 +36,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergardens:rotwalker"
+              "type": "swamplands:rotwalker"
             }
           }
         ]
@@ -46,15 +46,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.kill_all_rotspawn.desc"
+      "translate": "advancement.swamplands.kill_all_rotspawn.desc"
     },
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "undergardens:utherium_sword"
+      "id": "swamplands:utherium_sword"
     },
     "title": {
-      "translate": "advancement.undergardens.kill_all_rotspawn.title"
+      "translate": "advancement.swamplands.kill_all_rotspawn.title"
     }
   },
   "requirements": [

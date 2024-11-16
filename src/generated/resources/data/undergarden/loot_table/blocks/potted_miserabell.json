@@ -26,11 +26,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:miserabell"
+          "name": "swamplands:miserabell"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/potted_miserabell"
+  "random_sequence": "swamplands:blocks/potted_miserabell"
 }

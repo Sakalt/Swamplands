@@ -26,11 +26,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:blood_mushroom"
+          "name": "swamplands:blood_mushroom"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/potted_blood_mushroom"
+  "random_sequence": "swamplands:blocks/potted_blood_mushroom"
 }

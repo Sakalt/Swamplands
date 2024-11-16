@@ -3,16 +3,16 @@
   "config": {
     "decorators": [
       {
-        "type": "undergardens:grongle_leaf_decorator"
+        "type": "swamplands:grongle_leaf_decorator"
       },
       {
-        "type": "undergardens:gronglet_trunk_decorator"
+        "type": "swamplands:gronglet_trunk_decorator"
       }
     ],
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergardens:deepsoil"
+        "Name": "swamplands:deepsoil"
       }
     },
     "foliage_placer": {
@@ -23,7 +23,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergardens:grongle_leaves",
+        "Name": "swamplands:grongle_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
@@ -48,7 +48,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergardens:grongle_log",
+        "Name": "swamplands:grongle_log",
         "Properties": {
           "axis": "y"
         }

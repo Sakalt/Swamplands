@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:grongle_pressure_plate"
+          "name": "swamplands:grongle_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/grongle_pressure_plate"
+  "random_sequence": "swamplands:blocks/grongle_pressure_plate"
 }

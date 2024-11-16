@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:blast_depthrock_utherium_ore"
+        "recipe": "swamplands:blast_depthrock_utherium_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:depthrock_utherium_ore": {
+    "has_swamplands:depthrock_utherium_ore": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:depthrock_utherium_ore"
+            "items": "swamplands:depthrock_utherium_ore"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:depthrock_utherium_ore"
+      "has_swamplands:depthrock_utherium_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:blast_depthrock_utherium_ore"
+      "swamplands:blast_depthrock_utherium_ore"
     ]
   }
 }

@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "undergardens:raw_froststeel"
+      "item": "swamplands:raw_froststeel"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:raw_froststeel_block"
+    "id": "swamplands:raw_froststeel_block"
   }
 }

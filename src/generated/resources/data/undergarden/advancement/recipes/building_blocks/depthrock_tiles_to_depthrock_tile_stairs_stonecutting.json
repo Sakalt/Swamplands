@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:depthrock_tiles_to_depthrock_tile_stairs_stonecutting"
+        "recipe": "swamplands:depthrock_tiles_to_depthrock_tile_stairs_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:depthrock_tiles": {
+    "has_swamplands:depthrock_tiles": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:depthrock_tiles"
+            "items": "swamplands:depthrock_tiles"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:depthrock_tiles"
+      "has_swamplands:depthrock_tiles"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:depthrock_tiles_to_depthrock_tile_stairs_stonecutting"
+      "swamplands:depthrock_tiles_to_depthrock_tile_stairs_stonecutting"
     ]
   }
 }

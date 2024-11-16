@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -9,7 +9,7 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SpreadingSnowyDirtBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import quek.undergardens.registry.UGBlocks;
+import quek.swamplands.registry.UGBlocks;
 
 public class SpreadingSnowyDeepsoilBlock extends SpreadingSnowyDirtBlock {
 

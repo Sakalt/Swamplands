@@ -1,5 +1,5 @@
 {
-  "parent": "undergardens:undergardens/enter_undergardens",
+  "parent": "swamplands:swamplands/enter_swamplands",
   "criteria": {
     "kill_scintling": {
       "conditions": {
@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergardens:scintling"
+              "type": "swamplands:scintling"
             }
           }
         ]
@@ -18,15 +18,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.kill_scintling.desc"
+      "translate": "advancement.swamplands.kill_scintling.desc"
     },
     "hidden": true,
     "icon": {
       "count": 1,
-      "id": "undergardens:goo_ball"
+      "id": "swamplands:goo_ball"
     },
     "title": {
-      "translate": "advancement.undergardens.kill_scintling.title"
+      "translate": "advancement.swamplands.kill_scintling.title"
     }
   },
   "requirements": [

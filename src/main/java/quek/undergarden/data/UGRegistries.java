@@ -1,12 +1,12 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.DatapackBuiltinEntriesProvider;
-import quek.undergardens.Undergardens;
-import quek.undergardens.registry.*;
+import quek.swamplands.Undergardens;
+import quek.swamplands.registry.*;
 
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;

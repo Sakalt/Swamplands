@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:glitterkelp",
+  "feature": "swamplands:glitterkelp",
   "placement": [
     {
       "type": "minecraft:noise_based_count",

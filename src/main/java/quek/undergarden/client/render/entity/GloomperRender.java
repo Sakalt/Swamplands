@@ -1,13 +1,13 @@
-package quek.undergardens.client.render.entity;
+package quek.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.GloomperModel;
-import quek.undergardens.client.model.UGModelLayers;
-import quek.undergardens.client.render.layer.GloomperEyesLayer;
-import quek.undergardens.entity.animal.Gloomper;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.GloomperModel;
+import quek.swamplands.client.model.UGModelLayers;
+import quek.swamplands.client.render.layer.GloomperEyesLayer;
+import quek.swamplands.entity.animal.Gloomper;
 
 public class GloomperRender extends MobRenderer<Gloomper, GloomperModel<Gloomper>> {
 

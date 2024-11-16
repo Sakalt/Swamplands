@@ -1,4 +1,4 @@
-package quek.undergardens.client.particle;
+package quek.swamplands.client.particle;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.DripParticle;
@@ -10,8 +10,8 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.Mth;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.Fluids;
-import quek.undergardens.registry.UGFluids;
-import quek.undergardens.registry.UGParticleTypes;
+import quek.swamplands.registry.UGFluids;
+import quek.swamplands.registry.UGParticleTypes;
 
 @SuppressWarnings("unused")
 public class UGDripParticles extends DripParticle {

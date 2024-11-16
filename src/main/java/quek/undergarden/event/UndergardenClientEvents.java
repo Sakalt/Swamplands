@@ -1,4 +1,4 @@
-package quek.undergardens.event;
+package quek.swamplands.event;
 
 import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.shaders.FogShape;
@@ -37,18 +37,18 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.entity.player.PlayerHeartTypeEvent;
 import org.jetbrains.annotations.NotNull;
 import org.joml.Vector3f;
-import quek.undergardens.Undergardens;
-import quek.undergardens.UndergardensConfig;
-import quek.undergardens.block.portal.UndergardensPortalVisuals;
-import quek.undergardens.client.gui.screen.UndergardensReceivingLevelScreen;
-import quek.undergardens.client.model.*;
-import quek.undergardens.client.particle.*;
-import quek.undergardens.client.render.blockentity.DepthrockBedRender;
-import quek.undergardens.client.render.blockentity.GrongletRender;
-import quek.undergardens.client.render.blockentity.UndergardensBEWLR;
-import quek.undergardens.client.render.entity.*;
-import quek.undergardens.entity.animal.dweller.Dweller;
-import quek.undergardens.registry.*;
+import quek.swamplands.Undergardens;
+import quek.swamplands.UndergardensConfig;
+import quek.swamplands.block.portal.UndergardensPortalVisuals;
+import quek.swamplands.client.gui.screen.UndergardensReceivingLevelScreen;
+import quek.swamplands.client.model.*;
+import quek.swamplands.client.particle.*;
+import quek.swamplands.client.render.blockentity.DepthrockBedRender;
+import quek.swamplands.client.render.blockentity.GrongletRender;
+import quek.swamplands.client.render.blockentity.UndergardensBEWLR;
+import quek.swamplands.client.render.entity.*;
+import quek.swamplands.entity.animal.dweller.Dweller;
+import quek.swamplands.registry.*;
 
 public class UndergardensClientEvents {
 
@@ -68,9 +68,9 @@ public class UndergardensClientEvents {
 		bus.addListener(UndergardensClientEvents::registerClientExtensions);
 		bus.addListener(UndergardensClientEvents::registerDimensionTransitionScreens);
 
-		NeoForge.EVENT_BUS.addListener(UndergardensClientEvents::undergardensFog);
+		NeoForge.EVENT_BUS.addListener(UndergardensClientEvents::swamplandsFog);
 		NeoForge.EVENT_BUS.addListener(UndergardensClientEvents::dontRenderJumpBarForDweller);
-		NeoForge.EVENT_BUS.addListener(UndergardensClientEvents::undergardensPortalFOV);
+		NeoForge.EVENT_BUS.addListener(UndergardensClientEvents::swamplandsPortalFOV);
 		NeoForge.EVENT_BUS.addListener(UndergardensClientEvents::renderVirulentHearts);
 	}
 
@@ -261,7 +261,7 @@ public class UndergardensClientEvents {
 				minecraft.gui.renderExperienceBar(guiGraphics, guiGraphics.guiWidth() / 2 - 91);
 			}
 		});
-		event.registerAboveAll(ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "undergardens_portal_overlay"), (guiGraphics, deltaTracker) -> {
+		event.registerAboveAll(ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "swamplands_portal_overlay"), (guiGraphics, deltaTracker) -> {
 			Minecraft minecraft = Minecraft.getInstance();
 			Window window = minecraft.getWindow();
 			LocalPlayer player = minecraft.player;
@@ -280,8 +280,8 @@ public class UndergardensClientEvents {
 		});
 	}
 
-	private static void undergardensFog(ViewportEvent.RenderFog event) {
-		if (UndergardensConfig.Client.toggle_undergardens_fog.get()) {
+	private static void swamplandsFog(ViewportEvent.RenderFog event) {
+		if (UndergardensConfig.Client.toggle_swamplands_fog.get()) {
 			LocalPlayer player = Minecraft.getInstance().player;
 			if (player != null && player.level().dimension() == UGDimensions.UNDERGARDEN_LEVEL && event.getCamera().getFluidInCamera() == FogType.NONE && event.getType() == FogType.NONE && !player.isEyeInFluidType(UGFluids.VIRULENT_MIX_TYPE.get())) {
 				event.setNearPlaneDistance(-30.0F);
@@ -300,7 +300,7 @@ public class UndergardensClientEvents {
 		}
 	}
 
-	private static void undergardensPortalFOV(ComputeFovModifierEvent event) {
+	private static void swamplandsPortalFOV(ComputeFovModifierEvent event) {
 		if (UndergardensPortalVisuals.getPortalAnimTime() > 0.0F) {
 			event.setNewFovModifier(event.getFovModifier() - UndergardensPortalVisuals.getPortalAnimTime());
 		}

@@ -1,13 +1,13 @@
 {
   "values": [
-    "undergardens:froststeel_sword",
-    "undergardens:froststeel_pickaxe",
-    "undergardens:froststeel_axe",
-    "undergardens:froststeel_shovel",
-    "undergardens:froststeel_hoe",
-    "undergardens:froststeel_helmet",
-    "undergardens:froststeel_chestplate",
-    "undergardens:froststeel_leggings",
-    "undergardens:froststeel_boots"
+    "swamplands:froststeel_sword",
+    "swamplands:froststeel_pickaxe",
+    "swamplands:froststeel_axe",
+    "swamplands:froststeel_shovel",
+    "swamplands:froststeel_hoe",
+    "swamplands:froststeel_helmet",
+    "swamplands:froststeel_chestplate",
+    "swamplands:froststeel_leggings",
+    "swamplands:froststeel_boots"
   ]
 }

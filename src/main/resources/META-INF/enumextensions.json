@@ -5,7 +5,7 @@
       "name": "UNDERGARDEN_FORGOTTEN",
       "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
       "parameters": {
-        "class": "quek/undergardens/UGEnumExtensions",
+        "class": "quek/swamplands/UGEnumExtensions",
         "method": "FORGOTTEN"
       }
     },
@@ -14,7 +14,7 @@
       "name": "UNDERGARDEN_WIGGLEWOOD",
       "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
       "parameters": {
-        "class": "quek/undergardens/UGEnumExtensions",
+        "class": "quek/swamplands/UGEnumExtensions",
         "method": "WIGGLEWOOD_BOAT"
       }
     },
@@ -23,7 +23,7 @@
       "name": "UNDERGARDEN_SMOGSTEM",
       "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
       "parameters": {
-        "class": "quek/undergardens/UGEnumExtensions",
+        "class": "quek/swamplands/UGEnumExtensions",
         "method": "SMOGSTEM_BOAT"
       }
     },
@@ -32,7 +32,7 @@
       "name": "UNDERGARDEN_GRONGLE",
       "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
       "parameters": {
-        "class": "quek/undergardens/UGEnumExtensions",
+        "class": "quek/swamplands/UGEnumExtensions",
         "method": "GRONGLE_BOAT"
       }
     },
@@ -41,7 +41,7 @@
       "name": "UNDERGARDEN_VIRULENT",
       "constructor": "(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)V",
       "parameters": {
-        "class": "quek/undergardens/UGEnumExtensions",
+        "class": "quek/swamplands/UGEnumExtensions",
         "method": "VIRULENT_HEARTS"
       }
     }

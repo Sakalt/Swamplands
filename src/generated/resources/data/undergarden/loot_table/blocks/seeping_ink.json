@@ -14,11 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:seeping_ink"
+          "name": "swamplands:seeping_ink"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/seeping_ink"
+  "random_sequence": "swamplands:blocks/seeping_ink"
 }

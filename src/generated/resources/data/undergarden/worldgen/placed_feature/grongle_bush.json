@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:grongle_bush",
+  "feature": "swamplands:grongle_bush",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",

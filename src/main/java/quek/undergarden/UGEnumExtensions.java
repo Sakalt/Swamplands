@@ -1,4 +1,4 @@
-package quek.undergardens;
+package quek.swamplands;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Style;
@@ -7,8 +7,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.fml.common.asm.enumextension.EnumProxy;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGItems;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGItems;
 
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
@@ -19,7 +19,7 @@ public class UGEnumExtensions {
 	public static Object FORGOTTEN(int idx, Class<?> type) {
 		return type.cast(switch (idx) {
 			case 0 -> -1;
-			case 1 -> "undergardens:forgotten";
+			case 1 -> "swamplands:forgotten";
 			case 2 -> (UnaryOperator<Style>) style -> style.withColor(ChatFormatting.GREEN);
 			default -> throw new IllegalArgumentException("Unexpected parameter index: " + idx);
 		});
@@ -30,7 +30,7 @@ public class UGEnumExtensions {
 			return false;
 		return type.cast(switch (idx) {
 			case 0 -> UGBlocks.WIGGLEWOOD_PLANKS;
-			case 1 -> "undergardens:wigglewood";
+			case 1 -> "swamplands:wigglewood";
 			case 2 -> UGItems.WIGGLEWOOD_BOAT;
 			case 3 -> UGItems.WIGGLEWOOD_CHEST_BOAT;
 			case 4 -> UGItems.TWISTYTWIG;
@@ -43,7 +43,7 @@ public class UGEnumExtensions {
 			return false;
 		return type.cast(switch (idx) {
 			case 0 -> UGBlocks.SMOGSTEM_PLANKS;
-			case 1 -> "undergardens:smogstem";
+			case 1 -> "swamplands:smogstem";
 			case 2 -> UGItems.SMOGSTEM_BOAT;
 			case 3 -> UGItems.SMOGSTEM_CHEST_BOAT;
 			case 4 -> (Supplier<Item>) () -> Items.STICK;
@@ -56,7 +56,7 @@ public class UGEnumExtensions {
 			return false;
 		return type.cast(switch (idx) {
 			case 0 -> UGBlocks.GRONGLE_PLANKS;
-			case 1 -> "undergardens:grongle";
+			case 1 -> "swamplands:grongle";
 			case 2 -> UGItems.GRONGLE_BOAT;
 			case 3 -> UGItems.GRONGLE_CHEST_BOAT;
 			case 4 -> (Supplier<Item>) () -> Items.STICK;

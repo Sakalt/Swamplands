@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld_rod",
   "textures": {
-    "layer0": "undergardens:item/underbean_on_a_stick"
+    "layer0": "swamplands:item/underbean_on_a_stick"
   }
 }

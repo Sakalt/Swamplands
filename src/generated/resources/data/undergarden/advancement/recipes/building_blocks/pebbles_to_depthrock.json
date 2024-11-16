@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:depthrock_pebble"
+            "items": "swamplands:depthrock_pebble"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:pebbles_to_depthrock"
+        "recipe": "swamplands:pebbles_to_depthrock"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:pebbles_to_depthrock"
+      "swamplands:pebbles_to_depthrock"
     ]
   }
 }

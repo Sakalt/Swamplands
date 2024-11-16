@@ -1,10 +1,10 @@
 {
   "variants": {
     "powered=false": {
-      "model": "undergardens:block/smogstem_pressure_plate"
+      "model": "swamplands:block/smogstem_pressure_plate"
     },
     "powered=true": {
-      "model": "undergardens:block/smogstem_pressure_plate_down"
+      "model": "swamplands:block/smogstem_pressure_plate_down"
     }
   }
 }

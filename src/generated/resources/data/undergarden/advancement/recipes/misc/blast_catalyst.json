@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:blast_catalyst"
+        "recipe": "swamplands:blast_catalyst"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:catalyst": {
+    "has_swamplands:catalyst": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:catalyst"
+            "items": "swamplands:catalyst"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:catalyst"
+      "has_swamplands:catalyst"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:blast_catalyst"
+      "swamplands:blast_catalyst"
     ]
   }
 }

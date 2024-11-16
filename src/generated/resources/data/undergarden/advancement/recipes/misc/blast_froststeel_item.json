@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / undergardens:froststeel_items]": {
+    "has_TagKey[minecraft:item / swamplands:froststeel_items]": {
       "conditions": {
         "items": [
           {
-            "items": "#undergardens:froststeel_items"
+            "items": "#swamplands:froststeel_items"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:blast_froststeel_item"
+        "recipe": "swamplands:blast_froststeel_item"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / undergardens:froststeel_items]"
+      "has_TagKey[minecraft:item / swamplands:froststeel_items]"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:blast_froststeel_item"
+      "swamplands:blast_froststeel_item"
     ]
   }
 }

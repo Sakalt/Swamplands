@@ -2,7 +2,7 @@
   "parent": "minecraft:item/generated",
   "render_type": "minecraft:translucent",
   "textures": {
-    "layer0": "undergardens:block/tall_shimmerweed_top",
-    "layer1": "undergardens:block/tall_shimmerweed_bulb"
+    "layer0": "swamplands:block/tall_shimmerweed_top",
+    "layer1": "swamplands:block/tall_shimmerweed_bulb"
   }
 }

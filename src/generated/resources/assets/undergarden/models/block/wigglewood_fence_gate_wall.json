@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate_wall",
   "textures": {
-    "texture": "undergardens:block/wigglewood_planks"
+    "texture": "swamplands:block/wigglewood_planks"
   }
 }

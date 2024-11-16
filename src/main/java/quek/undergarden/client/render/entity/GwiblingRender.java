@@ -1,4 +1,4 @@
-package quek.undergardens.client.render.entity;
+package quek.swamplands.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.GwiblingModel;
-import quek.undergardens.client.model.UGModelLayers;
-import quek.undergardens.client.render.layer.GwiblingEyesLayer;
-import quek.undergardens.entity.animal.Gwibling;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.GwiblingModel;
+import quek.swamplands.client.model.UGModelLayers;
+import quek.swamplands.client.render.layer.GwiblingEyesLayer;
+import quek.swamplands.entity.animal.Gwibling;
 
 public class GwiblingRender extends MobRenderer<Gwibling, GwiblingModel<Gwibling>> {
 

@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 1.0,
-  "group": "undergardens:regalium_crystal",
+  "group": "swamplands:regalium_crystal",
   "ingredient": {
-    "item": "undergardens:shiverstone_regalium_ore"
+    "item": "swamplands:shiverstone_regalium_ore"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:regalium_crystal"
+    "id": "swamplands:regalium_crystal"
   }
 }

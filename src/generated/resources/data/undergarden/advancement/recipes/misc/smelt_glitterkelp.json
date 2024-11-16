@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smelt_glitterkelp"
+        "recipe": "swamplands:smelt_glitterkelp"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:glitterkelp": {
+    "has_swamplands:glitterkelp": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:glitterkelp"
+            "items": "swamplands:glitterkelp"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:glitterkelp"
+      "has_swamplands:glitterkelp"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smelt_glitterkelp"
+      "swamplands:smelt_glitterkelp"
     ]
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
@@ -10,8 +10,8 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergardens.Undergardens;
-import quek.undergardens.effect.*;
+import quek.swamplands.Undergardens;
+import quek.swamplands.effect.*;
 
 public class UGEffects {
 

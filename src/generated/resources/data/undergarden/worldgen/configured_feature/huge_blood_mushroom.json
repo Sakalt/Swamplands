@@ -3,11 +3,11 @@
   "config": {
     "decorators": [
       {
-        "type": "undergardens:replace_leaf",
+        "type": "swamplands:replace_leaf",
         "block": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "undergardens:engorged_blood_mushroom_cap"
+            "Name": "swamplands:engorged_blood_mushroom_cap"
           }
         },
         "probability": 0.2
@@ -16,7 +16,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergardens:deepsoil"
+        "Name": "swamplands:deepsoil"
       }
     },
     "foliage_placer": {
@@ -27,7 +27,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergardens:blood_mushroom_cap"
+        "Name": "swamplands:blood_mushroom_cap"
       }
     },
     "force_dirt": false,
@@ -49,7 +49,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "undergardens:blood_mushroom_stem"
+        "Name": "swamplands:blood_mushroom_stem"
       }
     }
   }

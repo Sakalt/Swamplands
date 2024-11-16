@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -19,7 +19,7 @@ import net.minecraft.world.level.gameevent.GameEvent;
 import net.neoforged.neoforge.common.CommonHooks;
 import net.neoforged.neoforge.common.FarmlandWaterManager;
 import net.neoforged.neoforge.common.util.TriState;
-import quek.undergardens.registry.UGBlocks;
+import quek.swamplands.registry.UGBlocks;
 
 import javax.annotation.Nullable;
 

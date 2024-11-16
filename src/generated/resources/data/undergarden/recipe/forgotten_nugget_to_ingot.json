@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "N": {
-      "item": "undergardens:forgotten_nugget"
+      "item": "swamplands:forgotten_nugget"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:forgotten_ingot"
+    "id": "swamplands:forgotten_ingot"
   }
 }

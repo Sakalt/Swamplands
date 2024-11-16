@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:froststeel_block"
+            "items": "swamplands:froststeel_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:froststeel_block_to_ingot"
+        "recipe": "swamplands:froststeel_block_to_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:froststeel_block_to_ingot"
+      "swamplands:froststeel_block_to_ingot"
     ]
   }
 }

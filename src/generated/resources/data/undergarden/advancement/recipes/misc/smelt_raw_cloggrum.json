@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smelt_raw_cloggrum"
+        "recipe": "swamplands:smelt_raw_cloggrum"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:raw_cloggrum": {
+    "has_swamplands:raw_cloggrum": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:raw_cloggrum"
+            "items": "swamplands:raw_cloggrum"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:raw_cloggrum"
+      "has_swamplands:raw_cloggrum"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smelt_raw_cloggrum"
+      "swamplands:smelt_raw_cloggrum"
     ]
   }
 }

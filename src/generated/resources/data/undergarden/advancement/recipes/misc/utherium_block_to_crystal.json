@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:utherium_block_to_crystal"
+        "recipe": "swamplands:utherium_block_to_crystal"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:utherium_block"
+            "items": "swamplands:utherium_block"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:utherium_block_to_crystal"
+      "swamplands:utherium_block_to_crystal"
     ]
   }
 }

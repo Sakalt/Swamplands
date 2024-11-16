@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:shiverstone_pressure_plate"
+          "name": "swamplands:shiverstone_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/shiverstone_pressure_plate"
+  "random_sequence": "swamplands:blocks/shiverstone_pressure_plate"
 }

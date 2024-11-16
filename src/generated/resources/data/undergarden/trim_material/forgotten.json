@@ -2,8 +2,8 @@
   "asset_name": "forgotten",
   "description": {
     "color": "#48C88E",
-    "translate": "trim_material.undergardens.forgotten"
+    "translate": "trim_material.swamplands.forgotten"
   },
-  "ingredient": "undergardens:forgotten_ingot",
+  "ingredient": "swamplands:forgotten_ingot",
   "item_model_index": 0.7
 }

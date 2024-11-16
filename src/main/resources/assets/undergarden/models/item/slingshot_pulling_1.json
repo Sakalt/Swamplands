@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "undergardens:item/slingshot_pulling_1"
+        "layer0": "swamplands:item/slingshot_pulling_1"
     }
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:goo_block"
+          "name": "swamplands:goo_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/goo_block"
+  "random_sequence": "swamplands:blocks/goo_block"
 }

@@ -6,7 +6,7 @@
       "tag": "c:rods/wooden"
     },
     "M": {
-      "item": "undergardens:grongle_planks"
+      "item": "swamplands:grongle_planks"
     }
   },
   "pattern": [
@@ -15,6 +15,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:grongle_fence_gate"
+    "id": "swamplands:grongle_fence_gate"
   }
 }

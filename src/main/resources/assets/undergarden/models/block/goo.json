@@ -2,8 +2,8 @@
     "parent": "block/thin_block",
     "render_type": "minecraft:translucent",
     "textures": {
-        "texture": "undergardens:block/goo_block_top",
-        "particle": "undergardens:block/goo_block_top"
+        "texture": "swamplands:block/goo_block_top",
+        "particle": "swamplands:block/goo_block_top"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

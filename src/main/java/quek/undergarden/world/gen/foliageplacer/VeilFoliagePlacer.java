@@ -1,4 +1,4 @@
-package quek.undergardens.world.gen.foliageplacer;
+package quek.swamplands.world.gen.foliageplacer;
 
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -13,9 +13,9 @@ import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType;
-import quek.undergardens.block.MushroomVeilBlock;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGFoliagePlacers;
+import quek.swamplands.block.MushroomVeilBlock;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGFoliagePlacers;
 
 public class VeilFoliagePlacer extends FoliagePlacer {
 

@@ -1,4 +1,4 @@
-package quek.undergardens.item.tool;
+package quek.swamplands.item.tool;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
@@ -14,8 +14,8 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
-import quek.undergardens.Undergardens;
-import quek.undergardens.registry.UGItems;
+import quek.swamplands.Undergardens;
+import quek.swamplands.registry.UGItems;
 
 import java.util.List;
 
@@ -50,7 +50,7 @@ public class BattleaxeItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
 		if (stack.is(UGItems.FORGOTTEN_BATTLEAXE.get())) {
-			tooltip.add(Component.translatable("tooltip.undergardens.forgotten_weapon").withStyle(ChatFormatting.GREEN));
+			tooltip.add(Component.translatable("tooltip.swamplands.forgotten_weapon").withStyle(ChatFormatting.GREEN));
 		}
 	}
 

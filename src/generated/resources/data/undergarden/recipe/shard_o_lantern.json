@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "undergardens:carved_gloomgourd"
+      "item": "swamplands:carved_gloomgourd"
     },
     "T": {
-      "item": "undergardens:shard_torch"
+      "item": "swamplands:shard_torch"
     }
   },
   "pattern": [
@@ -15,6 +15,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:shard_o_lantern"
+    "id": "swamplands:shard_o_lantern"
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -14,7 +14,7 @@ import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.*;
-import quek.undergardens.Undergardens;
+import quek.swamplands.Undergardens;
 
 import java.util.List;
 

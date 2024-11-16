@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.world.gen.trunkplacer;
+package quek.swamplands.world.gen.trunkplacer;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

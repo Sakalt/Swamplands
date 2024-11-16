@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "C": {
-      "item": "undergardens:cloggrum_ingot"
+      "item": "swamplands:cloggrum_ingot"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "undergardens:cloggrum_tiles"
+    "id": "swamplands:cloggrum_tiles"
   }
 }

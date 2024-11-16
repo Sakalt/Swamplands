@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/potted_miserabell"
+      "model": "swamplands:block/potted_miserabell"
     }
   }
 }

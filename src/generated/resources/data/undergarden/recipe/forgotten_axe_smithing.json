@@ -1,16 +1,16 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "undergardens:forgotten_ingot"
+    "item": "swamplands:forgotten_ingot"
   },
   "base": {
-    "item": "undergardens:cloggrum_axe"
+    "item": "swamplands:cloggrum_axe"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:forgotten_axe"
+    "id": "swamplands:forgotten_axe"
   },
   "template": {
-    "item": "undergardens:forgotten_upgrade_smithing_template"
+    "item": "swamplands:forgotten_upgrade_smithing_template"
   }
 }

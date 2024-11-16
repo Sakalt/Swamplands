@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergardens:block/froststeel_block"
+    "all": "swamplands:block/froststeel_block"
   }
 }

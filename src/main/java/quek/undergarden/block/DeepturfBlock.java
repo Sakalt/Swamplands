@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -7,7 +7,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.BonemealableBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import quek.undergardens.registry.UGBlocks;
+import quek.swamplands.registry.UGBlocks;
 
 public class DeepturfBlock extends SpreadingSnowyDeepsoilBlock implements BonemealableBlock {
 

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "undergardens:item/utherium_hoe"
+    "layer0": "swamplands:item/utherium_hoe"
   }
 }

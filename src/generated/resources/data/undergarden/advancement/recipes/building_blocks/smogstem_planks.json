@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#undergardens:smogstem_logs"
+            "items": "#swamplands:smogstem_logs"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smogstem_planks"
+        "recipe": "swamplands:smogstem_planks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smogstem_planks"
+      "swamplands:smogstem_planks"
     ]
   }
 }

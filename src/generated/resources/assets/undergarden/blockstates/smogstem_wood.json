@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "undergardens:block/smogstem_wood_horizontal",
+      "model": "swamplands:block/smogstem_wood_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "undergardens:block/smogstem_wood"
+      "model": "swamplands:block/smogstem_wood"
     },
     "axis=z": {
-      "model": "undergardens:block/smogstem_wood_horizontal",
+      "model": "swamplands:block/smogstem_wood_horizontal",
       "x": 90
     }
   }

@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergardens:goo_block"
+      "item": "swamplands:goo_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "undergardens:goo_ball"
+    "id": "swamplands:goo_ball"
   }
 }

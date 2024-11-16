@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "undergardens:block/wigglewood_slab"
+      "model": "swamplands:block/wigglewood_slab"
     },
     "type=double": {
-      "model": "undergardens:block/wigglewood_planks"
+      "model": "swamplands:block/wigglewood_planks"
     },
     "type=top": {
-      "model": "undergardens:block/wigglewood_slab_top"
+      "model": "swamplands:block/wigglewood_slab_top"
     }
   }
 }

@@ -3,11 +3,11 @@
   "category": "redstone",
   "ingredients": [
     {
-      "item": "undergardens:shiverstone"
+      "item": "swamplands:shiverstone"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:shiverstone_button"
+    "id": "swamplands:shiverstone_button"
   }
 }

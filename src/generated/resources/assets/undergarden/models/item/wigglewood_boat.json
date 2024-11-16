@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/wigglewood_boat"
+    "layer0": "swamplands:item/wigglewood_boat"
   }
 }

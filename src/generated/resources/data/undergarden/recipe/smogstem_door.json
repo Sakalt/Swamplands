@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "P": {
-      "item": "undergardens:smogstem_planks"
+      "item": "swamplands:smogstem_planks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergardens:smogstem_door"
+    "id": "swamplands:smogstem_door"
   }
 }

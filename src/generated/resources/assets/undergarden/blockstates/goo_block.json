@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/goo_block"
+      "model": "swamplands:block/goo_block"
     }
   }
 }

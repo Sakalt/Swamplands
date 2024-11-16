@@ -1,8 +1,8 @@
 {
     "parent": "block/template_farmland",
     "textures": {
-        "particle": "undergardens:block/deepsoil",
-        "dirt": "undergardens:block/deepsoil",
-        "top": "undergardens:block/deepsoil_farmland"
+        "particle": "swamplands:block/deepsoil",
+        "dirt": "swamplands:block/deepsoil",
+        "top": "swamplands:block/deepsoil_farmland"
     }
 }

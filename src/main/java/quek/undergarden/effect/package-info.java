@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.effect;
+package quek.swamplands.effect;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

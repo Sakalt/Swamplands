@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_post",
   "textures": {
-    "texture": "undergardens:block/smogstem_planks"
+    "texture": "swamplands:block/smogstem_planks"
   }
 }

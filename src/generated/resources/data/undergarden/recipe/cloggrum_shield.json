@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "C": {
-      "item": "undergardens:cloggrum_ingot"
+      "item": "swamplands:cloggrum_ingot"
     },
     "S": {
       "tag": "minecraft:planks"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:cloggrum_shield"
+    "id": "swamplands:cloggrum_shield"
   }
 }

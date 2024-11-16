@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.entity.boss;
+package quek.swamplands.entity.boss;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;
@@ -6,7 +6,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.DoublePlantBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
-import quek.undergardens.registry.UGParticleTypes;
+import quek.swamplands.registry.UGParticleTypes;
 
 public class TallShimmerweedBlock extends DoublePlantBlock {
 	public TallShimmerweedBlock(Properties properties) {

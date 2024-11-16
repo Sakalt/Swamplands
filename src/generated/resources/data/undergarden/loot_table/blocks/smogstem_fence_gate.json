@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:smogstem_fence_gate"
+          "name": "swamplands:smogstem_fence_gate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/smogstem_fence_gate"
+  "random_sequence": "swamplands:blocks/smogstem_fence_gate"
 }

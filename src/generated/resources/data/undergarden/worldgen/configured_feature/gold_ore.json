@@ -6,11 +6,11 @@
     "targets": [
       {
         "state": {
-          "Name": "undergardens:depthrock_gold_ore"
+          "Name": "swamplands:depthrock_gold_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
-          "tag": "undergardens:depthrock_ore_replaceables"
+          "tag": "swamplands:depthrock_ore_replaceables"
         }
       }
     ]

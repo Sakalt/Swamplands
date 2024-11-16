@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "undergardens:block/gloom_o_lantern",
+      "model": "swamplands:block/gloom_o_lantern",
       "y": 90
     },
     "facing=north": {
-      "model": "undergardens:block/gloom_o_lantern"
+      "model": "swamplands:block/gloom_o_lantern"
     },
     "facing=south": {
-      "model": "undergardens:block/gloom_o_lantern",
+      "model": "swamplands:block/gloom_o_lantern",
       "y": 180
     },
     "facing=west": {
-      "model": "undergardens:block/gloom_o_lantern",
+      "model": "swamplands:block/gloom_o_lantern",
       "y": 270
     }
   }

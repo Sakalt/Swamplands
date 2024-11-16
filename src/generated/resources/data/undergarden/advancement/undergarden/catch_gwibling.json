@@ -1,11 +1,11 @@
 {
-  "parent": "undergardens:undergardens/enter_undergardens",
+  "parent": "swamplands:swamplands/enter_swamplands",
   "criteria": {
     "has_gwibling_bucket": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:gwibling_bucket"
+            "items": "swamplands:gwibling_bucket"
           }
         ]
       },
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.catch_gwibling.desc"
+      "translate": "advancement.swamplands.catch_gwibling.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergardens:gwibling_bucket"
+      "id": "swamplands:gwibling_bucket"
     },
     "title": {
-      "translate": "advancement.undergardens.catch_gwibling.title"
+      "translate": "advancement.swamplands.catch_gwibling.title"
     }
   },
   "requirements": [

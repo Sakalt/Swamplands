@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:polished_depthrock_wall"
+          "name": "swamplands:polished_depthrock_wall"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/polished_depthrock_wall"
+  "random_sequence": "swamplands:blocks/polished_depthrock_wall"
 }

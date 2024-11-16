@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/rotten_blisterberry"
+    "layer0": "swamplands:item/rotten_blisterberry"
   }
 }

@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "undergardens:block/depthrock_tile_slab"
+      "model": "swamplands:block/depthrock_tile_slab"
     },
     "type=double": {
-      "model": "undergardens:block/depthrock_tiles"
+      "model": "swamplands:block/depthrock_tiles"
     },
     "type=top": {
-      "model": "undergardens:block/depthrock_tile_slab_top"
+      "model": "swamplands:block/depthrock_tile_slab_top"
     }
   }
 }

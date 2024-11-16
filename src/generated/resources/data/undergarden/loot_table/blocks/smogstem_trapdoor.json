@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:smogstem_trapdoor"
+          "name": "swamplands:smogstem_trapdoor"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/smogstem_trapdoor"
+  "random_sequence": "swamplands:blocks/smogstem_trapdoor"
 }

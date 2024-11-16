@@ -1,16 +1,16 @@
 {
     "variants": {
         "pebbles=1": [
-			{ "model": "undergardens:block/depthrock_pebble" },
-            { "model": "undergardens:block/depthrock_pebble", "y": 90 },
-            { "model": "undergardens:block/depthrock_pebble", "y": 180 },
-            { "model": "undergardens:block/depthrock_pebble", "y": 270 }
+			{ "model": "swamplands:block/depthrock_pebble" },
+            { "model": "swamplands:block/depthrock_pebble", "y": 90 },
+            { "model": "swamplands:block/depthrock_pebble", "y": 180 },
+            { "model": "swamplands:block/depthrock_pebble", "y": 270 }
         ],
 		"pebbles=2": [
-			{ "model": "undergardens:block/depthrock_pebbles" },
-            { "model": "undergardens:block/depthrock_pebbles", "y": 90 },
-            { "model": "undergardens:block/depthrock_pebbles", "y": 180 },
-            { "model": "undergardens:block/depthrock_pebbles", "y": 270 }
+			{ "model": "swamplands:block/depthrock_pebbles" },
+            { "model": "swamplands:block/depthrock_pebbles", "y": 90 },
+            { "model": "swamplands:block/depthrock_pebbles", "y": 180 },
+            { "model": "swamplands:block/depthrock_pebbles", "y": 270 }
 		]
     }
 }

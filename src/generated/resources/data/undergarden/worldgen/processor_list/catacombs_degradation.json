@@ -5,7 +5,7 @@
       "rules": [
         {
           "input_predicate": {
-            "block": "undergardens:depthrock_bricks",
+            "block": "swamplands:depthrock_bricks",
             "predicate_type": "minecraft:random_block_match",
             "probability": 0.5
           },
@@ -13,7 +13,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "undergardens:cracked_depthrock_bricks"
+            "Name": "swamplands:cracked_depthrock_bricks"
           }
         }
       ]

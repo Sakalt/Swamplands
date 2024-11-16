@@ -1,4 +1,4 @@
-package quek.undergardens.client.model;
+package quek.swamplands.client.model;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.client.model.ListModel;
@@ -6,7 +6,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
-import quek.undergardens.entity.animal.Gwib;
+import quek.swamplands.entity.animal.Gwib;
 
 public class GwibModel<T extends Gwib> extends ListModel<T> {
 

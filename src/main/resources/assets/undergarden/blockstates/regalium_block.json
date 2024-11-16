@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "undergardens:block/regalium_block" }
+        "": { "model": "swamplands:block/regalium_block" }
     }
 }

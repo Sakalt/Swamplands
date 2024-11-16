@@ -14,7 +14,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:catacombs/chest",
+        "location": "swamplands:catacombs/chest",
         "processors": {
           "processors": []
         },
@@ -25,7 +25,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:catacombs/chest_forgotten",
+        "location": "swamplands:catacombs/chest_forgotten",
         "processors": {
           "processors": []
         },

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "undergardens:stripped_wigglewood_log"
+      "item": "swamplands:stripped_wigglewood_log"
     },
     "|": {
       "item": "minecraft:chain"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergardens:wigglewood_hanging_sign"
+    "id": "swamplands:wigglewood_hanging_sign"
   }
 }

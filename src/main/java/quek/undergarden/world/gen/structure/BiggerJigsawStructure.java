@@ -1,4 +1,4 @@
-package quek.undergardens.world.gen.structure;
+package quek.swamplands.world.gen.structure;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
@@ -23,7 +23,7 @@ import net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool;
 import net.minecraft.world.level.levelgen.structure.pools.alias.PoolAliasBinding;
 import net.minecraft.world.level.levelgen.structure.pools.alias.PoolAliasLookup;
 import net.minecraft.world.level.levelgen.structure.templatesystem.LiquidSettings;
-import quek.undergardens.registry.UGStructures;
+import quek.swamplands.registry.UGStructures;
 
 import java.util.List;
 import java.util.Optional;

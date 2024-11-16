@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:iron_ore",
+  "feature": "swamplands:iron_ore",
   "placement": [
     {
       "type": "minecraft:count",

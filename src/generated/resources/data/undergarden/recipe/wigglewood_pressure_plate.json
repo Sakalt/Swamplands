@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "B": {
-      "item": "undergardens:wigglewood_planks"
+      "item": "swamplands:wigglewood_planks"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:wigglewood_pressure_plate"
+    "id": "swamplands:wigglewood_pressure_plate"
   }
 }

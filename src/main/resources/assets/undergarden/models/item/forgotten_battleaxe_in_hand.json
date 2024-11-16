@@ -1,7 +1,7 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "undergardens:item/forgotten_battleaxe"
+		"layer0": "swamplands:item/forgotten_battleaxe"
 	},
 	"display": {
 		"thirdperson_righthand": {

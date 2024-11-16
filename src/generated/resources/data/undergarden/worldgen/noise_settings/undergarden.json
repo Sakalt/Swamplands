@@ -1,7 +1,7 @@
 {
   "aquifers_enabled": false,
   "default_block": {
-    "Name": "undergardens:depthrock"
+    "Name": "swamplands:depthrock"
   },
   "default_fluid": {
     "Name": "minecraft:water",
@@ -173,7 +173,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "undergardens:depthrock"
+            "Name": "swamplands:depthrock"
           }
         }
       },
@@ -202,7 +202,7 @@
           "then_run": {
             "type": "minecraft:block",
             "result_state": {
-              "Name": "undergardens:sediment"
+              "Name": "swamplands:sediment"
             }
           }
         }
@@ -212,7 +212,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "undergardens:blood_mushroom_bog"
+            "swamplands:blood_mushroom_bog"
           ]
         },
         "then_run": {
@@ -238,7 +238,7 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "undergardens:coarse_deepsoil"
+                    "Name": "swamplands:coarse_deepsoil"
                   }
                 }
               },
@@ -254,7 +254,7 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "undergardens:deepturf_block",
+                    "Name": "swamplands:deepturf_block",
                     "Properties": {
                       "snowy": "false"
                     }
@@ -270,7 +270,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "undergardens:smog_spires"
+            "swamplands:smog_spires"
           ]
         },
         "then_run": {
@@ -296,7 +296,7 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "undergardens:coarse_deepsoil"
+                    "Name": "swamplands:coarse_deepsoil"
                   }
                 }
               },
@@ -312,7 +312,7 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "undergardens:ashen_deepturf_block"
+                    "Name": "swamplands:ashen_deepturf_block"
                   }
                 }
               }
@@ -325,8 +325,8 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "undergardens:barren_abyss",
-            "undergardens:dead_sea"
+            "swamplands:barren_abyss",
+            "swamplands:dead_sea"
           ]
         },
         "then_run": {
@@ -352,7 +352,7 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "undergardens:coarse_deepsoil"
+                    "Name": "swamplands:coarse_deepsoil"
                   }
                 }
               },
@@ -368,14 +368,14 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "undergardens:depthrock"
+                    "Name": "swamplands:depthrock"
                   }
                 }
               },
               {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "undergardens:depthrock"
+                  "Name": "swamplands:depthrock"
                 }
               }
             ]
@@ -387,9 +387,9 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "undergardens:frostfields",
-            "undergardens:icy_sea",
-            "undergardens:frosty_smogstem_forest"
+            "swamplands:frostfields",
+            "swamplands:icy_sea",
+            "swamplands:frosty_smogstem_forest"
           ]
         },
         "then_run": {
@@ -431,7 +431,7 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "undergardens:frozen_deepturf_block"
+                    "Name": "swamplands:frozen_deepturf_block"
                   }
                 }
               }
@@ -451,7 +451,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "undergardens:deepturf_block",
+            "Name": "swamplands:deepturf_block",
             "Properties": {
               "snowy": "false"
             }
@@ -470,7 +470,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "undergardens:deepsoil"
+            "Name": "swamplands:deepsoil"
           }
         }
       },
@@ -479,15 +479,15 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "undergardens:frostfields",
-            "undergardens:icy_sea",
-            "undergardens:frosty_smogstem_forest"
+            "swamplands:frostfields",
+            "swamplands:icy_sea",
+            "swamplands:frosty_smogstem_forest"
           ]
         },
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "undergardens:shiverstone"
+            "Name": "swamplands:shiverstone"
           }
         }
       }

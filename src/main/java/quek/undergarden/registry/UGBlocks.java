@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.Direction;
 import net.minecraft.core.registries.Registries;
@@ -15,12 +15,12 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergardens.Undergardens;
-import quek.undergardens.block.*;
-import quek.undergardens.block.portal.UndergardensPortalBlock;
-import quek.undergardens.item.CarvedGloomgourdItem;
-import quek.undergardens.item.tool.slingshot.GrongletItem;
-import quek.undergardens.world.gen.tree.UGTreeGrowers;
+import quek.swamplands.Undergardens;
+import quek.swamplands.block.*;
+import quek.swamplands.block.portal.UndergardensPortalBlock;
+import quek.swamplands.item.CarvedGloomgourdItem;
+import quek.swamplands.item.tool.slingshot.GrongletItem;
+import quek.swamplands.world.gen.tree.UGTreeGrowers;
 
 import java.util.Objects;
 import java.util.function.Function;
@@ -30,7 +30,7 @@ public class UGBlocks {
 
 	public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Undergardens.MODID);
 
-	public static final DeferredBlock<Block> UNDERGARDEN_PORTAL = BLOCKS.register("undergardens_portal", UndergardensPortalBlock::new);
+	public static final DeferredBlock<Block> UNDERGARDEN_PORTAL = BLOCKS.register("swamplands_portal", UndergardensPortalBlock::new);
 
 	public static final DeferredBlock<Block> SHARD_TORCH = register("shard_torch", () -> new ShardTorchBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.TORCH).lightLevel((state) -> 6)));
 	public static final DeferredBlock<Block> SHARD_WALL_TORCH = BLOCKS.register("shard_wall_torch", () -> new ShardWallTorchBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WALL_TORCH).lightLevel((state) -> 6)));

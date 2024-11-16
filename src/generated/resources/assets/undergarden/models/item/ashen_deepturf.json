@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:block/ashen_deepturf"
+    "layer0": "swamplands:block/ashen_deepturf"
   }
 }

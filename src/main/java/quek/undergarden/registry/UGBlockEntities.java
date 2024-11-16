@@ -1,11 +1,11 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergardens.Undergardens;
-import quek.undergardens.block.entity.*;
+import quek.swamplands.Undergardens;
+import quek.swamplands.block.entity.*;
 
 public class UGBlockEntities {
 

@@ -1,28 +1,28 @@
 {
-  "parent": "undergardens:undergardens/slingshot",
+  "parent": "swamplands:swamplands/slingshot",
   "criteria": {
     "shoot_slingshot": {
       "conditions": {
         "ammo": {
-          "items": "undergardens:depthrock_pebble"
+          "items": "swamplands:depthrock_pebble"
         },
         "slingshot": {
-          "items": "undergardens:slingshot"
+          "items": "swamplands:slingshot"
         }
       },
-      "trigger": "undergardens:slingshot_fire"
+      "trigger": "swamplands:slingshot_fire"
     }
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.shoot_slingshot.desc"
+      "translate": "advancement.swamplands.shoot_slingshot.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergardens:depthrock_pebble"
+      "id": "swamplands:depthrock_pebble"
     },
     "title": {
-      "translate": "advancement.undergardens.shoot_slingshot.title"
+      "translate": "advancement.swamplands.shoot_slingshot.title"
     }
   },
   "requirements": [

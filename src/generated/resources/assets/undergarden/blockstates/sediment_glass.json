@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/sediment_glass"
+      "model": "swamplands:block/sediment_glass"
     }
   }
 }

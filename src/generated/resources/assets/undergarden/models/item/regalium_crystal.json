@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/regalium_crystal"
+    "layer0": "swamplands:item/regalium_crystal"
   }
 }

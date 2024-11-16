@@ -1,4 +1,4 @@
-package quek.undergardens.data.provider;
+package quek.swamplands.data.provider;
 
 import com.google.common.collect.ImmutableList;
 import org.jetbrains.annotations.Nullable;

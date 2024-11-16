@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -11,7 +11,7 @@ import net.minecraft.world.damagesource.DamageType;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
-import quek.undergardens.Undergardens;
+import quek.swamplands.Undergardens;
 
 public class UGDamageSources {
 

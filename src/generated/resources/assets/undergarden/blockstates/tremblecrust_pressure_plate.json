@@ -1,10 +1,10 @@
 {
   "variants": {
     "powered=false": {
-      "model": "undergardens:block/tremblecrust_pressure_plate"
+      "model": "swamplands:block/tremblecrust_pressure_plate"
     },
     "powered=true": {
-      "model": "undergardens:block/tremblecrust_pressure_plate_down"
+      "model": "swamplands:block/tremblecrust_pressure_plate_down"
     }
   }
 }

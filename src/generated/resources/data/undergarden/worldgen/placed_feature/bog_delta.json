@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:bog_delta",
+  "feature": "swamplands:bog_delta",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",

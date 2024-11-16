@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/blue_mogmoss"
+    "layer0": "swamplands:item/blue_mogmoss"
   }
 }

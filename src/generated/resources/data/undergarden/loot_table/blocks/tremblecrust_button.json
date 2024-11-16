@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:tremblecrust_button"
+          "name": "swamplands:tremblecrust_button"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/tremblecrust_button"
+  "random_sequence": "swamplands:blocks/tremblecrust_button"
 }

@@ -1,4 +1,4 @@
-package quek.undergardens.entity.animal;
+package quek.swamplands.entity.animal;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -19,8 +19,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.event.EventHooks;
-import quek.undergardens.entity.rotspawn.RotspawnMonster;
-import quek.undergardens.registry.*;
+import quek.swamplands.entity.rotspawn.RotspawnMonster;
+import quek.swamplands.registry.*;
 
 import javax.annotation.Nullable;
 

@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "B": {
-      "item": "undergardens:rotten_blisterberry"
+      "item": "swamplands:rotten_blisterberry"
     },
     "T": {
-      "item": "undergardens:twistytwig"
+      "item": "swamplands:twistytwig"
     }
   },
   "pattern": [
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:blisterbomb"
+    "id": "swamplands:blisterbomb"
   }
 }

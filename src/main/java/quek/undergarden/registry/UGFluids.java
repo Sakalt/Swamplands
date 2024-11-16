@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.sounds.SoundEvents;
@@ -10,8 +10,8 @@ import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
-import quek.undergardens.Undergardens;
-import quek.undergardens.block.fluid.VirulentMixFluid;
+import quek.swamplands.Undergardens;
+import quek.swamplands.block.fluid.VirulentMixFluid;
 
 public class UGFluids {
 
@@ -19,7 +19,7 @@ public class UGFluids {
 	public static final DeferredRegister<FluidType> TYPES = DeferredRegister.create(NeoForgeRegistries.Keys.FLUID_TYPES, Undergardens.MODID);
 
 	public static final DeferredHolder<FluidType, FluidType> VIRULENT_MIX_TYPE = TYPES.register("virulent_mix", () -> new FluidType(FluidType.Properties.create()
-					.descriptionId("block.undergardens.virulent_mix")
+					.descriptionId("block.swamplands.virulent_mix")
 					.motionScale(0.00116666666)
 					.canExtinguish(true)
 					.supportsBoating(true)

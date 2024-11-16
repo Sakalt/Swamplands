@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -24,9 +24,9 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import quek.undergardens.block.entity.GrongletBlockEntity;
-import quek.undergardens.registry.UGBlockEntities;
-import quek.undergardens.registry.UGSoundEvents;
+import quek.swamplands.block.entity.GrongletBlockEntity;
+import quek.swamplands.registry.UGBlockEntities;
+import quek.swamplands.registry.UGSoundEvents;
 
 import javax.annotation.Nullable;
 

@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "B": {
-      "item": "undergardens:shiverstone"
+      "item": "swamplands:shiverstone"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:shiverstone_pressure_plate"
+    "id": "swamplands:shiverstone_pressure_plate"
   }
 }

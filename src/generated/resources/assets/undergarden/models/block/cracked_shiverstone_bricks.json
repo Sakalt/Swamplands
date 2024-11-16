@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergardens:block/cracked_shiverstone_bricks"
+    "all": "swamplands:block/cracked_shiverstone_bricks"
   }
 }

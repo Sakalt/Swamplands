@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -7,7 +7,7 @@ import net.minecraft.world.item.enchantment.EnchantmentInstance;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergardens.Undergardens;
+import quek.swamplands.Undergardens;
 
 import java.util.List;
 
@@ -17,9 +17,9 @@ public class UGCreativeModeTabs {
 
 	public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Undergardens.MODID);
 
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TAB = TABS.register("undergardens_group", () -> CreativeModeTab.builder()
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TAB = TABS.register("swamplands_group", () -> CreativeModeTab.builder()
 			.withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
-			.title(Component.translatable("itemGroup.undergardens_group"))
+			.title(Component.translatable("itemGroup.swamplands_group"))
 			.icon(() -> new ItemStack(UGBlocks.DEEPTURF_BLOCK.get()))
 			.displayItems((parameters, output) -> {
 				parameters.holders().lookup(Registries.ENCHANTMENT).ifPresent(enchantmentRegistryLookup -> {

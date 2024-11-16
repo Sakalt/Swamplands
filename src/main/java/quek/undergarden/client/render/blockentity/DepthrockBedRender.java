@@ -1,4 +1,4 @@
-package quek.undergardens.client.render.blockentity;
+package quek.swamplands.client.render.blockentity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -23,10 +23,10 @@ import net.minecraft.world.level.block.ChestBlock;
 import net.minecraft.world.level.block.DoubleBlockCombiner;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BedPart;
-import quek.undergardens.Undergardens;
-import quek.undergardens.block.entity.DepthrockBedBlockEntity;
-import quek.undergardens.client.model.UGModelLayers;
-import quek.undergardens.registry.UGBlockEntities;
+import quek.swamplands.Undergardens;
+import quek.swamplands.block.entity.DepthrockBedBlockEntity;
+import quek.swamplands.client.model.UGModelLayers;
+import quek.swamplands.registry.UGBlockEntities;
 
 public class DepthrockBedRender implements BlockEntityRenderer<DepthrockBedBlockEntity> {
 

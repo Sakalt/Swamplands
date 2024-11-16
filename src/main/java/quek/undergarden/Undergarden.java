@@ -1,4 +1,4 @@
-package quek.undergardens;
+package quek.swamplands;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.HolderLookup;
@@ -19,18 +19,18 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.server.ServerLifecycleHooks;
 import org.slf4j.Logger;
-import quek.undergardens.client.UndergardensClient;
-import quek.undergardens.data.*;
-import quek.undergardens.event.UndergardensClientEvents;
-import quek.undergardens.event.UndergardensCommonEvents;
-import quek.undergardens.registry.*;
+import quek.swamplands.client.UndergardensClient;
+import quek.swamplands.data.*;
+import quek.swamplands.event.UndergardensClientEvents;
+import quek.swamplands.event.UndergardensCommonEvents;
+import quek.swamplands.registry.*;
 
 import java.util.concurrent.CompletableFuture;
 
 @Mod(Undergardens.MODID)
 public class Undergardens {
 
-	public static final String MODID = "undergardens";
+	public static final String MODID = "swamplands";
 	public static final Logger LOGGER = LogUtils.getLogger();
 
 	public Undergardens(IEventBus bus, Dist dist, ModContainer container) {

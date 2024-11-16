@@ -1,11 +1,11 @@
 {
   "values": [
-    "undergardens:scintling",
-    "undergardens:rotling",
-    "undergardens:muncher",
-    "undergardens:sploogie",
-    "undergardens:mog",
-    "undergardens:smog_mog",
-    "undergardens:forgotten_guardian"
+    "swamplands:scintling",
+    "swamplands:rotling",
+    "swamplands:muncher",
+    "swamplands:sploogie",
+    "swamplands:mog",
+    "swamplands:smog_mog",
+    "swamplands:forgotten_guardian"
   ]
 }

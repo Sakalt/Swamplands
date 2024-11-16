@@ -1,11 +1,11 @@
 {
-  "parent": "undergardens:undergardens/cloggrum_battleaxe",
+  "parent": "swamplands:swamplands/cloggrum_battleaxe",
   "criteria": {
     "has_forgotten_battleaxe": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:forgotten_battleaxe"
+            "items": "swamplands:forgotten_battleaxe"
           }
         ]
       },
@@ -14,15 +14,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.forgotten_battleaxe.desc"
+      "translate": "advancement.swamplands.forgotten_battleaxe.desc"
     },
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "undergardens:forgotten_battleaxe"
+      "id": "swamplands:forgotten_battleaxe"
     },
     "title": {
-      "translate": "advancement.undergardens.forgotten_battleaxe.title"
+      "translate": "advancement.swamplands.forgotten_battleaxe.title"
     }
   },
   "requirements": [

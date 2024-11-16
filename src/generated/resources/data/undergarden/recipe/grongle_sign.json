@@ -6,7 +6,7 @@
       "tag": "c:rods/wooden"
     },
     "P": {
-      "item": "undergardens:grongle_planks"
+      "item": "swamplands:grongle_planks"
     }
   },
   "pattern": [
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "undergardens:grongle_sign"
+    "id": "swamplands:grongle_sign"
   }
 }

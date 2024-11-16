@@ -1,9 +1,9 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.undergardens.self_sling"
+    "translate": "enchantment.swamplands.self_sling"
   },
-  "exclusive_set": "#undergardens:exclusive_set/slingshot",
+  "exclusive_set": "#swamplands:exclusive_set/slingshot",
   "max_cost": {
     "base": 50,
     "per_level_above_first": 0
@@ -16,6 +16,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#undergardens:enchantable/slingshot",
+  "supported_items": "#swamplands:enchantable/slingshot",
   "weight": 5
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:depthrock_tile_slab"
+          "name": "swamplands:depthrock_tile_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/depthrock_tile_slab"
+  "random_sequence": "swamplands:blocks/depthrock_tile_slab"
 }

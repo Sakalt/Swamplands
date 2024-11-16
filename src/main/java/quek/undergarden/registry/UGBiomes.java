@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
@@ -17,7 +17,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import quek.undergardens.Undergardens;
+import quek.swamplands.Undergardens;
 
 public class UGBiomes {
 

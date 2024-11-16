@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smoke_gloomper_leg"
+        "recipe": "swamplands:smoke_gloomper_leg"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:raw_gloomper_leg": {
+    "has_swamplands:raw_gloomper_leg": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:raw_gloomper_leg"
+            "items": "swamplands:raw_gloomper_leg"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:raw_gloomper_leg"
+      "has_swamplands:raw_gloomper_leg"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smoke_gloomper_leg"
+      "swamplands:smoke_gloomper_leg"
     ]
   }
 }

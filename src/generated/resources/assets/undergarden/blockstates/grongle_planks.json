@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/grongle_planks"
+      "model": "swamplands:block/grongle_planks"
     }
   }
 }

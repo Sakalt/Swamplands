@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "undergardens:block/polished_depthrock"
+    "wall": "swamplands:block/polished_depthrock"
   }
 }

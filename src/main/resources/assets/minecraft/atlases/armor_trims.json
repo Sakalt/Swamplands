@@ -38,11 +38,11 @@
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
-        "cloggrum": "undergardens:trims/color_palettes/cloggrum",
-        "froststeel": "undergardens:trims/color_palettes/froststeel",
-        "utherium": "undergardens:trims/color_palettes/utherium",
-        "regalium": "undergardens:trims/color_palettes/regalium",
-        "forgotten": "undergardens:trims/color_palettes/forgotten"
+        "cloggrum": "swamplands:trims/color_palettes/cloggrum",
+        "froststeel": "swamplands:trims/color_palettes/froststeel",
+        "utherium": "swamplands:trims/color_palettes/utherium",
+        "regalium": "swamplands:trims/color_palettes/regalium",
+        "forgotten": "swamplands:trims/color_palettes/forgotten"
       }
     }
   ]

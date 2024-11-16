@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergardens:grongle_planks"
+      "item": "swamplands:grongle_planks"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergardens:grongle_slab"
+    "id": "swamplands:grongle_slab"
   }
 }

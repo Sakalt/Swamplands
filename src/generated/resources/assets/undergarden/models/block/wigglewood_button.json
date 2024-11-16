@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button",
   "textures": {
-    "texture": "undergardens:block/wigglewood_planks"
+    "texture": "swamplands:block/wigglewood_planks"
   }
 }

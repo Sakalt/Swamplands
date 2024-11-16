@@ -1,4 +1,4 @@
-package quek.undergardens.entity.animal;
+package quek.swamplands.entity.animal;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -13,8 +13,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Blocks;
-import quek.undergardens.registry.UGItems;
-import quek.undergardens.registry.UGSoundEvents;
+import quek.swamplands.registry.UGItems;
+import quek.swamplands.registry.UGSoundEvents;
 
 public class Gwibling extends AbstractFish {
 

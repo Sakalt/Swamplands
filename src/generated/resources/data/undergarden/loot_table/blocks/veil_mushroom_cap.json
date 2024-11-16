@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergardens:veil_mushroom_cap"
+              "name": "swamplands:veil_mushroom_cap"
             },
             {
               "type": "minecraft:item",
@@ -50,7 +50,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "undergardens:veil_mushroom"
+              "name": "swamplands:veil_mushroom"
             }
           ]
         }
@@ -58,5 +58,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/veil_mushroom_cap"
+  "random_sequence": "swamplands:blocks/veil_mushroom_cap"
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:blue_mogmoss"
+            "items": "swamplands:blue_mogmoss"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:slop_bowl_blue_moss"
+        "recipe": "swamplands:slop_bowl_blue_moss"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:underbeans"
+            "items": "swamplands:underbeans"
           }
         ]
       },
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:slop_bowl_blue_moss"
+      "swamplands:slop_bowl_blue_moss"
     ]
   }
 }

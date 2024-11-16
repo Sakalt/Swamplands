@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "B": {
-      "item": "undergardens:grongle_planks"
+      "item": "swamplands:grongle_planks"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:grongle_pressure_plate"
+    "id": "swamplands:grongle_pressure_plate"
   }
 }

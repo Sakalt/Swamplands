@@ -1,11 +1,11 @@
 {
-  "parent": "undergardens:undergardens/kill_forgotten_guardian",
+  "parent": "swamplands:swamplands/kill_forgotten_guardian",
   "criteria": {
     "has_forgotten_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:forgotten_ingot"
+            "items": "swamplands:forgotten_ingot"
           }
         ]
       },
@@ -14,14 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.forgotten_ingot.desc"
+      "translate": "advancement.swamplands.forgotten_ingot.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergardens:forgotten_ingot"
+      "id": "swamplands:forgotten_ingot"
     },
     "title": {
-      "translate": "advancement.undergardens.forgotten_ingot.title"
+      "translate": "advancement.swamplands.forgotten_ingot.title"
     }
   },
   "requirements": [

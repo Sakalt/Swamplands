@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "undergardens:item/forgotten_pickaxe"
+    "layer0": "swamplands:item/forgotten_pickaxe"
   }
 }

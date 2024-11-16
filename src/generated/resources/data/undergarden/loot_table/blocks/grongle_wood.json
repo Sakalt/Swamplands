@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:grongle_wood"
+          "name": "swamplands:grongle_wood"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/grongle_wood"
+  "random_sequence": "swamplands:blocks/grongle_wood"
 }

@@ -1,12 +1,12 @@
-package quek.undergardens.client.render.layer;
+package quek.swamplands.client.render.layer;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.MogModel;
-import quek.undergardens.entity.animal.Mog;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.MogModel;
+import quek.swamplands.entity.animal.Mog;
 
 public class MogEyesLayer<E extends Mog, M extends MogModel<E>> extends EyesLayer<E, M> {
 

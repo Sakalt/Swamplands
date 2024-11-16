@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/raw_froststeel_block"
+      "model": "swamplands:block/raw_froststeel_block"
     }
   }
 }

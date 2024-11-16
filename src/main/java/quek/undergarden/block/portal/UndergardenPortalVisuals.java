@@ -1,11 +1,11 @@
-package quek.undergardens.block.portal;
+package quek.swamplands.block.portal;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.block.Portal;
-import quek.undergardens.registry.UGBlocks;
+import quek.swamplands.registry.UGBlocks;
 
 public class UndergardensPortalVisuals {
 

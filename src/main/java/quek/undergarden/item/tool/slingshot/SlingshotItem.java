@@ -1,4 +1,4 @@
-package quek.undergardens.item.tool.slingshot;
+package quek.swamplands.item.tool.slingshot;
 
 import it.unimi.dsi.fastutil.objects.AbstractObject2ObjectFunction;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
@@ -22,12 +22,12 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.entity.player.ArrowLooseEvent;
 import net.neoforged.neoforge.event.entity.player.ArrowNockEvent;
 import org.jetbrains.annotations.Nullable;
-import quek.undergardens.Undergardens;
-import quek.undergardens.entity.projectile.slingshot.SlingshotProjectile;
-import quek.undergardens.registry.UGCriteria;
-import quek.undergardens.registry.UGEnchantments;
-import quek.undergardens.registry.UGItems;
-import quek.undergardens.registry.UGSoundEvents;
+import quek.swamplands.Undergardens;
+import quek.swamplands.entity.projectile.slingshot.SlingshotProjectile;
+import quek.swamplands.registry.UGCriteria;
+import quek.swamplands.registry.UGEnchantments;
+import quek.swamplands.registry.UGItems;
+import quek.swamplands.registry.UGSoundEvents;
 
 import java.util.Map;
 import java.util.function.Predicate;

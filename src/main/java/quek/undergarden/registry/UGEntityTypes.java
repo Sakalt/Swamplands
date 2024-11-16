@@ -1,28 +1,28 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergardens.Undergardens;
-import quek.undergardens.entity.*;
-import quek.undergardens.entity.animal.*;
-import quek.undergardens.entity.animal.dweller.Dweller;
-import quek.undergardens.entity.boss.ForgottenGuardian;
-import quek.undergardens.entity.cavern.Muncher;
-import quek.undergardens.entity.cavern.Nargoyle;
-import quek.undergardens.entity.cavern.Sploogie;
-import quek.undergardens.entity.projectile.Blisterbomb;
-import quek.undergardens.entity.projectile.MinionProjectile;
-import quek.undergardens.entity.projectile.slingshot.DepthrockPebble;
-import quek.undergardens.entity.projectile.slingshot.GooBall;
-import quek.undergardens.entity.projectile.slingshot.Gronglet;
-import quek.undergardens.entity.projectile.slingshot.RottenBlisterberry;
-import quek.undergardens.entity.rotspawn.Rotbeast;
-import quek.undergardens.entity.rotspawn.Rotling;
-import quek.undergardens.entity.rotspawn.Rotwalker;
-import quek.undergardens.entity.stoneborn.Stoneborn;
+import quek.swamplands.Undergardens;
+import quek.swamplands.entity.*;
+import quek.swamplands.entity.animal.*;
+import quek.swamplands.entity.animal.dweller.Dweller;
+import quek.swamplands.entity.boss.ForgottenGuardian;
+import quek.swamplands.entity.cavern.Muncher;
+import quek.swamplands.entity.cavern.Nargoyle;
+import quek.swamplands.entity.cavern.Sploogie;
+import quek.swamplands.entity.projectile.Blisterbomb;
+import quek.swamplands.entity.projectile.MinionProjectile;
+import quek.swamplands.entity.projectile.slingshot.DepthrockPebble;
+import quek.swamplands.entity.projectile.slingshot.GooBall;
+import quek.swamplands.entity.projectile.slingshot.Gronglet;
+import quek.swamplands.entity.projectile.slingshot.RottenBlisterberry;
+import quek.swamplands.entity.rotspawn.Rotbeast;
+import quek.swamplands.entity.rotspawn.Rotling;
+import quek.swamplands.entity.rotspawn.Rotwalker;
+import quek.swamplands.entity.stoneborn.Stoneborn;
 
 public class UGEntityTypes {
 

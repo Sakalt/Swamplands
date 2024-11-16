@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/depthrock_iron_ore"
+      "model": "swamplands:block/depthrock_iron_ore"
     }
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergardens.entity.cavern;
+package quek.swamplands.entity.cavern;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -18,8 +18,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
 import net.neoforged.neoforge.event.EventHooks;
-import quek.undergardens.registry.UGSoundEvents;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.registry.UGSoundEvents;
+import quek.swamplands.registry.UGTags;
 
 public class Muncher extends CavernMonster {
 

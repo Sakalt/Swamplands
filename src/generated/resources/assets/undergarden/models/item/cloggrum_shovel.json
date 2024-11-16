@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "undergardens:item/cloggrum_shovel"
+    "layer0": "swamplands:item/cloggrum_shovel"
   }
 }

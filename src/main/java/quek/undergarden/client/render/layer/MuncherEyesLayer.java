@@ -1,12 +1,12 @@
-package quek.undergardens.client.render.layer;
+package quek.swamplands.client.render.layer;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.MuncherModel;
-import quek.undergardens.entity.cavern.Muncher;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.MuncherModel;
+import quek.swamplands.entity.cavern.Muncher;
 
 public class MuncherEyesLayer<T extends Muncher, M extends MuncherModel<T>> extends EyesLayer<T, M> {
 

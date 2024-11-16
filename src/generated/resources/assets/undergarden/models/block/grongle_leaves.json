@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergardens:block/grongle_leaves"
+    "all": "swamplands:block/grongle_leaves"
   }
 }

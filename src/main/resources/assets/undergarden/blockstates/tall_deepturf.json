@@ -1,6 +1,6 @@
 {
     "variants": {
-        "half=lower": { "model": "undergardens:block/tall_deepturf_bottom" },
-        "half=upper":    { "model": "undergardens:block/tall_deepturf_top" }
+        "half=lower": { "model": "swamplands:block/tall_deepturf_bottom" },
+        "half=upper":    { "model": "swamplands:block/tall_deepturf_top" }
     }
 }

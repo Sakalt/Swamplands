@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:block/cloggrum_bars"
+    "layer0": "swamplands:block/cloggrum_bars"
   }
 }

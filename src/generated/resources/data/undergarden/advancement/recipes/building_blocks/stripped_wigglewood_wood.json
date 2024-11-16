@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:stripped_wigglewood_log"
+            "items": "swamplands:stripped_wigglewood_log"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:stripped_wigglewood_wood"
+        "recipe": "swamplands:stripped_wigglewood_wood"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:stripped_wigglewood_wood"
+      "swamplands:stripped_wigglewood_wood"
     ]
   }
 }

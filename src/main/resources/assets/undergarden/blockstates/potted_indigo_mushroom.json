@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/potted_indigo_mushroom"
+      "model": "swamplands:block/potted_indigo_mushroom"
     }
   }
 }

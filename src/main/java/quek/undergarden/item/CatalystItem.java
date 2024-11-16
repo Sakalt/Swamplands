@@ -1,4 +1,4 @@
-package quek.undergardens.item;
+package quek.swamplands.item;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -12,11 +12,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.portal.PortalShape;
 import net.neoforged.neoforge.event.EventHooks;
-import quek.undergardens.block.portal.UndergardensPortalBlock;
-import quek.undergardens.block.portal.UndergardensPortalShape;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGDimensions;
-import quek.undergardens.registry.UGSoundEvents;
+import quek.swamplands.block.portal.UndergardensPortalBlock;
+import quek.swamplands.block.portal.UndergardensPortalShape;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGDimensions;
+import quek.swamplands.registry.UGSoundEvents;
 
 import java.util.Optional;
 import java.util.function.Predicate;

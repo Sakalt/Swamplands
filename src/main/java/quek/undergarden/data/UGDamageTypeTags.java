@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -7,8 +7,8 @@ import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.damagesource.DamageType;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergardens.Undergardens;
-import quek.undergardens.registry.UGDamageSources;
+import quek.swamplands.Undergardens;
+import quek.swamplands.registry.UGDamageSources;
 
 import java.util.concurrent.CompletableFuture;
 

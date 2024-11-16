@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/gloomgourd_pie"
+    "layer0": "swamplands:item/gloomgourd_pie"
   }
 }

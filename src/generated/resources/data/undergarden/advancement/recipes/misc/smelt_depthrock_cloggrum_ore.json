@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smelt_depthrock_cloggrum_ore"
+        "recipe": "swamplands:smelt_depthrock_cloggrum_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:depthrock_cloggrum_ore": {
+    "has_swamplands:depthrock_cloggrum_ore": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:depthrock_cloggrum_ore"
+            "items": "swamplands:depthrock_cloggrum_ore"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:depthrock_cloggrum_ore"
+      "has_swamplands:depthrock_cloggrum_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smelt_depthrock_cloggrum_ore"
+      "swamplands:smelt_depthrock_cloggrum_ore"
     ]
   }
 }

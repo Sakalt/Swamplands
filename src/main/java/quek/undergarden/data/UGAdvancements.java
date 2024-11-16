@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;

@@ -1,28 +1,28 @@
 {
-  "parent": "undergardens:undergardens/slingshot",
+  "parent": "swamplands:swamplands/slingshot",
   "criteria": {
     "shoot_slingshot_rotten_blisterberry": {
       "conditions": {
         "ammo": {
-          "items": "undergardens:rotten_blisterberry"
+          "items": "swamplands:rotten_blisterberry"
         },
         "slingshot": {
-          "items": "undergardens:slingshot"
+          "items": "swamplands:slingshot"
         }
       },
-      "trigger": "undergardens:slingshot_fire"
+      "trigger": "swamplands:slingshot_fire"
     }
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.shoot_slingshot_rotten_blisterberry.desc"
+      "translate": "advancement.swamplands.shoot_slingshot_rotten_blisterberry.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergardens:rotten_blisterberry"
+      "id": "swamplands:rotten_blisterberry"
     },
     "title": {
-      "translate": "advancement.undergardens.shoot_slingshot_rotten_blisterberry.title"
+      "translate": "advancement.swamplands.shoot_slingshot_rotten_blisterberry.title"
     }
   },
   "requirements": [

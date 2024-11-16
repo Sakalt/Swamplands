@@ -1,4 +1,4 @@
-package quek.undergardens.client.model;
+package quek.swamplands.client.model;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.client.model.AgeableListModel;
@@ -6,7 +6,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
-import quek.undergardens.entity.animal.Brute;
+import quek.swamplands.entity.animal.Brute;
 
 public class BruteModel<T extends Brute> extends AgeableListModel<T> {
 

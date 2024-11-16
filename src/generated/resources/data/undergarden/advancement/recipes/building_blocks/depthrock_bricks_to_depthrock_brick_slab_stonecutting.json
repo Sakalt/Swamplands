@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:depthrock_bricks_to_depthrock_brick_slab_stonecutting"
+        "recipe": "swamplands:depthrock_bricks_to_depthrock_brick_slab_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:depthrock_bricks": {
+    "has_swamplands:depthrock_bricks": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:depthrock_bricks"
+            "items": "swamplands:depthrock_bricks"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:depthrock_bricks"
+      "has_swamplands:depthrock_bricks"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:depthrock_bricks_to_depthrock_brick_slab_stonecutting"
+      "swamplands:depthrock_bricks_to_depthrock_brick_slab_stonecutting"
     ]
   }
 }

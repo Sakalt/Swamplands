@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -7,10 +7,10 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergardens.Undergardens;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGItems;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.Undergardens;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGItems;
+import quek.swamplands.registry.UGTags;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;
@@ -23,7 +23,7 @@ public class UGItemTags extends ItemTagsProvider {
 
 	@Override
 	protected void addTags(HolderLookup.Provider provider) {
-		//undergardens
+		//swamplands
 		tag(UGTags.Items.SLINGSHOT_ENCHANTABLE).add(UGItems.SLINGSHOT.get());
 		copy(UGTags.Blocks.MUSHROOMS, UGTags.Items.MUSHROOMS);
 		tag(UGTags.Items.CLOGGRUM_ITEMS).add(UGItems.CLOGGRUM_SWORD.get(), UGItems.CLOGGRUM_PICKAXE.get(), UGItems.CLOGGRUM_AXE.get(), UGItems.CLOGGRUM_SHOVEL.get(), UGItems.CLOGGRUM_HOE.get(), UGItems.CLOGGRUM_HELMET.get(), UGItems.CLOGGRUM_CHESTPLATE.get(), UGItems.CLOGGRUM_LEGGINGS.get(), UGItems.CLOGGRUM_BOOTS.get());
@@ -33,7 +33,7 @@ public class UGItemTags extends ItemTagsProvider {
 		copy(UGTags.Blocks.WIGGLEWOOD_LOGS, UGTags.Items.WIGGLEWOOD_LOGS);
 		copy(UGTags.Blocks.GRONGLE_LOGS, UGTags.Items.GRONGLE_LOGS);
 
-		//undergardens forge
+		//swamplands forge
 		tag(UGTags.Items.RAW_MATERIALS_CLOGGRUM).add(UGItems.RAW_CLOGGRUM.get());
 		tag(UGTags.Items.RAW_MATERIALS_FROSTSTEEL).add(UGItems.RAW_FROSTSTEEL.get());
 

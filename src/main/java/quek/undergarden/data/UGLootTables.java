@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.advancements.critereon.BlockPredicate;
@@ -41,12 +41,12 @@ import net.minecraft.world.level.storage.loot.predicates.*;
 import net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-import quek.undergardens.Undergardens;
-import quek.undergardens.block.*;
-import quek.undergardens.data.provider.UGBlockLootTableProvider;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGEntityTypes;
-import quek.undergardens.registry.UGItems;
+import quek.swamplands.Undergardens;
+import quek.swamplands.block.*;
+import quek.swamplands.data.provider.UGBlockLootTableProvider;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGEntityTypes;
+import quek.swamplands.registry.UGItems;
 
 import java.util.List;
 import java.util.Set;

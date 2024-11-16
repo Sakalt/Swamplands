@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:cloggrum_tile_slab"
+          "name": "swamplands:cloggrum_tile_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/cloggrum_tile_slab"
+  "random_sequence": "swamplands:blocks/cloggrum_tile_slab"
 }

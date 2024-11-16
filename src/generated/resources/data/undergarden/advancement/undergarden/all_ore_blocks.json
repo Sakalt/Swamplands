@@ -1,20 +1,20 @@
 {
-  "parent": "undergardens:undergardens/mine_ore",
+  "parent": "swamplands:swamplands/mine_ore",
   "criteria": {
     "has_all_ore_blocks": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:cloggrum_block"
+            "items": "swamplands:cloggrum_block"
           },
           {
-            "items": "undergardens:froststeel_block"
+            "items": "swamplands:froststeel_block"
           },
           {
-            "items": "undergardens:utherium_block"
+            "items": "swamplands:utherium_block"
           },
           {
-            "items": "undergardens:regalium_block"
+            "items": "swamplands:regalium_block"
           }
         ]
       },
@@ -23,15 +23,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.all_ore_blocks.desc"
+      "translate": "advancement.swamplands.all_ore_blocks.desc"
     },
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "undergardens:regalium_block"
+      "id": "swamplands:regalium_block"
     },
     "title": {
-      "translate": "advancement.undergardens.all_ore_blocks.title"
+      "translate": "advancement.swamplands.all_ore_blocks.title"
     }
   },
   "requirements": [

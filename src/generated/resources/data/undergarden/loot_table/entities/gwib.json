@@ -1,4 +1,4 @@
 {
   "type": "minecraft:entity",
-  "random_sequence": "undergardens:entities/gwib"
+  "random_sequence": "swamplands:entities/gwib"
 }

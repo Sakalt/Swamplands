@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "B": {
-      "item": "undergardens:tremblecrust"
+      "item": "swamplands:tremblecrust"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:tremblecrust_pressure_plate"
+    "id": "swamplands:tremblecrust_pressure_plate"
   }
 }

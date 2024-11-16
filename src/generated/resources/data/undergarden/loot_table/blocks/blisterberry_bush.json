@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:blisterberry_bush",
+          "block": "swamplands:blisterberry_bush",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "3"
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:blisterberry"
+          "name": "swamplands:blisterberry"
         }
       ],
       "functions": [
@@ -43,7 +43,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:blisterberry_bush",
+          "block": "swamplands:blisterberry_bush",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "2"
@@ -53,7 +53,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:blisterberry"
+          "name": "swamplands:blisterberry"
         }
       ],
       "functions": [
@@ -81,7 +81,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:blisterberry_bush",
+          "block": "swamplands:blisterberry_bush",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "3"
@@ -91,7 +91,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:rotten_blisterberry"
+          "name": "swamplands:rotten_blisterberry"
         }
       ],
       "functions": [
@@ -119,7 +119,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:blisterberry_bush",
+          "block": "swamplands:blisterberry_bush",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "2"
@@ -129,7 +129,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:rotten_blisterberry"
+          "name": "swamplands:rotten_blisterberry"
         }
       ],
       "functions": [
@@ -154,5 +154,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/blisterberry_bush"
+  "random_sequence": "swamplands:blocks/blisterberry_bush"
 }

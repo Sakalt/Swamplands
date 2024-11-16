@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/tremblecrust_utherium_ore"
+      "model": "swamplands:block/tremblecrust_utherium_ore"
     }
   }
 }

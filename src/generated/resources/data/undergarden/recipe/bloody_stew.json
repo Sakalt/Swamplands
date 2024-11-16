@@ -6,17 +6,17 @@
       "item": "minecraft:bowl"
     },
     {
-      "item": "undergardens:blood_mushroom"
+      "item": "swamplands:blood_mushroom"
     },
     {
-      "item": "undergardens:blood_mushroom"
+      "item": "swamplands:blood_mushroom"
     },
     {
-      "item": "undergardens:blood_mushroom"
+      "item": "swamplands:blood_mushroom"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:bloody_stew"
+    "id": "swamplands:bloody_stew"
   }
 }

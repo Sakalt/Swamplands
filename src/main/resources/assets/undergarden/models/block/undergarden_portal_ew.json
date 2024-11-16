@@ -1,7 +1,7 @@
 {
     "textures": {
-        "particle": "undergardens:block/undergardens_portal",
-        "portal": "undergardens:block/undergardens_portal"
+        "particle": "swamplands:block/swamplands_portal",
+        "portal": "swamplands:block/swamplands_portal"
     },
     "elements": [
         {   "from": [ 6, 0, 0 ],

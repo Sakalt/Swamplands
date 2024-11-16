@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "undergardens:sediment_glass"
+      "item": "swamplands:sediment_glass"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 16,
-    "id": "undergardens:sediment_glass_pane"
+    "id": "swamplands:sediment_glass_pane"
   }
 }

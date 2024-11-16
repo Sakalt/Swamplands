@@ -22,11 +22,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "undergardens:forgotten_nugget"
+          "name": "swamplands:forgotten_nugget"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:entities/forgotten_guardian"
+  "random_sequence": "swamplands:entities/forgotten_guardian"
 }

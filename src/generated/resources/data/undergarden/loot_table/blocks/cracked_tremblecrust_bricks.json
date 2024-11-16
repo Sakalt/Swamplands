@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:cracked_tremblecrust_bricks"
+          "name": "swamplands:cracked_tremblecrust_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/cracked_tremblecrust_bricks"
+  "random_sequence": "swamplands:blocks/cracked_tremblecrust_bricks"
 }

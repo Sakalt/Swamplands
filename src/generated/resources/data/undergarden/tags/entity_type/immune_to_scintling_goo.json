@@ -1,8 +1,8 @@
 {
   "values": [
-    "undergardens:scintling",
-    "undergardens:forgotten_guardian",
-    "undergardens:dweller",
+    "swamplands:scintling",
+    "swamplands:forgotten_guardian",
+    "swamplands:dweller",
     "minecraft:warden"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "variants": {
     "stage=0": {
-      "model": "undergardens:block/wigglewood_sapling"
+      "model": "swamplands:block/wigglewood_sapling"
     },
     "stage=1": {
-      "model": "undergardens:block/wigglewood_sapling"
+      "model": "swamplands:block/wigglewood_sapling"
     }
   }
 }

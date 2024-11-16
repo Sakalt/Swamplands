@@ -2,8 +2,8 @@
   "asset_name": "utherium",
   "description": {
     "color": "#DC584A",
-    "translate": "trim_material.undergardens.utherium"
+    "translate": "trim_material.swamplands.utherium"
   },
-  "ingredient": "undergardens:utherium_crystal",
+  "ingredient": "swamplands:utherium_crystal",
   "item_model_index": 0.4
 }

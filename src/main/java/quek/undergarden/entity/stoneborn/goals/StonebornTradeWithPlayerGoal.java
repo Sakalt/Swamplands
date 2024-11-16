@@ -1,8 +1,8 @@
-package quek.undergardens.entity.stoneborn.goals;
+package quek.swamplands.entity.stoneborn.goals;
 
 import net.minecraft.world.entity.ai.goal.Goal;
 import net.minecraft.world.entity.player.Player;
-import quek.undergardens.entity.stoneborn.Stoneborn;
+import quek.swamplands.entity.stoneborn.Stoneborn;
 
 import java.util.EnumSet;
 

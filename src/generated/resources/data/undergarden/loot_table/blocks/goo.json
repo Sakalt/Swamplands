@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergardens:goo"
+              "name": "swamplands:goo"
             },
             {
               "type": "minecraft:item",
@@ -44,7 +44,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "undergardens:goo_ball"
+              "name": "swamplands:goo_ball"
             }
           ]
         }
@@ -52,5 +52,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/goo"
+  "random_sequence": "swamplands:blocks/goo"
 }

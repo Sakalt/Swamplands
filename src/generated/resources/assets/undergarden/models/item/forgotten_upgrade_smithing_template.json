@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/forgotten_upgrade_smithing_template"
+    "layer0": "swamplands:item/forgotten_upgrade_smithing_template"
   }
 }

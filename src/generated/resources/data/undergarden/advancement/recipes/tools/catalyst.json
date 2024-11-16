@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:catalyst"
+        "recipe": "swamplands:catalyst"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -48,7 +48,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:catalyst"
+      "swamplands:catalyst"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "undergardens:item/cloggrum_battleaxe"
+		"layer0": "swamplands:item/cloggrum_battleaxe"
 	},
 	"display": {
 		"thirdperson_righthand": {

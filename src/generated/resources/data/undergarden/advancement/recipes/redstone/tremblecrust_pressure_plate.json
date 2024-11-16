@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:tremblecrust_pressure_plate"
+        "recipe": "swamplands:tremblecrust_pressure_plate"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:tremblecrust"
+            "items": "swamplands:tremblecrust"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:tremblecrust_pressure_plate"
+      "swamplands:tremblecrust_pressure_plate"
     ]
   }
 }

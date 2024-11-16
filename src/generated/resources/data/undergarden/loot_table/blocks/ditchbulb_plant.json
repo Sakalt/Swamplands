@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:ditchbulb_plant",
+          "block": "swamplands:ditchbulb_plant",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "1"
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:ditchbulb"
+          "name": "swamplands:ditchbulb"
         }
       ],
       "functions": [
@@ -36,5 +36,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/ditchbulb_plant"
+  "random_sequence": "swamplands:blocks/ditchbulb_plant"
 }

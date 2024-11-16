@@ -3,8 +3,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/arch_1",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/arch_1",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -12,8 +12,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/arch_2",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/arch_2",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -21,8 +21,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/arch_3",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/arch_3",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -30,8 +30,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/arch_4",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/arch_4",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -39,8 +39,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/arch_5",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/arch_5",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -48,8 +48,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/arch_6",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/arch_6",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -57,8 +57,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/face_1",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/face_1",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -66,8 +66,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/face_2",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/face_2",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -75,8 +75,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/face_3",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/face_3",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -84,8 +84,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/house_1",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/house_1",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -93,8 +93,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/house_2",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/house_2",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -102,8 +102,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/house_3",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/house_3",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -111,8 +111,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/house_4",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/house_4",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -120,8 +120,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/house_5",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/house_5",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -129,8 +129,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/depthrock/house_6",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/depthrock/house_6",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -138,8 +138,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/shiverstone/arch_1",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/shiverstone/arch_1",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -147,8 +147,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/shiverstone/arch_2",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/shiverstone/arch_2",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -156,8 +156,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/shiverstone/arch_3",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/shiverstone/arch_3",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -165,8 +165,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/shiverstone/arch_4",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/shiverstone/arch_4",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -174,8 +174,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/shiverstone/arch_5",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/shiverstone/arch_5",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -183,8 +183,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:forgotten_vestige/shiverstone/arch_6",
-        "processors": "undergardens:forgotten_vestige_degradation",
+        "location": "swamplands:forgotten_vestige/shiverstone/arch_6",
+        "processors": "swamplands:forgotten_vestige_degradation",
         "projection": "rigid"
       },
       "weight": 1

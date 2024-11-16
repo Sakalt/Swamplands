@@ -1,5 +1,5 @@
 {
-  "parent": "undergardens:undergardens/forgotten_ingot",
+  "parent": "swamplands:swamplands/forgotten_ingot",
   "criteria": {
     "summoned_minion": {
       "conditions": {
@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergardens:minion"
+              "type": "swamplands:minion"
             }
           }
         ]
@@ -18,15 +18,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.summon_minion.desc"
+      "translate": "advancement.swamplands.summon_minion.desc"
     },
     "frame": "goal",
     "icon": {
       "count": 1,
-      "id": "undergardens:carved_gloomgourd"
+      "id": "swamplands:carved_gloomgourd"
     },
     "title": {
-      "translate": "advancement.undergardens.summon_minion.title"
+      "translate": "advancement.swamplands.summon_minion.title"
     }
   },
   "requirements": [

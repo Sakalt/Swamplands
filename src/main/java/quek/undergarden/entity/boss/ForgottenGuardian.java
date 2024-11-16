@@ -1,4 +1,4 @@
-package quek.undergardens.entity.boss;
+package quek.swamplands.entity.boss;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -31,7 +31,7 @@ import net.minecraft.world.level.pathfinder.PathfindingContext;
 import net.minecraft.world.level.pathfinder.WalkNodeEvaluator;
 import net.minecraft.world.phys.AABB;
 import net.neoforged.neoforge.fluids.FluidType;
-import quek.undergardens.registry.UGSoundEvents;
+import quek.swamplands.registry.UGSoundEvents;
 
 import java.util.Set;
 

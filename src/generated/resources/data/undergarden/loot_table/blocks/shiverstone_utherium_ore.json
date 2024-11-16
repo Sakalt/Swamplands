@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergardens:shiverstone_utherium_ore"
+              "name": "swamplands:shiverstone_utherium_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,7 +40,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "undergardens:utherium_crystal"
+              "name": "swamplands:utherium_crystal"
             }
           ]
         }
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/shiverstone_utherium_ore"
+  "random_sequence": "swamplands:blocks/shiverstone_utherium_ore"
 }

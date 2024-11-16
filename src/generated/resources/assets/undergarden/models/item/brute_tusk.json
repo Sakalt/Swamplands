@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/brute_tusk"
+    "layer0": "swamplands:item/brute_tusk"
   }
 }

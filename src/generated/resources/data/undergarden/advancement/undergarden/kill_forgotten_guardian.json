@@ -1,5 +1,5 @@
 {
-  "parent": "undergardens:undergardens/catacombs",
+  "parent": "swamplands:swamplands/catacombs",
   "criteria": {
     "kill_forgotten_guardian": {
       "conditions": {
@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergardens:forgotten_guardian"
+              "type": "swamplands:forgotten_guardian"
             }
           }
         ]
@@ -18,15 +18,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.kill_forgotten_guardian.desc"
+      "translate": "advancement.swamplands.kill_forgotten_guardian.desc"
     },
     "frame": "goal",
     "icon": {
       "count": 1,
-      "id": "undergardens:forgotten_block"
+      "id": "swamplands:forgotten_block"
     },
     "title": {
-      "translate": "advancement.undergardens.kill_forgotten_guardian.title"
+      "translate": "advancement.swamplands.kill_forgotten_guardian.title"
     }
   },
   "requirements": [

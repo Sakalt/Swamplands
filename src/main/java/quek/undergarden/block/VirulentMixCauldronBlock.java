@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -13,9 +13,9 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.AbstractCauldronBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.HitResult;
-import quek.undergardens.registry.UGCauldronInteractions;
-import quek.undergardens.registry.UGEffects;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.registry.UGCauldronInteractions;
+import quek.swamplands.registry.UGEffects;
+import quek.swamplands.registry.UGTags;
 
 public class VirulentMixCauldronBlock extends AbstractCauldronBlock {
 

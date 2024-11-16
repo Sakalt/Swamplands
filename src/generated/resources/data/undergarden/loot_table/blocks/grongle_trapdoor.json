@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:grongle_trapdoor"
+          "name": "swamplands:grongle_trapdoor"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/grongle_trapdoor"
+  "random_sequence": "swamplands:blocks/grongle_trapdoor"
 }

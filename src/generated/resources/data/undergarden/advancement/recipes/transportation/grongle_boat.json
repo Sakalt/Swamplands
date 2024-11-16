@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:grongle_boat"
+        "recipe": "swamplands:grongle_boat"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -22,7 +22,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:grongle_boat"
+      "swamplands:grongle_boat"
     ]
   }
 }

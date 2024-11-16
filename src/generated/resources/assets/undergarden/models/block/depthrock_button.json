@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button",
   "textures": {
-    "texture": "undergardens:block/depthrock"
+    "texture": "swamplands:block/depthrock"
   }
 }

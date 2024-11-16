@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -7,9 +7,9 @@ import net.minecraft.tags.EntityTypeTags;
 import net.minecraft.world.entity.EntityType;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergardens.Undergardens;
-import quek.undergardens.registry.UGEntityTypes;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.Undergardens;
+import quek.swamplands.registry.UGEntityTypes;
+import quek.swamplands.registry.UGTags;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;
@@ -22,7 +22,7 @@ public class UGEntityTags extends EntityTypeTagsProvider {
 
 	@Override
 	protected void addTags(HolderLookup.Provider provider) {
-		//undergardens
+		//swamplands
 		tag(UGTags.Entities.ROTSPAWN).add(UGEntityTypes.ROTLING.get(), UGEntityTypes.ROTWALKER.get(), UGEntityTypes.ROTBEAST.get());
 		tag(UGTags.Entities.CAVERN_CREATURE).add(UGEntityTypes.NARGOYLE.get(), UGEntityTypes.SCINTLING.get(), UGEntityTypes.MUNCHER.get(), UGEntityTypes.SPLOOGIE.get());
 		tag(UGTags.Entities.IMMUNE_TO_VIRULENT_MIX).addTag(UGTags.Entities.ROTSPAWN).addTag(UGTags.Entities.CAVERN_CREATURE).addTag(Tags.EntityTypes.BOSSES).add(UGEntityTypes.STONEBORN.get(), UGEntityTypes.MOG.get(), UGEntityTypes.SMOG_MOG.get(), UGEntityTypes.GLOOMPER.get(), EntityType.WARDEN);

@@ -23,11 +23,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:veil_mushroom_stem"
+          "name": "swamplands:veil_mushroom_stem"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/veil_mushroom_stem"
+  "random_sequence": "swamplands:blocks/veil_mushroom_stem"
 }

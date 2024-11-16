@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "undergardens:goo_ball"
+      "item": "swamplands:goo_ball"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:goo_block"
+    "id": "swamplands:goo_block"
   }
 }

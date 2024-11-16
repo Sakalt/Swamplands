@@ -2,6 +2,6 @@
     "parent": "block/tinted_cross",
     "render_type": "minecraft:cutout",
     "textures": {
-        "cross": "undergardens:block/tall_deepturf_top"
+        "cross": "swamplands:block/tall_deepturf_top"
     }
 }

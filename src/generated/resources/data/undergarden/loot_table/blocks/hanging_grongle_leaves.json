@@ -14,11 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:hanging_grongle_leaves"
+          "name": "swamplands:hanging_grongle_leaves"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/hanging_grongle_leaves"
+  "random_sequence": "swamplands:blocks/hanging_grongle_leaves"
 }

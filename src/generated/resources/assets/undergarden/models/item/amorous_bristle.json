@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:block/amorous_bristle"
+    "layer0": "swamplands:block/amorous_bristle"
   }
 }

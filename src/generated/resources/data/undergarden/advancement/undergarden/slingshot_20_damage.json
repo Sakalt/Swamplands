@@ -1,12 +1,12 @@
 {
-  "parent": "undergardens:undergardens/shoot_slingshot",
+  "parent": "swamplands:swamplands/shoot_slingshot",
   "criteria": {
     "20_damage": {
       "conditions": {
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "undergardens:depthrock_pebble"
+              "type": "swamplands:depthrock_pebble"
             }
           },
           "dealt": {
@@ -19,15 +19,15 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.slingshot_20_damage.desc"
+      "translate": "advancement.swamplands.slingshot_20_damage.desc"
     },
     "frame": "challenge",
     "icon": {
       "count": 1,
-      "id": "undergardens:depthrock_pebble"
+      "id": "swamplands:depthrock_pebble"
     },
     "title": {
-      "translate": "advancement.undergardens.slingshot_20_damage.title"
+      "translate": "advancement.swamplands.slingshot_20_damage.title"
     }
   },
   "requirements": [

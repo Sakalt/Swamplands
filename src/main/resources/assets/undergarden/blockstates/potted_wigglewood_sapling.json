@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/potted_wigglewood_sapling"
+      "model": "swamplands:block/potted_wigglewood_sapling"
     }
   }
 }

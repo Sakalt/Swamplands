@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:underbean_bush",
+          "block": "swamplands:underbean_bush",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "3"
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:underbeans"
+          "name": "swamplands:underbeans"
         }
       ],
       "functions": [
@@ -43,7 +43,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "undergardens:underbean_bush",
+          "block": "swamplands:underbean_bush",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "2"
@@ -53,7 +53,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:underbeans"
+          "name": "swamplands:underbeans"
         }
       ],
       "functions": [
@@ -78,5 +78,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/underbean_bush"
+  "random_sequence": "swamplands:blocks/underbean_bush"
 }

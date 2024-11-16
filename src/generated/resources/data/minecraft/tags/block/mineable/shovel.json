@@ -1,13 +1,13 @@
 {
   "values": [
-    "undergardens:deepturf_block",
-    "undergardens:ashen_deepturf_block",
-    "undergardens:frozen_deepturf_block",
-    "undergardens:deepsoil",
-    "undergardens:coarse_deepsoil",
-    "undergardens:deepsoil_farmland",
-    "undergardens:goo",
-    "undergardens:goo_block",
-    "undergardens:sediment"
+    "swamplands:deepturf_block",
+    "swamplands:ashen_deepturf_block",
+    "swamplands:frozen_deepturf_block",
+    "swamplands:deepsoil",
+    "swamplands:coarse_deepsoil",
+    "swamplands:deepsoil_farmland",
+    "swamplands:goo",
+    "swamplands:goo_block",
+    "swamplands:sediment"
   ]
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:depthrock_bricks"
+            "items": "swamplands:depthrock_bricks"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:depthrock_brick_slab"
+        "recipe": "swamplands:depthrock_brick_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:depthrock_brick_slab"
+      "swamplands:depthrock_brick_slab"
     ]
   }
 }

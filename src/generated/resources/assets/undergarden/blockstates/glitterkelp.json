@@ -1,82 +1,82 @@
 {
   "variants": {
     "age=0": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=1": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=10": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=11": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=12": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=13": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=14": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=15": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=16": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=17": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=18": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=19": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=2": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=20": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=21": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=22": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=23": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=24": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=25": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=3": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=4": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=5": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=6": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=7": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=8": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     },
     "age=9": {
-      "model": "undergardens:block/glitterkelp"
+      "model": "swamplands:block/glitterkelp"
     }
   }
 }

@@ -1,19 +1,19 @@
 {
   "values": [
-    "undergardens:cloggrum_helmet",
-    "undergardens:cloggrum_chestplate",
-    "undergardens:cloggrum_leggings",
-    "undergardens:cloggrum_boots",
-    "undergardens:froststeel_helmet",
-    "undergardens:froststeel_chestplate",
-    "undergardens:froststeel_leggings",
-    "undergardens:froststeel_boots",
-    "undergardens:utherium_helmet",
-    "undergardens:utherium_chestplate",
-    "undergardens:utherium_leggings",
-    "undergardens:utherium_boots",
-    "undergardens:ancient_helmet",
-    "undergardens:ancient_chestplate",
-    "undergardens:ancient_leggings"
+    "swamplands:cloggrum_helmet",
+    "swamplands:cloggrum_chestplate",
+    "swamplands:cloggrum_leggings",
+    "swamplands:cloggrum_boots",
+    "swamplands:froststeel_helmet",
+    "swamplands:froststeel_chestplate",
+    "swamplands:froststeel_leggings",
+    "swamplands:froststeel_boots",
+    "swamplands:utherium_helmet",
+    "swamplands:utherium_chestplate",
+    "swamplands:utherium_leggings",
+    "swamplands:utherium_boots",
+    "swamplands:ancient_helmet",
+    "swamplands:ancient_chestplate",
+    "swamplands:ancient_leggings"
   ]
 }

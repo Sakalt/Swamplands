@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.advancements.Advancement;
@@ -15,10 +15,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.biome.Biome;
 import net.neoforged.neoforge.common.data.AdvancementProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergardens.Undergardens;
-import quek.undergardens.criterion.SlingshotFireTrigger;
-import quek.undergardens.criterion.StonebornTradeTrigger;
-import quek.undergardens.registry.*;
+import quek.swamplands.Undergardens;
+import quek.swamplands.criterion.SlingshotFireTrigger;
+import quek.swamplands.criterion.StonebornTradeTrigger;
+import quek.swamplands.registry.*;
 
 import java.util.List;
 import java.util.Optional;
@@ -33,7 +33,7 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 		AdvancementHolder root = Advancement.Builder.advancement()
 				.display(
 						UGBlocks.DEEPTURF_BLOCK.get(),
-						Component.translatable("advancement.undergardens.root.title"),
+						Component.translatable("advancement.swamplands.root.title"),
 						Component.empty(),
 						ResourceLocation.fromNamespaceAndPath(Undergardens.MODID, "textures/block/depthrock_bricks.png"),
 						AdvancementType.TASK,
@@ -42,14 +42,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("tick", PlayerTrigger.TriggerInstance.tick())
-				.save(consumer, "undergardens:undergardens/root");
+				.save(consumer, "swamplands:swamplands/root");
 
 		AdvancementHolder catalyst = Advancement.Builder.advancement()
 				.parent(root)
 				.display(
 						UGItems.CATALYST.get(),
-						Component.translatable("advancement.undergardens.catalyst.title"),
-						Component.translatable("advancement.undergardens.catalyst.desc"),
+						Component.translatable("advancement.swamplands.catalyst.title"),
+						Component.translatable("advancement.swamplands.catalyst.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -57,29 +57,29 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_catalyst", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.CATALYST.get()))
-				.save(consumer, "undergardens:undergardens/catalyst");
+				.save(consumer, "swamplands:swamplands/catalyst");
 
-		AdvancementHolder enter_undergardens = Advancement.Builder.advancement()
+		AdvancementHolder enter_swamplands = Advancement.Builder.advancement()
 				.parent(catalyst)
 				.display(
 						UGBlocks.DEEPTURF_BLOCK.get(),
-						Component.translatable("advancement.undergardens.enter_undergardens.title"),
-						Component.translatable("advancement.undergardens.enter_undergardens.desc"),
+						Component.translatable("advancement.swamplands.enter_swamplands.title"),
+						Component.translatable("advancement.swamplands.enter_swamplands.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
 						true,
 						false
 				)
-				.addCriterion("enter_undergardens", ChangeDimensionTrigger.TriggerInstance.changedDimensionTo(UGDimensions.UNDERGARDEN_LEVEL))
-				.save(consumer, "undergardens:undergardens/enter_undergardens");
+				.addCriterion("enter_swamplands", ChangeDimensionTrigger.TriggerInstance.changedDimensionTo(UGDimensions.UNDERGARDEN_LEVEL))
+				.save(consumer, "swamplands:swamplands/enter_swamplands");
 
 		AdvancementHolder slingshot = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.SLINGSHOT.get(),
-						Component.translatable("advancement.undergardens.slingshot.title"),
-						Component.translatable("advancement.undergardens.slingshot.desc"),
+						Component.translatable("advancement.swamplands.slingshot.title"),
+						Component.translatable("advancement.swamplands.slingshot.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -87,14 +87,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_slingshot", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.SLINGSHOT.get()))
-				.save(consumer, "undergardens:undergardens/slingshot");
+				.save(consumer, "swamplands:swamplands/slingshot");
 
 		AdvancementHolder shoot_slingshot = Advancement.Builder.advancement()
 				.parent(slingshot)
 				.display(
 						UGItems.DEPTHROCK_PEBBLE.get(),
-						Component.translatable("advancement.undergardens.shoot_slingshot.title"),
-						Component.translatable("advancement.undergardens.shoot_slingshot.desc"),
+						Component.translatable("advancement.swamplands.shoot_slingshot.title"),
+						Component.translatable("advancement.swamplands.shoot_slingshot.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -102,14 +102,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("shoot_slingshot", SlingshotFireTrigger.TriggerInstance.shotItem(UGItems.DEPTHROCK_PEBBLE.get()))
-				.save(consumer, "undergardens:undergardens/shoot_slingshot");
+				.save(consumer, "swamplands:swamplands/shoot_slingshot");
 
 		AdvancementHolder shoot_slingshot_goo = Advancement.Builder.advancement()
 				.parent(slingshot)
 				.display(
 						UGItems.GOO_BALL.get(),
-						Component.translatable("advancement.undergardens.shoot_slingshot_goo.title"),
-						Component.translatable("advancement.undergardens.shoot_slingshot_goo.desc"),
+						Component.translatable("advancement.swamplands.shoot_slingshot_goo.title"),
+						Component.translatable("advancement.swamplands.shoot_slingshot_goo.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -117,14 +117,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("shoot_slingshot_goo", SlingshotFireTrigger.TriggerInstance.shotItem(UGItems.GOO_BALL.get()))
-				.save(consumer, "undergardens:undergardens/shoot_slingshot_goo");
+				.save(consumer, "swamplands:swamplands/shoot_slingshot_goo");
 
 		AdvancementHolder shoot_slingshot_rotten_blisterberry = Advancement.Builder.advancement()
 				.parent(slingshot)
 				.display(
 						UGItems.ROTTEN_BLISTERBERRY.get(),
-						Component.translatable("advancement.undergardens.shoot_slingshot_rotten_blisterberry.title"),
-						Component.translatable("advancement.undergardens.shoot_slingshot_rotten_blisterberry.desc"),
+						Component.translatable("advancement.swamplands.shoot_slingshot_rotten_blisterberry.title"),
+						Component.translatable("advancement.swamplands.shoot_slingshot_rotten_blisterberry.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -132,14 +132,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("shoot_slingshot_rotten_blisterberry", SlingshotFireTrigger.TriggerInstance.shotItem(UGItems.ROTTEN_BLISTERBERRY.get()))
-				.save(consumer, "undergardens:undergardens/shoot_slingshot_rotten_blisterberry");
+				.save(consumer, "swamplands:swamplands/shoot_slingshot_rotten_blisterberry");
 
 		AdvancementHolder slingshot_20_damage = Advancement.Builder.advancement()
 				.parent(shoot_slingshot)
 				.display(
 						UGItems.DEPTHROCK_PEBBLE.get(),
-						Component.translatable("advancement.undergardens.slingshot_20_damage.title"),
-						Component.translatable("advancement.undergardens.slingshot_20_damage.desc"),
+						Component.translatable("advancement.swamplands.slingshot_20_damage.title"),
+						Component.translatable("advancement.swamplands.slingshot_20_damage.desc"),
 						null,
 						AdvancementType.CHALLENGE,
 						true,
@@ -147,14 +147,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("20_damage", PlayerHurtEntityTrigger.TriggerInstance.playerHurtEntity(DamagePredicate.Builder.damageInstance().dealtDamage(MinMaxBounds.Doubles.atLeast(20.0D)).type(DamageSourcePredicate.Builder.damageType().direct(EntityPredicate.Builder.entity().of(UGEntityTypes.DEPTHROCK_PEBBLE.get()))), Optional.empty()))
-				.save(consumer, "undergardens:undergardens/slingshot_20_damage");
+				.save(consumer, "swamplands:swamplands/slingshot_20_damage");
 
 		AdvancementHolder shoot_slingshot_gronglet = Advancement.Builder.advancement()
 				.parent(slingshot)
 				.display(
 						UGBlocks.GRONGLET.get(),
-						Component.translatable("advancement.undergardens.shoot_slingshot_gronglet.title"),
-						Component.translatable("advancement.undergardens.shoot_slingshot_gronglet.desc"),
+						Component.translatable("advancement.swamplands.shoot_slingshot_gronglet.title"),
+						Component.translatable("advancement.swamplands.shoot_slingshot_gronglet.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -162,14 +162,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("shoot_slingshot_gronglet", SlingshotFireTrigger.TriggerInstance.shotItem(UGBlocks.GRONGLET.get()))
-				.save(consumer, "undergardens:undergardens/shoot_slingshot_gronglet");
+				.save(consumer, "swamplands:swamplands/shoot_slingshot_gronglet");
 
 		AdvancementHolder underbeans = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.UNDERBEANS.get(),
-						Component.translatable("advancement.undergardens.underbeans.title"),
-						Component.translatable("advancement.undergardens.underbeans.desc"),
+						Component.translatable("advancement.swamplands.underbeans.title"),
+						Component.translatable("advancement.swamplands.underbeans.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -177,14 +177,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_underbeans", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.UNDERBEANS.get()))
-				.save(consumer, "undergardens:undergardens/underbeans");
+				.save(consumer, "swamplands:swamplands/underbeans");
 
 		AdvancementHolder stoneborn_trade = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.REGALIUM_CRYSTAL.get(),
-						Component.translatable("advancement.undergardens.stoneborn_trade.title"),
-						Component.translatable("advancement.undergardens.stoneborn_trade.desc"),
+						Component.translatable("advancement.swamplands.stoneborn_trade.title"),
+						Component.translatable("advancement.swamplands.stoneborn_trade.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -192,14 +192,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("trade_with_stoneborn", StonebornTradeTrigger.TriggerInstance.tradeWithStoneborn())
-				.save(consumer, "undergardens:undergardens/stoneborn_trade");
+				.save(consumer, "swamplands:swamplands/stoneborn_trade");
 
 		AdvancementHolder mine_ore = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.RAW_CLOGGRUM.get(),
-						Component.translatable("advancement.undergardens.mine_ore.title"),
-						Component.translatable("advancement.undergardens.mine_ore.desc"),
+						Component.translatable("advancement.swamplands.mine_ore.title"),
+						Component.translatable("advancement.swamplands.mine_ore.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -218,14 +218,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 				.addCriterion("has_shiverstone_utherium", InventoryChangeTrigger.TriggerInstance.hasItems(UGBlocks.SHIVERSTONE_UTHERIUM_ORE.get()))
 				.addCriterion("has_depthrock_regalium", InventoryChangeTrigger.TriggerInstance.hasItems(UGBlocks.DEPTHROCK_REGALIUM_ORE.get()))
 				.addCriterion("has_shiverstone_regalium", InventoryChangeTrigger.TriggerInstance.hasItems(UGBlocks.SHIVERSTONE_REGALIUM_ORE.get()))
-				.save(consumer, "undergardens:undergardens/mine_ore");
+				.save(consumer, "swamplands:swamplands/mine_ore");
 
 		AdvancementHolder all_ore_blocks = Advancement.Builder.advancement()
 				.parent(mine_ore)
 				.display(
 						UGBlocks.REGALIUM_BLOCK.get(),
-						Component.translatable("advancement.undergardens.all_ore_blocks.title"),
-						Component.translatable("advancement.undergardens.all_ore_blocks.desc"),
+						Component.translatable("advancement.swamplands.all_ore_blocks.title"),
+						Component.translatable("advancement.swamplands.all_ore_blocks.desc"),
 						null,
 						AdvancementType.CHALLENGE,
 						true,
@@ -233,14 +233,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_all_ore_blocks", InventoryChangeTrigger.TriggerInstance.hasItems(UGBlocks.CLOGGRUM_BLOCK.get(), UGBlocks.FROSTSTEEL_BLOCK.get(), UGBlocks.UTHERIUM_BLOCK.get(), UGBlocks.REGALIUM_BLOCK.get()))
-				.save(consumer, "undergardens:undergardens/all_ore_blocks");
+				.save(consumer, "swamplands:swamplands/all_ore_blocks");
 
 		AdvancementHolder cloggrum_armor = Advancement.Builder.advancement()
 				.parent(mine_ore)
 				.display(
 						UGItems.CLOGGRUM_CHESTPLATE.get(),
-						Component.translatable("advancement.undergardens.cloggrum_armor.title"),
-						Component.translatable("advancement.undergardens.cloggrum_armor.desc"),
+						Component.translatable("advancement.swamplands.cloggrum_armor.title"),
+						Component.translatable("advancement.swamplands.cloggrum_armor.desc"),
 						null,
 						AdvancementType.GOAL,
 						true,
@@ -248,28 +248,28 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_cloggrum_armor", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.CLOGGRUM_HELMET.get(), UGItems.CLOGGRUM_CHESTPLATE.get(), UGItems.CLOGGRUM_LEGGINGS.get(), UGItems.CLOGGRUM_BOOTS.get()))
-				.save(consumer, "undergardens:undergardens/cloggrum_armor");
+				.save(consumer, "swamplands:swamplands/cloggrum_armor");
 
 		VanillaAdventureAdvancements.addBiomes(Advancement.Builder.advancement(), provider, UNDERGARDEN_BIOMES)
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.CLOGGRUM_BOOTS.get(),
-						Component.translatable("advancement.undergardens.all_undergardens_biomes.title"),
-						Component.translatable("advancement.undergardens.all_undergardens_biomes.desc"),
+						Component.translatable("advancement.swamplands.all_swamplands_biomes.title"),
+						Component.translatable("advancement.swamplands.all_swamplands_biomes.desc"),
 						null,
 						AdvancementType.CHALLENGE,
 						true,
 						true,
 						false
 				)
-				.save(consumer, "undergardens:undergardens/all_undergardens_biomes");
+				.save(consumer, "swamplands:swamplands/all_swamplands_biomes");
 
 		AdvancementHolder plant_gloomgourd = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.GLOOMGOURD_SEEDS.get(),
-						Component.translatable("advancement.undergardens.plant_gloomgourd.title"),
-						Component.translatable("advancement.undergardens.plant_gloomgourd.desc"),
+						Component.translatable("advancement.swamplands.plant_gloomgourd.title"),
+						Component.translatable("advancement.swamplands.plant_gloomgourd.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -277,14 +277,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("plant_gloomgourd", ItemUsedOnLocationTrigger.TriggerInstance.placedBlock(UGBlocks.GLOOMGOURD_STEM.get()))
-				.save(consumer, "undergardens:undergardens/plant_gloomgourd");
+				.save(consumer, "swamplands:swamplands/plant_gloomgourd");
 
 		AdvancementHolder stack_of_gloomgourds = Advancement.Builder.advancement()
 				.parent(plant_gloomgourd)
 				.display(
 						UGBlocks.GLOOMGOURD.get(),
-						Component.translatable("advancement.undergardens.stack_of_gloomgourds.title"),
-						Component.translatable("advancement.undergardens.stack_of_gloomgourds.desc"),
+						Component.translatable("advancement.swamplands.stack_of_gloomgourds.title"),
+						Component.translatable("advancement.swamplands.stack_of_gloomgourds.desc"),
 						null,
 						AdvancementType.GOAL,
 						true,
@@ -292,14 +292,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						true
 				)
 				.addCriterion("has_64_gloomgourds", InventoryChangeTrigger.TriggerInstance.hasItems(ItemPredicate.Builder.item().of(UGBlocks.GLOOMGOURD.get()).withCount(MinMaxBounds.Ints.exactly(64)).build()))
-				.save(consumer, "undergardens:undergardens/stack_of_gloomgourds");
+				.save(consumer, "swamplands:swamplands/stack_of_gloomgourds");
 
 		AdvancementHolder catch_gwibling = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.GWIBLING_BUCKET.get(),
-						Component.translatable("advancement.undergardens.catch_gwibling.title"),
-						Component.translatable("advancement.undergardens.catch_gwibling.desc"),
+						Component.translatable("advancement.swamplands.catch_gwibling.title"),
+						Component.translatable("advancement.swamplands.catch_gwibling.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -307,14 +307,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_gwibling_bucket", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.GWIBLING_BUCKET.get()))
-				.save(consumer, "undergardens:undergardens/catch_gwibling");
+				.save(consumer, "swamplands:swamplands/catch_gwibling");
 
 		AdvancementHolder kill_rotling = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.UTHERIC_SHARD.get(),
-						Component.translatable("advancement.undergardens.kill_rotling.title"),
-						Component.translatable("advancement.undergardens.kill_rotling.desc"),
+						Component.translatable("advancement.swamplands.kill_rotling.title"),
+						Component.translatable("advancement.swamplands.kill_rotling.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -322,14 +322,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("kill_rotling", KilledTrigger.TriggerInstance.playerKilledEntity(Optional.of(EntityPredicate.Builder.entity().of(UGEntityTypes.ROTLING.get()).build())))
-				.save(consumer, "undergardens:undergardens/kill_rotling");
+				.save(consumer, "swamplands:swamplands/kill_rotling");
 
 		AdvancementHolder shard_torch = Advancement.Builder.advancement()
 				.parent(kill_rotling)
 				.display(
 						UGBlocks.SHARD_TORCH.get(),
-						Component.translatable("advancement.undergardens.shard_torch.title"),
-						Component.translatable("advancement.undergardens.shard_torch.desc"),
+						Component.translatable("advancement.swamplands.shard_torch.title"),
+						Component.translatable("advancement.swamplands.shard_torch.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -337,14 +337,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_shard_torch", InventoryChangeTrigger.TriggerInstance.hasItems(UGBlocks.SHARD_TORCH.get()))
-				.save(consumer, "undergardens:undergardens/shard_torch");
+				.save(consumer, "swamplands:swamplands/shard_torch");
 
 		AdvancementHolder kill_all_rotspawn = Advancement.Builder.advancement()
 				.parent(kill_rotling)
 				.display(
 						UGItems.UTHERIUM_SWORD.get(),
-						Component.translatable("advancement.undergardens.kill_all_rotspawn.title"),
-						Component.translatable("advancement.undergardens.kill_all_rotspawn.desc"),
+						Component.translatable("advancement.swamplands.kill_all_rotspawn.title"),
+						Component.translatable("advancement.swamplands.kill_all_rotspawn.desc"),
 						null,
 						AdvancementType.CHALLENGE,
 						true,
@@ -355,14 +355,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 				.addCriterion("kill_rotling", KilledTrigger.TriggerInstance.playerKilledEntity(Optional.of(EntityPredicate.Builder.entity().of(UGEntityTypes.ROTLING.get()).build())))
 				.addCriterion("kill_rotwalker", KilledTrigger.TriggerInstance.playerKilledEntity(Optional.of(EntityPredicate.Builder.entity().of(UGEntityTypes.ROTWALKER.get()).build())))
 				.addCriterion("kill_rotbeast", KilledTrigger.TriggerInstance.playerKilledEntity(Optional.of(EntityPredicate.Builder.entity().of(UGEntityTypes.ROTBEAST.get()).build())))
-				.save(consumer, "undergardens:undergardens/kill_all_rotspawn");
+				.save(consumer, "swamplands:swamplands/kill_all_rotspawn");
 
 		AdvancementHolder kill_scintling = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.GOO_BALL.get(),
-						Component.translatable("advancement.undergardens.kill_scintling.title"),
-						Component.translatable("advancement.undergardens.kill_scintling.desc"),
+						Component.translatable("advancement.swamplands.kill_scintling.title"),
+						Component.translatable("advancement.swamplands.kill_scintling.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -370,14 +370,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						true
 				)
 				.addCriterion("kill_scintling", KilledTrigger.TriggerInstance.playerKilledEntity(Optional.of(EntityPredicate.Builder.entity().of(UGEntityTypes.SCINTLING.get()).build())))
-				.save(consumer, "undergardens:undergardens/kill_scintling");
+				.save(consumer, "swamplands:swamplands/kill_scintling");
 
 		AdvancementHolder catacombs = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGBlocks.DEPTHROCK_BRICK_STAIRS.get(),
-						Component.translatable("advancement.undergardens.catacombs.title"),
-						Component.translatable("advancement.undergardens.catacombs.desc"),
+						Component.translatable("advancement.swamplands.catacombs.title"),
+						Component.translatable("advancement.swamplands.catacombs.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -385,14 +385,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("enter_catacombs", PlayerTrigger.TriggerInstance.located(LocationPredicate.Builder.inStructure(provider.lookupOrThrow(Registries.STRUCTURE).getOrThrow(UGStructures.CATACOMBS))))
-				.save(consumer, "undergardens:undergardens/catacombs");
+				.save(consumer, "swamplands:swamplands/catacombs");
 
 		AdvancementHolder cloggrum_battleaxe = Advancement.Builder.advancement()
 				.parent(catacombs)
 				.display(
 						UGItems.CLOGGRUM_BATTLEAXE.get(),
-						Component.translatable("advancement.undergardens.cloggrum_battleaxe.title"),
-						Component.translatable("advancement.undergardens.cloggrum_battleaxe.desc"),
+						Component.translatable("advancement.swamplands.cloggrum_battleaxe.title"),
+						Component.translatable("advancement.swamplands.cloggrum_battleaxe.desc"),
 						null,
 						AdvancementType.GOAL,
 						true,
@@ -400,14 +400,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_cloggrum_battleaxe", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.CLOGGRUM_BATTLEAXE.get()))
-				.save(consumer, "undergardens:undergardens/cloggrum_battleaxe");
+				.save(consumer, "swamplands:swamplands/cloggrum_battleaxe");
 
 		AdvancementHolder kill_guardian = Advancement.Builder.advancement()
 				.parent(catacombs)
 				.display(
 						UGBlocks.FORGOTTEN_BLOCK.get(),
-						Component.translatable("advancement.undergardens.kill_forgotten_guardian.title"),
-						Component.translatable("advancement.undergardens.kill_forgotten_guardian.desc"),
+						Component.translatable("advancement.swamplands.kill_forgotten_guardian.title"),
+						Component.translatable("advancement.swamplands.kill_forgotten_guardian.desc"),
 						null,
 						AdvancementType.GOAL,
 						true,
@@ -415,14 +415,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("kill_forgotten_guardian", KilledTrigger.TriggerInstance.playerKilledEntity(Optional.of(EntityPredicate.Builder.entity().of(UGEntityTypes.FORGOTTEN_GUARDIAN.get()).build())))
-				.save(consumer, "undergardens:undergardens/kill_forgotten_guardian");
+				.save(consumer, "swamplands:swamplands/kill_forgotten_guardian");
 
 		AdvancementHolder forgotten_ingot = Advancement.Builder.advancement()
 				.parent(kill_guardian)
 				.display(
 						UGItems.FORGOTTEN_INGOT.get(),
-						Component.translatable("advancement.undergardens.forgotten_ingot.title"),
-						Component.translatable("advancement.undergardens.forgotten_ingot.desc"),
+						Component.translatable("advancement.swamplands.forgotten_ingot.title"),
+						Component.translatable("advancement.swamplands.forgotten_ingot.desc"),
 						null,
 						AdvancementType.TASK,
 						true,
@@ -430,14 +430,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_forgotten_ingot", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.FORGOTTEN_INGOT.get()))
-				.save(consumer, "undergardens:undergardens/forgotten_ingot");
+				.save(consumer, "swamplands:swamplands/forgotten_ingot");
 
 		AdvancementHolder forgotten_tools = Advancement.Builder.advancement()
 				.parent(forgotten_ingot)
 				.display(
 						UGItems.FORGOTTEN_PICKAXE.get(),
-						Component.translatable("advancement.undergardens.forgotten_tools.title"),
-						Component.translatable("advancement.undergardens.forgotten_tools.desc"),
+						Component.translatable("advancement.swamplands.forgotten_tools.title"),
+						Component.translatable("advancement.swamplands.forgotten_tools.desc"),
 						null,
 						AdvancementType.CHALLENGE,
 						true,
@@ -445,14 +445,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_forgotten_tools", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.FORGOTTEN_BATTLEAXE.get(), UGItems.FORGOTTEN_SWORD.get(), UGItems.FORGOTTEN_PICKAXE.get(), UGItems.FORGOTTEN_AXE.get(), UGItems.FORGOTTEN_SHOVEL.get(), UGItems.FORGOTTEN_HOE.get()))
-				.save(consumer, "undergardens:undergardens/forgotten_tools");
+				.save(consumer, "swamplands:swamplands/forgotten_tools");
 
 		AdvancementHolder forgotten_battleaxe = Advancement.Builder.advancement()
 				.parent(cloggrum_battleaxe)
 				.display(
 						UGItems.FORGOTTEN_BATTLEAXE.get(),
-						Component.translatable("advancement.undergardens.forgotten_battleaxe.title"),
-						Component.translatable("advancement.undergardens.forgotten_battleaxe.desc"),
+						Component.translatable("advancement.swamplands.forgotten_battleaxe.title"),
+						Component.translatable("advancement.swamplands.forgotten_battleaxe.desc"),
 						null,
 						AdvancementType.CHALLENGE,
 						true,
@@ -460,14 +460,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("has_forgotten_battleaxe", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.FORGOTTEN_BATTLEAXE.get()))
-				.save(consumer, "undergardens:undergardens/forgotten_battleaxe");
+				.save(consumer, "swamplands:swamplands/forgotten_battleaxe");
 
 		AdvancementHolder summon_minion = Advancement.Builder.advancement()
 				.parent(forgotten_ingot)
 				.display(
 						UGBlocks.CARVED_GLOOMGOURD.get(),
-						Component.translatable("advancement.undergardens.summon_minion.title"),
-						Component.translatable("advancement.undergardens.summon_minion.desc"),
+						Component.translatable("advancement.swamplands.summon_minion.title"),
+						Component.translatable("advancement.swamplands.summon_minion.desc"),
 						null,
 						AdvancementType.GOAL,
 						true,
@@ -475,14 +475,14 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						false
 				)
 				.addCriterion("summoned_minion", SummonedEntityTrigger.TriggerInstance.summonedEntity(EntityPredicate.Builder.entity().of(UGEntityTypes.MINION.get())))
-				.save(consumer, "undergardens:undergardens/summon_minion");
+				.save(consumer, "swamplands:swamplands/summon_minion");
 
 		AdvancementHolder gloomper_secret_disc = Advancement.Builder.advancement()
-				.parent(enter_undergardens)
+				.parent(enter_swamplands)
 				.display(
 						UGItems.GLOOMPER_SECRET_DISC.get(),
-						Component.translatable("advancement.undergardens.gloomper_secret_disc.title"),
-						Component.translatable("advancement.undergardens.gloomper_secret_disc.desc"),
+						Component.translatable("advancement.swamplands.gloomper_secret_disc.title"),
+						Component.translatable("advancement.swamplands.gloomper_secret_disc.desc"),
 						null,
 						AdvancementType.CHALLENGE,
 						true,
@@ -490,6 +490,6 @@ public class UndergardensAdvancements implements AdvancementProvider.Advancement
 						true
 				)
 				.addCriterion("has_disc", InventoryChangeTrigger.TriggerInstance.hasItems(UGItems.GLOOMPER_SECRET_DISC.get()))
-				.save(consumer, "undergardens:undergardens/gloomper_secret_disc");
+				.save(consumer, "swamplands:swamplands/gloomper_secret_disc");
 	}
 }

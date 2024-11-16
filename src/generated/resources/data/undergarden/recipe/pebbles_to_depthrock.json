@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "undergardens:depthrock_pebble"
+      "item": "swamplands:depthrock_pebble"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:depthrock"
+    "id": "swamplands:depthrock"
   }
 }

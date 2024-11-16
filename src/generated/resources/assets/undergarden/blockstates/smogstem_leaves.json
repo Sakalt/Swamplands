@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/smogstem_leaves"
+      "model": "swamplands:block/smogstem_leaves"
     }
   }
 }

@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.client.render.blockentity;
+package quek.swamplands.client.render.blockentity;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

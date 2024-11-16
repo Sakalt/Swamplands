@@ -1,11 +1,11 @@
 {
   "values": [
-    "undergardens:depthrock_wall",
-    "undergardens:polished_depthrock_wall",
-    "undergardens:depthrock_brick_wall",
-    "undergardens:shiverstone_wall",
-    "undergardens:shiverstone_brick_wall",
-    "undergardens:tremblecrust_wall",
-    "undergardens:tremblecrust_brick_wall"
+    "swamplands:depthrock_wall",
+    "swamplands:polished_depthrock_wall",
+    "swamplands:depthrock_brick_wall",
+    "swamplands:shiverstone_wall",
+    "swamplands:shiverstone_brick_wall",
+    "swamplands:tremblecrust_wall",
+    "swamplands:tremblecrust_brick_wall"
   ]
 }

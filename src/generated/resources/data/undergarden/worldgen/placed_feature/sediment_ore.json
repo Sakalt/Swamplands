@@ -1,5 +1,5 @@
 {
-  "feature": "undergardens:sediment_ore",
+  "feature": "swamplands:sediment_ore",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/depthrock_tiles"
+      "model": "swamplands:block/depthrock_tiles"
     }
   }
 }

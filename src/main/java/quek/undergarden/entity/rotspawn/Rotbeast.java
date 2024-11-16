@@ -1,4 +1,4 @@
-package quek.undergardens.entity.rotspawn;
+package quek.swamplands.entity.rotspawn;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -10,7 +10,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
-import quek.undergardens.registry.UGSoundEvents;
+import quek.swamplands.registry.UGSoundEvents;
 
 public class Rotbeast extends RotspawnMonster {
 

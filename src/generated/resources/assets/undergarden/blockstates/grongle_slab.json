@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "undergardens:block/grongle_slab"
+      "model": "swamplands:block/grongle_slab"
     },
     "type=double": {
-      "model": "undergardens:block/grongle_planks"
+      "model": "swamplands:block/grongle_planks"
     },
     "type=top": {
-      "model": "undergardens:block/grongle_slab_top"
+      "model": "swamplands:block/grongle_slab_top"
     }
   }
 }

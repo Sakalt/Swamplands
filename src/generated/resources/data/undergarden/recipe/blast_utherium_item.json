@@ -4,10 +4,10 @@
   "cookingtime": 100,
   "experience": 0.1,
   "ingredient": {
-    "tag": "undergardens:utherium_items"
+    "tag": "swamplands:utherium_items"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:utherium_crystal"
+    "id": "swamplands:utherium_crystal"
   }
 }

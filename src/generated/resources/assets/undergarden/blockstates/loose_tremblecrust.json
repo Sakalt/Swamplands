@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/loose_tremblecrust"
+      "model": "swamplands:block/loose_tremblecrust"
     }
   }
 }

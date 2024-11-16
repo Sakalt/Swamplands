@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "undergardens:block/grongle_wood_horizontal",
+      "model": "swamplands:block/grongle_wood_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "undergardens:block/grongle_wood"
+      "model": "swamplands:block/grongle_wood"
     },
     "axis=z": {
-      "model": "undergardens:block/grongle_wood_horizontal",
+      "model": "swamplands:block/grongle_wood_horizontal",
       "x": 90
     }
   }

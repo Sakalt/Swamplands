@@ -2,18 +2,18 @@
   "variants": {
     "": [
       {
-        "model": "undergardens:block/frozen_deepturf_block"
+        "model": "swamplands:block/frozen_deepturf_block"
       },
       {
-        "model": "undergardens:block/frozen_deepturf_block",
+        "model": "swamplands:block/frozen_deepturf_block",
         "y": 270
       },
       {
-        "model": "undergardens:block/frozen_deepturf_block",
+        "model": "swamplands:block/frozen_deepturf_block",
         "y": 180
       },
       {
-        "model": "undergardens:block/frozen_deepturf_block",
+        "model": "swamplands:block/frozen_deepturf_block",
         "y": 90
       }
     ]

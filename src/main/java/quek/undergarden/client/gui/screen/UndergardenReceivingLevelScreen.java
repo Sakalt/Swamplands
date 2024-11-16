@@ -1,8 +1,8 @@
-package quek.undergardens.client.gui.screen;
+package quek.swamplands.client.gui.screen;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.ReceivingLevelScreen;
-import quek.undergardens.registry.UGBlocks;
+import quek.swamplands.registry.UGBlocks;
 
 import java.util.function.BooleanSupplier;
 

@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "M": {
-      "item": "undergardens:cloggrum_ingot"
+      "item": "swamplands:cloggrum_ingot"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:cloggrum_boots"
+    "id": "swamplands:cloggrum_boots"
   }
 }

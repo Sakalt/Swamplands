@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.dispenser.BlockSource;
@@ -11,7 +11,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.DispenserBlock;
 import net.minecraft.world.level.gameevent.GameEvent;
-import quek.undergardens.entity.Boomgourd;
+import quek.swamplands.entity.Boomgourd;
 
 public class UGDispenserBehaviors {
 

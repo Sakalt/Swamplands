@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergardens:block/depthrock_regalium_ore"
+    "all": "swamplands:block/depthrock_regalium_ore"
   }
 }

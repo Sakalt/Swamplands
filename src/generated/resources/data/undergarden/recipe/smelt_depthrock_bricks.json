@@ -4,10 +4,10 @@
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {
-    "item": "undergardens:depthrock_bricks"
+    "item": "swamplands:depthrock_bricks"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:cracked_depthrock_bricks"
+    "id": "swamplands:cracked_depthrock_bricks"
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergardens.world.gen.carver;
+package quek.swamplands.world.gen.carver;
 
 import com.google.common.collect.ImmutableSet;
 import com.mojang.serialization.Codec;
@@ -19,8 +19,8 @@ import net.minecraft.world.level.levelgen.carver.CaveWorldCarver;
 import net.minecraft.world.level.levelgen.carver.WorldCarver;
 import net.minecraft.world.level.material.Fluids;
 import org.apache.commons.lang3.mutable.MutableBoolean;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGFluids;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGFluids;
 
 import java.util.function.Function;
 

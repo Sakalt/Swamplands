@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 1.0,
-  "group": "undergardens:utherium",
+  "group": "swamplands:utherium",
   "ingredient": {
-    "item": "undergardens:shiverstone_utherium_ore"
+    "item": "swamplands:shiverstone_utherium_ore"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:utherium_crystal"
+    "id": "swamplands:utherium_crystal"
   }
 }

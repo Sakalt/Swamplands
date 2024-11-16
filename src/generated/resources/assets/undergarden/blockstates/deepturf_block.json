@@ -2,23 +2,23 @@
   "variants": {
     "snowy=false": [
       {
-        "model": "undergardens:block/deepturf_block"
+        "model": "swamplands:block/deepturf_block"
       },
       {
-        "model": "undergardens:block/deepturf_block",
+        "model": "swamplands:block/deepturf_block",
         "y": 270
       },
       {
-        "model": "undergardens:block/deepturf_block",
+        "model": "swamplands:block/deepturf_block",
         "y": 180
       },
       {
-        "model": "undergardens:block/deepturf_block",
+        "model": "swamplands:block/deepturf_block",
         "y": 90
       }
     ],
     "snowy=true": {
-      "model": "undergardens:block/deepturf_block_snowy"
+      "model": "swamplands:block/deepturf_block_snowy"
     }
   }
 }

@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.world;
+package quek.swamplands.world;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

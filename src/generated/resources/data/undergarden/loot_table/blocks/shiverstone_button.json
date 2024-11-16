@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:shiverstone_button"
+          "name": "swamplands:shiverstone_button"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/shiverstone_button"
+  "random_sequence": "swamplands:blocks/shiverstone_button"
 }

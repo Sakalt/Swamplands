@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.levelgen.feature.Feature;
@@ -6,8 +6,8 @@ import net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureCon
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.undergardens.Undergardens;
-import quek.undergardens.world.gen.feature.*;
+import quek.swamplands.Undergardens;
+import quek.swamplands.world.gen.feature.*;
 
 public class UGFeatures {
 

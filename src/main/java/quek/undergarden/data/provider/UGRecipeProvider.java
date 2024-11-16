@@ -1,4 +1,4 @@
-package quek.undergardens.data.provider;
+package quek.swamplands.data.provider;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -17,9 +17,9 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CeilingHangingSignBlock;
 import net.minecraft.world.level.block.SignBlock;
 import net.neoforged.neoforge.common.Tags;
-import quek.undergardens.Undergardens;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGItems;
+import quek.swamplands.Undergardens;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGItems;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

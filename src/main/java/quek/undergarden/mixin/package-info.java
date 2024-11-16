@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.mixin;
+package quek.swamplands.mixin;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

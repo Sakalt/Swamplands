@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.world.gen.treedecorator;
+package quek.swamplands.world.gen.treedecorator;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

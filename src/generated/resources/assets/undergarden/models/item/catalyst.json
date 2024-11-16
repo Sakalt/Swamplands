@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/catalyst"
+    "layer0": "swamplands:item/catalyst"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate_wall_open",
   "textures": {
-    "texture": "undergardens:block/smogstem_planks"
+    "texture": "swamplands:block/smogstem_planks"
   }
 }

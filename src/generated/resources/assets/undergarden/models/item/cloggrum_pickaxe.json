@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "undergardens:item/cloggrum_pickaxe"
+    "layer0": "swamplands:item/cloggrum_pickaxe"
   }
 }

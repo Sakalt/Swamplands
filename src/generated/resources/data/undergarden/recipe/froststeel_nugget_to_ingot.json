@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "N": {
-      "item": "undergardens:froststeel_nugget"
+      "item": "swamplands:froststeel_nugget"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:froststeel_ingot"
+    "id": "swamplands:froststeel_ingot"
   }
 }

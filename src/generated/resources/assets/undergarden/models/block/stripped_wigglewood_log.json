@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "undergardens:block/stripped_wigglewood_log_end",
-    "side": "undergardens:block/stripped_wigglewood_log_side"
+    "end": "swamplands:block/stripped_wigglewood_log_end",
+    "side": "swamplands:block/stripped_wigglewood_log_side"
   }
 }

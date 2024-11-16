@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergardens:depthrock_diamond_ore"
+              "name": "swamplands:depthrock_diamond_ore"
             },
             {
               "type": "minecraft:item",
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/depthrock_diamond_ore"
+  "random_sequence": "swamplands:blocks/depthrock_diamond_ore"
 }

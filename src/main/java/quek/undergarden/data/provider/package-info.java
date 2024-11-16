@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.data.provider;
+package quek.swamplands.data.provider;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

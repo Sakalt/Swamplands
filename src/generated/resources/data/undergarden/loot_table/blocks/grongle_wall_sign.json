@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:grongle_sign"
+          "name": "swamplands:grongle_sign"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/grongle_wall_sign"
+  "random_sequence": "swamplands:blocks/grongle_wall_sign"
 }

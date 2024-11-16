@@ -1,120 +1,120 @@
 {
   "values": {
-    "undergardens:amorous_bristle": {
+    "swamplands:amorous_bristle": {
       "chance": 0.65
     },
-    "undergardens:blisterberry": {
+    "swamplands:blisterberry": {
       "chance": 0.3
     },
-    "undergardens:blood_globule": {
+    "swamplands:blood_globule": {
       "chance": 0.5
     },
-    "undergardens:blood_mushroom_cap": {
+    "swamplands:blood_mushroom_cap": {
       "chance": 0.85
     },
-    "undergardens:blood_mushroom_stem": {
+    "swamplands:blood_mushroom_stem": {
       "chance": 0.65
     },
-    "undergardens:butterbunch": {
+    "swamplands:butterbunch": {
       "chance": 0.65
     },
-    "undergardens:carved_gloomgourd": {
+    "swamplands:carved_gloomgourd": {
       "chance": 0.65
     },
-    "undergardens:deepturf": {
+    "swamplands:deepturf": {
       "chance": 0.3
     },
-    "undergardens:ditchbulb": {
+    "swamplands:ditchbulb": {
       "chance": 0.3
     },
-    "undergardens:ditchbulb_paste": {
+    "swamplands:ditchbulb_paste": {
       "chance": 0.3
     },
-    "undergardens:droopvine_item": {
+    "swamplands:droopvine_item": {
       "chance": 0.3
     },
-    "undergardens:engorged_blood_mushroom_cap": {
+    "swamplands:engorged_blood_mushroom_cap": {
       "chance": 0.85
     },
-    "undergardens:glitterkelp": {
+    "swamplands:glitterkelp": {
       "chance": 0.3
     },
-    "undergardens:gloomgourd": {
+    "swamplands:gloomgourd": {
       "chance": 0.65
     },
-    "undergardens:gloomgourd_pie": {
+    "swamplands:gloomgourd_pie": {
       "chance": 1.0
     },
-    "undergardens:gloomgourd_seeds": {
+    "swamplands:gloomgourd_seeds": {
       "chance": 0.3
     },
-    "undergardens:grongle_leaves": {
+    "swamplands:grongle_leaves": {
       "chance": 0.3
     },
-    "undergardens:grongle_sapling": {
+    "swamplands:grongle_sapling": {
       "chance": 0.3
     },
-    "undergardens:hanging_grongle_leaves": {
+    "swamplands:hanging_grongle_leaves": {
       "chance": 0.5
     },
-    "undergardens:indigo_mushroom": {
+    "swamplands:indigo_mushroom": {
       "chance": 0.65
     },
-    "undergardens:indigo_mushroom_cap": {
+    "swamplands:indigo_mushroom_cap": {
       "chance": 0.85
     },
-    "undergardens:indigo_mushroom_stem": {
+    "swamplands:indigo_mushroom_stem": {
       "chance": 0.65
     },
-    "undergardens:ink_mushroom": {
+    "swamplands:ink_mushroom": {
       "chance": 0.65
     },
-    "undergardens:ink_mushroom_cap": {
+    "swamplands:ink_mushroom_cap": {
       "chance": 0.85
     },
-    "undergardens:miserabell": {
+    "swamplands:miserabell": {
       "chance": 0.65
     },
-    "undergardens:mushroom_veil": {
+    "swamplands:mushroom_veil": {
       "chance": 0.5
     },
-    "undergardens:rotten_blisterberry": {
+    "swamplands:rotten_blisterberry": {
       "chance": 0.3
     },
-    "undergardens:seeping_ink": {
+    "swamplands:seeping_ink": {
       "chance": 0.5
     },
-    "undergardens:shimmerweed": {
+    "swamplands:shimmerweed": {
       "chance": 0.3
     },
-    "undergardens:smogstem_leaves": {
+    "swamplands:smogstem_leaves": {
       "chance": 0.3
     },
-    "undergardens:smogstem_sapling": {
+    "swamplands:smogstem_sapling": {
       "chance": 0.3
     },
-    "undergardens:tall_deepturf": {
+    "swamplands:tall_deepturf": {
       "chance": 0.5
     },
-    "undergardens:tall_shimmerweed": {
+    "swamplands:tall_shimmerweed": {
       "chance": 0.5
     },
-    "undergardens:underbeans": {
+    "swamplands:underbeans": {
       "chance": 0.3
     },
-    "undergardens:veil_mushroom": {
+    "swamplands:veil_mushroom": {
       "chance": 0.65
     },
-    "undergardens:veil_mushroom_cap": {
+    "swamplands:veil_mushroom_cap": {
       "chance": 0.85
     },
-    "undergardens:veil_mushroom_stem": {
+    "swamplands:veil_mushroom_stem": {
       "chance": 0.65
     },
-    "undergardens:wigglewood_leaves": {
+    "swamplands:wigglewood_leaves": {
       "chance": 0.3
     },
-    "undergardens:wigglewood_sapling": {
+    "swamplands:wigglewood_sapling": {
       "chance": 0.3
     }
   }

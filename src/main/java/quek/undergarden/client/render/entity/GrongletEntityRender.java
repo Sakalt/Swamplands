@@ -1,4 +1,4 @@
-package quek.undergardens.client.render.entity;
+package quek.swamplands.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
@@ -8,7 +8,7 @@ import net.minecraft.client.renderer.entity.ItemRenderer;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.world.item.ItemDisplayContext;
-import quek.undergardens.entity.projectile.slingshot.Gronglet;
+import quek.swamplands.entity.projectile.slingshot.Gronglet;
 
 public class GrongletEntityRender extends ThrownItemRenderer<Gronglet> {
 

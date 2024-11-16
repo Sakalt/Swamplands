@@ -1,4 +1,4 @@
-package quek.undergardens.effect;
+package quek.swamplands.effect;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;

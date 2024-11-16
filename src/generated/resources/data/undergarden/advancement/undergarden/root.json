@@ -6,15 +6,15 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "undergardens:textures/block/depthrock_bricks.png",
+    "background": "swamplands:textures/block/depthrock_bricks.png",
     "description": "",
     "icon": {
       "count": 1,
-      "id": "undergardens:deepturf_block"
+      "id": "swamplands:deepturf_block"
     },
     "show_toast": false,
     "title": {
-      "translate": "advancement.undergardens.root.title"
+      "translate": "advancement.swamplands.root.title"
     }
   },
   "requirements": [

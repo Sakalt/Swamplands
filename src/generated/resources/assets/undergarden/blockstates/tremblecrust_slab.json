@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "undergardens:block/tremblecrust_slab"
+      "model": "swamplands:block/tremblecrust_slab"
     },
     "type=double": {
-      "model": "undergardens:block/tremblecrust"
+      "model": "swamplands:block/tremblecrust"
     },
     "type=top": {
-      "model": "undergardens:block/tremblecrust_slab_top"
+      "model": "swamplands:block/tremblecrust_slab_top"
     }
   }
 }

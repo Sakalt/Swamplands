@@ -1,4 +1,4 @@
-package quek.undergardens.entity;
+package quek.swamplands.entity;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.util.Mth;
@@ -20,11 +20,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.fluids.FluidType;
-import quek.undergardens.entity.projectile.MinionProjectile;
-import quek.undergardens.registry.UGEntityTypes;
-import quek.undergardens.registry.UGItems;
-import quek.undergardens.registry.UGSoundEvents;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.entity.projectile.MinionProjectile;
+import quek.swamplands.registry.UGEntityTypes;
+import quek.swamplands.registry.UGItems;
+import quek.swamplands.registry.UGSoundEvents;
+import quek.swamplands.registry.UGTags;
 
 public class Minion extends AbstractGolem implements RangedAttackMob {
 

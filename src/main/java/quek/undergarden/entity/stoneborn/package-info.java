@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.entity.stoneborn;
+package quek.swamplands.entity.stoneborn;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

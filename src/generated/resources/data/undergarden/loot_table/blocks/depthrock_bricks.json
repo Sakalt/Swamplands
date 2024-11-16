@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:depthrock_bricks"
+          "name": "swamplands:depthrock_bricks"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/depthrock_bricks"
+  "random_sequence": "swamplands:blocks/depthrock_bricks"
 }

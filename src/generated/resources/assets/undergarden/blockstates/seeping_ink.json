@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/seeping_ink"
+      "model": "swamplands:block/seeping_ink"
     }
   }
 }

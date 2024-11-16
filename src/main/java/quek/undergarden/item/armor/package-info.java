@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.item.armor;
+package quek.swamplands.item.armor;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

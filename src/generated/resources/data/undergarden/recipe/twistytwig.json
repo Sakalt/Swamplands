@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "P": {
-      "item": "undergardens:wigglewood_planks"
+      "item": "swamplands:wigglewood_planks"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "undergardens:twistytwig"
+    "id": "swamplands:twistytwig"
   }
 }

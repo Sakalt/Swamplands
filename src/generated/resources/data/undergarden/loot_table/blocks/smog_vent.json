@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "undergardens:smog_vent"
+              "name": "swamplands:smog_vent"
             },
             {
               "type": "minecraft:item",
@@ -35,7 +35,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "undergardens:depthrock"
+              "name": "swamplands:depthrock"
             }
           ]
         }
@@ -43,5 +43,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/smog_vent"
+  "random_sequence": "swamplands:blocks/smog_vent"
 }

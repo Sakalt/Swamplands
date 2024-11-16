@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:block/seeping_ink"
+    "layer0": "swamplands:block/seeping_ink"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_inventory",
   "textures": {
-    "texture": "undergardens:block/wigglewood_planks"
+    "texture": "swamplands:block/wigglewood_planks"
   }
 }

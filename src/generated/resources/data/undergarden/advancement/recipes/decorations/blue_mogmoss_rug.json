@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:blue_mogmoss"
+            "items": "swamplands:blue_mogmoss"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:blue_mogmoss_rug"
+        "recipe": "swamplands:blue_mogmoss_rug"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:blue_mogmoss_rug"
+      "swamplands:blue_mogmoss_rug"
     ]
   }
 }

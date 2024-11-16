@@ -5,7 +5,7 @@
   "experience": 0.7,
   "group": "iron_ingot",
   "ingredient": {
-    "item": "undergardens:depthrock_iron_ore"
+    "item": "swamplands:depthrock_iron_ore"
   },
   "result": {
     "count": 1,

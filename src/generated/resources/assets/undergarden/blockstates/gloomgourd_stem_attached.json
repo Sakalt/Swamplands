@@ -1,19 +1,19 @@
 {
   "variants": {
     "facing=east": {
-      "model": "undergardens:block/gloomgourd_stem_attached",
+      "model": "swamplands:block/gloomgourd_stem_attached",
       "y": 180
     },
     "facing=north": {
-      "model": "undergardens:block/gloomgourd_stem_attached",
+      "model": "swamplands:block/gloomgourd_stem_attached",
       "y": 90
     },
     "facing=south": {
-      "model": "undergardens:block/gloomgourd_stem_attached",
+      "model": "swamplands:block/gloomgourd_stem_attached",
       "y": 270
     },
     "facing=west": {
-      "model": "undergardens:block/gloomgourd_stem_attached"
+      "model": "swamplands:block/gloomgourd_stem_attached"
     }
   }
 }

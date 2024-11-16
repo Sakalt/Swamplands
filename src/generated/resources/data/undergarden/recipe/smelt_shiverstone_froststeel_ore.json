@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.7,
-  "group": "undergardens:froststeel_ingot",
+  "group": "swamplands:froststeel_ingot",
   "ingredient": {
-    "item": "undergardens:shiverstone_froststeel_ore"
+    "item": "swamplands:shiverstone_froststeel_ore"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:froststeel_ingot"
+    "id": "swamplands:froststeel_ingot"
   }
 }

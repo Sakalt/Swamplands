@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:grongle_button"
+          "name": "swamplands:grongle_button"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/grongle_button"
+  "random_sequence": "swamplands:blocks/grongle_button"
 }

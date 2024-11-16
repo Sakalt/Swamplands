@@ -1,13 +1,13 @@
-package quek.undergardens.client.render.entity;
+package quek.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.RotlingModel;
-import quek.undergardens.client.model.UGModelLayers;
-import quek.undergardens.client.render.layer.RotlingEyesLayer;
-import quek.undergardens.entity.rotspawn.Rotling;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.RotlingModel;
+import quek.swamplands.client.model.UGModelLayers;
+import quek.swamplands.client.render.layer.RotlingEyesLayer;
+import quek.swamplands.entity.rotspawn.Rotling;
 
 public class RotlingRender extends MobRenderer<Rotling, RotlingModel<Rotling>> {
 

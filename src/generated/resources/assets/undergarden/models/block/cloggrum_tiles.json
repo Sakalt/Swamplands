@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergardens:block/cloggrum_tiles"
+    "all": "swamplands:block/cloggrum_tiles"
   }
 }

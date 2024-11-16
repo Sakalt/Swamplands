@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:wigglewood_fence"
+          "name": "swamplands:wigglewood_fence"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/wigglewood_fence"
+  "random_sequence": "swamplands:blocks/wigglewood_fence"
 }

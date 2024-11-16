@@ -11,7 +11,7 @@
             "source": {
               "type": "minecraft:simple_state_provider",
               "state": {
-                "Name": "undergardens:depthrock_pebbles",
+                "Name": "swamplands:depthrock_pebbles",
                 "Properties": {
                   "pebbles": "1"
                 }
@@ -38,12 +38,12 @@
               {
                 "type": "minecraft:matching_blocks",
                 "blocks": [
-                  "undergardens:deepturf_block",
-                  "undergardens:ashen_deepturf_block",
-                  "undergardens:depthrock",
-                  "undergardens:shiverstone",
-                  "undergardens:sediment",
-                  "undergardens:coarse_deepsoil"
+                  "swamplands:deepturf_block",
+                  "swamplands:ashen_deepturf_block",
+                  "swamplands:depthrock",
+                  "swamplands:shiverstone",
+                  "swamplands:sediment",
+                  "swamplands:coarse_deepsoil"
                 ],
                 "offset": [
                   0,

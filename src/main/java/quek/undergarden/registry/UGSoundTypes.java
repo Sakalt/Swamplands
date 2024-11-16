@@ -1,4 +1,4 @@
-package quek.undergardens.registry;
+package quek.swamplands.registry;
 
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.level.block.SoundType;

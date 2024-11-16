@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:forgotten_nugget"
+            "items": "swamplands:forgotten_nugget"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:forgotten_nugget_to_ingot"
+        "recipe": "swamplands:forgotten_nugget_to_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:forgotten_nugget_to_ingot"
+      "swamplands:forgotten_nugget_to_ingot"
     ]
   }
 }

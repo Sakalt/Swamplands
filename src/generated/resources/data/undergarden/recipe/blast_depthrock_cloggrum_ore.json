@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.7,
-  "group": "undergardens:cloggrum_ingot",
+  "group": "swamplands:cloggrum_ingot",
   "ingredient": {
-    "item": "undergardens:depthrock_cloggrum_ore"
+    "item": "swamplands:depthrock_cloggrum_ore"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:cloggrum_ingot"
+    "id": "swamplands:cloggrum_ingot"
   }
 }

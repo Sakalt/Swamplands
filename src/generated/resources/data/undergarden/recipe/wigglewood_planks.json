@@ -4,11 +4,11 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "undergardens:wigglewood_logs"
+      "tag": "swamplands:wigglewood_logs"
     }
   ],
   "result": {
     "count": 4,
-    "id": "undergardens:wigglewood_planks"
+    "id": "swamplands:wigglewood_planks"
   }
 }

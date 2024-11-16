@@ -14,11 +14,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:frozen_deepturf"
+          "name": "swamplands:frozen_deepturf"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/frozen_deepturf"
+  "random_sequence": "swamplands:blocks/frozen_deepturf"
 }

@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -18,8 +18,8 @@ import net.minecraft.world.level.block.PumpkinBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.phys.BlockHitResult;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGItems;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGItems;
 
 public class GloomgourdBlock extends PumpkinBlock {
 

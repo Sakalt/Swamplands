@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.client.particle;
+package quek.swamplands.client.particle;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:wigglewood_wood"
+        "recipe": "swamplands:wigglewood_wood"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:wigglewood_log"
+            "items": "swamplands:wigglewood_log"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:wigglewood_wood"
+      "swamplands:wigglewood_wood"
     ]
   }
 }

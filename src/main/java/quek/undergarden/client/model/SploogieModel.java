@@ -1,4 +1,4 @@
-package quek.undergardens.client.model;
+package quek.swamplands.client.model;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.client.model.ListModel;
@@ -6,7 +6,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
-import quek.undergardens.entity.cavern.Sploogie;
+import quek.swamplands.entity.cavern.Sploogie;
 
 public class SploogieModel<T extends Sploogie> extends ListModel<T> {
 

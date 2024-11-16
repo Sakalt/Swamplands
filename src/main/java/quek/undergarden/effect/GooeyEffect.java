@@ -1,4 +1,4 @@
-package quek.undergardens.effect;
+package quek.swamplands.effect;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleOptions;
@@ -7,8 +7,8 @@ import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGParticleTypes;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGParticleTypes;
 
 public class GooeyEffect extends MobEffect {
 

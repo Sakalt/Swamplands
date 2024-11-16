@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "M": {
-      "item": "undergardens:utherium_crystal"
+      "item": "swamplands:utherium_crystal"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:utherium_boots"
+    "id": "swamplands:utherium_boots"
   }
 }

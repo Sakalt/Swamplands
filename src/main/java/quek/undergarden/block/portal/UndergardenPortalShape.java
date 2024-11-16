@@ -1,4 +1,4 @@
-package quek.undergardens.block.portal;
+package quek.swamplands.block.portal;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -7,8 +7,8 @@ import net.minecraft.world.level.block.NetherPortalBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGTags;
 
 public class UndergardensPortalShape {
 	private static final int MIN_WIDTH = 1;

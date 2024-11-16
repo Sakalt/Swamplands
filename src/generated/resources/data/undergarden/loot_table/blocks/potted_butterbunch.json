@@ -26,11 +26,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:butterbunch"
+          "name": "swamplands:butterbunch"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/potted_butterbunch"
+  "random_sequence": "swamplands:blocks/potted_butterbunch"
 }

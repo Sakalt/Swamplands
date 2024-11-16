@@ -2,7 +2,7 @@
   "parent": "minecraft:block/door_top_left",
   "render_type": "minecraft:cutout",
   "textures": {
-    "bottom": "undergardens:block/wigglewood_door_bottom",
-    "top": "undergardens:block/wigglewood_door_top"
+    "bottom": "swamplands:block/wigglewood_door_bottom",
+    "top": "swamplands:block/wigglewood_door_top"
   }
 }

@@ -5,7 +5,7 @@
   "experience": 0.1,
   "group": "coal",
   "ingredient": {
-    "item": "undergardens:depthrock_coal_ore"
+    "item": "swamplands:depthrock_coal_ore"
   },
   "result": {
     "count": 1,

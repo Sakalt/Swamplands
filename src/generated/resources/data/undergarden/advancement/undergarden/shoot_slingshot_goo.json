@@ -1,28 +1,28 @@
 {
-  "parent": "undergardens:undergardens/slingshot",
+  "parent": "swamplands:swamplands/slingshot",
   "criteria": {
     "shoot_slingshot_goo": {
       "conditions": {
         "ammo": {
-          "items": "undergardens:goo_ball"
+          "items": "swamplands:goo_ball"
         },
         "slingshot": {
-          "items": "undergardens:slingshot"
+          "items": "swamplands:slingshot"
         }
       },
-      "trigger": "undergardens:slingshot_fire"
+      "trigger": "swamplands:slingshot_fire"
     }
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.shoot_slingshot_goo.desc"
+      "translate": "advancement.swamplands.shoot_slingshot_goo.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergardens:goo_ball"
+      "id": "swamplands:goo_ball"
     },
     "title": {
-      "translate": "advancement.undergardens.shoot_slingshot_goo.title"
+      "translate": "advancement.swamplands.shoot_slingshot_goo.title"
     }
   },
   "requirements": [

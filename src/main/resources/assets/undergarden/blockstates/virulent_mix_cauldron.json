@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/virulent_mix_cauldron"
+      "model": "swamplands:block/virulent_mix_cauldron"
     }
   }
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:cloggrum_ingot"
+            "items": "swamplands:cloggrum_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:cloggrum_pickaxe"
+        "recipe": "swamplands:cloggrum_pickaxe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:cloggrum_pickaxe"
+      "swamplands:cloggrum_pickaxe"
     ]
   }
 }

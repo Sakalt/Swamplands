@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "undergardens:item/utherium_boots"
+    "layer0": "swamplands:item/utherium_boots"
   }
 }

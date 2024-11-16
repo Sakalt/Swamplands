@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -6,9 +6,9 @@ import net.minecraft.data.tags.BiomeTagsProvider;
 import net.minecraft.tags.BiomeTags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
-import quek.undergardens.Undergardens;
-import quek.undergardens.registry.UGBiomes;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.Undergardens;
+import quek.swamplands.registry.UGBiomes;
+import quek.swamplands.registry.UGTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -20,7 +20,7 @@ public class UGBiomeTags extends BiomeTagsProvider {
 
 	@Override
 	protected void addTags(HolderLookup.Provider provider) {
-		//undergardens
+		//swamplands
 		tag(UGTags.Biomes.IS_UNDERGARDEN).add(UGBiomes.ANCIENT_SEA, UGBiomes.BARREN_ABYSS, UGBiomes.BLOOD_MUSHROOM_BOG, UGBiomes.DEAD_SEA, UGBiomes.DENSE_FOREST, UGBiomes.FORGOTTEN_FIELD, UGBiomes.FROSTFIELDS, UGBiomes.FROSTY_SMOGSTEM_FOREST, UGBiomes.GRONGLEGROWTH, UGBiomes.ICY_SEA, UGBiomes.INDIGO_MUSHROOM_BOG, UGBiomes.INK_MUSHROOM_BOG, UGBiomes.SMOGSTEM_FOREST, UGBiomes.SMOG_SPIRES, UGBiomes.VEIL_MUSHROOM_BOG, UGBiomes.WIGGLEWOOD_FOREST);
 		tag(UGTags.Biomes.HAS_CATACOMBS).add(UGBiomes.ANCIENT_SEA, UGBiomes.DENSE_FOREST, UGBiomes.FORGOTTEN_FIELD, UGBiomes.GRONGLEGROWTH, UGBiomes.SMOGSTEM_FOREST, UGBiomes.WIGGLEWOOD_FOREST);
 		tag(UGTags.Biomes.HAS_FORGOTTEN_VESTIGE).add(UGBiomes.FORGOTTEN_FIELD, UGBiomes.FROSTFIELDS, UGBiomes.FROSTY_SMOGSTEM_FOREST, UGBiomes.DENSE_FOREST, UGBiomes.SMOGSTEM_FOREST, UGBiomes.WIGGLEWOOD_FOREST, UGBiomes.GRONGLEGROWTH, UGBiomes.BARREN_ABYSS);

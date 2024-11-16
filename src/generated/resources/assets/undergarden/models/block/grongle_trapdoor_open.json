@@ -2,6 +2,6 @@
   "parent": "minecraft:block/template_orientable_trapdoor_open",
   "render_type": "minecraft:cutout",
   "textures": {
-    "texture": "undergardens:block/grongle_trapdoor"
+    "texture": "swamplands:block/grongle_trapdoor"
   }
 }

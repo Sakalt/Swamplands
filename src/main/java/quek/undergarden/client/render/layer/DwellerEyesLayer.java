@@ -1,12 +1,12 @@
-package quek.undergardens.client.render.layer;
+package quek.swamplands.client.render.layer;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.DwellerModel;
-import quek.undergardens.entity.animal.dweller.Dweller;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.DwellerModel;
+import quek.swamplands.entity.animal.dweller.Dweller;
 
 public class DwellerEyesLayer<T extends Dweller, M extends DwellerModel<T>> extends EyesLayer<T, M> {
 

@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:forgotten_sword_smithing"
+        "recipe": "swamplands:forgotten_sword_smithing"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:forgotten_ingot": {
+    "has_swamplands:forgotten_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:forgotten_ingot"
+            "items": "swamplands:forgotten_ingot"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:forgotten_ingot"
+      "has_swamplands:forgotten_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:forgotten_sword_smithing"
+      "swamplands:forgotten_sword_smithing"
     ]
   }
 }

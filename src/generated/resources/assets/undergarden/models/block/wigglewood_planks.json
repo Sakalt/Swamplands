@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergardens:block/wigglewood_planks"
+    "all": "swamplands:block/wigglewood_planks"
   }
 }

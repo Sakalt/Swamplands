@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smelt_shiverstone_coal_ore"
+        "recipe": "swamplands:smelt_shiverstone_coal_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:shiverstone_coal_ore": {
+    "has_swamplands:shiverstone_coal_ore": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:shiverstone_coal_ore"
+            "items": "swamplands:shiverstone_coal_ore"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:shiverstone_coal_ore"
+      "has_swamplands:shiverstone_coal_ore"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smelt_shiverstone_coal_ore"
+      "swamplands:smelt_shiverstone_coal_ore"
     ]
   }
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:cloggrum_lantern"
+          "name": "swamplands:cloggrum_lantern"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/cloggrum_lantern"
+  "random_sequence": "swamplands:blocks/cloggrum_lantern"
 }

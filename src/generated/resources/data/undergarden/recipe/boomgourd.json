@@ -3,10 +3,10 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "undergardens:blisterbomb"
+      "item": "swamplands:blisterbomb"
     },
     "G": {
-      "item": "undergardens:gloomgourd"
+      "item": "swamplands:gloomgourd"
     }
   },
   "pattern": [
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:boomgourd"
+    "id": "swamplands:boomgourd"
   }
 }

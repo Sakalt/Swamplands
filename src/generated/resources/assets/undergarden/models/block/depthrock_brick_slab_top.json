@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "bottom": "undergardens:block/depthrock_bricks",
-    "side": "undergardens:block/depthrock_bricks",
-    "top": "undergardens:block/depthrock_bricks"
+    "bottom": "swamplands:block/depthrock_bricks",
+    "side": "swamplands:block/depthrock_bricks",
+    "top": "swamplands:block/depthrock_bricks"
   }
 }

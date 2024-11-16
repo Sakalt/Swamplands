@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergardens:block/forgotten_block"
+    "all": "swamplands:block/forgotten_block"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "texture": "undergardens:block/wigglewood_planks"
+    "texture": "swamplands:block/wigglewood_planks"
   }
 }

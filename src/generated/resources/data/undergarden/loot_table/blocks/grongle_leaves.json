@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "undergardens:grongle_leaves"
+              "name": "swamplands:grongle_leaves"
             },
             {
               "type": "minecraft:item",
@@ -56,7 +56,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "undergardens:grongle_sapling"
+              "name": "swamplands:grongle_sapling"
             }
           ]
         }
@@ -132,5 +132,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/grongle_leaves"
+  "random_sequence": "swamplands:blocks/grongle_leaves"
 }

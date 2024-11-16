@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smelt_tremblecrust_bricks"
+        "recipe": "swamplands:smelt_tremblecrust_bricks"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:tremblecrust_bricks": {
+    "has_swamplands:tremblecrust_bricks": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:tremblecrust_bricks"
+            "items": "swamplands:tremblecrust_bricks"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:tremblecrust_bricks"
+      "has_swamplands:tremblecrust_bricks"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smelt_tremblecrust_bricks"
+      "swamplands:smelt_tremblecrust_bricks"
     ]
   }
 }

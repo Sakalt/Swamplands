@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:carved_gloomgourd"
+            "items": "swamplands:carved_gloomgourd"
           }
         ]
       },
@@ -15,7 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:shard_torch"
+            "items": "swamplands:shard_torch"
           }
         ]
       },
@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:shard_o_lantern"
+        "recipe": "swamplands:shard_o_lantern"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:shard_o_lantern"
+      "swamplands:shard_o_lantern"
     ]
   }
 }

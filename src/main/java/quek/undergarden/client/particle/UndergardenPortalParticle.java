@@ -1,4 +1,4 @@
-package quek.undergardens.client.particle;
+package quek.swamplands.client.particle;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.Particle;

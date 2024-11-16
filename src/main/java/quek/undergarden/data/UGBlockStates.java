@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -8,12 +8,12 @@ import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergardens.Undergardens;
-import quek.undergardens.block.BlisterberryBushBlock;
-import quek.undergardens.block.DeepturfBlock;
-import quek.undergardens.block.HangingGrongleLeavesBlock;
-import quek.undergardens.data.provider.UGBlockstateProvider;
-import quek.undergardens.registry.UGBlocks;
+import quek.swamplands.Undergardens;
+import quek.swamplands.block.BlisterberryBushBlock;
+import quek.swamplands.block.DeepturfBlock;
+import quek.swamplands.block.HangingGrongleLeavesBlock;
+import quek.swamplands.data.provider.UGBlockstateProvider;
+import quek.swamplands.registry.UGBlocks;
 
 public class UGBlockStates extends UGBlockstateProvider {
 

@@ -1,14 +1,14 @@
 {
-  "type": "undergardens:delta",
+  "type": "swamplands:delta",
   "config": {
     "contents": {
-      "Name": "undergardens:virulent_mix",
+      "Name": "swamplands:virulent_mix",
       "Properties": {
         "level": "0"
       }
     },
     "rim": {
-      "Name": "undergardens:coarse_deepsoil"
+      "Name": "swamplands:coarse_deepsoil"
     },
     "rim_size": {
       "type": "minecraft:uniform",

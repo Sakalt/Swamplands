@@ -1,4 +1,4 @@
-package quek.undergardens.item;
+package quek.swamplands.item;
 
 import net.minecraft.core.Direction;
 import net.minecraft.core.Position;
@@ -12,8 +12,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ProjectileItem;
 import net.minecraft.world.level.Level;
-import quek.undergardens.entity.projectile.Blisterbomb;
-import quek.undergardens.registry.UGSoundEvents;
+import quek.swamplands.entity.projectile.Blisterbomb;
+import quek.swamplands.registry.UGSoundEvents;
 
 public class BlisterbombItem extends Item implements ProjectileItem {
 

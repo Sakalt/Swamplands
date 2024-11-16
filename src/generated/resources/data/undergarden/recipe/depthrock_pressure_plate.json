@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "B": {
-      "item": "undergardens:depthrock"
+      "item": "swamplands:depthrock"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:depthrock_pressure_plate"
+    "id": "swamplands:depthrock_pressure_plate"
   }
 }

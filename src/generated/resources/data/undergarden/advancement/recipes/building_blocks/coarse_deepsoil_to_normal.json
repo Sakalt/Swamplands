@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:coarse_deepsoil"
+            "items": "swamplands:coarse_deepsoil"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:coarse_deepsoil_to_normal"
+        "recipe": "swamplands:coarse_deepsoil_to_normal"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:coarse_deepsoil_to_normal"
+      "swamplands:coarse_deepsoil_to_normal"
     ]
   }
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / undergardens:cloggrum_items]": {
+    "has_TagKey[minecraft:item / swamplands:cloggrum_items]": {
       "conditions": {
         "items": [
           {
-            "items": "#undergardens:cloggrum_items"
+            "items": "#swamplands:cloggrum_items"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smelt_cloggrum_item"
+        "recipe": "swamplands:smelt_cloggrum_item"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / undergardens:cloggrum_items]"
+      "has_TagKey[minecraft:item / swamplands:cloggrum_items]"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smelt_cloggrum_item"
+      "swamplands:smelt_cloggrum_item"
     ]
   }
 }

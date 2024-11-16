@@ -2,19 +2,19 @@
     "parent":"neoforge:item/default",
     "loader":"neoforge:separate_transforms",
     "base": {
-        "parent": "undergardens:item/forgotten_battleaxe_in_hand"
+        "parent": "swamplands:item/forgotten_battleaxe_in_hand"
     },
     "perspectives": {
         "gui": {
             "parent": "item/generated",
             "textures": {
-                "layer0": "undergardens:item/forgotten_battleaxe_inventory"
+                "layer0": "swamplands:item/forgotten_battleaxe_inventory"
             }
         },
         "ground": {
             "parent": "item/generated",
             "textures": {
-                "layer0": "undergardens:item/forgotten_battleaxe_inventory"
+                "layer0": "swamplands:item/forgotten_battleaxe_inventory"
             }
         }
     }

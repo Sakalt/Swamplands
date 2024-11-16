@@ -2,11 +2,11 @@
     "parent": "block/block",
     "render_type": "minecraft:cutout_mipped",
     "textures": {
-        "particle": "undergardens:block/deepsoil",
-        "bottom": "undergardens:block/deepsoil",
-        "top": "undergardens:block/deepturf_block_top",
-        "side": "undergardens:block/deepturf_block_side",
-		"overlay": "undergardens:block/deepturf_block_side_overlay"
+        "particle": "swamplands:block/deepsoil",
+        "bottom": "swamplands:block/deepsoil",
+        "top": "swamplands:block/deepturf_block_top",
+        "side": "swamplands:block/deepturf_block_side",
+		"overlay": "swamplands:block/deepturf_block_side_overlay"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

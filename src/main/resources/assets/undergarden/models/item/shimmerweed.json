@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "undergardens:block/shimmerweed",
-		"layer1": "undergardens:block/shimmerweed_bulb"
+        "layer0": "swamplands:block/shimmerweed",
+		"layer1": "swamplands:block/shimmerweed_bulb"
     }
 }

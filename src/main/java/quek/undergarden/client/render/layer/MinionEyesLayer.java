@@ -1,12 +1,12 @@
-package quek.undergardens.client.render.layer;
+package quek.swamplands.client.render.layer;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.client.model.MinionModel;
-import quek.undergardens.entity.Minion;
+import quek.swamplands.Undergardens;
+import quek.swamplands.client.model.MinionModel;
+import quek.swamplands.entity.Minion;
 
 public class MinionEyesLayer<T extends Minion, M extends MinionModel<T>> extends EyesLayer<T, M> {
 

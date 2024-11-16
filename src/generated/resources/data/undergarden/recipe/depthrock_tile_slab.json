@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "M": {
-      "item": "undergardens:depthrock_tiles"
+      "item": "swamplands:depthrock_tiles"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "undergardens:depthrock_tile_slab"
+    "id": "swamplands:depthrock_tile_slab"
   }
 }

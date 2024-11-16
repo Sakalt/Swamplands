@@ -1,5 +1,5 @@
 {
-  "parent": "undergardens:undergardens/enter_undergardens",
+  "parent": "swamplands:swamplands/enter_swamplands",
   "criteria": {
     "kill_rotling": {
       "conditions": {
@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "undergardens:rotling"
+              "type": "swamplands:rotling"
             }
           }
         ]
@@ -18,14 +18,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancement.undergardens.kill_rotling.desc"
+      "translate": "advancement.swamplands.kill_rotling.desc"
     },
     "icon": {
       "count": 1,
-      "id": "undergardens:utheric_shard"
+      "id": "swamplands:utheric_shard"
     },
     "title": {
-      "translate": "advancement.undergardens.kill_rotling.title"
+      "translate": "advancement.swamplands.kill_rotling.title"
     }
   },
   "requirements": [

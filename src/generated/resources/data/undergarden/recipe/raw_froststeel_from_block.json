@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "undergardens:raw_froststeel_block"
+      "item": "swamplands:raw_froststeel_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "undergardens:raw_froststeel"
+    "id": "swamplands:raw_froststeel"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/cracked_tremblecrust_bricks"
+      "model": "swamplands:block/cracked_tremblecrust_bricks"
     }
   }
 }

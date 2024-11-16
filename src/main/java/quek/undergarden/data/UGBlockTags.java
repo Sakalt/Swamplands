@@ -1,4 +1,4 @@
-package quek.undergardens.data;
+package quek.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -9,9 +9,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.undergardens.Undergardens;
-import quek.undergardens.registry.UGBlocks;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.Undergardens;
+import quek.swamplands.registry.UGBlocks;
+import quek.swamplands.registry.UGTags;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;
@@ -24,7 +24,7 @@ public class UGBlockTags extends IntrinsicHolderTagsProvider<Block> {
 
 	@Override
 	protected void addTags(HolderLookup.Provider provider) {
-		//undergardens
+		//swamplands
 		tag(UGTags.Blocks.BASE_STONE_UNDERGARDEN).add(UGBlocks.DEPTHROCK.get(), UGBlocks.SHIVERSTONE.get());
 		tag(UGTags.Blocks.DEPTHROCK_ORE_REPLACEABLES).add(UGBlocks.DEPTHROCK.get());
 		tag(UGTags.Blocks.SHIVERSTONE_ORE_REPLACEABLES).add(UGBlocks.SHIVERSTONE.get());
@@ -39,7 +39,7 @@ public class UGBlockTags extends IntrinsicHolderTagsProvider<Block> {
 		tag(UGTags.Blocks.SCINTLING_SPAWNABLE_ON).add(UGBlocks.DEEPTURF_BLOCK.get(), UGBlocks.ASHEN_DEEPTURF_BLOCK.get());
 		tag(UGTags.Blocks.SMOG_MOG_SPAWNABLE_ON).addTag(BlockTags.ANIMALS_SPAWNABLE_ON).add(UGBlocks.ASHEN_DEEPTURF_BLOCK.get(), UGBlocks.COARSE_DEEPSOIL.get(), UGBlocks.DEPTHROCK.get(), UGBlocks.SHIVERSTONE.get());
 
-		//undergardens common
+		//swamplands common
 		tag(UGTags.Blocks.ORES_CLOGGRUM).add(UGBlocks.DEPTHROCK_CLOGGRUM_ORE.get(), UGBlocks.SHIVERSTONE_CLOGGRUM_ORE.get());
 		tag(UGTags.Blocks.ORES_FROSTSTEEL).add(UGBlocks.SHIVERSTONE_FROSTSTEEL_ORE.get());
 		tag(UGTags.Blocks.ORES_UTHERIUM).add(UGBlocks.DEPTHROCK_UTHERIUM_ORE.get(), UGBlocks.SHIVERSTONE_UTHERIUM_ORE.get(), UGBlocks.TREMBLECRUST_UTHERIUM_ORE.get());

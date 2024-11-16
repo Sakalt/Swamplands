@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:indigo_mushroom"
+            "items": "swamplands:indigo_mushroom"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:indigo_stew"
+        "recipe": "swamplands:indigo_stew"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:indigo_stew"
+      "swamplands:indigo_stew"
     ]
   }
 }

@@ -1,4 +1,4 @@
-package quek.undergardens.client.render.blockentity;
+package quek.swamplands.client.render.blockentity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -12,10 +12,10 @@ import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
-import quek.undergardens.Undergardens;
-import quek.undergardens.block.GrongletBlock;
-import quek.undergardens.block.entity.GrongletBlockEntity;
-import quek.undergardens.client.model.UGModelLayers;
+import quek.swamplands.Undergardens;
+import quek.swamplands.block.GrongletBlock;
+import quek.swamplands.block.entity.GrongletBlockEntity;
+import quek.swamplands.client.model.UGModelLayers;
 
 public class GrongletRender implements BlockEntityRenderer<GrongletBlockEntity> {
 

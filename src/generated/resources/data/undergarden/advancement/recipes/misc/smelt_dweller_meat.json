@@ -3,15 +3,15 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:smelt_dweller_meat"
+        "recipe": "swamplands:smelt_dweller_meat"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_undergardens:raw_dweller_meat": {
+    "has_swamplands:raw_dweller_meat": {
       "conditions": {
         "items": [
           {
-            "items": "undergardens:raw_dweller_meat"
+            "items": "swamplands:raw_dweller_meat"
           }
         ]
       },
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_undergardens:raw_dweller_meat"
+      "has_swamplands:raw_dweller_meat"
     ]
   ],
   "rewards": {
     "recipes": [
-      "undergardens:smelt_dweller_meat"
+      "swamplands:smelt_dweller_meat"
     ]
   }
 }

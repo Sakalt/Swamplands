@@ -1,4 +1,4 @@
-package quek.undergardens.entity.stoneborn;
+package quek.swamplands.entity.stoneborn;
 
 import com.google.common.collect.Sets;
 import net.minecraft.core.BlockPos;
@@ -35,13 +35,13 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.fluids.FluidType;
-import quek.undergardens.entity.stoneborn.goals.StonebornLookAtCustomerGoal;
-import quek.undergardens.entity.stoneborn.goals.StonebornTradeWithPlayerGoal;
-import quek.undergardens.entity.stoneborn.trading.StonebornTrades;
-import quek.undergardens.registry.UGCriteria;
-import quek.undergardens.registry.UGDimensions;
-import quek.undergardens.registry.UGItems;
-import quek.undergardens.registry.UGSoundEvents;
+import quek.swamplands.entity.stoneborn.goals.StonebornLookAtCustomerGoal;
+import quek.swamplands.entity.stoneborn.goals.StonebornTradeWithPlayerGoal;
+import quek.swamplands.entity.stoneborn.trading.StonebornTrades;
+import quek.swamplands.registry.UGCriteria;
+import quek.swamplands.registry.UGDimensions;
+import quek.swamplands.registry.UGItems;
+import quek.swamplands.registry.UGSoundEvents;
 
 import javax.annotation.Nullable;
 import java.util.Set;

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:smogstem_pressure_plate"
+          "name": "swamplands:smogstem_pressure_plate"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/smogstem_pressure_plate"
+  "random_sequence": "swamplands:blocks/smogstem_pressure_plate"
 }

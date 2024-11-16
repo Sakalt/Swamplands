@@ -1,10 +1,10 @@
-package quek.undergardens.client.particle;
+package quek.swamplands.client.particle;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.*;
 import net.minecraft.core.particles.ParticleGroup;
 import net.minecraft.core.particles.SimpleParticleType;
-import quek.undergardens.registry.UGParticleTypes;
+import quek.swamplands.registry.UGParticleTypes;
 
 import java.util.Optional;
 

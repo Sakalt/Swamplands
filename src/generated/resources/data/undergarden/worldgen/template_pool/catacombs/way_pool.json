@@ -3,8 +3,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:catacombs/4way",
-        "processors": "undergardens:catacombs_degradation",
+        "location": "swamplands:catacombs/4way",
+        "processors": "swamplands:catacombs_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -12,8 +12,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:catacombs/3way",
-        "processors": "undergardens:catacombs_degradation",
+        "location": "swamplands:catacombs/3way",
+        "processors": "swamplands:catacombs_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -21,8 +21,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:catacombs/2way",
-        "processors": "undergardens:catacombs_degradation",
+        "location": "swamplands:catacombs/2way",
+        "processors": "swamplands:catacombs_degradation",
         "projection": "rigid"
       },
       "weight": 1
@@ -30,8 +30,8 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "undergardens:catacombs/1way",
-        "processors": "undergardens:catacombs_degradation",
+        "location": "swamplands:catacombs/1way",
+        "processors": "swamplands:catacombs_degradation",
         "projection": "rigid"
       },
       "weight": 1

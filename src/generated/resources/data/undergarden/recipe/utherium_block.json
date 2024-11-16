@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "undergardens:utherium_crystal"
+      "item": "swamplands:utherium_crystal"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:utherium_block"
+    "id": "swamplands:utherium_block"
   }
 }

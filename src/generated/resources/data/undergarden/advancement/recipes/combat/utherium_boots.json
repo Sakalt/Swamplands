@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:utherium_boots"
+        "recipe": "swamplands:utherium_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:utherium_crystal"
+            "items": "swamplands:utherium_crystal"
           }
         ]
       },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:utherium_boots"
+      "swamplands:utherium_boots"
     ]
   }
 }

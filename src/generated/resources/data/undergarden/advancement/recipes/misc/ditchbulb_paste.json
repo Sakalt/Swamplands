@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:ditchbulb"
+            "items": "swamplands:ditchbulb"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:ditchbulb_paste"
+        "recipe": "swamplands:ditchbulb_paste"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:ditchbulb_paste"
+      "swamplands:ditchbulb_paste"
     ]
   }
 }

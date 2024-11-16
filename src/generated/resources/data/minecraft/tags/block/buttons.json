@@ -1,9 +1,9 @@
 {
   "values": [
-    "undergardens:depthrock_button",
-    "undergardens:shiverstone_button",
-    "undergardens:smogstem_button",
-    "undergardens:wigglewood_button",
-    "undergardens:grongle_button"
+    "swamplands:depthrock_button",
+    "swamplands:shiverstone_button",
+    "swamplands:smogstem_button",
+    "swamplands:wigglewood_button",
+    "swamplands:grongle_button"
   ]
 }

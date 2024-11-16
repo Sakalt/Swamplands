@@ -49,7 +49,7 @@
               "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "undergardens:raw_gwibling"
+          "name": "swamplands:raw_gwibling"
         }
       ],
       "rolls": 1.0
@@ -71,5 +71,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:entities/gwibling"
+  "random_sequence": "swamplands:entities/gwibling"
 }

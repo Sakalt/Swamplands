@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/chiseled_tremblecrust_bricks"
+      "model": "swamplands:block/chiseled_tremblecrust_bricks"
     }
   }
 }

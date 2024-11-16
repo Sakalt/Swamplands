@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "undergardens:block/ink_mushroom_cap"
+    "all": "swamplands:block/ink_mushroom_cap"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "undergardens:block/frozen_deepturf"
+      "model": "swamplands:block/frozen_deepturf"
     }
   }
 }

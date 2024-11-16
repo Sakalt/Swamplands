@@ -26,11 +26,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:amorous_bristle"
+          "name": "swamplands:amorous_bristle"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/potted_amorous_bristle"
+  "random_sequence": "swamplands:blocks/potted_amorous_bristle"
 }

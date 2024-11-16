@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:mogmoss_rug"
+          "name": "swamplands:mogmoss_rug"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/mogmoss_rug"
+  "random_sequence": "swamplands:blocks/mogmoss_rug"
 }

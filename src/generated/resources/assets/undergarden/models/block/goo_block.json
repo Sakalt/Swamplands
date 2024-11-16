@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "bottom": "undergardens:block/goo_block_bottom",
-    "side": "undergardens:block/goo_block_side",
-    "top": "undergardens:block/goo_block_top"
+    "bottom": "swamplands:block/goo_block_bottom",
+    "side": "swamplands:block/goo_block_side",
+    "top": "swamplands:block/goo_block_top"
   }
 }

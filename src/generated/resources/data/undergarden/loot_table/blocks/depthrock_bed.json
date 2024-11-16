@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "undergardens:depthrock_bed",
+              "block": "swamplands:depthrock_bed",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "part": "head"
               }
             }
           ],
-          "name": "undergardens:depthrock_bed"
+          "name": "swamplands:depthrock_bed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/depthrock_bed"
+  "random_sequence": "swamplands:blocks/depthrock_bed"
 }

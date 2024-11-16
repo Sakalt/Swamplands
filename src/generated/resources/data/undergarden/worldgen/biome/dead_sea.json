@@ -1,28 +1,28 @@
 {
   "carvers": {
-    "air": "undergardens:undergardens_cave"
+    "air": "swamplands:swamplands_cave"
   },
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
-      "sound": "undergardens:ambient.abyss_addition",
+      "sound": "swamplands:ambient.abyss_addition",
       "tick_chance": 0.00555
     },
-    "ambient_sound": "undergardens:ambient.abyss",
+    "ambient_sound": "swamplands:ambient.abyss",
     "fog_color": 2565927,
     "foliage_color": 7568503,
     "grass_color": 7568503,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "undergardens:ambient.mood",
+      "sound": "swamplands:ambient.mood",
       "tick_delay": 6000
     },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": true,
-      "sound": "undergardens:music.undergardens"
+      "sound": "swamplands:music.swamplands"
     },
     "sky_color": 1186057,
     "water_color": 342306,
@@ -36,25 +36,25 @@
     [],
     [],
     [
-      "undergardens:deepsoil_ore",
-      "undergardens:sediment_ore",
-      "undergardens:shiverstone_ore",
-      "undergardens:coal_ore",
-      "undergardens:iron_ore",
-      "undergardens:gold_ore",
-      "undergardens:diamond_ore",
-      "undergardens:cloggrum_ore",
-      "undergardens:utherium_ore",
-      "undergardens:regalium_ore"
+      "swamplands:deepsoil_ore",
+      "swamplands:sediment_ore",
+      "swamplands:shiverstone_ore",
+      "swamplands:coal_ore",
+      "swamplands:iron_ore",
+      "swamplands:gold_ore",
+      "swamplands:diamond_ore",
+      "swamplands:cloggrum_ore",
+      "swamplands:utherium_ore",
+      "swamplands:regalium_ore"
     ],
     [],
     [],
     [
-      "undergardens:blood_mushroom_patch",
-      "undergardens:indigo_mushroom_patch",
-      "undergardens:ink_mushroom_patch",
-      "undergardens:veil_mushroom_patch",
-      "undergardens:ditchbulb_patch"
+      "swamplands:blood_mushroom_patch",
+      "swamplands:indigo_mushroom_patch",
+      "swamplands:ink_mushroom_patch",
+      "swamplands:veil_mushroom_patch",
+      "swamplands:ditchbulb_patch"
     ]
   ],
   "has_precipitation": false,
@@ -62,7 +62,7 @@
   "spawners": {
     "ambient": [
       {
-        "type": "undergardens:scintling",
+        "type": "swamplands:scintling",
         "maxCount": 8,
         "minCount": 4,
         "weight": 5
@@ -73,37 +73,37 @@
     "misc": [],
     "monster": [
       {
-        "type": "undergardens:nargoyle",
+        "type": "swamplands:nargoyle",
         "maxCount": 1,
         "minCount": 1,
         "weight": 50
       },
       {
-        "type": "undergardens:muncher",
+        "type": "swamplands:muncher",
         "maxCount": 1,
         "minCount": 1,
         "weight": 50
       },
       {
-        "type": "undergardens:sploogie",
+        "type": "swamplands:sploogie",
         "maxCount": 1,
         "minCount": 1,
         "weight": 50
       },
       {
-        "type": "undergardens:rotling",
+        "type": "swamplands:rotling",
         "maxCount": 4,
         "minCount": 2,
         "weight": 100
       },
       {
-        "type": "undergardens:rotwalker",
+        "type": "swamplands:rotwalker",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
       },
       {
-        "type": "undergardens:rotbeast",
+        "type": "swamplands:rotbeast",
         "maxCount": 2,
         "minCount": 1,
         "weight": 100

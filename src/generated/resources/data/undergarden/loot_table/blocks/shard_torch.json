@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:shard_torch"
+          "name": "swamplands:shard_torch"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/shard_torch"
+  "random_sequence": "swamplands:blocks/shard_torch"
 }

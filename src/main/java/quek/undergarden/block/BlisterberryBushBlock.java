@@ -1,4 +1,4 @@
-package quek.undergardens.block;
+package quek.swamplands.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -29,10 +29,10 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.neoforged.neoforge.common.CommonHooks;
-import quek.undergardens.registry.UGDamageSources;
-import quek.undergardens.registry.UGItems;
-import quek.undergardens.registry.UGSoundEvents;
-import quek.undergardens.registry.UGTags;
+import quek.swamplands.registry.UGDamageSources;
+import quek.swamplands.registry.UGItems;
+import quek.swamplands.registry.UGSoundEvents;
+import quek.swamplands.registry.UGTags;
 
 public class BlisterberryBushBlock extends BushBlock implements BonemealableBlock {
 

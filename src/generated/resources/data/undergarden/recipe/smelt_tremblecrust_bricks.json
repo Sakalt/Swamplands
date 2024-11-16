@@ -4,10 +4,10 @@
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {
-    "item": "undergardens:tremblecrust_bricks"
+    "item": "swamplands:tremblecrust_bricks"
   },
   "result": {
     "count": 1,
-    "id": "undergardens:cracked_tremblecrust_bricks"
+    "id": "swamplands:cracked_tremblecrust_bricks"
   }
 }

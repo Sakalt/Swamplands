@@ -1,4 +1,4 @@
-package quek.undergardens.entity.stoneborn.trading;
+package quek.swamplands.entity.stoneborn.trading;
 
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.Entity;
@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.trading.ItemCost;
 import net.minecraft.world.item.trading.MerchantOffer;
-import quek.undergardens.registry.UGItems;
+import quek.swamplands.registry.UGItems;
 
 import javax.annotation.Nullable;
 import java.util.Optional;

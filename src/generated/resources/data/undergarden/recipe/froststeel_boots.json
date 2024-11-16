@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "M": {
-      "item": "undergardens:froststeel_ingot"
+      "item": "swamplands:froststeel_ingot"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:froststeel_boots"
+    "id": "swamplands:froststeel_boots"
   }
 }

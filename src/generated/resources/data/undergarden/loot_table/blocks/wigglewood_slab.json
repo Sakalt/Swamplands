@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "undergardens:wigglewood_slab",
+                  "block": "swamplands:wigglewood_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "undergardens:wigglewood_slab"
+          "name": "swamplands:wigglewood_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/wigglewood_slab"
+  "random_sequence": "swamplands:blocks/wigglewood_slab"
 }

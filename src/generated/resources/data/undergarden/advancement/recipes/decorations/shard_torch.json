@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "undergardens:utheric_shard"
+            "items": "swamplands:utheric_shard"
           }
         ]
       },
@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "undergardens:shard_torch"
+        "recipe": "swamplands:shard_torch"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "undergardens:shard_torch"
+      "swamplands:shard_torch"
     ]
   }
 }

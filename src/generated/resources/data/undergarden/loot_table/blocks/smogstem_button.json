@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "undergardens:smogstem_button"
+          "name": "swamplands:smogstem_button"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "undergardens:blocks/smogstem_button"
+  "random_sequence": "swamplands:blocks/smogstem_button"
 }

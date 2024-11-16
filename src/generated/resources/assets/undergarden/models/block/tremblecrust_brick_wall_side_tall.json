@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side_tall",
   "textures": {
-    "wall": "undergardens:block/tremblecrust_bricks"
+    "wall": "swamplands:block/tremblecrust_bricks"
   }
 }

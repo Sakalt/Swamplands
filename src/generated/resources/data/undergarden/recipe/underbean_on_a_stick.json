@@ -6,11 +6,11 @@
       "item": "minecraft:stick"
     },
     {
-      "item": "undergardens:underbeans"
+      "item": "swamplands:underbeans"
     }
   ],
   "result": {
     "count": 1,
-    "id": "undergardens:underbean_on_a_stick"
+    "id": "swamplands:underbean_on_a_stick"
   }
 }

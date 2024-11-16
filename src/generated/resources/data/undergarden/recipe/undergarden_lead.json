@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "undergardens:goo_ball"
+      "item": "swamplands:goo_ball"
     },
     "T": {
-      "item": "undergardens:twistytwig"
+      "item": "swamplands:twistytwig"
     }
   },
   "pattern": [

@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.undergardens.entity.projectile.slingshot;
+package quek.swamplands.entity.projectile.slingshot;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 
