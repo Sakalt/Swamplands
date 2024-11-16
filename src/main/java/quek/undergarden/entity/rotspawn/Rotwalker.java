@@ -19,9 +19,9 @@ public class Rotwalker extends RotspawnMonster {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return Monster.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 40.0D)
-				.add(Attributes.ARMOR, 3.0D)
-				.add(Attributes.ATTACK_DAMAGE, 5.0D)
+				.add(Attributes.MAX_HEALTH, 24.0D)
+				.add(Attributes.ARMOR, 14.0D)
+				.add(Attributes.ATTACK_DAMAGE, 4.75D)
 				.add(Attributes.MOVEMENT_SPEED, 0.23D);
 	}
 
