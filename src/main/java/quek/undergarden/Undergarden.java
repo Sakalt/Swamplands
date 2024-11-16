@@ -1,4 +1,4 @@
-package quek.swamplands;
+package sakalti.swamplands;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.HolderLookup;
@@ -19,11 +19,11 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.server.ServerLifecycleHooks;
 import org.slf4j.Logger;
-import quek.swamplands.client.UndergardensClient;
-import quek.swamplands.data.*;
-import quek.swamplands.event.UndergardensClientEvents;
-import quek.swamplands.event.UndergardensCommonEvents;
-import quek.swamplands.registry.*;
+import sakalti.swamplands.client.UndergardensClient;
+import sakalti.swamplands.data.*;
+import sakalti.swamplands.event.UndergardensClientEvents;
+import sakalti.swamplands.event.UndergardensCommonEvents;
+import sakalti.swamplands.registry.*;
 
 import java.util.concurrent.CompletableFuture;
 

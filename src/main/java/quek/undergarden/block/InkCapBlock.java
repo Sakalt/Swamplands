@@ -1,4 +1,4 @@
-package quek.swamplands.block;
+package sakalti.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -9,8 +9,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGParticleTypes;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGParticleTypes;
 
 public class InkCapBlock extends Block {
 	public InkCapBlock(Properties properties) {

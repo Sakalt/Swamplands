@@ -1,13 +1,13 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.MuncherModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.MuncherEyesLayer;
-import quek.swamplands.entity.cavern.Muncher;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.MuncherModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.MuncherEyesLayer;
+import sakalti.swamplands.entity.cavern.Muncher;
 
 public class MuncherRender extends MobRenderer<Muncher, MuncherModel<Muncher>> {
 

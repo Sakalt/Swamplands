@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.data.provider;
+package sakalti.swamplands.data.provider;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

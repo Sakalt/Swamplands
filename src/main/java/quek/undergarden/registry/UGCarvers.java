@@ -1,12 +1,12 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.levelgen.carver.CaveCarverConfiguration;
 import net.minecraft.world.level.levelgen.carver.WorldCarver;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.world.gen.carver.UGCaveWorldCarver;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.world.gen.carver.UGCaveWorldCarver;
 
 public class UGCarvers {
 

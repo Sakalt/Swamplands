@@ -1,28 +1,28 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.entity.*;
-import quek.swamplands.entity.animal.*;
-import quek.swamplands.entity.animal.dweller.Dweller;
-import quek.swamplands.entity.boss.ForgottenGuardian;
-import quek.swamplands.entity.cavern.Muncher;
-import quek.swamplands.entity.cavern.Nargoyle;
-import quek.swamplands.entity.cavern.Sploogie;
-import quek.swamplands.entity.projectile.Blisterbomb;
-import quek.swamplands.entity.projectile.MinionProjectile;
-import quek.swamplands.entity.projectile.slingshot.DepthrockPebble;
-import quek.swamplands.entity.projectile.slingshot.GooBall;
-import quek.swamplands.entity.projectile.slingshot.Gronglet;
-import quek.swamplands.entity.projectile.slingshot.RottenBlisterberry;
-import quek.swamplands.entity.rotspawn.Rotbeast;
-import quek.swamplands.entity.rotspawn.Rotling;
-import quek.swamplands.entity.rotspawn.Rotwalker;
-import quek.swamplands.entity.stoneborn.Stoneborn;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.entity.*;
+import sakalti.swamplands.entity.animal.*;
+import sakalti.swamplands.entity.animal.dweller.Dweller;
+import sakalti.swamplands.entity.boss.ForgottenGuardian;
+import sakalti.swamplands.entity.cavern.Muncher;
+import sakalti.swamplands.entity.cavern.Nargoyle;
+import sakalti.swamplands.entity.cavern.Sploogie;
+import sakalti.swamplands.entity.projectile.Blisterbomb;
+import sakalti.swamplands.entity.projectile.MinionProjectile;
+import sakalti.swamplands.entity.projectile.slingshot.DepthrockPebble;
+import sakalti.swamplands.entity.projectile.slingshot.GooBall;
+import sakalti.swamplands.entity.projectile.slingshot.Gronglet;
+import sakalti.swamplands.entity.projectile.slingshot.RottenBlisterberry;
+import sakalti.swamplands.entity.rotspawn.Rotbeast;
+import sakalti.swamplands.entity.rotspawn.Rotling;
+import sakalti.swamplands.entity.rotspawn.Rotwalker;
+import sakalti.swamplands.entity.stoneborn.Stoneborn;
 
 public class UGEntityTypes {
 

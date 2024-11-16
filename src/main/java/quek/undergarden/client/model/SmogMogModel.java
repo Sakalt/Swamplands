@@ -1,4 +1,4 @@
-package quek.swamplands.client.model;
+package sakalti.swamplands.client.model;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.client.model.AgeableListModel;

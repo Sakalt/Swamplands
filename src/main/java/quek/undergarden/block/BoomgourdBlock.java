@@ -1,4 +1,4 @@
-package quek.swamplands.block;
+package sakalti.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -18,9 +18,9 @@ import net.minecraft.world.level.block.TntBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.phys.BlockHitResult;
-import quek.swamplands.entity.Boomgourd;
-import quek.swamplands.registry.UGItems;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.entity.Boomgourd;
+import sakalti.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 import javax.annotation.Nullable;
 

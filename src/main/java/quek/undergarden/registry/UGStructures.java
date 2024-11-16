@@ -1,4 +1,4 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
@@ -28,8 +28,8 @@ import net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool;
 import net.minecraft.world.level.levelgen.structure.templatesystem.*;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.world.gen.structure.BiggerJigsawStructure;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.world.gen.structure.BiggerJigsawStructure;
 
 import java.util.List;
 import java.util.Map;

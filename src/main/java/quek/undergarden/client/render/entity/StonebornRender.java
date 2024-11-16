@@ -1,13 +1,13 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.StonebornModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.StonebornEyesLayer;
-import quek.swamplands.entity.stoneborn.Stoneborn;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.StonebornModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.StonebornEyesLayer;
+import sakalti.swamplands.entity.stoneborn.Stoneborn;
 
 public class StonebornRender extends MobRenderer<Stoneborn, StonebornModel<Stoneborn>> {
 

@@ -1,13 +1,13 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.world.gen.treedecorator.GrongleLeafDecorator;
-import quek.swamplands.world.gen.treedecorator.GrongletTrunkDecorator;
-import quek.swamplands.world.gen.treedecorator.ReplaceLeafDecorator;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.world.gen.treedecorator.GrongleLeafDecorator;
+import sakalti.swamplands.world.gen.treedecorator.GrongletTrunkDecorator;
+import sakalti.swamplands.world.gen.treedecorator.ReplaceLeafDecorator;
 
 public class UGTreeDecoratorTypes {
 	public static final DeferredRegister<TreeDecoratorType<?>> TREE_DECORATORS = DeferredRegister.create(Registries.TREE_DECORATOR_TYPE, Undergardens.MODID);

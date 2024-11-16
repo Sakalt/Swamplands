@@ -1,4 +1,4 @@
-package quek.swamplands.network;
+package sakalti.swamplands.network;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.RegistryFriendlyByteBuf;
@@ -6,8 +6,8 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.UndergardensClient;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.UndergardensClient;
 
 public class UndergardensPortalSoundPacket implements CustomPacketPayload {
 

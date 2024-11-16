@@ -1,10 +1,10 @@
-package quek.swamplands.block.entity;
+package sakalti.swamplands.block.entity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import quek.swamplands.registry.UGBlockEntities;
+import sakalti.swamplands.registry.UGBlockEntities;
 
 public class GrongletBlockEntity extends BlockEntity {
 

@@ -1,9 +1,9 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.WoodType;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 public class UGWoodStuff {
 

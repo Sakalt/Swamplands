@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.world.gen.feature;
+package sakalti.swamplands.world.gen.feature;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

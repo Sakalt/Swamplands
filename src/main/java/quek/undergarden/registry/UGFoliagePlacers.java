@@ -1,11 +1,11 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.world.gen.foliageplacer.VeilFoliagePlacer;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.world.gen.foliageplacer.VeilFoliagePlacer;
 
 public class UGFoliagePlacers {
 

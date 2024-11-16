@@ -1,4 +1,4 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.armortrim.TrimMaterial;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 import java.util.Map;
 

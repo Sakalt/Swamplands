@@ -1,4 +1,4 @@
-package quek.swamplands.entity.cavern;
+package sakalti.swamplands.entity.cavern;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.util.Mth;
@@ -17,8 +17,8 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import quek.swamplands.entity.projectile.slingshot.DepthrockPebble;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.entity.projectile.slingshot.DepthrockPebble;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 public class Sploogie extends CavernMonster implements RangedAttackMob {
 

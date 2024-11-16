@@ -1,8 +1,8 @@
-package quek.swamplands.client.gui.screen;
+package sakalti.swamplands.client.gui.screen;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.ReceivingLevelScreen;
-import quek.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGBlocks;
 
 import java.util.function.BooleanSupplier;
 

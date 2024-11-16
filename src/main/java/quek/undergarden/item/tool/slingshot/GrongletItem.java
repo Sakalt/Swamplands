@@ -1,4 +1,4 @@
-package quek.swamplands.item.tool.slingshot;
+package sakalti.swamplands.item.tool.slingshot;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Direction;
@@ -12,7 +12,7 @@ import net.minecraft.world.item.ProjectileItem;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import quek.swamplands.entity.projectile.slingshot.Gronglet;
+import sakalti.swamplands.entity.projectile.slingshot.Gronglet;
 
 import java.util.List;
 

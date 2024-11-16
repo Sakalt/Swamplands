@@ -1,4 +1,4 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.sounds.SoundEvents;
@@ -10,8 +10,8 @@ import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
-import quek.swamplands.Undergardens;
-import quek.swamplands.block.fluid.VirulentMixFluid;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.block.fluid.VirulentMixFluid;
 
 public class UGFluids {
 

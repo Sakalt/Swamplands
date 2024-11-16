@@ -1,4 +1,4 @@
-package quek.swamplands.block.portal;
+package sakalti.swamplands.block.portal;
 
 import net.minecraft.BlockUtil;
 import net.minecraft.core.BlockPos;
@@ -24,8 +24,8 @@ import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
-import quek.swamplands.Undergardens;
-import quek.swamplands.registry.*;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.registry.*;
 
 import java.util.Optional;
 

@@ -1,12 +1,12 @@
-package quek.swamplands.client.render.layer;
+package sakalti.swamplands.client.render.layer;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.GloomperModel;
-import quek.swamplands.entity.animal.Gloomper;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.GloomperModel;
+import sakalti.swamplands.entity.animal.Gloomper;
 
 public class GloomperEyesLayer<T extends Gloomper, M extends GloomperModel<T>> extends EyesLayer<T, M> {
 

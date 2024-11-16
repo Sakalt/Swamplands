@@ -1,4 +1,4 @@
-package quek.swamplands.client.model;
+package sakalti.swamplands.client.model;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.client.model.AnimationUtils;
@@ -7,7 +7,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
-import quek.swamplands.entity.rotspawn.Rotbeast;
+import sakalti.swamplands.entity.rotspawn.Rotbeast;
 
 public class RotbeastModel<T extends Rotbeast> extends ListModel<T> {
 

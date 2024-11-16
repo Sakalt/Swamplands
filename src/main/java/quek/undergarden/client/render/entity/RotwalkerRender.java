@@ -1,15 +1,15 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.RotwalkerModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.RotwalkerEyesLayer;
-import quek.swamplands.entity.rotspawn.Rotwalker;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.RotwalkerModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.RotwalkerEyesLayer;
+import sakalti.swamplands.entity.rotspawn.Rotwalker;
 
 public class RotwalkerRender extends MobRenderer<Rotwalker, RotwalkerModel<Rotwalker>> {
 

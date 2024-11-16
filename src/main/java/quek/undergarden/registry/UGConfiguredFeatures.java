@@ -1,4 +1,4 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.core.Direction;
@@ -31,17 +31,17 @@ import net.minecraft.world.level.levelgen.feature.trunkplacers.MegaJungleTrunkPl
 import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
-import quek.swamplands.Undergardens;
-import quek.swamplands.block.BlisterberryBushBlock;
-import quek.swamplands.block.DepthrockPebblesBlock;
-import quek.swamplands.block.DitchbulbBlock;
-import quek.swamplands.block.UnderbeanBushBlock;
-import quek.swamplands.world.gen.foliageplacer.VeilFoliagePlacer;
-import quek.swamplands.world.gen.treedecorator.GrongleLeafDecorator;
-import quek.swamplands.world.gen.treedecorator.GrongletTrunkDecorator;
-import quek.swamplands.world.gen.treedecorator.ReplaceLeafDecorator;
-import quek.swamplands.world.gen.trunkplacer.SingleForkingTrunkPlacer;
-import quek.swamplands.world.gen.trunkplacer.SmogstemTrunkPlacer;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.block.BlisterberryBushBlock;
+import sakalti.swamplands.block.DepthrockPebblesBlock;
+import sakalti.swamplands.block.DitchbulbBlock;
+import sakalti.swamplands.block.UnderbeanBushBlock;
+import sakalti.swamplands.world.gen.foliageplacer.VeilFoliagePlacer;
+import sakalti.swamplands.world.gen.treedecorator.GrongleLeafDecorator;
+import sakalti.swamplands.world.gen.treedecorator.GrongletTrunkDecorator;
+import sakalti.swamplands.world.gen.treedecorator.ReplaceLeafDecorator;
+import sakalti.swamplands.world.gen.trunkplacer.SingleForkingTrunkPlacer;
+import sakalti.swamplands.world.gen.trunkplacer.SmogstemTrunkPlacer;
 
 import java.util.List;
 import java.util.OptionalInt;

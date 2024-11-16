@@ -1,4 +1,4 @@
-package quek.swamplands.world.gen.trunkplacer;
+package sakalti.swamplands.world.gen.trunkplacer;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.Codec;
@@ -14,7 +14,7 @@ import net.minecraft.world.level.levelgen.feature.configurations.TreeConfigurati
 import net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType;
-import quek.swamplands.registry.UGTrunkPlacerTypes;
+import sakalti.swamplands.registry.UGTrunkPlacerTypes;
 
 import java.util.List;
 import java.util.function.BiConsumer;

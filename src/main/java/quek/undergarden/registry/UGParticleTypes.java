@@ -1,4 +1,4 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.core.particles.ParticleGroup;
 import net.minecraft.core.particles.ParticleType;
@@ -6,7 +6,7 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.registries.Registries;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 public class UGParticleTypes {
 

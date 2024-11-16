@@ -1,11 +1,11 @@
-package quek.swamplands.client;
+package sakalti.swamplands.client;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.world.entity.player.Player;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 public class UndergardensClient {
 

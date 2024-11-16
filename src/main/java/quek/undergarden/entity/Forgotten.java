@@ -1,4 +1,4 @@
-package quek.swamplands.entity;
+package sakalti.swamplands.entity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -24,9 +24,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
-import quek.swamplands.entity.rotspawn.RotspawnMonster;
-import quek.swamplands.registry.UGItems;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.entity.rotspawn.RotspawnMonster;
+import sakalti.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 import java.util.Arrays;
 

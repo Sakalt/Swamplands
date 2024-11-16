@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.client.render.layer;
+package sakalti.swamplands.client.render.layer;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

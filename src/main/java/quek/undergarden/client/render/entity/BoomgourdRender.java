@@ -1,4 +1,4 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
@@ -10,8 +10,8 @@ import net.minecraft.client.renderer.entity.TntMinecartRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.world.inventory.InventoryMenu;
-import quek.swamplands.entity.Boomgourd;
-import quek.swamplands.registry.UGBlocks;
+import sakalti.swamplands.entity.Boomgourd;
+import sakalti.swamplands.registry.UGBlocks;
 
 public class BoomgourdRender extends EntityRenderer<Boomgourd> {
 

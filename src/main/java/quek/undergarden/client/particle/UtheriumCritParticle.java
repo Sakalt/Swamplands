@@ -1,4 +1,4 @@
-package quek.swamplands.client.particle;
+package sakalti.swamplands.client.particle;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.*;

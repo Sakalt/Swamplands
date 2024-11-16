@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.item.armor;
+package sakalti.swamplands.item.armor;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

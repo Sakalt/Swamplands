@@ -1,12 +1,12 @@
-package quek.swamplands.entity.stoneborn.trading;
+package sakalti.swamplands.entity.stoneborn.trading;
 
 import com.google.common.collect.ImmutableMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.Items;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGItems;
 
 public class StonebornTrades {
 

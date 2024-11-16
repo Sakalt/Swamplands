@@ -1,4 +1,4 @@
-package quek.swamplands.world.gen.feature;
+package sakalti.swamplands.world.gen.feature;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.Codec;
@@ -13,7 +13,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.levelgen.feature.DeltaFeature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration;
-import quek.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGBlocks;
 
 public class UGDeltaFeature extends DeltaFeature {
 

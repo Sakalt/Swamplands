@@ -1,4 +1,4 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -7,9 +7,9 @@ import net.minecraft.tags.EntityTypeTags;
 import net.minecraft.world.entity.EntityType;
 import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.swamplands.Undergardens;
-import quek.swamplands.registry.UGEntityTypes;
-import quek.swamplands.registry.UGTags;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.registry.UGTags;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;

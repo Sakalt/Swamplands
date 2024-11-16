@@ -1,15 +1,15 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.ForgottenModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.ForgottenEyesLayer;
-import quek.swamplands.entity.Forgotten;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.ForgottenModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.ForgottenEyesLayer;
+import sakalti.swamplands.entity.Forgotten;
 
 public class ForgottenRender extends HumanoidMobRenderer<Forgotten, ForgottenModel<Forgotten>> {
 

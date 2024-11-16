@@ -1,10 +1,10 @@
-package quek.swamplands.client.particle;
+package sakalti.swamplands.client.particle;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.*;
 import net.minecraft.core.particles.ParticleGroup;
 import net.minecraft.core.particles.SimpleParticleType;
-import quek.swamplands.registry.UGParticleTypes;
+import sakalti.swamplands.registry.UGParticleTypes;
 
 import java.util.Optional;
 

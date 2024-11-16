@@ -1,4 +1,4 @@
-package quek.swamplands.data.provider;
+package sakalti.swamplands.data.provider;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.*;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 import java.util.function.Supplier;
 

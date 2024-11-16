@@ -1,4 +1,4 @@
-package quek.swamplands.block;
+package sakalti.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -9,9 +9,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FlowingFluid;
-import quek.swamplands.registry.UGEffects;
-import quek.swamplands.registry.UGSoundEvents;
-import quek.swamplands.registry.UGTags;
+import sakalti.swamplands.registry.UGEffects;
+import sakalti.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.registry.UGTags;
 
 import java.util.Optional;
 

@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.item.tool;
+package sakalti.swamplands.item.tool;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

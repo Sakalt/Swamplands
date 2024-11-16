@@ -1,8 +1,8 @@
-package quek.swamplands.client.model;
+package sakalti.swamplands.client.model;
 
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 public class UGModelLayers {
 

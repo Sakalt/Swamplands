@@ -1,4 +1,4 @@
-package quek.swamplands.block;
+package sakalti.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -19,8 +19,8 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import quek.swamplands.registry.UGBlockEntities;
-import quek.swamplands.registry.UGDimensions;
+import sakalti.swamplands.registry.UGBlockEntities;
+import sakalti.swamplands.registry.UGDimensions;
 
 import java.util.List;
 

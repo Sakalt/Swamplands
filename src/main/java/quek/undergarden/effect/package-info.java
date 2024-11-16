@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.effect;
+package sakalti.swamplands.effect;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

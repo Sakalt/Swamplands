@@ -1,4 +1,4 @@
-package quek.swamplands.item.tool;
+package sakalti.swamplands.item.tool;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -6,7 +6,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGItems;
 
 import java.util.List;
 

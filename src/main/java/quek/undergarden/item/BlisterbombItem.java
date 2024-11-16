@@ -1,4 +1,4 @@
-package quek.swamplands.item;
+package sakalti.swamplands.item;
 
 import net.minecraft.core.Direction;
 import net.minecraft.core.Position;
@@ -12,8 +12,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ProjectileItem;
 import net.minecraft.world.level.Level;
-import quek.swamplands.entity.projectile.Blisterbomb;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.entity.projectile.Blisterbomb;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 public class BlisterbombItem extends Item implements ProjectileItem {
 

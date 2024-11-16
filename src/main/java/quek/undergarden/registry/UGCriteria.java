@@ -1,12 +1,12 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.advancements.CriterionTrigger;
 import net.minecraft.core.registries.Registries;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.criterion.SlingshotFireTrigger;
-import quek.swamplands.criterion.StonebornTradeTrigger;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.criterion.SlingshotFireTrigger;
+import sakalti.swamplands.criterion.StonebornTradeTrigger;
 
 public class UGCriteria {
 

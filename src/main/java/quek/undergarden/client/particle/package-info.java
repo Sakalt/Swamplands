@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.client.particle;
+package sakalti.swamplands.client.particle;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

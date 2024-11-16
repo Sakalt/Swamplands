@@ -1,4 +1,4 @@
-package quek.swamplands.world.gen.treedecorator;
+package sakalti.swamplands.world.gen.treedecorator;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
@@ -7,7 +7,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
-import quek.swamplands.registry.UGTreeDecoratorTypes;
+import sakalti.swamplands.registry.UGTreeDecoratorTypes;
 
 public class ReplaceLeafDecorator extends TreeDecorator {
 

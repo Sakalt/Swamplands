@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.world.gen.carver;
+package sakalti.swamplands.world.gen.carver;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

@@ -1,11 +1,11 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 public class UGPointOfInterests {
 

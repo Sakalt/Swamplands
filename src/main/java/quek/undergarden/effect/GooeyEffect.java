@@ -1,4 +1,4 @@
-package quek.swamplands.effect;
+package sakalti.swamplands.effect;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleOptions;
@@ -7,8 +7,8 @@ import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGParticleTypes;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGParticleTypes;
 
 public class GooeyEffect extends MobEffect {
 

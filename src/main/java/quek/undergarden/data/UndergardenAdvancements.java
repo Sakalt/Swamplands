@@ -1,4 +1,4 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.advancements.Advancement;
@@ -15,10 +15,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.biome.Biome;
 import net.neoforged.neoforge.common.data.AdvancementProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.swamplands.Undergardens;
-import quek.swamplands.criterion.SlingshotFireTrigger;
-import quek.swamplands.criterion.StonebornTradeTrigger;
-import quek.swamplands.registry.*;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.criterion.SlingshotFireTrigger;
+import sakalti.swamplands.criterion.StonebornTradeTrigger;
+import sakalti.swamplands.registry.*;
 
 import java.util.List;
 import java.util.Optional;

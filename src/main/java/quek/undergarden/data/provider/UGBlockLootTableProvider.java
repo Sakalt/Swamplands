@@ -1,4 +1,4 @@
-package quek.swamplands.data.provider;
+package sakalti.swamplands.data.provider;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;

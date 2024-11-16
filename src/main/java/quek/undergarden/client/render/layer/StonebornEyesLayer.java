@@ -1,12 +1,12 @@
-package quek.swamplands.client.render.layer;
+package sakalti.swamplands.client.render.layer;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.StonebornModel;
-import quek.swamplands.entity.stoneborn.Stoneborn;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.StonebornModel;
+import sakalti.swamplands.entity.stoneborn.Stoneborn;
 
 public class StonebornEyesLayer<T extends Stoneborn, M extends StonebornModel<T>> extends EyesLayer<T, M> {
 

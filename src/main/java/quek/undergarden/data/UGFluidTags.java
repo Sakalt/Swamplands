@@ -1,12 +1,12 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.FluidTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.swamplands.Undergardens;
-import quek.swamplands.registry.UGFluids;
-import quek.swamplands.registry.UGTags;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.registry.UGFluids;
+import sakalti.swamplands.registry.UGTags;
 
 import javax.annotation.Nullable;
 import java.util.concurrent.CompletableFuture;

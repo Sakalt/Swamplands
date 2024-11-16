@@ -1,4 +1,4 @@
-package quek.swamplands.entity.projectile;
+package sakalti.swamplands.entity.projectile;
 
 import net.minecraft.core.particles.ItemParticleOption;
 import net.minecraft.core.particles.ParticleTypes;
@@ -10,9 +10,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
-import quek.swamplands.entity.Minion;
-import quek.swamplands.registry.UGEntityTypes;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.entity.Minion;
+import sakalti.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.registry.UGItems;
 
 public class MinionProjectile extends ThrowableItemProjectile {
 

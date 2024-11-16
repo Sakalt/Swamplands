@@ -1,13 +1,13 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.BruteModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.BruteEyesLayer;
-import quek.swamplands.entity.animal.Brute;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.BruteModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.BruteEyesLayer;
+import sakalti.swamplands.entity.animal.Brute;
 
 public class BruteRender extends MobRenderer<Brute, BruteModel<Brute>> {
 

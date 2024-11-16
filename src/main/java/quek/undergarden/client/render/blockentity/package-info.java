@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.client.render.blockentity;
+package sakalti.swamplands.client.render.blockentity;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

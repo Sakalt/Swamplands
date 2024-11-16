@@ -1,4 +1,4 @@
-package quek.swamplands.block.fluid;
+package sakalti.swamplands.block.fluid;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundSource;
@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.neoforged.neoforge.fluids.BaseFlowingFluid;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 public abstract class VirulentMixFluid extends BaseFlowingFluid {
 

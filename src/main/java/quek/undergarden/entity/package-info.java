@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.entity;
+package sakalti.swamplands.entity;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

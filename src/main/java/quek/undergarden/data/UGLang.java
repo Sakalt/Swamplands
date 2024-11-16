@@ -1,8 +1,8 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import net.minecraft.data.PackOutput;
-import quek.swamplands.data.provider.UGLangProvider;
-import quek.swamplands.registry.*;
+import sakalti.swamplands.data.provider.UGLangProvider;
+import sakalti.swamplands.registry.*;
 
 public class UGLang extends UGLangProvider {
 

@@ -1,4 +1,4 @@
-package quek.swamplands.world.gen.treedecorator;
+package sakalti.swamplands.world.gen.treedecorator;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -6,9 +6,9 @@ import net.minecraft.core.Direction;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
-import quek.swamplands.block.GrongletBlock;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGTreeDecoratorTypes;
+import sakalti.swamplands.block.GrongletBlock;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGTreeDecoratorTypes;
 
 public class GrongletTrunkDecorator extends TreeDecorator {
 

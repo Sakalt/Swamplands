@@ -1,4 +1,4 @@
-package quek.swamplands.block;
+package sakalti.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
@@ -11,9 +11,9 @@ import net.minecraft.world.level.block.TorchBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
-import quek.swamplands.registry.UGDamageSources;
-import quek.swamplands.registry.UGParticleTypes;
-import quek.swamplands.registry.UGTags;
+import sakalti.swamplands.registry.UGDamageSources;
+import sakalti.swamplands.registry.UGParticleTypes;
+import sakalti.swamplands.registry.UGTags;
 
 public class ShardTorchBlock extends TorchBlock {
 

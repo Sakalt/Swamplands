@@ -1,4 +1,4 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.GwibModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.GwibEyesLayer;
-import quek.swamplands.entity.animal.Gwib;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.GwibModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.GwibEyesLayer;
+import sakalti.swamplands.entity.animal.Gwib;
 
 public class GwibRender extends MobRenderer<Gwib, GwibModel<Gwib>> {
 

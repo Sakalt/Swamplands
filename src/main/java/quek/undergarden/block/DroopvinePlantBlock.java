@@ -1,4 +1,4 @@
-package quek.swamplands.block;
+package sakalti.swamplands.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -18,8 +18,8 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGItems;
 
 public class DroopvinePlantBlock extends GrowingPlantBodyBlock implements Droopvine {
 

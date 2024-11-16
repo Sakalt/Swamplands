@@ -1,12 +1,12 @@
-package quek.swamplands.entity;
+package sakalti.swamplands.entity;
 
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.item.PrimedTnt;
 import net.minecraft.world.level.Level;
-import quek.swamplands.entity.projectile.Blisterbomb;
-import quek.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.entity.projectile.Blisterbomb;
+import sakalti.swamplands.registry.UGEntityTypes;
 
 import javax.annotation.Nullable;
 

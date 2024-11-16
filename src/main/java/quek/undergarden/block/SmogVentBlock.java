@@ -1,4 +1,4 @@
-package quek.swamplands.block;
+package sakalti.swamplands.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -18,9 +18,9 @@ import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.common.enums.BubbleColumnDirection;
-import quek.swamplands.block.entity.SmogVentBlockEntity;
-import quek.swamplands.registry.UGBlockEntities;
-import quek.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.block.entity.SmogVentBlockEntity;
+import sakalti.swamplands.registry.UGBlockEntities;
+import sakalti.swamplands.registry.UGEntityTypes;
 
 import javax.annotation.Nullable;
 

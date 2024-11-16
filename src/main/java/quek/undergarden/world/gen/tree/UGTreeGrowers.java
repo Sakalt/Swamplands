@@ -1,7 +1,7 @@
-package quek.swamplands.world.gen.tree;
+package sakalti.swamplands.world.gen.tree;
 
 import net.minecraft.world.level.block.grower.TreeGrower;
-import quek.swamplands.registry.UGConfiguredFeatures;
+import sakalti.swamplands.registry.UGConfiguredFeatures;
 
 import java.util.Optional;
 

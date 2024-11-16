@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.entity.rotspawn;
+package sakalti.swamplands.entity.rotspawn;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

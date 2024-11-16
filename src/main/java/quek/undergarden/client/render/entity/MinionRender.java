@@ -1,13 +1,13 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.MinionModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.MinionEyesLayer;
-import quek.swamplands.entity.Minion;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.MinionModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.MinionEyesLayer;
+import sakalti.swamplands.entity.Minion;
 
 public class MinionRender extends MobRenderer<Minion, MinionModel<Minion>> {
 

@@ -1,12 +1,12 @@
-package quek.swamplands.item.tool.slingshot;
+package sakalti.swamplands.item.tool.slingshot;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import quek.swamplands.entity.projectile.slingshot.SlingshotProjectile;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.entity.projectile.slingshot.SlingshotProjectile;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 public abstract class AbstractSlingshotAmmoBehavior {
 

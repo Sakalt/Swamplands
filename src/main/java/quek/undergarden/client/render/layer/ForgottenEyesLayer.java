@@ -1,12 +1,12 @@
-package quek.swamplands.client.render.layer;
+package sakalti.swamplands.client.render.layer;
 
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.ForgottenModel;
-import quek.swamplands.entity.Forgotten;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.ForgottenModel;
+import sakalti.swamplands.entity.Forgotten;
 
 public class ForgottenEyesLayer<T extends Forgotten, M extends ForgottenModel<T>> extends EyesLayer<T, M> {
 

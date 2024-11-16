@@ -1,4 +1,4 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.core.Direction;
 import net.minecraft.core.registries.Registries;
@@ -15,12 +15,12 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.block.*;
-import quek.swamplands.block.portal.UndergardensPortalBlock;
-import quek.swamplands.item.CarvedGloomgourdItem;
-import quek.swamplands.item.tool.slingshot.GrongletItem;
-import quek.swamplands.world.gen.tree.UGTreeGrowers;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.block.*;
+import sakalti.swamplands.block.portal.UndergardensPortalBlock;
+import sakalti.swamplands.item.CarvedGloomgourdItem;
+import sakalti.swamplands.item.tool.slingshot.GrongletItem;
+import sakalti.swamplands.world.gen.tree.UGTreeGrowers;
 
 import java.util.Objects;
 import java.util.function.Function;

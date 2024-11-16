@@ -1,12 +1,12 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.SploogieModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.entity.cavern.Sploogie;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.SploogieModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.entity.cavern.Sploogie;
 
 public class SploogieRender extends MobRenderer<Sploogie, SploogieModel<Sploogie>> {
 

@@ -1,4 +1,4 @@
-package quek.swamplands.item.tool;
+package sakalti.swamplands.item.tool;
 
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ItemStack;
@@ -7,7 +7,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.DispenserBlock;
 import net.neoforged.neoforge.common.ItemAbilities;
 import net.neoforged.neoforge.common.ItemAbility;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGItems;
 
 public class UGShieldItem extends ShieldItem {
 

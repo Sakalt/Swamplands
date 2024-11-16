@@ -1,4 +1,4 @@
-package quek.swamplands.data.provider;
+package sakalti.swamplands.data.provider;
 
 import com.google.common.collect.ImmutableList;
 import org.jetbrains.annotations.Nullable;

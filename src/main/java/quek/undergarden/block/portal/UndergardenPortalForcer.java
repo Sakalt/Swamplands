@@ -1,4 +1,4 @@
-package quek.swamplands.block.portal;
+package sakalti.swamplands.block.portal;
 
 import net.minecraft.BlockUtil;
 import net.minecraft.core.BlockPos;
@@ -20,10 +20,10 @@ import net.minecraft.world.level.border.WorldBorder;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.portal.DimensionTransition;
 import net.neoforged.neoforge.network.PacketDistributor;
-import quek.swamplands.UndergardensConfig;
-import quek.swamplands.network.UndergardensPortalSoundPacket;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGPointOfInterests;
+import sakalti.swamplands.UndergardensConfig;
+import sakalti.swamplands.network.UndergardensPortalSoundPacket;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGPointOfInterests;
 
 import java.util.Comparator;
 import java.util.Objects;

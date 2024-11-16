@@ -1,4 +1,4 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.core.HolderLookup;
@@ -12,11 +12,11 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.Tags;
-import quek.swamplands.Undergardens;
-import quek.swamplands.data.provider.UGRecipeProvider;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGItems;
-import quek.swamplands.registry.UGTags;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.data.provider.UGRecipeProvider;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGTags;
 
 import java.util.concurrent.CompletableFuture;
 

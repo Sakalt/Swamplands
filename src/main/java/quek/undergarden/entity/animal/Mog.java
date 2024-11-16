@@ -1,4 +1,4 @@
-package quek.swamplands.entity.animal;
+package sakalti.swamplands.entity.animal;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
@@ -27,9 +27,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.neoforged.neoforge.common.IShearable;
 import net.neoforged.neoforge.fluids.FluidType;
-import quek.swamplands.registry.UGEntityTypes;
-import quek.swamplands.registry.UGItems;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

@@ -1,4 +1,4 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import com.google.common.hash.Hashing;
 import com.mojang.datafixers.DataFixer;
@@ -17,7 +17,7 @@ import net.minecraft.util.datafix.DataFixTypes;
 import net.minecraft.util.datafix.DataFixers;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 import javax.annotation.Nonnull;
 import java.io.ByteArrayOutputStream;

@@ -1,4 +1,4 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -6,9 +6,9 @@ import net.minecraft.data.tags.EnchantmentTagsProvider;
 import net.minecraft.tags.EnchantmentTags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
-import quek.swamplands.Undergardens;
-import quek.swamplands.registry.UGEnchantments;
-import quek.swamplands.registry.UGTags;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.registry.UGEnchantments;
+import sakalti.swamplands.registry.UGTags;
 
 import java.util.concurrent.CompletableFuture;
 

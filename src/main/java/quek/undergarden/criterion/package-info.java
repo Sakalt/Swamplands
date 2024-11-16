@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.criterion;
+package sakalti.swamplands.criterion;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

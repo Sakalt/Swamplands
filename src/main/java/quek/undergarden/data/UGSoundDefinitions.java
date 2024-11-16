@@ -1,10 +1,10 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.common.data.SoundDefinitionsProvider;
-import quek.swamplands.Undergardens;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 public class UGSoundDefinitions extends SoundDefinitionsProvider {
 

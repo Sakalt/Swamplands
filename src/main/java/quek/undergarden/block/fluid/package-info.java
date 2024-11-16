@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.block.fluid;
+package sakalti.swamplands.block.fluid;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

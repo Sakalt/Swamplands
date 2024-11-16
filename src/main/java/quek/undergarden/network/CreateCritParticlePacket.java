@@ -1,4 +1,4 @@
-package quek.swamplands.network;
+package sakalti.swamplands.network;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.particles.ParticleOptions;
@@ -9,7 +9,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 public record CreateCritParticlePacket(int entityID, int duration, ParticleOptions particle) implements CustomPacketPayload {
 

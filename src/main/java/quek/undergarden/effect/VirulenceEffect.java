@@ -1,9 +1,9 @@
-package quek.swamplands.effect;
+package sakalti.swamplands.effect;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.entity.LivingEntity;
-import quek.swamplands.registry.UGEffects;
+import sakalti.swamplands.registry.UGEffects;
 
 public class VirulenceEffect extends MobEffect {
 

@@ -1,4 +1,4 @@
-package quek.swamplands.item.armor;
+package sakalti.swamplands.item.armor;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
@@ -13,7 +13,7 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGItems;
 
 import java.util.List;
 

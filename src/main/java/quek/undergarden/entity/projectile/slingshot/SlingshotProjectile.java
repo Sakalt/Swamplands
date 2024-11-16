@@ -1,4 +1,4 @@
-package quek.swamplands.entity.projectile.slingshot;
+package sakalti.swamplands.entity.projectile.slingshot;
 
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ItemParticleOption;

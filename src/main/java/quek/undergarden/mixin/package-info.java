@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.mixin;
+package sakalti.swamplands.mixin;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

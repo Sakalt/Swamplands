@@ -1,4 +1,4 @@
-package quek.swamplands;
+package sakalti.swamplands;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Blocks;

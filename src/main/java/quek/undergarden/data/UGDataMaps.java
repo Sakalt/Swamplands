@@ -1,4 +1,4 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -8,8 +8,8 @@ import net.neoforged.neoforge.common.data.DataMapProvider;
 import net.neoforged.neoforge.registries.datamaps.builtin.Compostable;
 import net.neoforged.neoforge.registries.datamaps.builtin.FurnaceFuel;
 import net.neoforged.neoforge.registries.datamaps.builtin.NeoForgeDataMaps;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGItems;
 
 import java.util.concurrent.CompletableFuture;
 

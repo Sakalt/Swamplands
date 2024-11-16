@@ -1,4 +1,4 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.vehicle.Boat;
@@ -7,17 +7,17 @@ import net.minecraft.world.level.material.Fluids;
 import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.item.BlisterbombItem;
-import quek.swamplands.item.CatalystItem;
-import quek.swamplands.item.DitchbulbPasteItem;
-import quek.swamplands.item.ForgottenSmithingTemplateItem;
-import quek.swamplands.item.armor.UndergardensArmorItem;
-import quek.swamplands.item.tool.*;
-import quek.swamplands.item.tool.slingshot.DepthrockPebbleItem;
-import quek.swamplands.item.tool.slingshot.GooBallItem;
-import quek.swamplands.item.tool.slingshot.RottenBlisterberryItem;
-import quek.swamplands.item.tool.slingshot.SlingshotItem;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.item.BlisterbombItem;
+import sakalti.swamplands.item.CatalystItem;
+import sakalti.swamplands.item.DitchbulbPasteItem;
+import sakalti.swamplands.item.ForgottenSmithingTemplateItem;
+import sakalti.swamplands.item.armor.UndergardensArmorItem;
+import sakalti.swamplands.item.tool.*;
+import sakalti.swamplands.item.tool.slingshot.DepthrockPebbleItem;
+import sakalti.swamplands.item.tool.slingshot.GooBallItem;
+import sakalti.swamplands.item.tool.slingshot.RottenBlisterberryItem;
+import sakalti.swamplands.item.tool.slingshot.SlingshotItem;
 
 public class UGItems {
 

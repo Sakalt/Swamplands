@@ -1,4 +1,4 @@
-package quek.swamplands.entity.animal;
+package sakalti.swamplands.entity.animal;
 
 import net.minecraft.core.Holder;
 import net.minecraft.server.level.ServerLevel;
@@ -24,8 +24,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.pathfinder.Path;
 import net.minecraft.world.phys.Vec3;
-import quek.swamplands.entity.rotspawn.RotspawnMonster;
-import quek.swamplands.registry.*;
+import sakalti.swamplands.entity.rotspawn.RotspawnMonster;
+import sakalti.swamplands.registry.*;
 
 import javax.annotation.Nullable;
 

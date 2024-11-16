@@ -1,4 +1,4 @@
-package quek.swamplands.entity.cavern;
+package sakalti.swamplands.entity.cavern;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;

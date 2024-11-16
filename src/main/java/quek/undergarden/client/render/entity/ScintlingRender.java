@@ -1,13 +1,13 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.ScintlingModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.ScintlingGlowLayer;
-import quek.swamplands.entity.animal.Scintling;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.ScintlingModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.ScintlingGlowLayer;
+import sakalti.swamplands.entity.animal.Scintling;
 
 public class ScintlingRender extends MobRenderer<Scintling, ScintlingModel<Scintling>> {
 

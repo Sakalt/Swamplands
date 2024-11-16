@@ -1,4 +1,4 @@
-package quek.swamplands.event;
+package sakalti.swamplands.event;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -14,12 +14,12 @@ import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.event.tick.EntityTickEvent;
 import net.neoforged.neoforge.network.PacketDistributor;
-import quek.swamplands.Undergardens;
-import quek.swamplands.network.CreateCritParticlePacket;
-import quek.swamplands.registry.UGEffects;
-import quek.swamplands.registry.UGItems;
-import quek.swamplands.registry.UGParticleTypes;
-import quek.swamplands.registry.UGTags;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.network.CreateCritParticlePacket;
+import sakalti.swamplands.registry.UGEffects;
+import sakalti.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGParticleTypes;
+import sakalti.swamplands.registry.UGTags;
 
 public class UndergardensToolEvents {
 

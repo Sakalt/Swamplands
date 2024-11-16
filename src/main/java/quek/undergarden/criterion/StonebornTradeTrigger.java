@@ -1,4 +1,4 @@
-package quek.swamplands.criterion;
+package sakalti.swamplands.criterion;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -10,8 +10,8 @@ import net.minecraft.advancements.critereon.SimpleCriterionTrigger;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.storage.loot.LootContext;
-import quek.swamplands.entity.stoneborn.Stoneborn;
-import quek.swamplands.registry.UGCriteria;
+import sakalti.swamplands.entity.stoneborn.Stoneborn;
+import sakalti.swamplands.registry.UGCriteria;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package quek.swamplands.entity.animal.dweller;
+package sakalti.swamplands.entity.animal.dweller;
 
 import net.minecraft.world.entity.ai.goal.JumpGoal;
 

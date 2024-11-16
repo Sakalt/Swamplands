@@ -1,4 +1,4 @@
-package quek.swamplands.entity.rotspawn;
+package sakalti.swamplands.entity.rotspawn;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;
@@ -18,9 +18,9 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.phys.Vec3;
-import quek.swamplands.entity.animal.Mog;
-import quek.swamplands.entity.stoneborn.Stoneborn;
-import quek.swamplands.registry.UGDamageSources;
+import sakalti.swamplands.entity.animal.Mog;
+import sakalti.swamplands.entity.stoneborn.Stoneborn;
+import sakalti.swamplands.registry.UGDamageSources;
 
 import java.util.Optional;
 import java.util.function.Predicate;

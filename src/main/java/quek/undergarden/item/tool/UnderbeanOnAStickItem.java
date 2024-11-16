@@ -1,4 +1,4 @@
-package quek.swamplands.item.tool;
+package sakalti.swamplands.item.tool;
 
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
@@ -12,7 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
-import quek.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.registry.UGEntityTypes;
 
 public class UnderbeanOnAStickItem extends Item {
 

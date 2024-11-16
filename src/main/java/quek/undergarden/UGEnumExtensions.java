@@ -1,4 +1,4 @@
-package quek.swamplands;
+package sakalti.swamplands;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Style;
@@ -7,8 +7,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.fml.common.asm.enumextension.EnumProxy;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGItems;
 
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;

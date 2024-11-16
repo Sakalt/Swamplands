@@ -1,4 +1,4 @@
-package quek.swamplands.item;
+package sakalti.swamplands.item;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.BlockItem;

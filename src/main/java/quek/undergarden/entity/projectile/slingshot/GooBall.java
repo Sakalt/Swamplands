@@ -1,4 +1,4 @@
-package quek.swamplands.entity.projectile.slingshot;
+package sakalti.swamplands.entity.projectile.slingshot;
 
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -8,11 +8,11 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.EntityHitResult;
-import quek.swamplands.entity.animal.Scintling;
-import quek.swamplands.registry.UGDamageSources;
-import quek.swamplands.registry.UGEffects;
-import quek.swamplands.registry.UGEntityTypes;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.entity.animal.Scintling;
+import sakalti.swamplands.registry.UGDamageSources;
+import sakalti.swamplands.registry.UGEffects;
+import sakalti.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.registry.UGItems;
 
 public class GooBall extends SlingshotProjectile {
 

@@ -1,4 +1,4 @@
-package quek.swamplands.data.provider;
+package sakalti.swamplands.data.provider;
 
 import com.google.common.collect.ImmutableList;
 import com.google.gson.JsonObject;
@@ -12,7 +12,7 @@ import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.biome.Biome;
 import net.neoforged.neoforge.common.data.LanguageProvider;
-import quek.swamplands.Undergardens;
+import sakalti.swamplands.Undergardens;
 
 import java.util.HashMap;
 import java.util.List;

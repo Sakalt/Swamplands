@@ -1,15 +1,15 @@
-package quek.swamplands.client.render.entity;
+package sakalti.swamplands.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
-import quek.swamplands.Undergardens;
-import quek.swamplands.client.model.ForgottenGuardianModel;
-import quek.swamplands.client.model.UGModelLayers;
-import quek.swamplands.client.render.layer.ForgottenGuardianEyesLayer;
-import quek.swamplands.entity.boss.ForgottenGuardian;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.client.model.ForgottenGuardianModel;
+import sakalti.swamplands.client.model.UGModelLayers;
+import sakalti.swamplands.client.render.layer.ForgottenGuardianEyesLayer;
+import sakalti.swamplands.entity.boss.ForgottenGuardian;
 
 public class ForgottenGuardianRender extends MobRenderer<ForgottenGuardian, ForgottenGuardianModel<ForgottenGuardian>> {
 

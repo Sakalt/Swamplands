@@ -1,12 +1,12 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import quek.swamplands.Undergardens;
-import quek.swamplands.world.gen.trunkplacer.SingleForkingTrunkPlacer;
-import quek.swamplands.world.gen.trunkplacer.SmogstemTrunkPlacer;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.world.gen.trunkplacer.SingleForkingTrunkPlacer;
+import sakalti.swamplands.world.gen.trunkplacer.SmogstemTrunkPlacer;
 
 public class UGTrunkPlacerTypes {
 

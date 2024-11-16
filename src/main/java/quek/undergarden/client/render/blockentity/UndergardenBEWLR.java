@@ -1,4 +1,4 @@
-package quek.swamplands.client.render.blockentity;
+package sakalti.swamplands.client.render.blockentity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.Minecraft;
@@ -10,10 +10,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
-import quek.swamplands.block.GrongletBlock;
-import quek.swamplands.block.entity.DepthrockBedBlockEntity;
-import quek.swamplands.block.entity.GrongletBlockEntity;
-import quek.swamplands.registry.UGBlocks;
+import sakalti.swamplands.block.GrongletBlock;
+import sakalti.swamplands.block.entity.DepthrockBedBlockEntity;
+import sakalti.swamplands.block.entity.GrongletBlockEntity;
+import sakalti.swamplands.registry.UGBlocks;
 
 public class UndergardensBEWLR extends BlockEntityWithoutLevelRenderer {
 

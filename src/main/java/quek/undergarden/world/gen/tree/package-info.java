@@ -1,6 +1,6 @@
 @MethodsReturnNonnullByDefault
 @ParametersAreNonnullByDefault
-package quek.swamplands.world.gen.tree;
+package sakalti.swamplands.world.gen.tree;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 

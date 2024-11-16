@@ -1,4 +1,4 @@
-package quek.swamplands.item.tool;
+package sakalti.swamplands.item.tool;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
@@ -14,8 +14,8 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
-import quek.swamplands.Undergardens;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.registry.UGItems;
 
 import java.util.List;
 

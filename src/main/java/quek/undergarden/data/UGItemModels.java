@@ -1,11 +1,11 @@
-package quek.swamplands.data;
+package sakalti.swamplands.data;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import quek.swamplands.data.provider.UGItemModelProvider;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.data.provider.UGItemModelProvider;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGItems;
 
 public class UGItemModels extends UGItemModelProvider {
 

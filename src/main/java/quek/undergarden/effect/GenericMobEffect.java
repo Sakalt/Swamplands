@@ -1,4 +1,4 @@
-package quek.swamplands.effect;
+package sakalti.swamplands.effect;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;

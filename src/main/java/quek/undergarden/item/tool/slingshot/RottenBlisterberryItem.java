@@ -1,4 +1,4 @@
-package quek.swamplands.item.tool.slingshot;
+package sakalti.swamplands.item.tool.slingshot;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Direction;
@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ProjectileItem;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
-import quek.swamplands.entity.projectile.slingshot.RottenBlisterberry;
+import sakalti.swamplands.entity.projectile.slingshot.RottenBlisterberry;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package quek.swamplands.entity.projectile.slingshot;
+package sakalti.swamplands.entity.projectile.slingshot;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -13,10 +13,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
-import quek.swamplands.block.GrongletBlock;
-import quek.swamplands.registry.UGBlocks;
-import quek.swamplands.registry.UGEntityTypes;
-import quek.swamplands.registry.UGSoundEvents;
+import sakalti.swamplands.block.GrongletBlock;
+import sakalti.swamplands.registry.UGBlocks;
+import sakalti.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.registry.UGSoundEvents;
 
 public class Gronglet extends SlingshotProjectile {
 

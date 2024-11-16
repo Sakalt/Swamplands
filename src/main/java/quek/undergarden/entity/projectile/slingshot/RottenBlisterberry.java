@@ -1,4 +1,4 @@
-package quek.swamplands.entity.projectile.slingshot;
+package sakalti.swamplands.entity.projectile.slingshot;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
@@ -6,8 +6,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
-import quek.swamplands.registry.UGEntityTypes;
-import quek.swamplands.registry.UGItems;
+import sakalti.swamplands.registry.UGEntityTypes;
+import sakalti.swamplands.registry.UGItems;
 
 public class RottenBlisterberry extends SlingshotProjectile {
 

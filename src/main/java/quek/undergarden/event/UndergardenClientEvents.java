@@ -1,4 +1,4 @@
-package quek.swamplands.event;
+package sakalti.swamplands.event;
 
 import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.shaders.FogShape;
@@ -37,18 +37,18 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.entity.player.PlayerHeartTypeEvent;
 import org.jetbrains.annotations.NotNull;
 import org.joml.Vector3f;
-import quek.swamplands.Undergardens;
-import quek.swamplands.UndergardensConfig;
-import quek.swamplands.block.portal.UndergardensPortalVisuals;
-import quek.swamplands.client.gui.screen.UndergardensReceivingLevelScreen;
-import quek.swamplands.client.model.*;
-import quek.swamplands.client.particle.*;
-import quek.swamplands.client.render.blockentity.DepthrockBedRender;
-import quek.swamplands.client.render.blockentity.GrongletRender;
-import quek.swamplands.client.render.blockentity.UndergardensBEWLR;
-import quek.swamplands.client.render.entity.*;
-import quek.swamplands.entity.animal.dweller.Dweller;
-import quek.swamplands.registry.*;
+import sakalti.swamplands.Undergardens;
+import sakalti.swamplands.UndergardensConfig;
+import sakalti.swamplands.block.portal.UndergardensPortalVisuals;
+import sakalti.swamplands.client.gui.screen.UndergardensReceivingLevelScreen;
+import sakalti.swamplands.client.model.*;
+import sakalti.swamplands.client.particle.*;
+import sakalti.swamplands.client.render.blockentity.DepthrockBedRender;
+import sakalti.swamplands.client.render.blockentity.GrongletRender;
+import sakalti.swamplands.client.render.blockentity.UndergardensBEWLR;
+import sakalti.swamplands.client.render.entity.*;
+import sakalti.swamplands.entity.animal.dweller.Dweller;
+import sakalti.swamplands.registry.*;
 
 public class UndergardensClientEvents {
 

@@ -1,4 +1,4 @@
-package quek.swamplands.registry;
+package sakalti.swamplands.registry;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.tags.BlockTags;
