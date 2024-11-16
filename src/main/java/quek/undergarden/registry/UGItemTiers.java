@@ -10,10 +10,10 @@ import net.minecraft.world.level.block.Block;
 import java.util.function.Supplier;
 
 public enum UGItemTiers implements Tier {
-	CLOGGRUM( 286, 6.0F, 3.0F, 8, () -> Ingredient.of(UGItems.CLOGGRUM_INGOT.get()), BlockTags.INCORRECT_FOR_IRON_TOOL),
-	FROSTSTEEL( 575, 7.0F, 2.0F, 20, () -> Ingredient.of(UGItems.FROSTSTEEL_INGOT.get()), BlockTags.INCORRECT_FOR_IRON_TOOL),
-	UTHERIUM( 1279, 8.5F, 3.5F, 17, () -> Ingredient.of(UGItems.UTHERIUM_CRYSTAL.get()), BlockTags.INCORRECT_FOR_DIAMOND_TOOL),
-	FORGOTTEN( 1876, 8.0F, 3.0F, 2, () -> Ingredient.of(UGItems.FORGOTTEN_INGOT.get()), BlockTags.INCORRECT_FOR_NETHERITE_TOOL);
+	CLOGGRUM( 286, 7.5F, 3.0F, 8, () -> Ingredient.of(UGItems.CLOGGRUM_INGOT.get()), BlockTags.INCORRECT_FOR_IRON_TOOL),
+	FROSTSTEEL( 680, 9.0F, 3.5F, 20, () -> Ingredient.of(UGItems.FROSTSTEEL_INGOT.get()), BlockTags.INCORRECT_FOR_IRON_TOOL),
+	UTHERIUM( 1000, 10.5F, 2.5F, 17, () -> Ingredient.of(UGItems.UTHERIUM_CRYSTAL.get()), BlockTags.INCORRECT_FOR_DIAMOND_TOOL),
+	FORGOTTEN( 1561, 12.0F, 2.5F, 2, () -> Ingredient.of(UGItems.FORGOTTEN_INGOT.get()), BlockTags.INCORRECT_FOR_NETHERITE_TOOL);
 
 	private final int durability;
 	private final float speed;
