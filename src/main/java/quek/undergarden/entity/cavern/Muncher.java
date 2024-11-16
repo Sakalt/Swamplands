@@ -39,10 +39,10 @@ public class Muncher extends CavernMonster {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return CavernMonster.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 15.0D)
-				.add(Attributes.ARMOR_TOUGHNESS, 5.0D)
-				.add(Attributes.ATTACK_DAMAGE, 2.0D)
-				.add(Attributes.MOVEMENT_SPEED, 0.3D);
+				.add(Attributes.MAX_HEALTH, 25.0D)
+				.add(Attributes.ARMOR_TOUGHNESS, 2.0D)
+				.add(Attributes.ATTACK_DAMAGE, 3.0D)
+				.add(Attributes.MOVEMENT_SPEED, 0.28D);
 	}
 
 	@Override
