@@ -19,9 +19,9 @@ public class Rotling extends RotspawnMonster {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return Monster.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 10.0D)
-				.add(Attributes.ATTACK_DAMAGE, 3.0D)
-				.add(Attributes.MOVEMENT_SPEED, 0.35D);
+				.add(Attributes.MAX_HEALTH, 16.0D)
+				.add(Attributes.ATTACK_DAMAGE, 3.2D)
+				.add(Attributes.MOVEMENT_SPEED, 0.3D);
 	}
 
 	@Override
