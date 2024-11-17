@@ -55,13 +55,13 @@ public class ForgottenGuardian extends Monster {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return Monster.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 130.0D)
-				.add(Attributes.ARMOR, 12.0D)
+				.add(Attributes.MAX_HEALTH, 675.0D)
+				.add(Attributes.ARMOR, 7.0D)
 				.add(Attributes.ARMOR_TOUGHNESS, 3.0D)
-				.add(Attributes.ATTACK_DAMAGE, 10.0D)
-				.add(Attributes.ATTACK_KNOCKBACK, 1.6D)
-				.add(Attributes.MOVEMENT_SPEED, 0.23D)
-				.add(Attributes.KNOCKBACK_RESISTANCE, 1.0D)
+				.add(Attributes.ATTACK_DAMAGE, 8.5D)
+				.add(Attributes.ATTACK_KNOCKBACK, 2.0D)
+				.add(Attributes.MOVEMENT_SPEED, 0.2D)
+				.add(Attributes.KNOCKBACK_RESISTANCE, 0.9D)
 				.add(Attributes.STEP_HEIGHT, 1.0D);
 	}
 
