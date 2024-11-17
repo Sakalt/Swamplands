@@ -51,10 +51,10 @@ public class Forgotten extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		return AbstractSkeleton.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 20.0D)
-				.add(Attributes.ATTACK_DAMAGE, 2.0D)
+				.add(Attributes.MAX_HEALTH, 76.0D)
+				.add(Attributes.ATTACK_DAMAGE, 7.5D)
 				.add(Attributes.ARMOR, 2.0D)
-				.add(Attributes.MOVEMENT_SPEED, 0.25D);
+				.add(Attributes.MOVEMENT_SPEED, 0.24D);
 	}
 
 	@Override
