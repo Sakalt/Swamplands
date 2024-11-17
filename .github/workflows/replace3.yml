@@ -13,7 +13,7 @@ jobs:
       - name: リポジトリのチェックアウト
         uses: actions/checkout@v3
 
-      - name: パス内置き換え
+      - name: パス内の名前を置き換え
         run: |
           # '含むすべてのファイルとディレクトリを検索
           find . -depth -name "*quek/undergarden*" | while read old_path; do
