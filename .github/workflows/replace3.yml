@@ -15,7 +15,7 @@ jobs:
 
       - name: パス内の名前を置き換え
         run: |
-          # '含むすべてのファイルとディレクトリを検索
+          # '含むすべてのファイルとディレクトリを検索　パスを
           find . -depth -name "*quek/undergarden*" | while read old_path; do
             # 新しいパスを作成
             new_path=$(echo "$old_path" | sed 's/quek\/undergarden/sakalti\/swamplands/g')
