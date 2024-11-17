@@ -76,7 +76,7 @@ public class Stoneborn extends Monster implements NeutralMob, Npc, Merchant {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return Monster.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 32.0D)
+				.add(Attributes.MAX_HEALTH, 156.0D)
 				.add(Attributes.ARMOR, 7.0D)
 				.add(Attributes.ATTACK_DAMAGE, 21.5D)
 				.add(Attributes.MOVEMENT_SPEED, 0.28D)
