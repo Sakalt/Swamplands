@@ -53,9 +53,9 @@ public class Brute extends Animal implements NeutralMob {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return Mob.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 20.0D)
-				.add(Attributes.MOVEMENT_SPEED, 0.23D)
-				.add(Attributes.ATTACK_DAMAGE, 3.0D);
+				.add(Attributes.MAX_HEALTH, 24.0D)
+				.add(Attributes.MOVEMENT_SPEED, 0.26D)
+				.add(Attributes.ATTACK_DAMAGE, 4.0D);
 	}
 
 	@Override
