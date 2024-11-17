@@ -38,8 +38,8 @@ public class Sploogie extends CavernMonster implements RangedAttackMob {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return CavernMonster.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 20.0D)
-				.add(Attributes.MOVEMENT_SPEED, 0.3D);
+				.add(Attributes.MAX_HEALTH, 27.0D)
+				.add(Attributes.MOVEMENT_SPEED, 0.26D);
 	}
 
 	@Override
