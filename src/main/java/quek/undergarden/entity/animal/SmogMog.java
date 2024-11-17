@@ -25,9 +25,9 @@ public class SmogMog extends Mog {
 
 	public static AttributeSupplier.Builder registerAttributes() {
 		return Animal.createMobAttributes()
-				.add(Attributes.MAX_HEALTH, 30.0D)
+				.add(Attributes.MAX_HEALTH, 2400.0D)
 				.add(Attributes.MOVEMENT_SPEED, 0.1D)
-				.add(Attributes.KNOCKBACK_RESISTANCE, 0.9D);
+				.add(Attributes.KNOCKBACK_RESISTANCE, 0.6D);
 	}
 
 	@Override
