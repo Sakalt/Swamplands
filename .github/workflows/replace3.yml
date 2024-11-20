@@ -1,4 +1,4 @@
-name: パスの置き換え
+name: フォルダの移動
 
 on:
   push:
@@ -6,29 +6,36 @@ on:
       - 1.21  # または任意のブランチ
 
 jobs:
-  replace-path:
+  move-folder:
     runs-on: ubuntu-latest
 
     steps:
       - name: リポジトリのチェックアウト
         uses: actions/checkout@v3
 
-      - name: 置き換え
+      - name: フォルダに移動
         run: |
-          echo "該当するパスを検索しています..."
-          # 検索してパス名を置き換える
-          find . -depth -path "*quek/undergarden*" | while read -r old_path; do
-            # 新しいパス名を生成
-            new_path=$(echo "$old_path" | sed 's|quek/undergarden|sakalti/swamplands|g')
-            echo "リネーム中: $old_path → $new_path"
-            
-            # パスをリネーム
-            mv "$old_path" "$new_path"
-          done
+          echo "フォルダ 'a/b' を 'e/f' に移動しています..."
+          
+          # 移動元と移動先の指定
+          src="src/main/java/quek/undergarden/"
+          dest="src/main/java/sakalti/swawplands/"
+
+          # 移動元フォルダが存在するか確認
+          if [ -d "$src" ]; then
+            # 移動先フォルダの親ディレクトリを作成
+            mkdir -p "$(dirname "$dest")"
+
+            # フォルダを移動
+            mv "$src" "$dest"は
+            echo "フォルダ移動完了: $src → $dest"
+          else
+            echo "フォルダ $src は存在しません。スキップします。"
+          fi
 
       - name: 変更内容を確認
         run: |
-          echo "変更されたファイル一覧:"
+          echo "変更されたファイル・フォルダ:"
           git status
           git diff
 
@@ -38,11 +45,11 @@ jobs:
           git config --global user.email "actions@github.com"
           git add .
           if git diff --cached --quiet; then
-            echo "変更がありません。コミットをスキップします。"
+            echo "変更がないため、コミットをスキップします。"
             exit 0
           fi
           echo "変更をコミットします..."
-          git commit -m "Replace path 'a/b' with 'e/f'"
+          git commit -m "Move folder 'a/b' to 'e/f'"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
