@@ -13,7 +13,7 @@ jobs:
       - name: リポジトリのチェックアウト
         uses: actions/checkout@v3
 
-      - name: 'a/b' を 'e/f' に置き換え
+      - name: 置き換え
         run: |
           echo "該当するパスを検索しています..."
           # 検索してパス名を置き換える
