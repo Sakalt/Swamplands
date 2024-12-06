@@ -16,7 +16,7 @@ jobs:
     - name: Rename file path
       run: |
         # フォルダ内のファイルを `a/b` から `e/f` に移動
-        find a/b -type f -exec bash -c 'mv "$0" "${0/quek\/undergarden/sakalti\/swaplands}"' {} \;
+        find quek/undergarden -type f -exec bash -c 'mv "$0" "${0/quek\/undergarden/sakalti\/swaplands}"' {} \;
 
     - name: Set up Git
       run: |
@@ -25,7 +25,7 @@ jobs:
 
     - name: Commit and push changes
       env:
-        GITHUB_TOKEN: ${{ secrets.SECRETS_TOKEN }}  # GITHUB_TOKENを指定
+        GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}  # GITHUB_TOKENを指定
       run: |
         git add .
         git commit -m "Rename file paths from a/b to e/f"
