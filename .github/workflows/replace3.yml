@@ -1,32 +1,44 @@
-name: Rename file path
+name: パスの置き換え
 
 on:
   push:
     branches:
-      - 1.21  # 変更を検出したいブランチを指定。例えば'main'や'master'など
+      - 1.21 # まひたは任意のブランチ
 
 jobs:
-  rename-path:
+  replace-path:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: リポジトリのチェックアウト
+        uses: actions/checkout@v3
 
-    - name: Rename file path
-      run: |
-        # フォルダ内のファイルを `a/b` から `e/f` に移動
-        find quek/undergarden -type f -exec bash -c 'mv "$0" "${0/quek\/undergarden/sakalti\/swaplands}"' {} \;
+      - name: パス内の'a/b'を'e/f'に置き換え
+        run: |
+          # 'a/b' を含むすべてのファイルとディレクトリを検索
+          find . -depth -name "*quek/undergraden*" | while read old_path; do
+            # 新しいパスを作成
+            new_path=$(echo "$old_path" | sed 's/quek\/undergarden/sakalti\/swamplands/g')
+            
+            # ディレクトリ名やファイル名を変更
+            mv "$old_path" "$new_path"
+          done
 
-    - name: Set up Git
-      run: |
-        git config --global user.name "GitHub Actions"   # 適当なユーザー名
-        git config --global user.email "actions@github.com"  # 適当なメールアドレス
+      - name: 変更内容を確認
+        run: |
+          git status
+          git diff
 
-    - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}  # GITHUB_TOKENを指定
-      run: |
-        git add .
-        git commit -m "Rename file paths from a/b to e/f"
-        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git HEAD:${GITHUB_REF}
+      - name: 変更をコミット
+        run: |
+          git config --global user.name "saka"
+          git config --global user.email "actions@github.com"
+          git add .
+          if git diff --cached --quiet; then
+            echo "変更がないため、コミットをスキップします。"
+            exit 0
+          fi
+          git commit -m "Replace path 'a/b' with 'e/f'"
+          git push https://github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
