@@ -1,44 +1,32 @@
-name: パスの置き換え
+name: Rename file path
 
 on:
   push:
-    branches:
-      - 1.21 # まひたは任意のブランチ
+    paths:
+      - 'a/**'  # 変更したいパスのパターンを指定
 
 jobs:
-  replace-path:
+  rename-path:
     runs-on: ubuntu-latest
 
     steps:
-      - name: リポジトリのチェックアウト
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: パス内の'a/b'を'e/f'に置き換え
-        run: |
-          # 'a/b' を含むすべてのファイルとディレクトリを検索
-          find . -depth -name "*quek/undergraden*" | while read old_path; do
-            # 新しいパスを作成
-            new_path=$(echo "$old_path" | sed 's/quek\/undergarden/sakalti\/swamplands/g')
-            
-            # ディレクトリ名やファイル名を変更
-            mv "$old_path" "$new_path"
-          done
+    - name: Rename file path
+      run: |
+        # フォルダ内のファイルを `a/b` から `e/f` に移動
+        find a/b -type f -exec bash -c 'mv "$0" "${0/quek\/undergarden/sakalti\/swamplands}"' {} \;
+    
+    - name: Set up Git
+      run: |
+        git config --global user.name "saka"   # ユーザー名を設定
+        git config --global user.email "saka@example.com"  # メールアドレスを設定
 
-      - name: 変更内容を確認
-        run: |
-          git status
-          git diff
-
-      - name: 変更をコミット
-        run: |
-          git config --global user.name "saka"
-          git config --global user.email "actions@github.com"
-          git add .
-          if git diff --cached --quiet; then
-            echo "変更がないため、コミットをスキップします。"
-            exit 0
-          fi
-          git commit -m "Replace path 'a/b' with 'e/f'"
-          git push https://github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GITHUB_TOKENを指定
+      run: |
+        git add .
+        git commit -m "リネーム"
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git HEAD:${GITHUB_REF}
