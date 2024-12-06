@@ -25,7 +25,7 @@ jobs:
 
     - name: Commit and push changes
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GITHUB_TOKENを指定
+        GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}  # GITHUB_TOKENを指定
       run: |
         git add .
         git commit -m "リネーム"
