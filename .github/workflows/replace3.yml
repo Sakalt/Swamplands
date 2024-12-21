@@ -1,44 +1,30 @@
-name: パスの置き換え
+name: 置き換える
 
 on:
   push:
     branches:
-      - 1.21 # まひたは任意のブランチ
+     - main
 
 jobs:
-  replace-path:
+  replace-text:
     runs-on: ubuntu-latest
 
     steps:
       - name: リポジトリのチェックアウト
         uses: actions/checkout@v3
 
-      - name: パス内の'a/b'を'e/f'に置き換え
-        run: |
-          # 'a/b' を含むすべてのファイルとディレクトリを検索
-          find . -depth -name "*quek/undergraden*" | while read old_path; do
-            # 新しいパスを作成
-            new_path=$(echo "$old_path" | sed 's/quek\/undergarden/sakalti\/swamplands/g')
-            
-            # ディレクトリ名やファイル名を変更
-            mv "$old_path" "$new_path"
-          done
+      - name: ターゲットディレクトリを作成
+        run: mkdir -p src/main/java/sakalti/swamplands
 
-      - name: 変更内容を確認
-        run: |
-          git status
-          git diff
+      - name: ファイルを移動
+        run: mv src/main/java/quek/undergarden src/main/java/sakalti/swamplands
 
       - name: 変更をコミット
         run: |
-          git config --global user.name "saka"
+          git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          if git diff --cached --quiet; then
-            echo "変更がないため、コミットをスキップします。"
-            exit 0
-          fi
-          git commit -m "Replace path 'a/b' with 'e/f'"
-          git push https://github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          git commit -m "置き換え"
+          git push https://github.com/${{ github.repository }}.git HEAD:${{ github.ref }} --force
         env:
           GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
