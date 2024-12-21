@@ -1,9 +1,9 @@
-name: 置き換える
+name: ファイル名置き換え
 
 on:
   push:
     branches:
-     - main
+     - 1.21
 
 jobs:
   replace-text:
